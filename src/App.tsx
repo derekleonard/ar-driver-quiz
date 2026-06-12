@@ -9,14 +9,16 @@ import Dashboard, { KidDetail } from "./screens/Dashboard";
 import { DeniedScreen, LoadingScreen, LoginScreen } from "./screens/Login";
 
 export default function App() {
-  const { phase, role } = useAppData();
+  const { phase, role, syncError } = useAppData();
 
   if (phase === "loading") return <LoadingScreen />;
   if (phase === "signed-out") return <LoginScreen />;
   if (phase === "denied") return <DeniedScreen />;
 
   return (
-    <Routes>
+    <>
+      {syncError && <div className="sync-banner">{syncError}</div>}
+      <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/diagnostic" element={<Diagnostic />} />
       <Route path="/drill/:topic" element={<Drill />} />
@@ -28,6 +30,7 @@ export default function App() {
           <Route path="/dashboard/:uid" element={<KidDetail />} />
         </>
       )}
-    </Routes>
+      </Routes>
+    </>
   );
 }

@@ -299,6 +299,15 @@ h2 {
   font-size: 0.9rem;
 }
 
+.sync-banner {
+  background: #fff4e0;
+  border-bottom: 1px solid var(--amber);
+  color: var(--amber);
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
 .link-btn {
   background: none;
   border: none;

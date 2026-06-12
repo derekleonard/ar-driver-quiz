@@ -5,6 +5,10 @@ import { shuffle } from "./shuffle";
 export const EXAM_SIZE = 25;
 export const PASS_SCORE = 20;
 
+export function isPassing(score: number): boolean {
+  return score >= PASS_SCORE;
+}
+
 /** Approximate topic mix of the real 25-question AR knowledge test. */
 export const EXAM_MIX: Record<Topic, number> = {
   "signs-signals-markings": 7,

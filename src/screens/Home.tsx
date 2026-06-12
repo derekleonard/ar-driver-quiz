@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { BANK, BANK_IDS } from "../data/bank";
+import { dueCount, reviewQueue } from "../lib/leitner";
 import { readinessScore, topicStatsFromAttempts } from "../lib/scoring";
 import { studyStreak } from "../lib/streak";
 import { useAppData } from "../state/AppData";
@@ -13,7 +14,9 @@ export default function Home() {
   const lastExams = exams.slice(-5).reverse();
   const streak = studyStreak(attempts, Date.now());
   const now = Date.now();
-  const dueCount = BANK.filter((q) => srs[q.id] && srs[q.id].due <= now).length;
+  const due = dueCount(srs, BANK_IDS, now);
+  // Same source of truth as the Review screen, so the button never lies.
+  const reviewLen = reviewQueue(srs, BANK, now).length;
 
   const counts = new Map<string, number>();
   for (const q of BANK) counts.set(q.topic, (counts.get(q.topic) ?? 0) + 1);
@@ -51,14 +54,15 @@ export default function Home() {
         </Link>
       )}
 
-      {dueCount > 0 && (
+      {attempts.length > 0 && reviewLen > 0 && (
         <Link className="btn primary" to="/review">
-          Review {Math.min(dueCount, 15)} due question{dueCount === 1 ? "" : "s"}
+          Review {reviewLen} question{reviewLen === 1 ? "" : "s"}
+          {due > 0 ? ` (${due} due)` : ""}
         </Link>
       )}
 
       <Link
-        className={`btn ${attempts.length === 0 || dueCount > 0 ? "" : "primary"}`}
+        className={`btn ${attempts.length === 0 || due > 0 ? "" : "primary"}`}
         to="/exam"
       >
         Take a Practice Exam (25 questions)

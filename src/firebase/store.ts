@@ -46,14 +46,18 @@ export async function saveSrsDoc(uid: string, entries: SrsState): Promise<void> 
   await setDoc(doc(db!, "users", uid, "state", "srs"), { entries });
 }
 
+export const ATTEMPTS_LOAD_LIMIT = 200;
+
 export async function loadAttempts(uid: string): Promise<Attempt[]> {
+  // desc + reverse keeps the NEWEST attempts when over the limit; asc+limit
+  // would freeze streak/readiness on the oldest 200 forever.
   const q = query(
     collection(db!, "users", uid, "attempts"),
-    orderBy("startedAt", "asc"),
-    limit(200),
+    orderBy("startedAt", "desc"),
+    limit(ATTEMPTS_LOAD_LIMIT),
   );
   const snap = await getDocs(q);
-  return snap.docs.map((d) => d.data() as Attempt);
+  return snap.docs.map((d) => d.data() as Attempt).reverse();
 }
 
 export async function addAttemptDoc(uid: string, attempt: Attempt): Promise<void> {

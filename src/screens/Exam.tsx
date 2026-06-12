@@ -1,74 +1,28 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import QuestionCard from "../components/QuestionCard";
 import { BANK } from "../data/bank";
-import { buildExam, PASS_SCORE } from "../lib/examBuilder";
-import { applyAnswer } from "../lib/leitner";
-import { perTopicForAnswers } from "../lib/scoring";
-import { useAppData } from "../state/AppData";
+import { useQuizSession } from "../hooks/useQuizSession";
+import { buildExam, isPassing, PASS_SCORE } from "../lib/examBuilder";
 import { TOPIC_LABELS } from "../types";
 
 export default function Exam() {
-  const { srs, finishQuiz } = useAppData();
-  const [startedAt] = useState(Date.now());
   const questions = useMemo(() => buildExam(BANK), []);
-  const [index, setIndex] = useState(0);
-  const [answers, setAnswers] = useState<(number | null)[]>(
-    Array(questions.length).fill(null),
-  );
-  const [finished, setFinished] = useState(false);
+  const quiz = useQuizSession(questions, { mode: "exam" });
 
-  const result = useMemo(
-    () => (finished ? perTopicForAnswers(questions, answers) : null),
-    [finished, questions, answers],
-  );
-
-  function choose(i: number) {
-    setAnswers((a) => {
-      const next = [...a];
-      next[index] = i;
-      return next;
-    });
-  }
-
-  function next() {
-    if (index + 1 < questions.length) {
-      setIndex(index + 1);
-      return;
-    }
-    // Finish: grade, update SRS, save attempt.
-    const { perTopic, missedIds, score } = perTopicForAnswers(questions, answers);
-    let newSrs = srs;
-    const now = Date.now();
-    questions.forEach((q, qi) => {
-      newSrs = applyAnswer(newSrs, q.id, answers[qi] === q.answerIndex, now);
-    });
-    finishQuiz(newSrs, {
-      mode: "exam",
-      score,
-      total: questions.length,
-      passed: score >= PASS_SCORE,
-      startedAt,
-      durationSec: Math.round((Date.now() - startedAt) / 1000),
-      perTopic,
-      missedIds,
-    });
-    setFinished(true);
-  }
-
-  if (finished && result) {
-    const passed = result.score >= PASS_SCORE;
+  if (quiz.finished && quiz.result) {
+    const passed = isPassing(quiz.result.score);
     const missed = questions
-      .map((q, i) => ({ q, given: answers[i] }))
-      .filter(({ q }) => result.missedIds.includes(q.id));
+      .map((q, i) => ({ q, given: quiz.answers[i] }))
+      .filter(({ q }) => quiz.result!.missedIds.includes(q.id));
     return (
       <div className="screen">
         <h1>{passed ? "PASS" : "Not yet"}</h1>
         <p className="big-score">
-          {result.score}/{questions.length}
+          {quiz.result.score}/{quiz.total}
         </p>
         <p className="subtitle">
-          The real test needs {PASS_SCORE}/{questions.length} (80%).
+          The real test needs {PASS_SCORE}/{quiz.total} (80%).
         </p>
         {missed.length > 0 && (
           <>
@@ -100,34 +54,34 @@ export default function Exam() {
     );
   }
 
-  const q = questions[index];
+  const q = questions[quiz.index];
   return (
     <div className="screen">
       <header className="quiz-header">
         <Link to="/">←</Link>
         <span>Practice Exam</span>
         <span>
-          {index + 1}/{questions.length}
+          {quiz.index + 1}/{quiz.total}
         </span>
       </header>
       <div className="progress-bar">
         <div
           className="progress-fill"
-          style={{ width: `${(100 * index) / questions.length}%` }}
+          style={{ width: `${(100 * quiz.index) / quiz.total}%` }}
         />
       </div>
       <QuestionCard
         question={q}
-        selected={answers[index]}
+        selected={quiz.selected}
         revealed={false}
-        onSelect={choose}
+        onSelect={quiz.choose}
       />
       <button
         className="btn primary"
-        disabled={answers[index] === null}
-        onClick={next}
+        disabled={quiz.selected === null}
+        onClick={quiz.next}
       >
-        {index + 1 >= questions.length ? "Finish & Grade" : "Next"}
+        {quiz.index + 1 >= quiz.total ? "Finish & Grade" : "Next"}
       </button>
     </div>
   );

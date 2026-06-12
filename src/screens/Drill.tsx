@@ -1,26 +1,19 @@
-import { useMemo, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import QuestionCard from "../components/QuestionCard";
 import { BANK } from "../data/bank";
-import { applyAnswer } from "../lib/leitner";
-import { perTopicForAnswers } from "../lib/scoring";
+import { useQuizSession } from "../hooks/useQuizSession";
 import { shuffle } from "../lib/shuffle";
 import { useAppData } from "../state/AppData";
-import type { SrsState, Topic } from "../types";
+import type { Question, Topic } from "../types";
 import { TOPIC_LABELS } from "../types";
 
 const DRILL_SIZE = 10;
 
 export default function Drill() {
   const { topic } = useParams<{ topic: Topic }>();
-  const { srs, finishQuiz } = useAppData();
-  const [startedAt] = useState(Date.now());
-  const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
-  const [revealed, setRevealed] = useState(false);
-  const [answers, setAnswers] = useState<number[]>([]);
-  // Accumulates SRS updates during the session; persisted once at the end.
-  const sessionSrs = useRef<SrsState | null>(null);
+  const { srs } = useAppData();
+  const [round, setRound] = useState(0);
 
   const questions = useMemo(() => {
     const pool = BANK.filter((q) => q.topic === topic);
@@ -28,8 +21,9 @@ export default function Drill() {
     return shuffle(pool)
       .sort((a, b) => (srs[a.id]?.box ?? 1) - (srs[b.id]?.box ?? 1))
       .slice(0, DRILL_SIZE);
+    // srs intentionally omitted: the set is fixed for the round
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [topic]);
+  }, [topic, round]);
 
   if (!topic || questions.length === 0) {
     return (
@@ -40,56 +34,37 @@ export default function Drill() {
     );
   }
 
-  const done = index >= questions.length;
+  return (
+    <DrillRound
+      key={`${topic}-${round}`}
+      topic={topic}
+      questions={questions}
+      onAgain={() => setRound((r) => r + 1)}
+    />
+  );
+}
 
-  function choose(i: number) {
-    if (revealed) return;
-    setSelected(i);
-    setRevealed(true);
-    const q = questions[index];
-    sessionSrs.current = applyAnswer(
-      sessionSrs.current ?? srs,
-      q.id,
-      i === q.answerIndex,
-      Date.now(),
-    );
-    setAnswers((a) => [...a, i]);
-  }
+function DrillRound({
+  topic,
+  questions,
+  onAgain,
+}: {
+  topic: Topic;
+  questions: Question[];
+  onAgain: () => void;
+}) {
+  const quiz = useQuizSession(questions, { mode: "drill", topic, revealEach: true });
 
-  function next() {
-    if (index + 1 >= questions.length) {
-      const finalAnswers = [...answers];
-      const { perTopic, missedIds, score } = perTopicForAnswers(
-        questions,
-        finalAnswers,
-      );
-      finishQuiz(sessionSrs.current ?? srs, {
-        mode: "drill",
-        topic,
-        score,
-        total: questions.length,
-        startedAt,
-        durationSec: Math.round((Date.now() - startedAt) / 1000),
-        perTopic,
-        missedIds,
-      });
-    }
-    setIndex((i) => i + 1);
-    setSelected(null);
-    setRevealed(false);
-  }
-
-  if (done) {
-    const score = answers.filter((a, i) => a === questions[i].answerIndex).length;
+  if (quiz.finished && quiz.result) {
     return (
       <div className="screen">
         <h1>Drill complete</h1>
         <p className="big-score">
-          {score}/{questions.length}
+          {quiz.result.score}/{quiz.total}
         </p>
-        <Link className="btn primary" to={`/drill/${topic}`} onClick={() => window.location.reload()}>
+        <button className="btn primary" onClick={onAgain}>
           Drill again
-        </Link>
+        </button>
         <Link className="btn" to="/">Home</Link>
       </div>
     );
@@ -101,18 +76,18 @@ export default function Drill() {
         <Link to="/">←</Link>
         <span>{TOPIC_LABELS[topic]}</span>
         <span>
-          {index + 1}/{questions.length}
+          {quiz.index + 1}/{quiz.total}
         </span>
       </header>
       <QuestionCard
-        question={questions[index]}
-        selected={selected}
-        revealed={revealed}
-        onSelect={choose}
+        question={questions[quiz.index]}
+        selected={quiz.selected}
+        revealed={quiz.revealed}
+        onSelect={quiz.choose}
       />
-      {revealed && (
-        <button className="btn primary" onClick={next}>
-          {index + 1 >= questions.length ? "Finish" : "Next"}
+      {quiz.revealed && (
+        <button className="btn primary" onClick={quiz.next}>
+          {quiz.index + 1 >= quiz.total ? "Finish" : "Next"}
         </button>
       )}
     </div>

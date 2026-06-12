@@ -3,6 +3,7 @@ import {
   useCallback,
   useContext,
   useEffect,
+  useRef,
   useState,
   type ReactNode,
 } from "react";
@@ -19,6 +20,7 @@ import {
   updateSummary,
 } from "../firebase/store";
 import { BANK_IDS } from "../data/bank";
+import { mergeSrs } from "../lib/leitner";
 import { readinessScore, topicStatsFromAttempts } from "../lib/scoring";
 import { studyStreak } from "../lib/streak";
 import * as local from "../lib/storage";
@@ -34,6 +36,7 @@ interface AppData {
   role: "parent" | "student";
   srs: SrsState;
   attempts: Attempt[];
+  syncError: string | null;
   finishQuiz: (srs: SrsState, attempt: Attempt) => void;
   signOut: () => void;
 }
@@ -79,6 +82,10 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
   const [attempts, setAttempts] = useState<Attempt[]>(() =>
     cloud ? [] : local.loadAttempts(),
   );
+  const [syncError, setSyncError] = useState<string | null>(null);
+  // Mirror of `attempts` so finishQuiz can append without doing side effects
+  // inside a state updater (StrictMode double-invokes updaters).
+  const attemptsRef = useRef(attempts);
 
   useEffect(() => {
     if (!cloud || !auth) return;
@@ -123,50 +130,82 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
           isParent ? "parent" : "student",
         );
 
-        let cloudSrs = await loadSrsDoc(u.uid);
-        if (cloudSrs === null) {
-          // First login on this account: migrate any pre-login local progress.
-          const localSrs = local.loadSrs();
-          cloudSrs = localSrs;
-          if (Object.keys(localSrs).length > 0) {
-            await saveSrsDoc(u.uid, localSrs);
-            for (const a of local.loadAttempts()) await addAttemptDoc(u.uid, a);
-          }
+        let cloudSrs = (await loadSrsDoc(u.uid)) ?? {};
+        let cloudAttempts = await loadCloudAttempts(u.uid);
+
+        // Merge any local progress into the cloud (first login, offline
+        // fallback queue, or a previously interrupted migration). Attempts
+        // go up first so a partial failure retries on the next login;
+        // localStorage is cleared only after everything succeeded.
+        const localSrs = local.loadSrs();
+        const localAttempts = local.loadAttempts();
+        if (Object.keys(localSrs).length > 0 || localAttempts.length > 0) {
+          const known = new Set(cloudAttempts.map((a) => a.startedAt));
+          const fresh = localAttempts.filter((a) => !known.has(a.startedAt));
+          for (const a of fresh) await addAttemptDoc(u.uid, a);
+          cloudSrs = mergeSrs(cloudSrs, localSrs);
+          await saveSrsDoc(u.uid, cloudSrs);
+          local.clearAll();
+          cloudAttempts = [...cloudAttempts, ...fresh].sort(
+            (x, y) => x.startedAt - y.startedAt,
+          );
         }
+
         setSrs(cloudSrs);
-        setAttempts(await loadCloudAttempts(u.uid));
+        attemptsRef.current = cloudAttempts;
+        setAttempts(cloudAttempts);
         setUser(u);
         setPhase("ready");
       } catch (e: unknown) {
         const code = (e as { code?: string }).code ?? (e as Error).message;
-        if (code === "permission-denied") {
-          setDeniedReason(
-            `You are in the allowlist, but writing your user document was still denied (signed in as ${u.email}). Check that the published rules match firestore.rules.`,
-          );
-          setUser(u);
-          setPhase("denied");
-        } else {
-          throw e;
-        }
+        setDeniedReason(
+          code === "permission-denied"
+            ? `You are in the allowlist, but writing your user document was still denied (signed in as ${u.email}). Check that the published rules match firestore.rules.`
+            : `Couldn't load your data (${code}). Check your connection, then sign out and back in.`,
+        );
+        setUser(u);
+        setPhase("denied");
       }
     });
   }, [cloud]);
 
   const finishQuiz = useCallback(
     (newSrs: SrsState, attempt: Attempt) => {
+      const all = [...attemptsRef.current, attempt];
+      attemptsRef.current = all;
       setSrs(newSrs);
-      setAttempts((prev) => {
-        const all = [...prev, attempt];
-        if (cloud && user) {
-          void saveSrsDoc(user.uid, newSrs);
-          void addAttemptDoc(user.uid, attempt);
-          void updateSummary(user.uid, summaryFor(newSrs, all));
-        } else {
+      setAttempts(all);
+      if (cloud && user) {
+        const uid = user.uid;
+        void (async () => {
+          try {
+            await addAttemptDoc(uid, attempt);
+            await saveSrsDoc(uid, newSrs);
+            await updateSummary(uid, summaryFor(newSrs, all));
+            setSyncError(null);
+          } catch {
+            try {
+              // Fallback queue: the login flow merges this back to the cloud.
+              local.saveSrs(newSrs);
+              local.saveAttempt(attempt);
+              setSyncError(
+                "Couldn't sync to the cloud — this session is saved on this device and will sync next sign-in.",
+              );
+            } catch {
+              setSyncError(
+                "Couldn't sync to the cloud or save on this device — this session may be lost.",
+              );
+            }
+          }
+        })();
+      } else {
+        try {
           local.saveSrs(newSrs);
           local.saveAttempt(attempt);
+        } catch {
+          setSyncError("Couldn't save progress on this device (storage full?).");
         }
-        return all;
-      });
+      }
     },
     [cloud, user],
   );
@@ -185,6 +224,7 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
         role,
         srs,
         attempts,
+        syncError,
         finishQuiz,
         signOut,
       }}

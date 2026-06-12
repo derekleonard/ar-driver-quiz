@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildExam, EXAM_MIX, EXAM_SIZE } from "../src/lib/examBuilder";
+import { buildExam, EXAM_MIX, EXAM_SIZE, isPassing, PASS_SCORE } from "../src/lib/examBuilder";
 import { TOPICS, type Question, type Topic } from "../src/types";
 
 function makeBank(perTopic: number): Question[] {
@@ -61,5 +61,17 @@ describe("buildExam", () => {
     const bank = makeBank(2); // 16 questions
     const exam = buildExam(bank, mulberry32(3));
     expect(exam).toHaveLength(16);
+  });
+
+  it("pins the real AR pass rule: 20 of 25 (80%)", () => {
+    expect(PASS_SCORE).toBe(20);
+    expect(EXAM_SIZE).toBe(25);
+    expect(PASS_SCORE / EXAM_SIZE).toBe(0.8);
+  });
+
+  it("isPassing boundary: 19 fails, 20 and 21 pass", () => {
+    expect(isPassing(19)).toBe(false);
+    expect(isPassing(20)).toBe(true);
+    expect(isPassing(21)).toBe(true);
   });
 });

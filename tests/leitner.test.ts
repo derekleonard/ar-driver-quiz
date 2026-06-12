@@ -1,10 +1,13 @@
 import { describe, expect, it } from "vitest";
 import {
   applyAnswer,
-  dueIds,
+  dueCount,
   masteryFraction,
+  mergeSrs,
   newEntry,
   recordAnswer,
+  reviewQueue,
+  REVIEW_SIZE,
 } from "../src/lib/leitner";
 
 const DAY = 86_400_000;
@@ -50,12 +53,64 @@ describe("leitner", () => {
     expect(e.correct).toBe(1);
   });
 
-  it("dueIds includes unseen and due questions only", () => {
+  it("dueCount counts seen-and-due only (unseen excluded)", () => {
     const state = {
       a: { box: 2, due: NOW + DAY, seen: 1, correct: 1 }, // not due
       b: { box: 1, due: NOW - 1, seen: 1, correct: 0 }, // due
     };
-    expect(dueIds(state, ["a", "b", "c"], NOW)).toEqual(["b", "c"]);
+    expect(dueCount(state, ["a", "b", "c"], NOW)).toBe(1);
+  });
+
+  it("an entry due exactly now is due (the newEntry contract)", () => {
+    const state = { a: newEntry(NOW) };
+    expect(dueCount(state, ["a"], NOW)).toBe(1);
+    expect(reviewQueue(state, [{ id: "a" }], NOW).map((q) => q.id)).toEqual(["a"]);
+  });
+
+  it("reviewQueue serves due questions most-fragile-box first, then unseen filler", () => {
+    const state = {
+      frag: { box: 1, due: NOW - 1, seen: 2, correct: 0 },
+      solid: { box: 4, due: NOW, seen: 5, correct: 4 },
+      later: { box: 2, due: NOW + DAY, seen: 1, correct: 1 },
+    };
+    const items = ["solid", "unseen1", "frag", "later", "unseen2"].map((id) => ({ id }));
+    const queue = reviewQueue(state, items, NOW, 3, () => 0.5);
+    expect(queue.map((q) => q.id).slice(0, 2)).toEqual(["frag", "solid"]);
+    expect(queue).toHaveLength(3);
+    expect(["unseen1", "unseen2"]).toContain(queue[2].id);
+  });
+
+  it("reviewQueue caps at REVIEW_SIZE by default", () => {
+    const items = Array.from({ length: 40 }, (_, i) => ({ id: `q${i}` }));
+    expect(reviewQueue({}, items, NOW)).toHaveLength(REVIEW_SIZE);
+    expect(REVIEW_SIZE).toBe(15);
+  });
+
+  it("mergeSrs keeps the entry with more history per id", () => {
+    const a = {
+      onlyA: { box: 2, due: NOW, seen: 1, correct: 1 },
+      both: { box: 4, due: NOW + 7 * DAY, seen: 6, correct: 5 },
+      tied: { box: 2, due: NOW + DAY, seen: 3, correct: 2 },
+    };
+    const b = {
+      onlyB: { box: 3, due: NOW, seen: 2, correct: 2 },
+      both: { box: 1, due: NOW, seen: 4, correct: 2 },
+      tied: { box: 3, due: NOW + 3 * DAY, seen: 3, correct: 3 },
+    };
+    const m = mergeSrs(a, b);
+    expect(m.onlyA).toEqual(a.onlyA);
+    expect(m.onlyB).toEqual(b.onlyB);
+    expect(m.both).toEqual(a.both); // higher seen wins
+    expect(m.tied).toEqual(b.tied); // seen tied -> higher box wins
+    // inputs untouched
+    expect(a.both.seen).toBe(6);
+    expect(Object.keys(a)).toHaveLength(3);
+  });
+
+  it("mergeSrs of a state with empty is identity", () => {
+    const a = { x: { box: 2, due: NOW, seen: 1, correct: 1 } };
+    expect(mergeSrs(a, {})).toEqual(a);
+    expect(mergeSrs({}, a)).toEqual(a);
   });
 
   it("masteryFraction counts box >= 3, unseen as unmastered", () => {

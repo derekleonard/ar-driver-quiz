@@ -1,54 +1,18 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import QuestionCard from "../components/QuestionCard";
 import { BANK } from "../data/bank";
+import { useQuizSession } from "../hooks/useQuizSession";
 import { buildDiagnostic } from "../lib/diagnosticBuilder";
-import { applyAnswer } from "../lib/leitner";
-import { perTopicForAnswers } from "../lib/scoring";
-import { useAppData } from "../state/AppData";
 import type { Topic } from "../types";
 import { TOPIC_LABELS } from "../types";
 
 export default function Diagnostic() {
-  const { srs, finishQuiz } = useAppData();
-  const [startedAt] = useState(Date.now());
   const questions = useMemo(() => buildDiagnostic(BANK), []);
-  const [index, setIndex] = useState(0);
-  const [answers, setAnswers] = useState<(number | null)[]>(
-    Array(questions.length).fill(null),
-  );
-  const [finished, setFinished] = useState(false);
+  const quiz = useQuizSession(questions, { mode: "diagnostic" });
 
-  const result = useMemo(
-    () => (finished ? perTopicForAnswers(questions, answers) : null),
-    [finished, questions, answers],
-  );
-
-  function next() {
-    if (index + 1 < questions.length) {
-      setIndex(index + 1);
-      return;
-    }
-    const { perTopic, missedIds, score } = perTopicForAnswers(questions, answers);
-    let newSrs = srs;
-    const now = Date.now();
-    questions.forEach((q, qi) => {
-      newSrs = applyAnswer(newSrs, q.id, answers[qi] === q.answerIndex, now);
-    });
-    finishQuiz(newSrs, {
-      mode: "diagnostic",
-      score,
-      total: questions.length,
-      startedAt,
-      durationSec: Math.round((Date.now() - startedAt) / 1000),
-      perTopic,
-      missedIds,
-    });
-    setFinished(true);
-  }
-
-  if (finished && result) {
-    const rows = Object.entries(result.perTopic) as [
+  if (quiz.finished && quiz.result) {
+    const rows = Object.entries(quiz.result.perTopic) as [
       Topic,
       { correct: number; total: number },
     ][];
@@ -57,7 +21,7 @@ export default function Diagnostic() {
       <div className="screen">
         <h1>Diagnostic complete</h1>
         <p className="big-score">
-          {result.score}/{questions.length}
+          {quiz.result.score}/{quiz.total}
         </p>
         <h2>Your topics, weakest first</h2>
         <div className="card">
@@ -87,33 +51,27 @@ export default function Diagnostic() {
         <Link to="/">←</Link>
         <span>Diagnostic</span>
         <span>
-          {index + 1}/{questions.length}
+          {quiz.index + 1}/{quiz.total}
         </span>
       </header>
       <div className="progress-bar">
         <div
           className="progress-fill"
-          style={{ width: `${(100 * index) / questions.length}%` }}
+          style={{ width: `${(100 * quiz.index) / quiz.total}%` }}
         />
       </div>
       <QuestionCard
-        question={questions[index]}
-        selected={answers[index]}
+        question={questions[quiz.index]}
+        selected={quiz.selected}
         revealed={false}
-        onSelect={(i) =>
-          setAnswers((a) => {
-            const nextA = [...a];
-            nextA[index] = i;
-            return nextA;
-          })
-        }
+        onSelect={quiz.choose}
       />
       <button
         className="btn primary"
-        disabled={answers[index] === null}
-        onClick={next}
+        disabled={quiz.selected === null}
+        onClick={quiz.next}
       >
-        {index + 1 >= questions.length ? "Finish" : "Next"}
+        {quiz.index + 1 >= quiz.total ? "Finish" : "Next"}
       </button>
     </div>
   );

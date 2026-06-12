@@ -30,6 +30,10 @@ describe("studyStreak", () => {
     expect(studyStreak(attempts, NOW)).toBe(2);
   });
 
+  it("a single attempt yesterday (and nothing else) is a streak of 1", () => {
+    expect(studyStreak([attempt(NOW - DAY)], NOW)).toBe(1);
+  });
+
   it("is 0 when the last session was 2+ days ago", () => {
     expect(studyStreak([attempt(NOW - 3 * DAY)], NOW)).toBe(0);
   });
