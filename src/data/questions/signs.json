@@ -501,5 +501,203 @@
     "explanation": "Flaggers are legally authorized to direct traffic in work zones — their signals overrule other traffic signals and devices. Stop at the designated spot or at least a car length away.",
     "citation": "AR Driver License Study Guide, p. 22 — Work Zone Flaggers",
     "difficulty": 1
+  },
+  {
+    "id": "signs-034",
+    "topic": "signs-signals-markings",
+    "question": "What does this sign warn you about?",
+    "choices": [
+      "A four-way stop ahead",
+      "A railroad crossing ahead",
+      "An intersection or cross road ahead",
+      "A hospital ahead"
+    ],
+    "answerIndex": 2,
+    "explanation": "The yellow diamond with a cross symbol warns of an intersection ahead — traffic may merge or cross. Slow down and look left and right.",
+    "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Intersection)",
+    "image": "signs/intersection.svg",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-035",
+    "topic": "signs-signals-markings",
+    "question": "What does this sign mean?",
+    "choices": [
+      "The road curves left",
+      "Your traffic lane ends ahead — merge into the remaining lane",
+      "Divided highway begins",
+      "Two-way traffic ahead"
+    ],
+    "answerIndex": 1,
+    "explanation": "The lane-ends warning sign tells you a lane is ending. Merge early and smoothly — don't race to the end of the closing lane.",
+    "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Traffic Lane Ends)",
+    "image": "signs/lane-ends.svg",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-036",
+    "topic": "signs-signals-markings",
+    "question": "What should you do when you see this sign?",
+    "choices": [
+      "Stop immediately",
+      "Slow down and be prepared to stop — a traffic signal is ahead",
+      "Speed up to make the light",
+      "Turn around; the road is closed"
+    ],
+    "answerIndex": 1,
+    "explanation": "The signal-ahead warning sign is posted where a traffic light may not be visible in time — often before hills or curves. Be prepared to stop.",
+    "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Traffic Signal)",
+    "image": "signs/signal-ahead.svg",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-037",
+    "topic": "signs-signals-markings",
+    "question": "An orange diamond sign shows a worker holding a flag. What does it mean?",
+    "choices": [
+      "Crossing guard ahead",
+      "A flagger may be stationed ahead to control traffic — obey their directions",
+      "Road race in progress",
+      "Survey crew — no slowdown needed"
+    ],
+    "answerIndex": 1,
+    "explanation": "The flagger-symbol sign marks locations where a flagger may be controlling traffic. A flagger's instructions overrule all other signals and devices.",
+    "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-038",
+    "topic": "signs-signals-markings",
+    "question": "An orange sign reads 'DETOUR 1000 FT'. This warns you of:",
+    "choices": [
+      "A toll booth in 1,000 feet",
+      "An approaching alternate route of travel through a construction zone",
+      "The end of the work zone",
+      "A rest area"
+    ],
+    "answerIndex": 1,
+    "explanation": "DETOUR signs warn drivers of an approaching alternate route through a construction zone. ROAD WORK signs with distances mean work is underway on your route — be prepared for obstructions.",
+    "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-039",
+    "topic": "signs-signals-markings",
+    "question": "An orange diamond shows two arrows pointing in opposite directions. In a work zone this warns of:",
+    "choices": [
+      "A divided highway",
+      "Two-way traffic along a single-lane roadway",
+      "A passing zone",
+      "Lanes shifting left"
+    ],
+    "answerIndex": 1,
+    "explanation": "In work zones this sign warns that opposing traffic shares a single roadway — often when one side of a divided highway is closed. Stay alert and keep right.",
+    "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-040",
+    "topic": "signs-signals-markings",
+    "question": "You see FLASHING GREEN lights on a vehicle along the roadway. In Arkansas this indicates:",
+    "choices": [
+      "A funeral procession",
+      "An active work zone — a construction or maintenance vehicle is working; use caution and slow down",
+      "A volunteer firefighter",
+      "A wide load"
+    ],
+    "answerIndex": 1,
+    "explanation": "Arkansas recently authorized flashing green lights (along with yellow or white) on construction and maintenance vehicles. They mark an active standard or mobile work zone.",
+    "citation": "AR Driver License Study Guide, p. 18 — Green Lights in Work Zones",
+    "difficulty": 3
+  },
+  {
+    "id": "signs-041",
+    "topic": "signs-signals-markings",
+    "question": "An ARDOT truck ahead displays a sign on its back: 'WORK ZONE — FINES DOUBLE'. This means you are approaching:",
+    "choices": [
+      "A weigh station",
+      "A mobile work zone — a crew working at slow speed with periodic stops, where fines double like any work zone",
+      "A school zone",
+      "An accident scene"
+    ],
+    "answerIndex": 1,
+    "explanation": "Mobile work zones (striping crews, pothole patching, debris removal) are marked by signs on the back of ARDOT vehicles. Fines double there just like in standard work zones.",
+    "citation": "AR Driver License Study Guide, p. 17-19 — Mobile Work Zones",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-042",
+    "topic": "signs-signals-markings",
+    "question": "Work zone signs may be diamond or rectangular shaped, with a background that is:",
+    "choices": [
+      "Orange, white, or black",
+      "Green or blue",
+      "Red only",
+      "Yellow-green only"
+    ],
+    "answerIndex": 0,
+    "explanation": "Work zone signs use orange, white, or black backgrounds with white or black letters or symbols — covering reduced speeds, detours, slow equipment, and changing surfaces.",
+    "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
+    "difficulty": 3
+  },
+  {
+    "id": "signs-043",
+    "topic": "signs-signals-markings",
+    "question": "The blue ENS sign posted at every railroad crossing gives you:",
+    "choices": [
+      "The train schedule",
+      "An emergency phone number and the crossing's ID number, so you can report a problem (like a stalled car) to the railroad",
+      "The railroad's mailing address",
+      "The speed limit for trains"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Emergency Notification System sign lets the public reach the railroad responsible for the crossing and identify the exact crossing in an emergency — critical if a vehicle is stuck on the tracks.",
+    "citation": "AR Driver License Study Guide, p. 29 — Emergency Notification Systems",
+    "difficulty": 3
+  },
+  {
+    "id": "signs-044",
+    "topic": "signs-signals-markings",
+    "question": "A yellow diamond sign shows a car with wavy skid marks behind it. This warns:",
+    "choices": [
+      "Race track ahead",
+      "The road is slippery when wet — slow down in rain",
+      "Earthquake zone",
+      "Loose gravel only"
+    ],
+    "answerIndex": 1,
+    "explanation": "The slippery-when-wet warning marks pavement that loses traction in rain. Slow down at the first sign of rain — especially the first few minutes, when surface oil hasn't washed away.",
+    "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Slippery When Wet)",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-045",
+    "topic": "signs-signals-markings",
+    "question": "A five-sided school sign showing children with crosswalk lines beneath them marks:",
+    "choices": [
+      "A school zone speed limit",
+      "A school CROSSING — a place where children cross the road",
+      "A playground",
+      "A bus stop"
+    ],
+    "answerIndex": 1,
+    "explanation": "The pentagon with crosswalk lines marks the school crossing itself; without the lines it marks the school zone. Either way: slow down and watch for children.",
+    "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (School Crossing)",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-046",
+    "topic": "signs-signals-markings",
+    "question": "There is a white stop line painted across your lane at a stop sign. Where must you stop?",
+    "choices": [
+      "Anywhere within the intersection",
+      "With your front bumper past the line",
+      "Before the vehicle reaches the stop line",
+      "Only if pedestrians are present"
+    ],
+    "answerIndex": 2,
+    "explanation": "Make a complete stop BEFORE reaching the stop line. If a sign or obstacle blocks your view, stop first, then pull forward carefully until you can see.",
+    "citation": "AR Driver License Study Guide, p. 34 — Crosswalks and Stop Lines",
+    "difficulty": 1
   }
 ]

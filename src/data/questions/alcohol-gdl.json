@@ -168,5 +168,90 @@
     "explanation": "Drowsiness-causing medicines impair reflexes, judgment, and vision. Mixing them with alcohol multiplies the effects. Check labels for the 'do not operate machinery' warning.",
     "citation": "AR Driver License Study Guide, p. 75 — Other Types of Drugs and Driving",
     "difficulty": 1
+  },
+  {
+    "id": "alc-014",
+    "topic": "alcohol-gdl",
+    "question": "Alcohol is involved in approximately what percentage of fatal traffic crashes?",
+    "choices": ["10%", "20%", "38%", "75%"],
+    "answerIndex": 2,
+    "explanation": "About 38% of traffic crashes in which someone is killed involve alcohol. There is no safe alcohol concentration for driving — and new drivers are affected even more than experienced ones.",
+    "citation": "AR Driver License Study Guide, p. 73 — Drinking and Driving",
+    "difficulty": 3
+  },
+  {
+    "id": "alc-015",
+    "topic": "alcohol-gdl",
+    "question": "When going out where alcohol will be served, the study guide recommends:",
+    "choices": [
+      "Eating a large meal so you can drink safely",
+      "Going with two or more people so one can be the designated driver — or using public transportation or a cab",
+      "Drinking coffee before driving home",
+      "Driving slowly on back roads"
+    ],
+    "answerIndex": 1,
+    "explanation": "Plan ahead: a designated driver, a cab, or public transportation. Food slows alcohol absorption but will NOT prevent you from getting intoxicated.",
+    "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism",
+    "difficulty": 1
+  },
+  {
+    "id": "alc-016",
+    "topic": "alcohol-gdl",
+    "question": "Which statement about alcohol and new drivers is TRUE?",
+    "choices": [
+      "Experienced drivers are immune to alcohol's effects",
+      "Every driver is affected by alcohol, and new drivers are affected even MORE because they are still learning",
+      "One drink never causes impairment",
+      "Alcohol only affects drivers over 0.08% BAC"
+    ],
+    "answerIndex": 1,
+    "explanation": "There is no safe alcohol concentration for driving. Even one drink affects judgment — and new drivers, still building skills, are affected more than veterans. Two drinks can mean an arrest.",
+    "citation": "AR Driver License Study Guide, p. 73-74 — Alcohol Impairment",
+    "difficulty": 2
+  },
+  {
+    "id": "alc-017",
+    "topic": "alcohol-gdl",
+    "question": "To receive an Arkansas Learner's License, the applicant cannot have been involved in a crash or convicted of a serious traffic violation within:",
+    "choices": [
+      "The preceding 30 days",
+      "The preceding 6 months",
+      "The preceding 2 years",
+      "There is no such requirement"
+    ],
+    "answerIndex": 1,
+    "explanation": "A clean record for the preceding six months — no crashes, no serious traffic convictions — is required for the Learner's License (ages 14-16, after the knowledge, vision, and skills tests).",
+    "citation": "AR Driver License Study Guide, p. 3 — Learner's License",
+    "difficulty": 3
+  },
+  {
+    "id": "alc-018",
+    "topic": "alcohol-gdl",
+    "question": "Where is an Intermediate License holder's restricted driving period recorded?",
+    "choices": [
+      "In a separate court document",
+      "On the reverse side of the driver's license",
+      "Only in the state computer system",
+      "On the vehicle registration"
+    ],
+    "answerIndex": 1,
+    "explanation": "The period of restricted time is recorded on the back of the Intermediate License — officers (and parents) can check exactly when the supervised period ends.",
+    "citation": "AR Driver License Study Guide, p. 3 — Intermediate License",
+    "difficulty": 3
+  },
+  {
+    "id": "alc-019",
+    "topic": "alcohol-gdl",
+    "question": "Pep pills, 'uppers,' and diet pills can make a driver feel more alert for a short time. Later, they can cause:",
+    "choices": [
+      "Permanent alertness",
+      "Nervousness, dizziness, inability to concentrate, and poor vision",
+      "Improved reaction time",
+      "No effects at all"
+    ],
+    "answerIndex": 1,
+    "explanation": "Stimulants wear off into nervousness, dizziness, and poor concentration and vision. No drug increases concentration safely — and none stops impairment from alcohol.",
+    "citation": "AR Driver License Study Guide, p. 75 — Other Types of Drugs and Driving",
+    "difficulty": 2
   }
 ]

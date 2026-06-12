@@ -168,5 +168,150 @@
     "explanation": "Epilepsy under medical control is usually not dangerous for driving: the standard is doctor's care plus one year seizure-free.",
     "citation": "AR Driver License Study Guide, p. 72 — Health (Epilepsy)",
     "difficulty": 3
+  },
+  {
+    "id": "lic-013",
+    "topic": "license-admin",
+    "question": "Does holding your phone to take a call, send a text, look up directions, or scroll social media count as a moving traffic violation in Arkansas?",
+    "choices": [
+      "No, only texting counts",
+      "Yes — if you can't use a hands-free connection while driving, don't use your phone",
+      "Only on interstates",
+      "Only for drivers under 21"
+    ],
+    "answerIndex": 1,
+    "explanation": "Yes — holding your phone for calls, texts, directions, or social media is a moving violation. In a work zone with workers present, that fine DOUBLES.",
+    "citation": "AR Driver License Study Guide, p. 19 — Leave Your Phone Alone",
+    "difficulty": 1
+  },
+  {
+    "id": "lic-014",
+    "topic": "license-admin",
+    "question": "Sending or reading a text takes your eyes off the road for about 5 seconds. At 55 mph, that is like driving:",
+    "choices": [
+      "The length of a car with your eyes closed",
+      "The length of an entire football field with your eyes closed",
+      "Half a city block while alert",
+      "100 feet while glancing up"
+    ],
+    "answerIndex": 1,
+    "explanation": "Five seconds at 55 mph covers about a football field — blind. Texting is the most alarming distraction because it combines all three types at once.",
+    "citation": "AR Driver License Study Guide, p. 45 — What is Distracted Driving?",
+    "difficulty": 1
+  },
+  {
+    "id": "lic-015",
+    "topic": "license-admin",
+    "question": "The three types of distraction involved in texting or hand-held phone use are:",
+    "choices": [
+      "Visual, manual, and cognitive — eyes off the road, hands off the wheel, mind off driving",
+      "Audio, video, and social",
+      "Legal, financial, and physical",
+      "Day, night, and weather"
+    ],
+    "answerIndex": 0,
+    "explanation": "Texting hits all three at once: VISUAL (eyes off the road), MANUAL (hands off the wheel), and COGNITIVE (mind off driving). That's what makes it the most dangerous distraction.",
+    "citation": "AR Driver License Study Guide, p. 46 — Dangerous Distractions",
+    "difficulty": 2
+  },
+  {
+    "id": "lic-016",
+    "topic": "license-admin",
+    "question": "Compared with other drivers, teens who text while driving are about how much more likely to crash?",
+    "choices": ["2 times", "5 times", "23 times", "100 times"],
+    "answerIndex": 2,
+    "explanation": "National research: distracted teens texting behind the wheel are 23 times more likely to be involved in a crash — and those crashes are often worse because there's no reaction before impact.",
+    "citation": "AR Driver License Study Guide, p. 17 — Work Zone Safety (Distracted Driving)",
+    "difficulty": 3
+  },
+  {
+    "id": "lic-017",
+    "topic": "license-admin",
+    "question": "You hit a parked car and can't find the owner. Arkansas requires you to:",
+    "choices": [
+      "Leave — it's the owner's problem",
+      "Try to locate the owner, and notify police immediately if anyone is injured or property damage exceeds $1,000",
+      "Leave a note only if damage looks expensive",
+      "Wait no more than 5 minutes, then go"
+    ],
+    "answerIndex": 1,
+    "explanation": "In a crash with a parked vehicle you must try to locate the owner. Police must be notified immediately for any injury, death, or damage over $1,000.",
+    "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes",
+    "difficulty": 2
+  },
+  {
+    "id": "lic-018",
+    "topic": "license-admin",
+    "question": "You drive past a crash that does not involve you, and emergency help has already arrived. You should:",
+    "choices": [
+      "Stop and take photos",
+      "Keep moving and focus on your driving — stopping or driving to crash scenes blocks the way for rescue vehicles",
+      "Park nearby to watch",
+      "Honk to show support"
+    ],
+    "answerIndex": 1,
+    "explanation": "Don't stop at a crash unless you're involved or help hasn't arrived. Spectators block police, ambulances, and tow trucks — keep moving and watch for people near the road.",
+    "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes",
+    "difficulty": 1
+  },
+  {
+    "id": "lic-019",
+    "topic": "license-admin",
+    "question": "At a crash scene with a wrecked vehicle, you should turn off the ignition and:",
+    "choices": [
+      "Light a flare right next to the car",
+      "Not smoke anywhere near it — fuel may have spilled and could start a fire",
+      "Push the car off the road immediately",
+      "Disconnect the battery first"
+    ],
+    "answerIndex": 1,
+    "explanation": "Turn off wrecked vehicles' ignitions and don't smoke near them — spilled fuel ignites. Stay away from any downed electrical wires, and don't stand in traffic lanes.",
+    "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes",
+    "difficulty": 2
+  },
+  {
+    "id": "lic-020",
+    "topic": "license-admin",
+    "question": "Which is the study guide's advice about driving while tired?",
+    "choices": [
+      "Strong coffee makes long night drives safe",
+      "Never drive if you are sleepy — it is better to stop and sleep for a few hours than take a chance you can stay awake",
+      "Open windows keep any driver alert",
+      "Eat a large meal before a long trip"
+    ],
+    "answerIndex": 1,
+    "explanation": "If you're sleepy, stop and sleep. Plan trips for when you're rested, avoid drowsy-making medicines, eat light, take regular breaks — and avoid driving during hours your body expects to rest.",
+    "citation": "AR Driver License Study Guide, p. 72 — Fatigue",
+    "difficulty": 1
+  },
+  {
+    "id": "lic-021",
+    "topic": "license-admin",
+    "question": "On a 90-degree day, about how quickly does the inside of a parked car reach the outdoor temperature — and then keep climbing?",
+    "choices": [
+      "Within 5 minutes, rising about 15 degrees every 9 minutes after",
+      "It takes about an hour to warm up",
+      "Air conditioning keeps it cool for 30 minutes after parking",
+      "Cars don't heat up with windows cracked"
+    ],
+    "answerIndex": 0,
+    "explanation": "Within five minutes the interior matches the outside temperature, then gains ~15° every 9 minutes. Never leave children or pets unattended in a vehicle.",
+    "citation": "AR Driver License Study Guide, p. 10 — Unattended Children and Pets",
+    "difficulty": 3
+  },
+  {
+    "id": "lic-022",
+    "topic": "license-admin",
+    "question": "Which statement about deaf or hearing-impaired drivers is TRUE?",
+    "choices": [
+      "They may only drive in daylight",
+      "Studies show their driving records are as good as drivers with normal hearing — they adjust by relying on vision",
+      "They are not allowed to drive on interstates",
+      "They must carry a passenger who can hear"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hearing helps (horns, sirens), but deaf and hearing-impaired drivers compensate by staying visually alert — and their records are as good as anyone's.",
+    "citation": "AR Driver License Study Guide, p. 71 — Hearing",
+    "difficulty": 2
   }
 ]

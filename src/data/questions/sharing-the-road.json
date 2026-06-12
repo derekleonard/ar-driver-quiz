@@ -223,5 +223,140 @@
     "explanation": "Use the horn to warn of danger. Never honk at blind pedestrians (it confuses them), to rush or greet people, or to criticize other drivers.",
     "citation": "AR Driver License Study Guide, p. 52 — Warning Horn",
     "difficulty": 2
+  },
+  {
+    "id": "shr-016",
+    "topic": "sharing-the-road",
+    "question": "You are following a truck and cannot see its rear-view (side) mirrors. What does this mean?",
+    "choices": [
+      "Nothing — trucks watch with cameras",
+      "The truck driver has no way of seeing you — you're in the rear No-Zone, which extends up to 200 feet behind the truck",
+      "You are at a legal following distance",
+      "The truck must yield to you"
+    ],
+    "answerIndex": 1,
+    "explanation": "If you can't see the truck's mirrors, the driver can't see you. The rear No-Zone reaches up to 200 feet — and tailgating a truck also blinds YOU to what's ahead of it.",
+    "citation": "AR Driver License Study Guide, p. 65-66 — Tractor-Trailer No-Zone",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-017",
+    "topic": "sharing-the-road",
+    "question": "Many car-truck collisions happen at intersections because car drivers:",
+    "choices": [
+      "Honk at trucks",
+      "Don't realize how close the truck is or how quickly it is approaching — a tractor-trailer's size makes it appear slower than it really is",
+      "Follow trucks too closely",
+      "Can't see over the hood"
+    ],
+    "answerIndex": 1,
+    "explanation": "Never underestimate an approaching tractor-trailer: its size makes its speed look slower than reality. When unsure, wait — don't pull out in front of a truck.",
+    "citation": "AR Driver License Study Guide, p. 66 — Maneuverability",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-018",
+    "topic": "sharing-the-road",
+    "question": "Crossing behind a truck that is backing up is:",
+    "choices": [
+      "Fine if you walk or drive quickly",
+      "Extremely dangerous — truck drivers have no rear-view mirror and may not see you cut in behind them",
+      "Allowed when the backup alarm stops",
+      "Allowed in parking lots only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Never cross behind a backing truck. Hundreds of motorists and pedestrians are killed or injured every year ignoring trucks backing up — the driver cannot see directly behind.",
+    "citation": "AR Driver License Study Guide, p. 65 — Backing Up No-Zone",
+    "difficulty": 1
+  },
+  {
+    "id": "shr-019",
+    "topic": "sharing-the-road",
+    "question": "What is the most common cause of a collision between a car and a bicycle?",
+    "choices": [
+      "A cyclist running a red light",
+      "A driver turning left in front of an oncoming bicycle, or turning right across the bicycle's path",
+      "Bicycles riding at night",
+      "Cyclists riding two abreast"
+    ],
+    "answerIndex": 1,
+    "explanation": "The most common car-bike collision is a driver turning across the cyclist's path — left in front of an oncoming bike, or right after overtaking one. Look for bikes and judge their speed before every turn.",
+    "citation": "AR Driver License Study Guide, p. 67 — Safety Tips for Motor Vehicle Drivers",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-020",
+    "topic": "sharing-the-road",
+    "question": "Why do bicyclists ride away from the right edge when passing parked cars?",
+    "choices": [
+      "To annoy drivers",
+      "To stay clear of opening car doors and people stepping out — it's proper riding, so give them the room",
+      "Because the law requires the lane's center",
+      "To draft behind cars"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cyclists move toward the lane's center near parked cars to avoid the 'door zone.' A cyclist away from the edge isn't careless — give them the entire lane if possible.",
+    "citation": "AR Driver License Study Guide, p. 67 — Sharing the Road with Bicycles",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-021",
+    "topic": "sharing-the-road",
+    "question": "A child is riding a bicycle near the road ahead. You should expect that the child:",
+    "choices": [
+      "Will follow all traffic rules",
+      "May make sudden moves or direction changes — children can't properly judge traffic conditions",
+      "Will always stop at driveways",
+      "Can hear your car coming"
+    ],
+    "answerIndex": 1,
+    "explanation": "Children on bikes create special problems: they may dart from driveways, ride mid-street, or disregard signs. Slow down in neighborhoods and expect the unexpected.",
+    "citation": "AR Driver License Study Guide, p. 68 — Residential Areas Are Danger Zones",
+    "difficulty": 1
+  },
+  {
+    "id": "shr-022",
+    "topic": "sharing-the-road",
+    "question": "A strong gust of wind can move a motorcycle:",
+    "choices": [
+      "A few inches at most",
+      "Across an entire lane if the rider isn't prepared — including gusts from large trucks passing in the other lane",
+      "Only at speeds over 70 mph",
+      "Wind doesn't affect motorcycles"
+    ],
+    "answerIndex": 1,
+    "explanation": "Wind — including blasts from passing trucks — can push a motorcycle a full lane's width. Give riders extra space in gusty conditions.",
+    "citation": "AR Driver License Study Guide, p. 69 — Strong Winds",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-023",
+    "topic": "sharing-the-road",
+    "question": "A bicyclist extends their LEFT arm out with the forearm bent UP at the elbow. This signals:",
+    "choices": [
+      "A left turn",
+      "A right turn",
+      "A stop",
+      "Debris in the road"
+    ],
+    "answerIndex": 1,
+    "explanation": "Bicycle hand signals: left arm straight out = left turn; left arm bent up = right turn (riders may also point straight out with the right arm); left arm bent down = stop.",
+    "citation": "AR Driver License Study Guide, p. 68 — Bicycle Hand Signals",
+    "difficulty": 3
+  },
+  {
+    "id": "shr-024",
+    "topic": "sharing-the-road",
+    "question": "Roughly what share of car/motorcycle crashes are caused by the CAR driver turning in front of the motorcycle?",
+    "choices": [
+      "About 10%",
+      "About one-quarter",
+      "Over two-thirds",
+      "Almost none"
+    ],
+    "answerIndex": 2,
+    "explanation": "Research shows over two-thirds of car/motorcycle crashes result from a car driver turning in front of the motorcyclist. Look twice — especially before left turns at intersections.",
+    "citation": "AR Driver License Study Guide, p. 69 — Sharing the Road with Motorcyclists",
+    "difficulty": 3
   }
 ]

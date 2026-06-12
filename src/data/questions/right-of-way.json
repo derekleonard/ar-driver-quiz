@@ -208,5 +208,125 @@
     "explanation": "Traffic law determines who must YIELD — it never grants absolute right-of-way. When in doubt, let the other traffic go ahead; your safety comes first.",
     "citation": "AR Driver License Study Guide, p. 35, 39 — Right of Way",
     "difficulty": 2
+  },
+  {
+    "id": "row-015",
+    "topic": "right-of-way",
+    "question": "Before entering an intersection, you should look left and right, and then:",
+    "choices": [
+      "Proceed immediately",
+      "Look a second time in the direction of oncoming traffic before crossing",
+      "Honk your horn",
+      "Close the windows"
+    ],
+    "answerIndex": 1,
+    "explanation": "Look left, look right — then take a second look in the direction of oncoming traffic before you cross. Intersections include driveways, side streets, and parking-lot entrances.",
+    "citation": "AR Driver License Study Guide, p. 48 — Stay Alert (Intersections)",
+    "difficulty": 1
+  },
+  {
+    "id": "row-016",
+    "topic": "right-of-way",
+    "question": "You are stopped at an intersection and parked cars block your view of cross traffic. You should:",
+    "choices": [
+      "Accelerate quickly across",
+      "Ease forward slowly until you can see, which also lets approaching drivers see you",
+      "Honk and proceed",
+      "Reverse and find another route"
+    ],
+    "answerIndex": 1,
+    "explanation": "When your view of a cross street is blocked, ease forward until you can clearly see crossing traffic — moving forward slowly also makes you visible to approaching drivers.",
+    "citation": "AR Driver License Study Guide, p. 48 — Stay Alert (Intersections)",
+    "difficulty": 1
+  },
+  {
+    "id": "row-017",
+    "topic": "right-of-way",
+    "question": "Before turning right at an intersection, you must check for:",
+    "choices": [
+      "Traffic from the left only",
+      "Traffic approaching from the left, oncoming vehicles turning left into your path, AND pedestrians crossing where you are turning",
+      "Traffic behind you only",
+      "Nothing — right turns always have right-of-way"
+    ],
+    "answerIndex": 1,
+    "explanation": "A right turn has three checks: traffic from your left, oncoming cars turning left into the same street, and pedestrians in the crosswalk you're turning across.",
+    "citation": "AR Driver License Study Guide, p. 48 — Stay Alert (Intersections)",
+    "difficulty": 2
+  },
+  {
+    "id": "row-018",
+    "topic": "right-of-way",
+    "question": "When crossing a wide road, stopping halfway across in the median is safe only when:",
+    "choices": [
+      "Traffic is light",
+      "The median divider is large enough for your entire vehicle",
+      "You turn on hazard lights",
+      "It is never acceptable to stop in a median"
+    ],
+    "answerIndex": 1,
+    "explanation": "Never stop in a median too small for your vehicle — your car would stick out into the lanes of traffic. Cross only when you can clear the road or fully fit in the median.",
+    "citation": "AR Driver License Study Guide, p. 61 — Intersecting Traffic",
+    "difficulty": 3
+  },
+  {
+    "id": "row-019",
+    "topic": "right-of-way",
+    "question": "You have the right-of-way, but another driver doesn't yield and keeps coming. You should:",
+    "choices": [
+      "Proceed — you have the right-of-way",
+      "Let them go ahead. 'When in doubt, bail out' — your safety trumps all right-of-way rules",
+      "Stop in the middle of the intersection",
+      "Honk continuously and proceed"
+    ],
+    "answerIndex": 1,
+    "explanation": "If you feel uncomfortable or your safety is threatened, let the other traffic go ahead — even when the rules say you go first. Your safety always comes first.",
+    "citation": "AR Driver License Study Guide, p. 39 — Right-of-Way Rules",
+    "difficulty": 1
+  },
+  {
+    "id": "row-020",
+    "topic": "right-of-way",
+    "question": "You are preparing to turn right where a bicyclist is riding along the right side of the road. You should:",
+    "choices": [
+      "Speed up and turn sharply in front of the cyclist",
+      "Merge with the bicycle traffic before the turn rather than turning directly across the cyclist's path",
+      "Honk until the cyclist stops",
+      "Turn from the left lane instead"
+    ],
+    "answerIndex": 1,
+    "explanation": "Don't overtake a cyclist and then cut across their path — that's a common crash. Merge toward the right with the bike traffic, look right and left again, and know the cyclist's speed before turning.",
+    "citation": "AR Driver License Study Guide, p. 67 — Sharing the Road (Right Turns)",
+    "difficulty": 2
+  },
+  {
+    "id": "row-021",
+    "topic": "right-of-way",
+    "question": "When driving through a roundabout, you should check the crosswalks:",
+    "choices": [
+      "Only before entering",
+      "Both when entering AND when exiting the roundabout — be ready to let pedestrians finish crossing",
+      "Only if a pedestrian signal is present",
+      "Crosswalks aren't used at roundabouts"
+    ],
+    "answerIndex": 1,
+    "explanation": "Keep looking around in a roundabout: check for pedestrians waiting or crossing on the way in, and look one more time for the crosswalk as you exit.",
+    "citation": "AR Driver License Study Guide, p. 38 — How to Navigate Roundabouts",
+    "difficulty": 2
+  },
+  {
+    "id": "row-022",
+    "topic": "right-of-way",
+    "question": "Which statement about pedestrians is true?",
+    "choices": [
+      "Pedestrians must always yield to cars",
+      "Drivers must yield, where necessary, to avoid striking pedestrians who are legally crossing — even if no crosswalk is marked",
+      "Drivers only yield at signals",
+      "Pedestrians may not cross at unmarked intersections"
+    ],
+    "answerIndex": 1,
+    "explanation": "Not all crosswalks are marked. Drivers must yield where necessary to avoid striking pedestrians legally crossing the road, and watch for them at every intersection.",
+    "citation": "AR Driver License Study Guide, p. 34-35 — Crosswalks / Pedestrians",
+    "difficulty": 1
   }
 ]

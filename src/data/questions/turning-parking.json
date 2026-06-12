@@ -198,5 +198,125 @@
     "explanation": "Cancel your signal after every turn or lane change. A signal left on tells other drivers a turn is coming that isn't — and they may pull out in front of you.",
     "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions",
     "difficulty": 1
+  },
+  {
+    "id": "trn-015",
+    "topic": "turning-parking",
+    "question": "Why must you look over your shoulder before changing lanes?",
+    "choices": [
+      "To check your seat belt",
+      "Your rear-view and side mirrors cannot show vehicles in your blind spots — the rear corners of your vehicle",
+      "It is only required for trucks",
+      "To make eye contact with the driver behind you"
+    ],
+    "answerIndex": 1,
+    "explanation": "Blind spots are the rear corners your mirrors can't see. Check mirrors, then turn your head for a quick glance over your shoulder — but don't take your eyes off the road ahead for more than an instant.",
+    "citation": "AR Driver License Study Guide, p. 49-50 — Changing Lanes / Blind Spots",
+    "difficulty": 1
+  },
+  {
+    "id": "trn-016",
+    "topic": "turning-parking",
+    "question": "Before backing out of a parking space, when should you check behind your vehicle?",
+    "choices": [
+      "After starting the engine",
+      "BEFORE you get in — children and small objects cannot be seen from the driver's seat",
+      "Only in school parking lots",
+      "Backup cameras make checking unnecessary"
+    ],
+    "answerIndex": 1,
+    "explanation": "Walk-around first: check behind the vehicle before you get in. Then back slowly with your body turned, looking directly through the rear window — and use a helper outside whenever possible.",
+    "citation": "AR Driver License Study Guide, p. 50 — Backing",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-017",
+    "topic": "turning-parking",
+    "question": "When backing up, you should:",
+    "choices": [
+      "Back quickly to spend less time in reverse",
+      "Back slowly — your vehicle is much harder to steer in reverse",
+      "Rely on the rearview mirror alone",
+      "Keep both hands at 10 and 2"
+    ],
+    "answerIndex": 1,
+    "explanation": "Back slowly. Place your right arm over the seat back, turn your body, and look directly through the rear window — mirrors can't show what's directly behind you.",
+    "citation": "AR Driver License Study Guide, p. 50 — Backing",
+    "difficulty": 1
+  },
+  {
+    "id": "trn-018",
+    "topic": "turning-parking",
+    "question": "You miss your turn on a busy street. You should:",
+    "choices": [
+      "Stop and back up to the turn",
+      "Continue to a safe place to turn around — backing in a travel lane is illegal and unsafe",
+      "Make a quick U-turn from your lane",
+      "Stop and wait for a gap to reverse"
+    ],
+    "answerIndex": 1,
+    "explanation": "Never back up in any travel lane, and never stop in a travel lane for any reason — keep moving until you can safely pull off and turn around.",
+    "citation": "AR Driver License Study Guide, p. 32 — General Driving",
+    "difficulty": 1
+  },
+  {
+    "id": "trn-019",
+    "topic": "turning-parking",
+    "question": "Before slowing down — for example, to turn into a driveway — you should:",
+    "choices": [
+      "Brake firmly right away",
+      "Check the traffic behind you in your mirrors and allow plenty of time to slow gradually",
+      "Turn on hazard lights",
+      "Swerve right first"
+    ],
+    "answerIndex": 1,
+    "explanation": "Check behind before slowing. Gradual, signaled slowing keeps the driver behind you from being surprised — especially where they wouldn't expect a stop, like a private driveway.",
+    "citation": "AR Driver License Study Guide, p. 50 — Slowing",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-020",
+    "topic": "turning-parking",
+    "question": "You want to parallel park but a car is following close behind you. You should:",
+    "choices": [
+      "Stop suddenly so they pass",
+      "Turn on your signal, pull up next to the space, and let traffic behind you pass before backing in",
+      "Skip the space and circle the block",
+      "Wave them around while you reverse"
+    ],
+    "answerIndex": 1,
+    "explanation": "Signal early, pull alongside the space, and let following traffic clear before you back in. Helping the driver behind you know your intentions prevents rear-end crashes.",
+    "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Parallel Parking)",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-021",
+    "topic": "turning-parking",
+    "question": "Which is the correct way to grip the steering wheel for a sharp turn, such as around a corner?",
+    "choices": [
+      "Palm the wheel with one hand",
+      "Use the hand-over-hand technique, with hands on opposite sides of the wheel",
+      "Grip the bottom of the wheel with both hands",
+      "Steer with your knee while signaling"
+    ],
+    "answerIndex": 1,
+    "explanation": "Keep hands on opposite sides of the wheel and use hand-over-hand for sharp turns — never turn the wheel in the palm of your hand. Return the wheel to track the direction of travel after the turn.",
+    "citation": "AR Driver License Study Guide, p. 44 — Steering the Vehicle",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-022",
+    "topic": "turning-parking",
+    "question": "When exiting your parked car on a street, Arkansas's guide says you should:",
+    "choices": [
+      "Open the door quickly to claim space",
+      "Check traffic before opening the door, and exit on the curb side whenever possible",
+      "Always exit on the street side",
+      "Leave the door open while loading"
+    ],
+    "answerIndex": 1,
+    "explanation": "Check traffic before opening your door, and use the curb side when you can. If you must exit street-side, look again before stepping out.",
+    "citation": "AR Driver License Study Guide, p. 41 — Parking Tips",
+    "difficulty": 1
   }
 ]

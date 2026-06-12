@@ -218,5 +218,120 @@
     "explanation": "Change one lane at a time, checking mirrors and blind spot for each move. Keep a four-second gap when merging or changing lanes.",
     "citation": "AR Driver License Study Guide, p. 61 — Merging",
     "difficulty": 1
+  },
+  {
+    "id": "spd-017",
+    "topic": "speed-following",
+    "question": "To avoid last-minute braking, how far ahead should you be looking when you drive?",
+    "choices": [
+      "5 seconds ahead",
+      "At least 15 seconds ahead — about one city block in town, or one-quarter mile on highways",
+      "30 seconds ahead at all times",
+      "Just past the car in front of you"
+    ],
+    "answerIndex": 1,
+    "explanation": "Look at least 15 seconds down the road: one city block in the city, a quarter mile on highways and interstates. The leading cause of car crashes is inattention.",
+    "citation": "AR Driver License Study Guide, p. 48 — Stay Alert (Looking Ahead)",
+    "difficulty": 2
+  },
+  {
+    "id": "spd-018",
+    "topic": "speed-following",
+    "question": "What is the leading cause of car crashes?",
+    "choices": ["Bad weather", "Inattention", "Mechanical failure", "Speeding"],
+    "answerIndex": 1,
+    "explanation": "Inattention is the leading cause of crashes. Defensive driving starts with staying alert and keeping your eyes fixed on the road ahead.",
+    "citation": "AR Driver License Study Guide, p. 48 — Stay Alert",
+    "difficulty": 1
+  },
+  {
+    "id": "spd-019",
+    "topic": "speed-following",
+    "question": "In an Arkansas work zone with workers present and warning signs posted, fines for moving traffic violations are:",
+    "choices": [
+      "The same as anywhere else",
+      "Doubled — and depending on the violation, can be as high as $5,000",
+      "Reduced",
+      "Waived for first offenders"
+    ],
+    "answerIndex": 1,
+    "explanation": "All moving violations — speeding, reckless driving, distracted driving — carry DOUBLE fines in work zones, up to $5,000. Mobile work zones count too.",
+    "citation": "AR Driver License Study Guide, p. 18-19 — Work Zone Fines Double",
+    "difficulty": 2
+  },
+  {
+    "id": "spd-020",
+    "topic": "speed-following",
+    "question": "You see signs warning of a lane closure in a work zone ahead. When should you merge?",
+    "choices": [
+      "At the last possible moment",
+      "As soon as it is safe to do so — ideally a mile or more before the closure",
+      "Only when a flagger directs you",
+      "After passing the slower traffic"
+    ],
+    "answerIndex": 1,
+    "explanation": "Merge early — ideally a mile or more before the closure — and be patient. Rear-end collisions are common in work zones, so keep your following distance.",
+    "citation": "AR Driver License Study Guide, p. 20 — Work Zone Q&A (Merge Early)",
+    "difficulty": 2
+  },
+  {
+    "id": "spd-021",
+    "topic": "speed-following",
+    "question": "A work zone has no reduced speed limit posted. You should:",
+    "choices": [
+      "Drive 10 mph through the zone",
+      "Obey the normally posted speed limit, staying prepared for the unexpected",
+      "Drive at half the posted limit",
+      "Follow the vehicle ahead at any speed"
+    ],
+    "answerIndex": 1,
+    "explanation": "Reduced work-zone limits are clearly posted. With no reduced limit, the normal posted limit applies — but stay ready for sudden stops, equipment, and changing patterns.",
+    "citation": "AR Driver License Study Guide, p. 17 — Work Zone Speed Limits",
+    "difficulty": 3
+  },
+  {
+    "id": "spd-022",
+    "topic": "speed-following",
+    "question": "How does Arkansas use speed enforcement cameras?",
+    "choices": [
+      "At every traffic light",
+      "In interstate work zones — an officer observes violations by camera and pulls the violator over as they exit the zone",
+      "On all rural highways",
+      "Arkansas bans all camera enforcement"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cameras in interstate work zones let an officer wait at the end of the zone instead of inside it — safer for everyone, and you still get pulled over.",
+    "citation": "AR Driver License Study Guide, p. 19 — Work Zone Speed Limit",
+    "difficulty": 3
+  },
+  {
+    "id": "spd-023",
+    "topic": "speed-following",
+    "question": "When preparing to pass on a two-lane road, position your vehicle:",
+    "choices": [
+      "As close to the other car's bumper as possible",
+      "Two to three seconds behind the vehicle you plan to pass",
+      "Ten seconds behind",
+      "Halfway into the oncoming lane"
+    ],
+    "answerIndex": 1,
+    "explanation": "Prepare to pass from two to three seconds back: check mirrors, blind spot, and oncoming traffic; confirm safe passing distance; signal — then accelerate into the passing lane.",
+    "citation": "AR Driver License Study Guide, p. 62 — Passing Procedures",
+    "difficulty": 3
+  },
+  {
+    "id": "spd-024",
+    "topic": "speed-following",
+    "question": "How many vehicles is it safe to pass at one time on a two-lane road?",
+    "choices": [
+      "As many as fit before oncoming traffic",
+      "One — do not count on having enough time to pass several cars at once",
+      "Two, if they are slow",
+      "Three on straightaways"
+    ],
+    "answerIndex": 1,
+    "explanation": "As a rule, pass only ONE vehicle at a time. Passing several cars at once gambles on time and space you can't be sure you have.",
+    "citation": "AR Driver License Study Guide, p. 61 — Passing Distance",
+    "difficulty": 2
   }
 ]

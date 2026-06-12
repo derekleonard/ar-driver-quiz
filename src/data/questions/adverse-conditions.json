@@ -193,5 +193,125 @@
     "explanation": "With ABS: press hard and hold — the pulsing pedal is the system working. Without ABS: brake hard, and if the wheels lock, let up and reapply.",
     "citation": "AR Driver License Study Guide, p. 78 — Stopping (With ABS)",
     "difficulty": 2
+  },
+  {
+    "id": "adv-014",
+    "topic": "adverse-conditions",
+    "question": "On cold, wet days, where does ice linger on the roadway?",
+    "choices": [
+      "Only on hilltops",
+      "In shady spots — they are the first to freeze and the last to thaw",
+      "Only in the center lane",
+      "Ice forms evenly everywhere"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shady stretches freeze first and thaw last. Bridges and overpasses can also be icy while the road before and after them is clear.",
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-015",
+    "topic": "adverse-conditions",
+    "question": "Which ice condition is MOST slippery?",
+    "choices": [
+      "Ice at temperatures well below freezing",
+      "Wet ice near the freezing point",
+      "Dry packed snow",
+      "Frost on a cold morning"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ice can be very wet when it first forms — near the freezing point it's MORE slippery than at much colder temperatures. If glare ice forms, stop driving as soon as you safely can.",
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
+    "difficulty": 3
+  },
+  {
+    "id": "adv-016",
+    "topic": "adverse-conditions",
+    "question": "Your headlights suddenly go out at night. After trying the headlight switch, you should:",
+    "choices": [
+      "Stop in your lane immediately",
+      "Put on your emergency flashers, turn signals, or fog lights and pull off the road as soon as possible",
+      "Speed up to reach the next exit",
+      "Follow another car's taillights home"
+    ],
+    "answerIndex": 1,
+    "explanation": "Try the switch a few times; if the lights stay out, use whatever lights work — flashers, signals, fog lights — to be seen, and get off the road quickly.",
+    "citation": "AR Driver License Study Guide, p. 77 — Headlight Failure",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-017",
+    "topic": "adverse-conditions",
+    "question": "If your engine dies while you are driving, you should know that:",
+    "choices": [
+      "The brakes and steering stop working completely",
+      "Steering becomes hard (but possible) and the brakes still work, though you may have to push very hard — grip the wheel and pull off the road",
+      "The car will stop on its own safely",
+      "You should shift to park immediately"
+    ],
+    "answerIndex": 1,
+    "explanation": "Engine failure kills the power assist, not the controls: keep a strong grip (steering is stiff but works), push the brake hard, and steer off the roadway.",
+    "citation": "AR Driver License Study Guide, p. 77 — Engine Failure",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-018",
+    "topic": "adverse-conditions",
+    "question": "When a collision looks likely, a driver's three options are:",
+    "choices": [
+      "Honk, flash, and pray",
+      "Stop, turn, or speed up",
+      "Brake, close your eyes, and brace",
+      "Always swerve left"
+    ],
+    "answerIndex": 1,
+    "explanation": "You can often avoid a crash by (1) stopping, (2) turning, or (3) speeding up. Many drivers panic and fail to act — knowing the options ahead of time helps you use one.",
+    "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-019",
+    "topic": "adverse-conditions",
+    "question": "To stop quickly in a vehicle WITHOUT antilock brakes, you should:",
+    "choices": [
+      "Press the pedal hard and never release it",
+      "Brake as hard as you can without locking the wheels; if they lock and skid, let up, then push down again",
+      "Use the parking brake first",
+      "Pump the gas and brake together"
+    ],
+    "answerIndex": 1,
+    "explanation": "Without ABS, locked wheels mean a skid. Brake hard, and if you feel the skid begin, release briefly and reapply — repeat until stopped. (With ABS: press hard and HOLD.)",
+    "citation": "AR Driver License Study Guide, p. 78 — Stopping (Without ABS)",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-020",
+    "topic": "adverse-conditions",
+    "question": "When might SPEEDING UP be the correct way to avoid a collision?",
+    "choices": [
+      "Never — always brake",
+      "When another vehicle is about to hit you from the side or from behind and there is space ahead",
+      "When a light turns yellow",
+      "When you are being tailgated in a work zone"
+    ],
+    "answerIndex": 1,
+    "explanation": "If the threat comes from the side or behind and there's room in front, accelerating out of the danger zone can prevent the crash. Slow back down once the danger has passed.",
+    "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions (Accelerating)",
+    "difficulty": 3
+  },
+  {
+    "id": "adv-021",
+    "topic": "adverse-conditions",
+    "question": "If you must turn sharply to avoid a crash, the guide says it is generally better to:",
+    "choices": [
+      "Crash head-on rather than leave the pavement",
+      "Run off the road than crash head-on into another vehicle",
+      "Lock the front wheels while turning",
+      "Steer with one hand for quicker reaction"
+    ],
+    "answerIndex": 1,
+    "explanation": "A head-on crash is usually the worst outcome — leaving the road under control beats it. Grip the wheel with both hands (10 and 2), and don't turn so sharply or brake so hard that the front wheels lock and plow.",
+    "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions (Turning)",
+    "difficulty": 3
   }
 ]
