@@ -1,0 +1,107 @@
+[
+  {
+    "id": "adv-001",
+    "topic": "adverse-conditions",
+    "question": "Your vehicle begins to skid. The first thing to do is:",
+    "choices": [
+      "Brake hard immediately",
+      "Stay off the brake and steer in the direction you want the vehicle to go",
+      "Turn the wheel opposite to the skid and accelerate",
+      "Shift to park"
+    ],
+    "answerIndex": 1,
+    "explanation": "Stay off the brake — braking can make the skid worse. Steer where you want to go, then correct back the other way as the car straightens, and keep steering until you regain control. Most skids are caused by driving too fast for conditions.",
+    "citation": "AR Driver License Study Guide, p. 79 — Skids",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-002",
+    "topic": "adverse-conditions",
+    "question": "If your vehicle begins to hydroplane (tires riding on top of water), you should:",
+    "choices": [
+      "Brake firmly",
+      "Slowly take your foot off the gas and keep the steering wheel straight",
+      "Turn sharply toward the shoulder",
+      "Speed up to push through the water"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ease off the gas, keep the wheel straight, and don't try to stop or turn until your tires grip again. In heavy rain tires can lose all road contact at 50 mph — keep your speed down on wet roads.",
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Water Over the Roadway",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-003",
+    "topic": "adverse-conditions",
+    "question": "In fog, snow, or heavy rain you should drive with:",
+    "choices": [
+      "High-beam headlights",
+      "Low-beam headlights",
+      "Parking lights only",
+      "Hazard flashers while driving normally"
+    ],
+    "answerIndex": 1,
+    "explanation": "High beams reflect off fog and rain, causing glare that makes it harder to see. Use low beams. Arkansas law also requires headlights whenever your wipers are needed — and driving with only parking lights is illegal.",
+    "citation": "AR Driver License Study Guide, p. 51 — External Vehicle Lights / High and Low Beams",
+    "difficulty": 1
+  },
+  {
+    "id": "adv-004",
+    "topic": "adverse-conditions",
+    "question": "When must you dim your high beams?",
+    "choices": [
+      "Within 500 feet of an oncoming vehicle, and use low beams when following closer than 200 feet",
+      "Within 200 feet of an oncoming vehicle and 500 feet when following",
+      "Only when the other driver flashes their lights",
+      "Within 1,000 feet in both cases"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dim high beams within 500 feet of oncoming traffic and switch to low beams when following another vehicle closer than 200 feet, so you don't blind other drivers.",
+    "citation": "AR Driver License Study Guide, p. 51 — High and Low Beam Headlights",
+    "difficulty": 3
+  },
+  {
+    "id": "adv-005",
+    "topic": "adverse-conditions",
+    "question": "Bridges and overpasses are especially dangerous in cold weather because they:",
+    "choices": [
+      "Are narrower than regular roads",
+      "Can ice over while the road before and after them is still clear",
+      "Have lower speed limits",
+      "Are always one-way"
+    ],
+    "answerIndex": 1,
+    "explanation": "Bridges and overpasses are among the first road sections to develop ice — the stretches leading up to them may be completely clear. Ice near the freezing point can be MORE slippery than ice at colder temperatures.",
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
+    "difficulty": 1
+  },
+  {
+    "id": "adv-006",
+    "topic": "adverse-conditions",
+    "question": "You have a sudden tire blowout at highway speed. You should:",
+    "choices": [
+      "Brake hard immediately",
+      "Hold the steering wheel tightly, keep the vehicle straight, and slow gradually — easing off the gas and braking lightly",
+      "Steer quickly onto the shoulder",
+      "Shift to neutral and coast to a stop in your lane"
+    ],
+    "answerIndex": 1,
+    "explanation": "Grip the wheel firmly and keep the vehicle going straight. Slow gradually — foot off the gas, light braking — and pull off the road in a safe place rather than stopping on the roadway.",
+    "citation": "AR Driver License Study Guide, p. 77 — Blowouts",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-007",
+    "topic": "adverse-conditions",
+    "question": "On a wet road you should reduce your speed by about 10 mph. On packed snow and on ice you should:",
+    "choices": [
+      "Drive normally with snow tires",
+      "Cut your speed in half on packed snow; slow to a coast on ice",
+      "Reduce by 5 mph for both",
+      "Use cruise control to keep a steady speed"
+    ],
+    "answerIndex": 1,
+    "explanation": "Wet road: about 10 mph slower. Packed snow: cut your speed in half. Ice: slow to a coast — and if possible, don't drive at all when roads are icy. If glare ice forms, stop driving as soon as you safely can.",
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
+    "difficulty": 3
+  }
+]

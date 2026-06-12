@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100">
+  <rect x="3" y="3" width="154" height="94" rx="8" fill="#b01217" stroke="#fff" stroke-width="4"/>
+  <text x="80" y="42" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#fff" text-anchor="middle">WRONG</text>
+  <text x="80" y="78" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#fff" text-anchor="middle">WAY</text>
+</svg>

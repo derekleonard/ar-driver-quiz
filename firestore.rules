@@ -1,0 +1,36 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function allowlist() {
+      return get(/databases/$(database)/documents/config/allowlist).data;
+    }
+
+    function isAllowed() {
+      return request.auth != null
+        && request.auth.token.email_verified
+        && request.auth.token.email in allowlist().emails;
+    }
+
+    function isParent() {
+      return request.auth != null
+        && request.auth.token.email == allowlist().parentEmail;
+    }
+
+    match /config/allowlist {
+      allow read: if request.auth != null;
+      allow write: if false; // edited in the Firebase console only
+    }
+
+    match /users/{uid} {
+      allow read: if (isAllowed() && request.auth.uid == uid) || isParent();
+      allow write: if isAllowed() && request.auth.uid == uid;
+
+      match /{document=**} {
+        allow read: if (isAllowed() && request.auth.uid == uid) || isParent();
+        allow write: if isAllowed() && request.auth.uid == uid;
+      }
+    }
+  }
+}

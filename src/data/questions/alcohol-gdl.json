@@ -1,0 +1,92 @@
+[
+  {
+    "id": "alc-001",
+    "topic": "alcohol-gdl",
+    "question": "In Arkansas you will be arrested for driving while intoxicated (DWI) with a blood or breath alcohol concentration of:",
+    "choices": ["0.05% or more", "0.08% or more", "0.10% or more", "Only if visibly impaired"],
+    "answerIndex": 1,
+    "explanation": "0.08% is the DWI threshold — and if you're in a crash or serious traffic offense, you can be charged with DWI between 0.04% and 0.08%. First conviction: $150–$1,000 fine, up to 1 year in jail, and a 120-day license suspension.",
+    "citation": "AR Driver License Study Guide, p. 74 — Alcohol and the Law",
+    "difficulty": 1
+  },
+  {
+    "id": "alc-002",
+    "topic": "alcohol-gdl",
+    "question": "A driver UNDER 21 can be arrested for Underage Driving Under the Influence at a BAC of:",
+    "choices": ["0.08%", "0.05%", "0.02%", "0.10%"],
+    "answerIndex": 2,
+    "explanation": "Arkansas's underage DUI threshold is just 0.02% — roughly one drink. A conviction can mean license revocation until age 21 and a fine up to $2,000.",
+    "citation": "AR Driver License Study Guide, p. 75 — Underage Driving Under the Influence",
+    "difficulty": 1
+  },
+  {
+    "id": "alc-003",
+    "topic": "alcohol-gdl",
+    "question": "If a law enforcement officer instructs you to take an alcohol test (breath, blood, or urine), you:",
+    "choices": [
+      "May refuse with no consequences",
+      "Are compelled by law to take it — refusing can cost you your driver's license",
+      "May choose which test you prefer",
+      "Only have to take it if you were in a crash"
+    ],
+    "answerIndex": 1,
+    "explanation": "The officer chooses the test, and you are compelled by law to take it. You can lose your driver's license if you refuse — separate from any DWI charge.",
+    "citation": "AR Driver License Study Guide, p. 74 — Alcohol and the Law",
+    "difficulty": 2
+  },
+  {
+    "id": "alc-004",
+    "topic": "alcohol-gdl",
+    "question": "The ONLY thing that will sober you up is:",
+    "choices": ["Black coffee", "A cold shower", "Time", "Fresh air and exercise"],
+    "answerIndex": 2,
+    "explanation": "The body rids itself of alcohol at about one drink per hour. Coffee, fresh air, exercise, and cold showers will NOT help — only time will.",
+    "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism",
+    "difficulty": 1
+  },
+  {
+    "id": "alc-005",
+    "topic": "alcohol-gdl",
+    "question": "A driver with an Arkansas Instruction Permit or Learner's License must be accompanied by:",
+    "choices": [
+      "Any licensed driver",
+      "A licensed driver who is at least 21 years old",
+      "A parent only",
+      "A licensed driver who is at least 18 years old"
+    ],
+    "answerIndex": 1,
+    "explanation": "Permit and Learner's License holders must drive with a licensed driver 21 or older (beside the driver for a permit), and all passengers must wear seat belts.",
+    "citation": "AR Driver License Study Guide, p. 3 — Types of Graduated Driver's Licenses",
+    "difficulty": 1
+  },
+  {
+    "id": "alc-006",
+    "topic": "alcohol-gdl",
+    "question": "For drivers holding an Arkansas Learner's or Intermediate License, cell phone use while driving is:",
+    "choices": [
+      "Allowed if hands-free",
+      "Allowed for calls but not texting",
+      "Prohibited by law except for an emergency",
+      "Allowed when stopped at red lights"
+    ],
+    "answerIndex": 2,
+    "explanation": "For Learner's and Intermediate license holders, ANY cell phone use — talking or texting — is prohibited except in an emergency. Under 18, even hands-free devices are not allowed.",
+    "citation": "AR Driver License Study Guide, p. 3 — Graduated Licenses; p. 46 — Distracted Driving Law",
+    "difficulty": 2
+  },
+  {
+    "id": "alc-007",
+    "topic": "alcohol-gdl",
+    "question": "The Arkansas Intermediate License is issued to drivers age 16–18. The restriction is that the driver:",
+    "choices": [
+      "May not drive on interstates",
+      "Must be accompanied by a licensed driver 21+ until the 6-month restricted period is complete",
+      "May only drive to school",
+      "May not drive faster than 45 mph"
+    ],
+    "answerIndex": 1,
+    "explanation": "Intermediate License holders are restricted for 6 months from permit issuance (or until requirements are met at 16): a licensed driver 21 or older must accompany them, all passengers must be belted, and no cell phone use is allowed.",
+    "citation": "AR Driver License Study Guide, p. 3 — Intermediate License",
+    "difficulty": 2
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "trn-001",
+    "topic": "turning-parking",
+    "question": "In Arkansas, how far before a turn must you begin signaling?",
+    "choices": [
+      "At least 50 feet",
+      "At least 100 feet",
+      "At least 200 feet",
+      "Only as you start the turn"
+    ],
+    "answerIndex": 1,
+    "explanation": "Arkansas law requires a continuous turn signal during at least the last 100 feet before turning. Signal earlier at highway speeds.",
+    "citation": "AR Driver License Study Guide, p. 33, 53 — Signaling to Change Directions",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-002",
+    "topic": "turning-parking",
+    "question": "When making a right turn, you should finish the turn in:",
+    "choices": [
+      "Any open lane",
+      "The lane closest to the curb (right lane)",
+      "The center lane",
+      "The left lane, then move right"
+    ],
+    "answerIndex": 1,
+    "explanation": "Turn right from the right lane into the right lane. Cutting across to a far lane during a turn is illegal and dangerous.",
+    "citation": "AR Driver License Study Guide, p. 33 — Right Turns",
+    "difficulty": 1
+  },
+  {
+    "id": "trn-003",
+    "topic": "turning-parking",
+    "question": "A two-way center turn lane (shared left-turn lane) may be used for:",
+    "choices": [
+      "Passing slower traffic",
+      "Making left turns (and waiting to merge), only",
+      "Through travel when traffic is heavy",
+      "Parking briefly"
+    ],
+    "answerIndex": 1,
+    "explanation": "The center turn lane is only for starting and completing left turns from either direction — never for passing or through travel.",
+    "citation": "AR Driver License Study Guide, p. 32 — Shared Center Lane",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-004",
+    "topic": "turning-parking",
+    "question": "How close to a fire hydrant may you legally park?",
+    "choices": [
+      "No closer than 10 feet",
+      "No closer than 15 feet",
+      "No closer than 25 feet",
+      "Anywhere if you stay in the car"
+    ],
+    "answerIndex": 1,
+    "explanation": "Parking is prohibited within 15 feet of a fire hydrant so fire crews always have access.",
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-005",
+    "topic": "turning-parking",
+    "question": "Parking is NOT allowed within ____ of a stop sign, yield sign, or traffic signal.",
+    "choices": ["10 feet", "20 feet", "30 feet", "50 feet"],
+    "answerIndex": 2,
+    "explanation": "Stay at least 30 feet back from stop signs, yield signs, and signals so other drivers can see them. Also: 20 ft from a crosswalk, 50 ft from a railroad crossing.",
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park",
+    "difficulty": 3
+  },
+  {
+    "id": "trn-006",
+    "topic": "turning-parking",
+    "question": "When parking downhill WITH a curb, turn your front wheels:",
+    "choices": [
+      "Toward the curb",
+      "Away from the curb",
+      "Straight ahead",
+      "It doesn't matter if the parking brake is set"
+    ],
+    "answerIndex": 0,
+    "explanation": "Downhill: wheels toward the curb. Uphill with a curb: wheels away from the curb (so the car rolls back into it). No curb: wheels toward the edge of the road. Always set the parking brake.",
+    "citation": "AR Driver License Study Guide, p. 41 — Parking Tips (Hills)",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-007",
+    "topic": "turning-parking",
+    "question": "Before backing up, the most important thing to do is:",
+    "choices": [
+      "Check only your rearview mirror",
+      "Turn and look over your right shoulder through the rear window",
+      "Rely on the backup camera alone",
+      "Honk twice"
+    ],
+    "answerIndex": 1,
+    "explanation": "Mirrors and cameras have blind zones. Physically turn your head and look through the rear window while backing slowly.",
+    "citation": "AR Driver License Study Guide, p. 41 — Parking (Backing)",
+    "difficulty": 1
+  },
+  {
+    "id": "trn-008",
+    "topic": "turning-parking",
+    "question": "A U-turn is legal only when:",
+    "choices": [
+      "You can see far enough in both directions and no sign prohibits it",
+      "You are at any intersection",
+      "Traffic is light",
+      "You are on a curve or near a hill"
+    ],
+    "answerIndex": 0,
+    "explanation": "Never make a U-turn where signs prohibit it, on curves or hillcrests where others can't see you, or where you can't see oncoming traffic clearly.",
+    "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs (No U-Turn)",
+    "difficulty": 2
+  }
+]

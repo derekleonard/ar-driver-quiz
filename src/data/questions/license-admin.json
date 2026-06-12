@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lic-001",
+    "topic": "license-admin",
+    "question": "Arkansas's seat belt law makes it illegal to:",
+    "choices": [
+      "Drive or ride in the front seat without wearing a safety belt — and it's a primary offense",
+      "Ride unbelted only on highways",
+      "Drive unbelted, but passengers may choose",
+      "Ride unbelted only at night"
+    ],
+    "answerIndex": 0,
+    "explanation": "Police can stop you just for an unbelted driver or front-seat passenger (primary enforcement, since 2009). All children under 15 must be properly restrained wherever they sit.",
+    "citation": "AR Driver License Study Guide, p. 9 — Arkansas Seat Belt Law",
+    "difficulty": 2
+  },
+  {
+    "id": "lic-002",
+    "topic": "license-admin",
+    "question": "Arkansas requires a child to ride in a child safety seat if the child is:",
+    "choices": [
+      "Under 6 years old AND under 60 pounds",
+      "Under 10 years old",
+      "Under 4 feet tall",
+      "Under 8 years old OR under 80 pounds"
+    ],
+    "answerIndex": 0,
+    "explanation": "Children younger than 6 who weigh less than 60 pounds must be secured in a child passenger safety seat. All children under 15 must wear appropriate restraints while the vehicle is moving.",
+    "citation": "AR Driver License Study Guide, p. 9 — Child Passenger Protection Act (27-34-104)",
+    "difficulty": 3
+  },
+  {
+    "id": "lic-003",
+    "topic": "license-admin",
+    "question": "You are involved in a crash where someone is injured or property damage exceeds $1,000. Arkansas law requires you to:",
+    "choices": [
+      "Leave quickly to avoid blocking traffic",
+      "Stop, move your vehicle off the roadway if possible, and notify the police immediately",
+      "Only call your insurance company",
+      "Wait in your vehicle without moving it under any circumstances"
+    ],
+    "answerIndex": 1,
+    "explanation": "You must stop, move the vehicle so it doesn't block traffic, and notify police immediately when there's injury, death, or damage over $1,000. You can't leave a crash with injury or death until police have talked with you — and crashes with injury, death, or over $3,000 damage must also be reported to the Office of Driver Services within 30 days.",
+    "citation": "AR Driver License Study Guide, p. 80-81 — Traffic Crashes",
+    "difficulty": 2
+  },
+  {
+    "id": "lic-004",
+    "topic": "license-admin",
+    "question": "When stopped by a law enforcement officer, Arkansas law requires you to provide:",
+    "choices": [
+      "Only your name",
+      "Your driver's license, proof of insurance, and vehicle registration when requested",
+      "Nothing until you call a lawyer",
+      "Your license only if you were speeding"
+    ],
+    "answerIndex": 1,
+    "explanation": "You must provide your driver's license, proof of insurance, and registration when an officer requests them. Tell the officer where the documents are and ask before reaching for them.",
+    "citation": "AR Driver License Study Guide — What To Do When Stopped by Law Enforcement",
+    "difficulty": 1
+  },
+  {
+    "id": "lic-005",
+    "topic": "license-admin",
+    "question": "Under Arkansas's distracted driving laws, a driver UNDER 18:",
+    "choices": [
+      "May use a phone hands-free",
+      "May not use a cell phone at all while driving — not even hands-free — except in an emergency",
+      "May talk but not text",
+      "May use a phone on rural roads"
+    ],
+    "answerIndex": 1,
+    "explanation": "Texting is illegal for ALL drivers (27-51-1501). Under 18, no cell phone use is allowed at all, including hands-free. Ages 18-20 may use hands-free only; 21+ may use a phone but it's never truly safe.",
+    "citation": "AR Driver License Study Guide, p. 46 — Distracted Driving Law (27-51-1601)",
+    "difficulty": 1
+  },
+  {
+    "id": "lic-006",
+    "topic": "license-admin",
+    "question": "To pass the Arkansas vision test, you must have at least:",
+    "choices": [
+      "20/20 vision in both eyes",
+      "20/40 vision in both eyes",
+      "20/70 vision in at least one eye, with or without corrective lenses",
+      "20/100 vision in one eye"
+    ],
+    "answerIndex": 2,
+    "explanation": "Arkansas requires at least 20/70 vision in at least one eye, with or without corrective lenses. If you have a 'B' restriction, you must wear your corrective lenses while driving or you can be ticketed.",
+    "citation": "AR Driver License Study Guide, p. 71 — Vision",
+    "difficulty": 3
+  }
+]

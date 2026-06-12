@@ -1,0 +1,122 @@
+[
+  {
+    "id": "shr-001",
+    "topic": "sharing-the-road",
+    "question": "A school bus ahead stops with its red lights flashing. You must:",
+    "choices": [
+      "Slow to 10 mph and pass carefully",
+      "Make a complete stop no matter where your vehicle is positioned — same lane, opposing lane, or at an intersection — until the red lights are turned off",
+      "Stop only if you are behind the bus",
+      "Pass on the left if no children are visible"
+    ],
+    "answerIndex": 1,
+    "explanation": "When a school bus's red lights flash, ALL traffic must make a complete stop and never pass in any direction until the bus finishes loading/unloading and moves on with its lights off.",
+    "citation": "AR Driver License Study Guide, p. 12 — School Bus Law and Rules",
+    "difficulty": 1
+  },
+  {
+    "id": "shr-002",
+    "topic": "sharing-the-road",
+    "question": "You are NOT required to stop for a stopped school bus only when:",
+    "choices": [
+      "You are running late",
+      "The bus is in the opposite lanes of a road separated by a median 20 feet or more wide",
+      "No children are visible outside the bus",
+      "You are at an intersection"
+    ],
+    "answerIndex": 1,
+    "explanation": "The only exception: the bus is traveling the opposite direction on a roadway separated by a median at least 20 feet wide. Everyone else — including traffic at intersections — must stop completely.",
+    "citation": "AR Driver License Study Guide, p. 12 — School Bus Law and Rules",
+    "difficulty": 3
+  },
+  {
+    "id": "shr-003",
+    "topic": "sharing-the-road",
+    "question": "Why should you avoid lingering beside a large truck on the highway?",
+    "choices": [
+      "Trucks have large blind-spot 'No-Zones' — up to 20 feet in front, along both sides, and up to 200 feet behind",
+      "It is illegal to drive next to a truck",
+      "Trucks always drift between lanes",
+      "Truck drivers can't use mirrors"
+    ],
+    "answerIndex": 0,
+    "explanation": "If you can't see the truck driver in the truck's side mirror, the driver can't see you. Pass completely and on the left, and never cut in close — a loaded truck at 55 mph needs over 335 feet to stop.",
+    "citation": "AR Driver License Study Guide, p. 64-66 — Tractor-Trailer No-Zone",
+    "difficulty": 1
+  },
+  {
+    "id": "shr-004",
+    "topic": "sharing-the-road",
+    "question": "You are overtaking a bicyclist on a two-lane road and an oncoming car is approaching. You should:",
+    "choices": [
+      "Squeeze between the bicycle and the oncoming car",
+      "Honk so the cyclist moves onto the shoulder",
+      "Slow down, let the oncoming vehicle pass, THEN pass the bicycle with plenty of room",
+      "Follow the cyclist until they leave the road"
+    ],
+    "answerIndex": 2,
+    "explanation": "Never pass between a bicyclist and oncoming traffic. Take hazards one at a time: let the oncoming car pass first, then give the cyclist plenty of room. Never pass where the street is too narrow.",
+    "citation": "AR Driver License Study Guide, p. 67 — Sharing the Road with Bicycles",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-005",
+    "topic": "sharing-the-road",
+    "question": "A police car is stopped on the shoulder ahead with its lights flashing. Arkansas's Move Over law requires you to:",
+    "choices": [
+      "Stop behind it",
+      "Move to the farthest lane away from it whenever possible, or slow down if you can't change lanes",
+      "Continue at the speed limit in your lane",
+      "Turn on your hazard lights and pass quickly"
+    ],
+    "answerIndex": 1,
+    "explanation": "On a multilane highway you must move over to the farthest lane away from a stopped law-enforcement or emergency vehicle whenever possible. Violations carry fines up to $1,000, possible jail, and up to a 6-month license suspension.",
+    "citation": "AR Driver License Study Guide, p. 11 — Move Over Law",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-006",
+    "topic": "sharing-the-road",
+    "question": "Motorcycles are entitled to:",
+    "choices": [
+      "Half a lane of traffic",
+      "A full lane width, just like a car",
+      "The shoulder only",
+      "The right third of the lane"
+    ],
+    "answerIndex": 1,
+    "explanation": "Never share a lane with a motorcycle — it needs the full lane width to maneuver. Allow 4 to 6 seconds of following distance behind a motorcycle, and look twice for them before turning, especially left turns.",
+    "citation": "AR Driver License Study Guide, p. 70 — Respect a Motorcycle",
+    "difficulty": 1
+  },
+  {
+    "id": "shr-007",
+    "topic": "sharing-the-road",
+    "question": "At a railroad crossing, the gates begin to come down just as you start to cross. You should:",
+    "choices": [
+      "Stop immediately on the tracks",
+      "Back up quickly",
+      "Keep going — even if it means you will break the gate",
+      "Honk and wait"
+    ],
+    "answerIndex": 2,
+    "explanation": "Never stop on the tracks. If gates start lowering while you're crossing, keep going even if you break the gate. Never drive around lowered gates, and remember a second train may come on another track.",
+    "citation": "AR Driver License Study Guide, p. 29 — Gates and Lights",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-008",
+    "topic": "sharing-the-road",
+    "question": "The most common car-vs-motorcycle crash happens when:",
+    "choices": [
+      "A motorcycle rear-ends a car",
+      "A car driver makes a LEFT TURN in front of an oncoming motorcycle",
+      "A motorcycle passes on the shoulder",
+      "A car backs into a parked motorcycle"
+    ],
+    "answerIndex": 1,
+    "explanation": "Nearly 60% of motorcycle intersection crashes are caused by another vehicle turning left in front of the rider. Motorcycles are small and their speed is hard to judge — always take a second look before turning left.",
+    "citation": "AR Driver License Study Guide, p. 69 — Situations When Crashes Are Most Likely",
+    "difficulty": 2
+  }
+]

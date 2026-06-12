@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect x="14" y="14" width="92" height="92" rx="10" transform="rotate(45 60 60)" fill="#e8741e" stroke="#000" stroke-width="3"/>
+  <text x="60" y="50" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">ROAD</text>
+  <text x="60" y="68" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">WORK</text>
+  <text x="60" y="86" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#000" text-anchor="middle">AHEAD</text>
+</svg>

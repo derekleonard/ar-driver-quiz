@@ -1,0 +1,112 @@
+[
+  {
+    "id": "spd-001",
+    "topic": "speed-following",
+    "question": "If a county judge has not set a speed limit on an Arkansas county road, the speed limit is:",
+    "choices": ["30 mph", "40 mph", "45 mph", "55 mph"],
+    "answerIndex": 1,
+    "explanation": "Unposted county roads in Arkansas default to 40 mph. Going more than 15 mph over a county-road limit is a Class C misdemeanor.",
+    "citation": "AR Driver License Study Guide, p. 26 — Speed Limits on County Roads (27-51-216)",
+    "difficulty": 3
+  },
+  {
+    "id": "spd-002",
+    "topic": "speed-following",
+    "question": "Speed limits are posted for ideal conditions. In rain, ice, or heavy traffic you must:",
+    "choices": [
+      "Always drive exactly the posted limit",
+      "Slow to a safe speed — you can be ticketed for driving the limit if it's too fast for conditions",
+      "Keep up with the flow of traffic no matter what",
+      "Turn on hazard flashers and continue at the limit"
+    ],
+    "answerIndex": 1,
+    "explanation": "Drivers must adjust to current conditions. Even at the posted limit, you can get a ticket for traveling too fast for the conditions.",
+    "citation": "AR Driver License Study Guide, p. 58 — Speed Limits",
+    "difficulty": 1
+  },
+  {
+    "id": "spd-003",
+    "topic": "speed-following",
+    "question": "About how many feet does it take an average passenger car traveling 55 mph to come to a complete stop?",
+    "choices": ["100 feet", "150 feet", "225 feet", "335 feet"],
+    "answerIndex": 2,
+    "explanation": "An average car at 55 mph needs about 225 feet of total stopping distance (reaction + braking). A loaded tractor-trailer needs more than 335 feet — the length of a football field.",
+    "citation": "AR Driver License Study Guide, p. 54 — Adjusting the Vehicle Speed",
+    "difficulty": 3
+  },
+  {
+    "id": "spd-004",
+    "topic": "speed-following",
+    "question": "At night you should drive at a speed that lets you stop within the distance your headlights show you — about:",
+    "choices": [
+      "100 feet, or 30 mph",
+      "400 feet, which means around 50 mph",
+      "1,000 feet at any speed",
+      "Headlights don't affect safe speed"
+    ],
+    "answerIndex": 1,
+    "explanation": "Headlights let you see about 400 feet ahead. Drive at a speed that allows you to stop within that distance — around 50 mph. In rain or fog with under 200 feet of visibility, keep it to 30 mph or less.",
+    "citation": "AR Driver License Study Guide, p. 58 — Visibility and Reaction (Darkness)",
+    "difficulty": 3
+  },
+  {
+    "id": "spd-005",
+    "topic": "speed-following",
+    "question": "What rule does Arkansas teach for checking your following distance behind the car ahead?",
+    "choices": [
+      "One car length per 10 mph",
+      "The two-second rule — count from when the car ahead passes a fixed point until you reach it",
+      "Stay close enough to read their license plate",
+      "The five-second rule at all times"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use the two-second rule: when the rear of the vehicle ahead passes a stationary point, count 'one-thousand-one, one-thousand-two.' If you pass the point before you finish, you're too close. Use four seconds in bad conditions.",
+    "citation": "AR Driver License Study Guide, p. 59 — Following Distance",
+    "difficulty": 1
+  },
+  {
+    "id": "spd-006",
+    "topic": "speed-following",
+    "question": "Another driver is tailgating you on a multi-lane road. The best response is to:",
+    "choices": [
+      "Brake hard to warn them off",
+      "Speed up to create space",
+      "Move into the lane to your right when it is clear and let them pass",
+      "Tap your brakes repeatedly"
+    ],
+    "answerIndex": 2,
+    "explanation": "Never slow down too quickly to discourage a tailgater — it increases the risk of being hit from behind. Move right and let them by; with no right lane, wait until the path ahead is clear and reduce speed gradually.",
+    "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Being Tailgated)",
+    "difficulty": 1
+  },
+  {
+    "id": "spd-007",
+    "topic": "speed-following",
+    "question": "Going much slower than the other traffic on a road:",
+    "choices": [
+      "Is always the safest choice",
+      "Causes traffic to back up and can be just as bad as speeding — pull over and let vehicles pass",
+      "Is required at night",
+      "Is illegal under all circumstances"
+    ],
+    "answerIndex": 1,
+    "explanation": "The safest speed in traffic is the same speed as other vehicles. If cars accumulate behind you, pull over and allow them to pass.",
+    "citation": "AR Driver License Study Guide, p. 56 — Adjusting to the Flow of Traffic",
+    "difficulty": 2
+  },
+  {
+    "id": "spd-008",
+    "topic": "speed-following",
+    "question": "When merging onto an interstate highway, your speed should be:",
+    "choices": [
+      "Well below the speed limit to stay safe",
+      "The same speed as the other traffic — use the ramp to build up speed",
+      "As fast as possible to get ahead of traffic",
+      "Exactly 45 mph"
+    ],
+    "answerIndex": 1,
+    "explanation": "Enter at the same speed as traffic. Use the ramp to reach traffic speed, never drive to the end of the ramp and stop, and check your blind spot over your shoulder before merging. You need about a four-second gap.",
+    "citation": "AR Driver License Study Guide, p. 56 — Merging With Traffic",
+    "difficulty": 2
+  }
+]

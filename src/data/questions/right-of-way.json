@@ -1,0 +1,152 @@
+[
+  {
+    "id": "row-001",
+    "topic": "right-of-way",
+    "question": "Two cars reach an intersection with no signs or signals at the same time. Who must yield?",
+    "choices": [
+      "The driver on the left yields to the driver on the right",
+      "The driver on the right yields to the driver on the left",
+      "The faster vehicle goes first",
+      "Both must stop and wave each other through"
+    ],
+    "answerIndex": 0,
+    "explanation": "At an intersection with no stop sign or signal, drivers must yield to vehicles approaching from the right.",
+    "citation": "AR Driver License Study Guide, p. 39 — Right of Way at Stop Signs",
+    "difficulty": 2
+  },
+  {
+    "id": "row-002",
+    "topic": "right-of-way",
+    "question": "You are turning left at an intersection with a green light. Oncoming traffic is approaching. You must:",
+    "choices": [
+      "Turn quickly before the oncoming cars arrive",
+      "Yield to the oncoming cars traveling straight ahead and turn only when the gap is safe",
+      "Stop in the intersection and wait for the light to turn red",
+      "Honk to claim the right-of-way"
+    ],
+    "answerIndex": 1,
+    "explanation": "Drivers turning left must yield to oncoming cars traveling straight ahead. When two vehicles face each other and one is turning left, the one going straight goes first.",
+    "citation": "AR Driver License Study Guide, p. 35, 39 — Right of Way (Left Turns)",
+    "difficulty": 1
+  },
+  {
+    "id": "row-003",
+    "topic": "right-of-way",
+    "question": "At a 4-WAY or ALL-WAY stop, who goes first?",
+    "choices": [
+      "The driver who reached the intersection first, after making a complete stop",
+      "The car on the busiest road",
+      "The largest vehicle",
+      "The car turning left"
+    ],
+    "answerIndex": 0,
+    "explanation": "First to stop = first to go. If two arrive at the same time, the vehicle on the right goes first. And when in doubt, let the other traffic go ahead — your safety comes first.",
+    "citation": "AR Driver License Study Guide, p. 39-40 — Right of Way at Stop Signs",
+    "difficulty": 1
+  },
+  {
+    "id": "row-004",
+    "topic": "right-of-way",
+    "question": "An ambulance approaches with lights and siren on while you are in an intersection. You should:",
+    "choices": [
+      "Stop immediately where you are",
+      "Drive through the intersection first, then pull to the right edge of the road and stop",
+      "Speed up to get away from it",
+      "Move to the left lane"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pull to the right edge of the road and stop for emergency vehicles using lights/siren — but if you're in an intersection, go ahead and drive through it before pulling over.",
+    "citation": "AR Driver License Study Guide, p. 11 — Move Over Law / Emergency Vehicles",
+    "difficulty": 2
+  },
+  {
+    "id": "row-005",
+    "topic": "right-of-way",
+    "question": "You are entering a road from a driveway, alley, or parking lot. Who has the right-of-way?",
+    "choices": [
+      "You, because you are entering traffic",
+      "Pedestrians on the sidewalk AND all vehicles already on the main road",
+      "Whoever is moving faster",
+      "Vehicles on the road, but not pedestrians"
+    ],
+    "answerIndex": 1,
+    "explanation": "Drivers crossing a sidewalk from a driveway, alley, or parking lot must yield to pedestrians, and drivers entering a road must yield to vehicles already on it.",
+    "citation": "AR Driver License Study Guide, p. 40 — General Right of Way Rules",
+    "difficulty": 1
+  },
+  {
+    "id": "row-006",
+    "topic": "right-of-way",
+    "question": "A pedestrian is crossing in a crosswalk. You must:",
+    "choices": [
+      "Slow down and steer around them",
+      "Honk so they hurry across",
+      "Yield — a driver must yield to pedestrians in or about to enter a crosswalk",
+      "Proceed if they are still on the other half of the street"
+    ],
+    "answerIndex": 2,
+    "explanation": "Drivers must yield to pedestrians in or about to enter a crosswalk — and not all crosswalks are marked. Watch for pedestrians at every intersection.",
+    "citation": "AR Driver License Study Guide, p. 34-35 — Crosswalks / Pedestrians",
+    "difficulty": 1
+  },
+  {
+    "id": "row-007",
+    "topic": "right-of-way",
+    "question": "When entering a roundabout, you must:",
+    "choices": [
+      "Yield to traffic in ALL lanes of the roundabout, not just the lane closest to you",
+      "Stop completely before entering, always",
+      "Enter quickly — circulating traffic yields to you",
+      "Yield only to traffic entering from your right"
+    ],
+    "answerIndex": 0,
+    "explanation": "Slow down, and yield to traffic already circulating — in all lanes of the roundabout. Traffic travels counterclockwise around the center island. Arkansas has over 170 roundabouts.",
+    "citation": "AR Driver License Study Guide, p. 36-38 — Roundabouts",
+    "difficulty": 2
+  },
+  {
+    "id": "row-008",
+    "topic": "right-of-way",
+    "question": "Even with a green light, you should not start across an intersection unless:",
+    "choices": [
+      "You can get through it without having to stop and block traffic",
+      "The driver behind you honks",
+      "You are turning right",
+      "Traffic is heavy"
+    ],
+    "answerIndex": 0,
+    "explanation": "Drivers may not enter an intersection unless they can get through without stopping. Getting caught when the light changes blocks cross traffic — and you can be ticketed for blocking an intersection.",
+    "citation": "AR Driver License Study Guide, p. 40, 61 — General Right of Way / Intersecting Traffic",
+    "difficulty": 2
+  },
+  {
+    "id": "row-009",
+    "topic": "right-of-way",
+    "question": "A pedestrian carrying a white cane or using a guide dog is crossing ahead. They have:",
+    "choices": [
+      "The same right-of-way as any pedestrian",
+      "Absolute right-of-way — and do not use your horn, which could confuse or frighten them",
+      "Right-of-way only in marked crosswalks",
+      "No special right-of-way"
+    ],
+    "answerIndex": 1,
+    "explanation": "Blind pedestrians using a guide dog or white cane have ABSOLUTE right-of-way. Never honk at them — it can confuse or frighten a blind pedestrian.",
+    "citation": "AR Driver License Study Guide, p. 35 — Pedestrians",
+    "difficulty": 2
+  },
+  {
+    "id": "row-010",
+    "topic": "right-of-way",
+    "question": "You are passing another vehicle when it slows down ahead of you. Who must yield?",
+    "choices": [
+      "You — the passing driver must yield to the vehicle being passed",
+      "The vehicle being passed must speed up",
+      "Neither vehicle",
+      "The vehicle being passed must pull onto the shoulder"
+    ],
+    "answerIndex": 0,
+    "explanation": "Drivers passing a vehicle going the same direction must yield to the vehicle being passed — even if it slows or stops, since it may be turning left or avoiding a hazard you can't see.",
+    "citation": "AR Driver License Study Guide, p. 40 — General Right of Way Rules (Passing)",
+    "difficulty": 3
+  }
+]
