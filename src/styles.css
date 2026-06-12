@@ -196,6 +196,7 @@ h2 {
 
 .sign-img {
   max-height: 130px;
+  max-width: 100%;
   align-self: center;
 }
 
