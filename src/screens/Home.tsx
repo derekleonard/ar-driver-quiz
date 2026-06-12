@@ -1,15 +1,19 @@
 import { Link } from "react-router-dom";
 import { BANK, BANK_IDS } from "../data/bank";
 import { readinessScore, topicStatsFromAttempts } from "../lib/scoring";
+import { studyStreak } from "../lib/streak";
 import { useAppData } from "../state/AppData";
 import { TOPICS, TOPIC_LABELS } from "../types";
 
 export default function Home() {
-  const { srs, attempts, mode, userName, signOut } = useAppData();
+  const { srs, attempts, mode, role, userName, signOut } = useAppData();
   const readiness = readinessScore(srs, BANK_IDS, attempts);
   const stats = topicStatsFromAttempts(attempts);
   const exams = attempts.filter((a) => a.mode === "exam");
   const lastExams = exams.slice(-5).reverse();
+  const streak = studyStreak(attempts, Date.now());
+  const now = Date.now();
+  const dueCount = BANK.filter((q) => srs[q.id] && srs[q.id].due <= now).length;
 
   const counts = new Map<string, number>();
   for (const q of BANK) counts.set(q.topic, (counts.get(q.topic) ?? 0) + 1);
@@ -31,8 +35,15 @@ export default function Home() {
           <span className="readiness-hint">
             {readiness >= 85 ? "You're ready — go pass it!" : readiness >= 60 ? "Getting close. Drill your weak topics." : "Keep practicing — focus on drills."}
           </span>
+          {streak > 1 && <span className="streak">🔥 {streak}-day streak</span>}
         </div>
       </div>
+
+      {role === "parent" && (
+        <Link className="btn" to="/dashboard">
+          Family Dashboard
+        </Link>
+      )}
 
       {attempts.length === 0 && (
         <Link className="btn primary" to="/diagnostic">
@@ -40,7 +51,16 @@ export default function Home() {
         </Link>
       )}
 
-      <Link className={`btn ${attempts.length === 0 ? "" : "primary"}`} to="/exam">
+      {dueCount > 0 && (
+        <Link className="btn primary" to="/review">
+          Review {Math.min(dueCount, 15)} due question{dueCount === 1 ? "" : "s"}
+        </Link>
+      )}
+
+      <Link
+        className={`btn ${attempts.length === 0 || dueCount > 0 ? "" : "primary"}`}
+        to="/exam"
+      >
         Take a Practice Exam (25 questions)
       </Link>
 

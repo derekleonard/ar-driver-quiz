@@ -113,5 +113,90 @@
     "explanation": "Never make a U-turn where signs prohibit it, on curves or hillcrests where others can't see you, or where you can't see oncoming traffic clearly.",
     "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs (No U-Turn)",
     "difficulty": 2
+  },
+  {
+    "id": "trn-009",
+    "topic": "turning-parking",
+    "question": "When parallel parking, your vehicle should be no more than ____ from the curb.",
+    "choices": ["6 inches", "12 inches", "18 inches", "24 inches"],
+    "answerIndex": 2,
+    "explanation": "Park within 18 inches of the curb — parking farther out than 18 inches is on the Do-Not-Park list.",
+    "citation": "AR Driver License Study Guide, p. 41-42 — Parking Tips / Do Not Park",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-010",
+    "topic": "turning-parking",
+    "question": "Before leaving a parked car on a hill, Arkansas requires you to:",
+    "choices": [
+      "Leave the transmission in neutral",
+      "Set the parking brake AND turn the wheels to the curb or side of the highway",
+      "Leave the engine running",
+      "Park only on flat ground"
+    ],
+    "answerIndex": 1,
+    "explanation": "No driver may leave a vehicle unattended on a grade without setting the parking brake and turning the wheels to the curb or side of the highway. Also leave it in 'park' (or in gear with a manual).",
+    "citation": "AR Driver License Study Guide, p. 41 — Parking Tips",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-011",
+    "topic": "turning-parking",
+    "question": "Which of these is on Arkansas's DO-NOT-PARK list?",
+    "choices": [
+      "On a bridge, overpass, tunnel, or underpass",
+      "Within 100 feet of any intersection",
+      "On any street after dark",
+      "Within 5 feet of a driveway"
+    ],
+    "answerIndex": 0,
+    "explanation": "Never park on bridges, overpasses, or in tunnels/underpasses — or in intersections, on railroad tracks, beside another parked car (double parking), or blocking driveways or lowered curbs.",
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park",
+    "difficulty": 2
+  },
+  {
+    "id": "trn-012",
+    "topic": "turning-parking",
+    "question": "Parking alongside another vehicle that is parked at the curb (double parking) is:",
+    "choices": [
+      "Allowed for quick deliveries",
+      "Allowed with hazard lights on",
+      "Prohibited",
+      "Allowed for less than 5 minutes"
+    ],
+    "answerIndex": 2,
+    "explanation": "Double parking is on the Do-Not-Park list — it blocks a travel lane and traps the parked car.",
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park",
+    "difficulty": 1
+  },
+  {
+    "id": "trn-013",
+    "topic": "turning-parking",
+    "question": "You plan to turn into a driveway just BEYOND an intersection. When should you signal?",
+    "choices": [
+      "At least 100 feet before the intersection",
+      "Just after you pass through the intersection — signaling earlier could make drivers think you're turning at the intersection",
+      "Don't signal for driveways",
+      "As you begin the turn"
+    ],
+    "answerIndex": 1,
+    "explanation": "Signal just after passing through the intersection. An early signal misleads other drivers — including anyone waiting to pull out between you and your turn.",
+    "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions",
+    "difficulty": 3
+  },
+  {
+    "id": "trn-014",
+    "topic": "turning-parking",
+    "question": "After you complete a turn or lane change, you should:",
+    "choices": [
+      "Leave the signal on for the next turn",
+      "Turn your signal off — a false turn signal is unsafe",
+      "Flash your hazards once",
+      "Tap the brake pedal"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cancel your signal after every turn or lane change. A signal left on tells other drivers a turn is coming that isn't — and they may pull out in front of you.",
+    "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions",
+    "difficulty": 1
   }
 ]

@@ -306,5 +306,200 @@
     "citation": "AR Driver License Study Guide, p. 25 — Speed Limit Sign",
     "image": "signs/speed-limit-50.svg",
     "difficulty": 1
+  },
+  {
+    "id": "signs-021",
+    "topic": "signs-signals-markings",
+    "question": "A steady RED arrow on a traffic light means:",
+    "choices": [
+      "Turn quickly before cross traffic starts",
+      "Stop — you may not turn in the direction of the arrow",
+      "Yield, then turn if clear",
+      "The signal is broken"
+    ],
+    "answerIndex": 1,
+    "explanation": "A steady red arrow means stop: turning in the arrow's direction is not allowed until the arrow changes.",
+    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-022",
+    "topic": "signs-signals-markings",
+    "question": "A FLASHING yellow arrow means:",
+    "choices": [
+      "Left turns are protected — oncoming traffic must stop",
+      "Left turns are permitted, but you must yield to oncoming traffic and pedestrians first",
+      "No left turns allowed",
+      "The signal is about to turn green"
+    ],
+    "answerIndex": 1,
+    "explanation": "Flashing yellow arrow = turns permitted but NOT protected: yield to oncoming traffic and pedestrians, then proceed with caution. A steady GREEN arrow is the protected turn.",
+    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-023",
+    "topic": "signs-signals-markings",
+    "question": "A GREEN arrow on a traffic light means:",
+    "choices": [
+      "You may turn in the direction of the arrow — the turn is protected and opposing traffic must stop",
+      "Yield to oncoming traffic before turning",
+      "Pedestrians have the signal",
+      "Go straight only"
+    ],
+    "answerIndex": 0,
+    "explanation": "A green arrow is a protected turn: opposing traffic is stopped. Still check that the intersection is clear before turning.",
+    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-024",
+    "topic": "signs-signals-markings",
+    "question": "A steady YELLOW traffic light means:",
+    "choices": [
+      "Speed up before it turns red",
+      "The signal is changing from green to red — stop if it is safe to do so",
+      "Proceed with caution without slowing",
+      "Pedestrians may cross"
+    ],
+    "answerIndex": 1,
+    "explanation": "Steady yellow = the light is about to turn red. Stop if you can do so safely. If you are already stopped at the line, you may not proceed.",
+    "citation": "AR Driver License Study Guide, p. 23 — Lighted Traffic Signals",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-025",
+    "topic": "signs-signals-markings",
+    "question": "Before turning right at a red light, you must:",
+    "choices": [
+      "Slow down and merge",
+      "Come to a complete stop, check for traffic and pedestrians, and make sure no sign prohibits the turn",
+      "Honk and proceed",
+      "Wait for green — right on red is illegal in Arkansas"
+    ],
+    "answerIndex": 1,
+    "explanation": "Right on red is legal in Arkansas after a complete stop and a check for opposing traffic and pedestrians — unless a sign says NO RIGHT TURN ON RED. Never stop or block a crosswalk.",
+    "citation": "AR Driver License Study Guide, p. 25 — Right on Red Rule",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-026",
+    "topic": "signs-signals-markings",
+    "question": "The white X-shaped CROSSBUCK sign at railroad tracks requires you to:",
+    "choices": [
+      "Stop completely, always",
+      "Yield the right-of-way to the train",
+      "Honk before crossing",
+      "Slow to exactly 15 mph"
+    ],
+    "answerIndex": 1,
+    "explanation": "The crossbuck marks the crossing itself and works like a yield sign: yield the right-of-way to any train. Failing to yield at a yield sign can mean a fine up to $1,000 and a 180-day license suspension.",
+    "citation": "AR Driver License Study Guide, p. 28 — Cross Buck Sign",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-027",
+    "topic": "signs-signals-markings",
+    "question": "An EXEMPT sign below a railroad crossbuck means:",
+    "choices": [
+      "Trucks are exempt from stopping",
+      "The crossing has been abandoned or its use discontinued",
+      "Trains do not blow horns here",
+      "School buses may cross without stopping"
+    ],
+    "answerIndex": 1,
+    "explanation": "EXEMPT marks a crossing that has been abandoned or taken out of service. Follow your local procedure about stopping.",
+    "citation": "AR Driver License Study Guide, p. 29 — Railroad (Exempt) Signs",
+    "difficulty": 3
+  },
+  {
+    "id": "signs-028",
+    "topic": "signs-signals-markings",
+    "question": "A small sign under a railroad crossbuck reads '2 TRACKS'. This warns you:",
+    "choices": [
+      "Two trains per day use this crossing",
+      "There is more than one track — after one train passes, another may be coming from either direction",
+      "The crossing is two miles long",
+      "Trucks must use the second track crossing"
+    ],
+    "answerIndex": 1,
+    "explanation": "The number sign tells how many tracks are present. Cross multiple tracks only when any train is well down the tracks — a second train can be hidden behind the first.",
+    "citation": "AR Driver License Study Guide, p. 30 — Multiple Tracks",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-029",
+    "topic": "signs-signals-markings",
+    "question": "A curb painted RED means:",
+    "choices": [
+      "Loading zone",
+      "Fire zone — no parking",
+      "15-minute parking",
+      "Handicapped parking"
+    ],
+    "answerIndex": 1,
+    "explanation": "Red curb = fire zone. Yellow curb = loading zone or other restriction. Always check for signs that limit parking.",
+    "citation": "AR Driver License Study Guide, p. 42 — Restricted Parking Zones",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-030",
+    "topic": "signs-signals-markings",
+    "question": "A white sign showing an arrow inside a red circle with a slash through it means:",
+    "choices": [
+      "The maneuver shown is recommended",
+      "The maneuver shown (such as that turn) is prohibited",
+      "One-way traffic",
+      "Detour ahead"
+    ],
+    "answerIndex": 1,
+    "explanation": "Regulation signs with the red circle-and-slash prohibit the maneuver shown — no left turn, no right turn, no U-turn.",
+    "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-031",
+    "topic": "signs-signals-markings",
+    "question": "The solid white line along the right edge of the roadway (the 'fog line') shows:",
+    "choices": [
+      "Where the outer edge of the road is located",
+      "A lane reserved for bicycles",
+      "Where parking is allowed",
+      "The center of the road"
+    ],
+    "answerIndex": 0,
+    "explanation": "The fog line marks the outer edge of the roadway — especially useful at night and in rain or fog. Never drive on the shoulder beyond it unless directed by police.",
+    "citation": "AR Driver License Study Guide, p. 31 — Fog Line and Lane Lines",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-032",
+    "topic": "signs-signals-markings",
+    "question": "The center of a two-way road has a solid yellow line next to a broken yellow line. Passing is permitted:",
+    "choices": [
+      "For traffic on the side with the broken line, when there is no opposing traffic",
+      "For traffic on the side with the solid line",
+      "For both directions",
+      "For neither direction"
+    ],
+    "answerIndex": 0,
+    "explanation": "Passing is permitted on the side with the BROKEN line and prohibited on the side with the solid line. A double solid yellow line means no passing either direction.",
+    "citation": "AR Driver License Study Guide, p. 31 — Yellow Lane Markings",
+    "difficulty": 2
+  },
+  {
+    "id": "signs-033",
+    "topic": "signs-signals-markings",
+    "question": "In a work zone, a flagger holds a STOP/SLOW paddle. The flagger's instructions:",
+    "choices": [
+      "Are suggestions — the posted signs control",
+      "Overrule any other traffic signals or devices",
+      "Apply only to trucks",
+      "Apply only when workers are present"
+    ],
+    "answerIndex": 1,
+    "explanation": "Flaggers are legally authorized to direct traffic in work zones — their signals overrule other traffic signals and devices. Stop at the designated spot or at least a car length away.",
+    "citation": "AR Driver License Study Guide, p. 22 — Work Zone Flaggers",
+    "difficulty": 1
   }
 ]

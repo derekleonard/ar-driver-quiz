@@ -148,5 +148,65 @@
     "explanation": "Drivers passing a vehicle going the same direction must yield to the vehicle being passed — even if it slows or stops, since it may be turning left or avoiding a hazard you can't see.",
     "citation": "AR Driver License Study Guide, p. 40 — General Right of Way Rules (Passing)",
     "difficulty": 3
+  },
+  {
+    "id": "row-011",
+    "topic": "right-of-way",
+    "question": "Driving on a sidewalk is:",
+    "choices": [
+      "Allowed when traffic is heavy",
+      "Illegal, except to cross it — and you must yield to pedestrians when crossing",
+      "Allowed for parking",
+      "Allowed for motorcycles only"
+    ],
+    "answerIndex": 1,
+    "explanation": "It is illegal to drive on a sidewalk except to cross it (at a driveway or alley), and pedestrians on the sidewalk always have the right-of-way.",
+    "citation": "AR Driver License Study Guide, p. 40 — General Right of Way Rules",
+    "difficulty": 1
+  },
+  {
+    "id": "row-012",
+    "topic": "right-of-way",
+    "question": "In a two-lane roundabout, to turn LEFT you should generally:",
+    "choices": [
+      "Use the left lane, unless signs or markings say otherwise",
+      "Use the right lane",
+      "Use either lane",
+      "Avoid roundabouts when turning left"
+    ],
+    "answerIndex": 0,
+    "explanation": "Like other intersections: left lane to go left, right lane to go right, either lane to go straight unless marked otherwise. Yield to traffic in ALL lanes before entering, and give trucks extra room inside.",
+    "citation": "AR Driver License Study Guide, p. 38 — How to Navigate Roundabouts",
+    "difficulty": 3
+  },
+  {
+    "id": "row-013",
+    "topic": "right-of-way",
+    "question": "An oncoming car has its turn signal on. You should turn in front of it only when:",
+    "choices": [
+      "You see its signal",
+      "The driver actually starts the turn — signals can be left on by mistake, and motorcycle signals don't cancel automatically",
+      "It is more than 100 feet away",
+      "You are at a 4-way stop"
+    ],
+    "answerIndex": 1,
+    "explanation": "Don't trust a blinker alone — the driver may mean a turn beyond you or forgot to cancel the signal. Wait until they actually begin turning.",
+    "citation": "AR Driver License Study Guide, p. 61 — Intersecting Traffic",
+    "difficulty": 2
+  },
+  {
+    "id": "row-014",
+    "topic": "right-of-way",
+    "question": "Right-of-way rules give a driver:",
+    "choices": [
+      "Absolute right-of-way when followed",
+      "No absolute right-of-way — you must still do everything possible to avoid striking a pedestrian or vehicle",
+      "Priority over pedestrians",
+      "The right to proceed without looking"
+    ],
+    "answerIndex": 1,
+    "explanation": "Traffic law determines who must YIELD — it never grants absolute right-of-way. When in doubt, let the other traffic go ahead; your safety comes first.",
+    "citation": "AR Driver License Study Guide, p. 35, 39 — Right of Way",
+    "difficulty": 2
   }
 ]

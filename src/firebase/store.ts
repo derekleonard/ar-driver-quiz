@@ -60,17 +60,44 @@ export async function addAttemptDoc(uid: string, attempt: Attempt): Promise<void
   await addDoc(collection(db!, "users", uid, "attempts"), attempt);
 }
 
+export interface UserSummary {
+  readiness: number;
+  streak: number;
+  topicMastery: Record<string, number>;
+  lastExam?: { score: number; total: number; passed: boolean; at: number };
+}
+
+export interface FamilyUser {
+  uid: string;
+  email: string;
+  displayName: string;
+  role: "parent" | "student";
+  lastActive: number | null;
+  summary?: UserSummary;
+}
+
 export async function updateSummary(
   uid: string,
-  summary: {
-    readiness: number;
-    topicMastery: Record<string, number>;
-    lastExam?: { score: number; total: number; passed: boolean; at: number };
-  },
+  summary: UserSummary,
 ): Promise<void> {
   await setDoc(
     doc(db!, "users", uid),
     { summary, lastActive: serverTimestamp() },
     { merge: true },
   );
+}
+
+export async function fetchFamily(): Promise<FamilyUser[]> {
+  const snap = await getDocs(collection(db!, "users"));
+  return snap.docs.map((d) => {
+    const data = d.data();
+    return {
+      uid: d.id,
+      email: data.email ?? "",
+      displayName: data.displayName ?? data.email ?? d.id,
+      role: data.role ?? "student",
+      lastActive: data.lastActive?.toMillis?.() ?? null,
+      summary: data.summary,
+    };
+  });
 }

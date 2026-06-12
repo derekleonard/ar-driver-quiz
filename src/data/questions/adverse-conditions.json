@@ -103,5 +103,95 @@
     "explanation": "Wet road: about 10 mph slower. Packed snow: cut your speed in half. Ice: slow to a coast — and if possible, don't drive at all when roads are icy. If glare ice forms, stop driving as soon as you safely can.",
     "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
     "difficulty": 3
+  },
+  {
+    "id": "adv-008",
+    "topic": "adverse-conditions",
+    "question": "Arkansas requires headlights on:",
+    "choices": [
+      "Only when it is completely dark",
+      "From 30 minutes after sunset to 30 minutes before sunrise, whenever you can't see a person or object clearly within 500 feet — and whenever your windshield wipers are needed",
+      "Only on highways at night",
+      "From sunset to sunrise only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Headlights: half an hour after sunset to half an hour before sunrise, anytime visibility drops below 500 feet, and by law whenever wipers are needed. Driving with only parking lights is illegal.",
+    "citation": "AR Driver License Study Guide, p. 51 — External Vehicle Lights",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-009",
+    "topic": "adverse-conditions",
+    "question": "When should you use your HIGH beams?",
+    "choices": [
+      "In fog and heavy rain",
+      "Whenever there are no oncoming vehicles — they let you see twice as far as low beams",
+      "Only on the interstate",
+      "When following another car closely"
+    ],
+    "answerIndex": 1,
+    "explanation": "High beams let you see twice as far — use them on unfamiliar roads, in construction zones, and wherever no one is oncoming. Dim within 500 feet of oncoming traffic and use low beams within 200 feet of a car you're following.",
+    "citation": "AR Driver License Study Guide, p. 51 — High and Low Beam Headlights",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-010",
+    "topic": "adverse-conditions",
+    "question": "Rain starts falling on a hot day. The pavement is especially slippery:",
+    "choices": [
+      "After it has rained for an hour",
+      "For the first few minutes, while heat-drawn oil sits on the surface before rain washes it away",
+      "Only in puddles",
+      "Hot-day rain doesn't affect traction"
+    ],
+    "answerIndex": 1,
+    "explanation": "Heat brings the asphalt's oil to the surface; the first minutes of rain float on that oil film until it washes off. Slow down right when rain begins.",
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
+    "difficulty": 3
+  },
+  {
+    "id": "adv-011",
+    "topic": "adverse-conditions",
+    "question": "Your brakes suddenly stop working. The FIRST thing to try is:",
+    "choices": [
+      "Pumping the brake pedal several times to build up pressure",
+      "Jumping out of the vehicle",
+      "Turning off the engine",
+      "Swerving side to side"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pump the pedal first — it often builds enough pressure to stop. If not, apply the parking brake slowly (ready to release if you skid), then shift to lower gears and find a safe place to slow to a stop.",
+    "citation": "AR Driver License Study Guide, p. 77 — Brake Failure",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-012",
+    "topic": "adverse-conditions",
+    "question": "Your accelerator sticks and the engine keeps running faster. You should:",
+    "choices": [
+      "Turn the key off immediately while moving fast",
+      "Keep your eyes on the road, quickly shift to NEUTRAL, pull off the road, then turn off the engine",
+      "Pump the gas pedal hard",
+      "Pull the parking brake at full speed"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shift to neutral first — that disconnects the engine from the wheels — then steer off the road and shut the engine down.",
+    "citation": "AR Driver License Study Guide, p. 77 — Faulty Accelerator",
+    "difficulty": 2
+  },
+  {
+    "id": "adv-013",
+    "topic": "adverse-conditions",
+    "question": "To stop quickly in a vehicle WITH antilock brakes (ABS):",
+    "choices": [
+      "Pump the brakes rapidly",
+      "Press the brake pedal as hard as you can and KEEP pressing — don't let up even if the pedal pushes back",
+      "Brake gently to avoid skidding",
+      "Use the parking brake"
+    ],
+    "answerIndex": 1,
+    "explanation": "With ABS: press hard and hold — the pulsing pedal is the system working. Without ABS: brake hard, and if the wheels lock, let up and reapply.",
+    "citation": "AR Driver License Study Guide, p. 78 — Stopping (With ABS)",
+    "difficulty": 2
   }
 ]

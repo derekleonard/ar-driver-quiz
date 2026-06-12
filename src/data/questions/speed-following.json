@@ -108,5 +108,115 @@
     "explanation": "Enter at the same speed as traffic. Use the ramp to reach traffic speed, never drive to the end of the ramp and stop, and check your blind spot over your shoulder before merging. You need about a four-second gap.",
     "citation": "AR Driver License Study Guide, p. 56 — Merging With Traffic",
     "difficulty": 2
+  },
+  {
+    "id": "spd-009",
+    "topic": "speed-following",
+    "question": "The 'Four Second Sight Distance Rule' tells you to:",
+    "choices": [
+      "Always follow four car lengths behind",
+      "Pick a stationary object as far ahead as you can clearly see — if you reach it before counting to four, you're driving too fast for the distance you can see",
+      "Wait four seconds at every stop sign",
+      "Pass within four seconds"
+    ],
+    "answerIndex": 1,
+    "explanation": "Never drive faster than the distance you can see. Count one-one-thousand to four-one-thousand toward the farthest object you can clearly see; reaching it early means slow down. At night, use it with your headlights.",
+    "citation": "AR Driver License Study Guide, p. 58 — Sight-Distance Rule",
+    "difficulty": 2
+  },
+  {
+    "id": "spd-010",
+    "topic": "speed-following",
+    "question": "If rain or fog keeps you from seeing more than 200 feet ahead, you should drive no faster than:",
+    "choices": ["50 mph", "45 mph", "30 mph", "20 mph"],
+    "answerIndex": 2,
+    "explanation": "Under 200 feet of visibility → 30 mph or less. If you can't see the road ahead at all, pull over in a safe place and wait for the weather to clear.",
+    "citation": "AR Driver License Study Guide, p. 58 — Rain, Fog, or Snow",
+    "difficulty": 3
+  },
+  {
+    "id": "spd-011",
+    "topic": "speed-following",
+    "question": "When should you increase your following distance to FOUR seconds?",
+    "choices": [
+      "Only in school zones",
+      "On slippery roads, when towing, in poor visibility, or when following motorcycles or vehicles that block your view",
+      "Only on the interstate",
+      "Never — two seconds is always enough"
+    ],
+    "answerIndex": 1,
+    "explanation": "Two seconds is the minimum for ideal conditions. Use four when stopping takes longer or seeing ahead is harder: slippery roads, towing, bad weather, motorcycles ahead, or big vehicles blocking your view.",
+    "citation": "AR Driver License Study Guide, p. 59 — Distance and Reaction",
+    "difficulty": 2
+  },
+  {
+    "id": "spd-012",
+    "topic": "speed-following",
+    "question": "To pass safely at 55 mph on a two-lane road, you need a gap in oncoming traffic of about:",
+    "choices": [
+      "3 seconds",
+      "5 seconds",
+      "10 seconds — you and the oncoming car will cover over 1,600 feet (1/3 mile)",
+      "30 seconds"
+    ],
+    "answerIndex": 2,
+    "explanation": "At 55 mph you need about a 10-second gap and sight distance: combined, you and oncoming traffic travel over 1,600 feet — a third of a mile. If you're not sure there's time, wait.",
+    "citation": "AR Driver License Study Guide, p. 62 — Oncoming Vehicles",
+    "difficulty": 3
+  },
+  {
+    "id": "spd-013",
+    "topic": "speed-following",
+    "question": "You should never pass when you are within ____ of a hill or curve.",
+    "choices": ["100 feet", "1/3 of a mile", "1 mile", "500 feet"],
+    "answerIndex": 1,
+    "explanation": "Anytime a hill or curve blocks your view, assume an oncoming vehicle is there — never start a pass within 1/3 mile of a hill or curve.",
+    "citation": "AR Driver License Study Guide, p. 62 — Hills and Curves",
+    "difficulty": 2
+  },
+  {
+    "id": "spd-014",
+    "topic": "speed-following",
+    "question": "After passing at night, it is safe to return to the driving lane when:",
+    "choices": [
+      "You can see both headlights of the passed vehicle in your rear-view mirror",
+      "You have been in the passing lane for 5 seconds",
+      "The other driver flashes their lights",
+      "You are one car length ahead"
+    ],
+    "answerIndex": 0,
+    "explanation": "Leave enough room before pulling back in: at night, seeing both of the passed vehicle's headlights in your rear-view mirror means you have cleared it safely.",
+    "citation": "AR Driver License Study Guide, p. 63 — Lane Obstructions",
+    "difficulty": 2
+  },
+  {
+    "id": "spd-015",
+    "topic": "speed-following",
+    "question": "Arkansas law says the LEFT lane of a multilane highway may be used:",
+    "choices": [
+      "By any vehicle at any time",
+      "Only when passing, when other lanes are closed or unsafe, or when preparing to exit on the left",
+      "Only by cars, never trucks",
+      "Only at night"
+    ],
+    "answerIndex": 1,
+    "explanation": "Under 27-51-301, don't cruise in the left lane: it's for passing, for when other lanes are closed/undrivable, or when exiting left.",
+    "citation": "AR Driver License Study Guide, p. 63 — Left Lane for Passing Only",
+    "difficulty": 2
+  },
+  {
+    "id": "spd-016",
+    "topic": "speed-following",
+    "question": "When you need to cross several lanes of traffic, you should:",
+    "choices": [
+      "Cross them all at once to spend less time merging",
+      "Take one lane at a time",
+      "Wait until all lanes are empty",
+      "Use the shoulder"
+    ],
+    "answerIndex": 1,
+    "explanation": "Change one lane at a time, checking mirrors and blind spot for each move. Keep a four-second gap when merging or changing lanes.",
+    "citation": "AR Driver License Study Guide, p. 61 — Merging",
+    "difficulty": 1
   }
 ]

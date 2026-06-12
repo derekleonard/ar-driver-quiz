@@ -326,3 +326,70 @@ h2 {
 .diag-row .good { color: var(--green); }
 .diag-row .ok { color: var(--amber); }
 .diag-row .bad { color: var(--red); }
+
+.streak {
+  font-weight: 600;
+  color: var(--amber);
+  font-size: 0.9rem;
+}
+
+.kid-card {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.kid-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.kid-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.kid-active {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.kid-stats {
+  display: flex;
+  gap: 24px;
+}
+
+.kid-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kid-stat-num {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.kid-stat-label {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.kid-mastery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.mastery-chip {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 10px;
+  background: #eef1f5;
+}
+
+.mastery-chip.good { color: var(--green); background: #e8f5ec; }
+.mastery-chip.ok { color: var(--amber); background: #fdf6e3; }
+.mastery-chip.bad { color: var(--red); background: #fbeaec; }

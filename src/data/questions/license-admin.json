@@ -88,5 +88,85 @@
     "explanation": "Arkansas requires at least 20/70 vision in at least one eye, with or without corrective lenses. If you have a 'B' restriction, you must wear your corrective lenses while driving or you can be ticketed.",
     "citation": "AR Driver License Study Guide, p. 71 — Vision",
     "difficulty": 3
+  },
+  {
+    "id": "lic-007",
+    "topic": "license-admin",
+    "question": "After a crash with injury, death, or more than $3,000 damage to one person's property, you must file a report with the Office of Driver Services within:",
+    "choices": ["48 hours", "10 days", "30 days", "90 days"],
+    "answerIndex": 2,
+    "explanation": "File the accident report within 30 days (someone may file for you if you're injured). Separately, police must be notified immediately when there's injury, death, or damage over $1,000.",
+    "citation": "AR Driver License Study Guide, p. 81 — Keep a Record of Crash Information",
+    "difficulty": 3
+  },
+  {
+    "id": "lic-008",
+    "topic": "license-admin",
+    "question": "At a crash scene, you should move an injured person:",
+    "choices": [
+      "To the sidewalk right away",
+      "Only if they are in immediate danger, such as a burning vehicle",
+      "Into your car to drive them to the hospital",
+      "Whenever they ask"
+    ],
+    "answerIndex": 1,
+    "explanation": "Don't move the injured unless danger (like fire) forces it. Check breathing, apply direct pressure to bleeding, keep them warm to prevent shock, and don't give them anything to drink.",
+    "citation": "AR Driver License Study Guide, p. 81 — Assisting the Injured",
+    "difficulty": 2
+  },
+  {
+    "id": "lic-009",
+    "topic": "license-admin",
+    "question": "Emergency flashers (hazard lights) are for:",
+    "choices": [
+      "Driving in heavy rain",
+      "Warning others of an emergency, a broken-down vehicle, or that you're parked on the roadside",
+      "Parking anywhere you want",
+      "Following a funeral procession"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hazards warn other drivers of an emergency or a stopped/broken-down vehicle. In fog or rain, drive with low-beam headlights instead.",
+    "citation": "AR Driver License Study Guide, p. 52 — Emergency Flashers",
+    "difficulty": 1
+  },
+  {
+    "id": "lic-010",
+    "topic": "license-admin",
+    "question": "Arkansas law on smoking in vehicles makes it illegal to knowingly smoke tobacco in a car carrying:",
+    "choices": [
+      "Anyone under 18",
+      "A child under 14",
+      "More than 2 passengers",
+      "Any non-smoker"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Protection from Secondhand Smoke for Children Act (§20-27-1903) bans smoking in any motor vehicle in which a child under 14 is a passenger.",
+    "citation": "AR Driver License Study Guide, p. 9 — Protection from Secondhand Smoke",
+    "difficulty": 3
+  },
+  {
+    "id": "lic-011",
+    "topic": "license-admin",
+    "question": "Each written (knowledge) examination in Arkansas costs:",
+    "choices": ["Nothing", "$5.00", "$25.00", "$50.00"],
+    "answerIndex": 1,
+    "explanation": "Act 1289 of 2015 requires a $5 fee per written exam, collected with the license cost — another good reason to pass on the next try!",
+    "citation": "AR Driver License Study Guide, p. 1 — Introduction (Act 1289)",
+    "difficulty": 3
+  },
+  {
+    "id": "lic-012",
+    "topic": "license-admin",
+    "question": "If you have epilepsy, Arkansas allows you to drive if:",
+    "choices": [
+      "You never drive alone",
+      "You are under a doctor's care and have been seizure-free for one year",
+      "You drive only in daylight",
+      "Epilepsy always disqualifies you"
+    ],
+    "answerIndex": 1,
+    "explanation": "Epilepsy under medical control is usually not dangerous for driving: the standard is doctor's care plus one year seizure-free.",
+    "citation": "AR Driver License Study Guide, p. 72 — Health (Epilepsy)",
+    "difficulty": 3
   }
 ]

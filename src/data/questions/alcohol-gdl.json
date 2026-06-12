@@ -88,5 +88,85 @@
     "explanation": "Intermediate License holders are restricted for 6 months from permit issuance (or until requirements are met at 16): a licensed driver 21 or older must accompany them, all passengers must be belted, and no cell phone use is allowed.",
     "citation": "AR Driver License Study Guide, p. 3 — Intermediate License",
     "difficulty": 2
+  },
+  {
+    "id": "alc-008",
+    "topic": "alcohol-gdl",
+    "question": "One 'drink' is considered 1.5 oz of 80-proof liquor, a 6-oz glass of wine, or:",
+    "choices": [
+      "A 6-oz beer",
+      "A 12-oz beer",
+      "A 24-oz beer",
+      "Two 12-oz beers"
+    ],
+    "answerIndex": 1,
+    "explanation": "1.5 oz of liquor = 6 oz of wine = 12 oz of beer. Specialty drinks can equal several normal drinks. Even two drinks may cause impairment and can get you arrested.",
+    "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism",
+    "difficulty": 2
+  },
+  {
+    "id": "alc-009",
+    "topic": "alcohol-gdl",
+    "question": "The FIRST driving ability affected by alcohol is:",
+    "choices": ["Vision", "Judgment", "Reaction time", "Coordination"],
+    "answerIndex": 1,
+    "explanation": "Judgment goes first — which is exactly why people keep drinking past their limit and decide they're 'fine to drive.' By the time you feel the alcohol, your judgment is already severely affected.",
+    "citation": "AR Driver License Study Guide, p. 73-74 — Alcohol Impairment",
+    "difficulty": 2
+  },
+  {
+    "id": "alc-010",
+    "topic": "alcohol-gdl",
+    "question": "A first DWI conviction in Arkansas can bring:",
+    "choices": [
+      "Only a warning",
+      "A $150–$1,000 fine, up to one year in jail, and a 120-day license suspension",
+      "A $50 fine",
+      "Community service only"
+    ],
+    "answerIndex": 1,
+    "explanation": "First conviction: $150–$1,000 plus court costs, up to a year in jail, and a 120-day suspension. Penalties get much worse for repeat offenses.",
+    "citation": "AR Driver License Study Guide, p. 74 — Alcohol and the Law",
+    "difficulty": 3
+  },
+  {
+    "id": "alc-011",
+    "topic": "alcohol-gdl",
+    "question": "A person under 21 convicted of merely PURCHASING or POSSESSING alcohol (not driving):",
+    "choices": [
+      "Faces no driving consequences",
+      "Will have their driving privileges suspended, revoked, or disqualified",
+      "Gets a warning letter",
+      "Pays a $25 fine only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Under-21 alcohol purchase or possession costs your driving privileges in Arkansas — even with no car involved. Underage DUI itself can mean license revoked until 21 and a $2,000 fine.",
+    "citation": "AR Driver License Study Guide, p. 75 — Underage Driving Under the Influence",
+    "difficulty": 3
+  },
+  {
+    "id": "alc-012",
+    "topic": "alcohol-gdl",
+    "question": "An Arkansas Instruction Permit requires the driver to be at least 14, pass the knowledge and vision tests, and is valid for:",
+    "choices": ["6 months", "1 year", "2 years", "Until age 18"],
+    "answerIndex": 2,
+    "explanation": "The permit is issued for 2 years from the date of the passed knowledge exam. The permit holder must drive with a licensed driver 21+ in the seat beside them.",
+    "citation": "AR Driver License Study Guide, p. 3 — Instruction Permit",
+    "difficulty": 3
+  },
+  {
+    "id": "alc-013",
+    "topic": "alcohol-gdl",
+    "question": "Many prescription and over-the-counter drugs (cold, allergy, pain medicine):",
+    "choices": [
+      "Never affect driving",
+      "Can impair your driving like alcohol — check the label or ask your doctor or pharmacist before driving",
+      "Only matter if mixed with alcohol",
+      "Are illegal to take before driving"
+    ],
+    "answerIndex": 1,
+    "explanation": "Drowsiness-causing medicines impair reflexes, judgment, and vision. Mixing them with alcohol multiplies the effects. Check labels for the 'do not operate machinery' warning.",
+    "citation": "AR Driver License Study Guide, p. 75 — Other Types of Drugs and Driving",
+    "difficulty": 1
   }
 ]

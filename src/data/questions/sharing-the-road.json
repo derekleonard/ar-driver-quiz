@@ -118,5 +118,110 @@
     "explanation": "Nearly 60% of motorcycle intersection crashes are caused by another vehicle turning left in front of the rider. Motorcycles are small and their speed is hard to judge — always take a second look before turning left.",
     "citation": "AR Driver License Study Guide, p. 69 — Situations When Crashes Are Most Likely",
     "difficulty": 2
+  },
+  {
+    "id": "shr-009",
+    "topic": "sharing-the-road",
+    "question": "School buses are required to stop:",
+    "choices": [
+      "At all railroad crossings",
+      "Only at crossings with gates",
+      "Only when carrying children",
+      "Never — they have right-of-way over trains"
+    ],
+    "answerIndex": 0,
+    "explanation": "School buses (like transit buses and hazmat trucks) must stop at ALL railroad crossings — leave extra following distance so you aren't surprised.",
+    "citation": "AR Driver License Study Guide, p. 12, 28 — School Buses / Railroad Crossings",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-010",
+    "topic": "sharing-the-road",
+    "question": "A tractor-trailer ahead of you signals a RIGHT turn but swings out to the LEFT first. You should:",
+    "choices": [
+      "Pass it quickly on the right",
+      "Stay back — trucks must swing left to make right turns, and squeezing in beside them is the 'squeeze play' that causes crashes",
+      "Honk so it stays in its lane",
+      "Pass on the left shoulder"
+    ],
+    "answerIndex": 1,
+    "explanation": "A long vehicle's rear wheels track inside its front wheels, so truck drivers swing left before turning right. Never slip into the gap on the truck's right.",
+    "citation": "AR Driver License Study Guide, p. 64-65 — Tractor-Trailer Turning",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-011",
+    "topic": "sharing-the-road",
+    "question": "After passing a large truck, you should return to the lane in front of it only when:",
+    "choices": [
+      "Your rear bumper clears its front bumper",
+      "You can see the truck's whole front in your rear-view mirror — then don't slow down",
+      "The truck flashes its lights",
+      "You are 2 seconds ahead"
+    ],
+    "answerIndex": 1,
+    "explanation": "Trucks need nearly twice the time and room to stop. Don't cut in until you can see the entire front of the truck in your mirror — and keep your speed up once you're there.",
+    "citation": "AR Driver License Study Guide, p. 65 — Front No-Zones",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-012",
+    "topic": "sharing-the-road",
+    "question": "A bicyclist may legally take the FULL lane when:",
+    "choices": [
+      "Never — bikes must stay on the shoulder",
+      "The lane is too narrow to share safely, when passing, preparing a left turn, or avoiding hazards like parked cars and debris",
+      "Only in residential areas",
+      "Only in marked bike lanes"
+    ],
+    "answerIndex": 1,
+    "explanation": "Bikes have the same road rights as cars. A cyclist away from the right edge isn't being careless — they're avoiding car doors, debris, or setting up a left turn. If the lane is too narrow to share, it's safest to let them have it.",
+    "citation": "AR Driver License Study Guide, p. 68 — Lane Positions for Bicycles",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-013",
+    "topic": "sharing-the-road",
+    "question": "A bicycle has a red or orange pennant flag attached. This indicates:",
+    "choices": [
+      "A racing cyclist",
+      "The rider has impaired hearing — slow down",
+      "The bike is oversized",
+      "A bike for sale"
+    ],
+    "answerIndex": 1,
+    "explanation": "A red or orange pennant flag on a bike signals a hearing-impaired rider. They can't hear you coming — slow down and give extra room.",
+    "citation": "AR Driver License Study Guide, p. 68 — Residential Areas Are Danger Zones",
+    "difficulty": 3
+  },
+  {
+    "id": "shr-014",
+    "topic": "sharing-the-road",
+    "question": "When following a motorcycle, allow a following distance of at least:",
+    "choices": [
+      "1 to 2 seconds",
+      "2 to 3 seconds",
+      "4 to 6 seconds",
+      "10 seconds"
+    ],
+    "answerIndex": 2,
+    "explanation": "Allow 4-6 seconds behind a motorcycle. In dry conditions motorcycles can stop faster than cars, and the slightest contact can mean a spill for the rider.",
+    "citation": "AR Driver License Study Guide, p. 70 — Allow Plenty of Space",
+    "difficulty": 2
+  },
+  {
+    "id": "shr-015",
+    "topic": "sharing-the-road",
+    "question": "When should you NOT use your horn?",
+    "choices": [
+      "When a child is about to run into the street",
+      "At blind pedestrians, to greet a friend, or to scold another driver's mistake",
+      "When another car is in danger of hitting you",
+      "Approaching a blind hill or curve where you can't be seen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use the horn to warn of danger. Never honk at blind pedestrians (it confuses them), to rush or greet people, or to criticize other drivers.",
+    "citation": "AR Driver License Study Guide, p. 52 — Warning Horn",
+    "difficulty": 2
   }
 ]

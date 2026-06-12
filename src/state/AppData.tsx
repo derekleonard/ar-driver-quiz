@@ -20,6 +20,7 @@ import {
 } from "../firebase/store";
 import { BANK_IDS } from "../data/bank";
 import { readinessScore, topicStatsFromAttempts } from "../lib/scoring";
+import { studyStreak } from "../lib/streak";
 import * as local from "../lib/storage";
 import type { Attempt, SrsState } from "../types";
 
@@ -55,6 +56,7 @@ function summaryFor(srs: SrsState, attempts: Attempt[]) {
   const last = exams[exams.length - 1];
   return {
     readiness: readinessScore(srs, BANK_IDS, attempts),
+    streak: studyStreak(attempts, Date.now()),
     topicMastery,
     ...(last && {
       lastExam: {
