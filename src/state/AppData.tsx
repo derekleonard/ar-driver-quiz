@@ -29,6 +29,7 @@ interface AppData {
   phase: AppPhase;
   mode: "local" | "cloud";
   userName: string | null;
+  deniedReason: string | null;
   role: "parent" | "student";
   srs: SrsState;
   attempts: Attempt[];
@@ -69,6 +70,7 @@ function summaryFor(srs: SrsState, attempts: Attempt[]) {
 export function AppDataProvider({ children }: { children: ReactNode }) {
   const cloud = isFirebaseConfigured;
   const [phase, setPhase] = useState<AppPhase>(cloud ? "loading" : "ready");
+  const [deniedReason, setDeniedReason] = useState<string | null>(null);
   const [user, setUser] = useState<User | null>(null);
   const [role, setRole] = useState<"parent" | "student">("student");
   const [srs, setSrs] = useState<SrsState>(() => (cloud ? {} : local.loadSrs()));
@@ -86,7 +88,30 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
       }
       setPhase("loading");
       try {
-        const allowlist = await fetchAllowlist();
+        let allowlist;
+        try {
+          allowlist = await fetchAllowlist();
+        } catch (e: unknown) {
+          const code = (e as { code?: string }).code ?? (e as Error).message;
+          setDeniedReason(
+            code === "allowlist-missing"
+              ? "Setup problem: the Firestore doc config/allowlist was not found. Check the collection is named exactly 'config' and the document 'allowlist'."
+              : code === "permission-denied"
+                ? "Setup problem: reading config/allowlist was denied even though you are signed in — the security rules from firestore.rules are probably not published yet."
+                : `Unexpected error reading allowlist: ${code}`,
+          );
+          setUser(u);
+          setPhase("denied");
+          return;
+        }
+        if (!allowlist.emails?.includes(u.email ?? "")) {
+          setDeniedReason(
+            `You are signed in as ${u.email}, which is not in the allowlist's 'emails' array (${allowlist.emails?.length ?? 0} entries). Emails must match exactly, lowercase.`,
+          );
+          setUser(u);
+          setPhase("denied");
+          return;
+        }
         const isParent = u.email === allowlist.parentEmail;
         setRole(isParent ? "parent" : "student");
         await ensureUserDoc(
@@ -112,7 +137,10 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
         setPhase("ready");
       } catch (e: unknown) {
         const code = (e as { code?: string }).code ?? (e as Error).message;
-        if (code === "permission-denied" || code === "allowlist-missing") {
+        if (code === "permission-denied") {
+          setDeniedReason(
+            `You are in the allowlist, but writing your user document was still denied (signed in as ${u.email}). Check that the published rules match firestore.rules.`,
+          );
           setUser(u);
           setPhase("denied");
         } else {
@@ -151,6 +179,7 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
         phase,
         mode: cloud ? "cloud" : "local",
         userName: user?.displayName ?? null,
+        deniedReason,
         role,
         srs,
         attempts,

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { signInWithGoogle, signOutUser } from "../firebase/firebase";
+import { useAppData } from "../state/AppData";
 
 export function LoginScreen() {
   const [error, setError] = useState<string | null>(null);
@@ -25,6 +26,7 @@ export function LoginScreen() {
 }
 
 export function DeniedScreen() {
+  const { deniedReason } = useAppData();
   return (
     <div className="screen login-screen">
       <header className="app-header">
@@ -33,6 +35,7 @@ export function DeniedScreen() {
       <div className="card">
         <p className="question-text">This account isn't on the family list yet.</p>
         <p>Ask Dad to add your Google email to the allowlist, then sign in again.</p>
+        {deniedReason && <p className="citation">{deniedReason}</p>}
       </div>
       <button className="btn" onClick={() => void signOutUser()}>
         Use a different account

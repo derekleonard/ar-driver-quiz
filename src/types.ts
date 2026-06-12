@@ -43,7 +43,7 @@ export interface SrsEntry {
 
 export type SrsState = Record<string, SrsEntry>;
 
-export type QuizMode = "drill" | "exam" | "diagnostic";
+export type QuizMode = "drill" | "exam" | "diagnostic" | "review";
 
 export interface Attempt {
   mode: QuizMode;
