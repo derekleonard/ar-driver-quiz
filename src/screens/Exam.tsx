@@ -58,7 +58,9 @@ export default function Exam() {
 
   if (finished && result) {
     const passed = result.score >= PASS_SCORE;
-    const missed = questions.filter((q) => result.missedIds.includes(q.id));
+    const missed = questions
+      .map((q, i) => ({ q, given: answers[i] }))
+      .filter(({ q }) => result.missedIds.includes(q.id));
     return (
       <div className="screen">
         <h1>{passed ? "PASS" : "Not yet"}</h1>
@@ -71,7 +73,7 @@ export default function Exam() {
         {missed.length > 0 && (
           <>
             <h2>Review your misses</h2>
-            {missed.map((q) => (
+            {missed.map(({ q, given }) => (
               <div key={q.id} className="card miss-review">
                 {q.image && (
                   <img
@@ -81,6 +83,9 @@ export default function Exam() {
                   />
                 )}
                 <p className="question-text">{q.question}</p>
+                <p className="wrong-line">
+                  ✗ Your answer: {given === null ? "(not answered)" : q.choices[given]}
+                </p>
                 <p className="answer-line">✓ {q.choices[q.answerIndex]}</p>
                 <p>{q.explanation}</p>
                 <p className="citation">
