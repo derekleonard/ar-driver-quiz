@@ -395,6 +395,7 @@
     "answerIndex": 1,
     "explanation": "The crossbuck marks the crossing itself and works like a yield sign: yield the right-of-way to any train. Failing to yield at a yield sign can mean a fine up to $1,000 and a 180-day license suspension.",
     "citation": "AR Driver License Study Guide, p. 28 — Cross Buck Sign",
+    "image": "signs/crossbuck.svg",
     "difficulty": 2
   },
   {
@@ -410,6 +411,7 @@
     "answerIndex": 1,
     "explanation": "EXEMPT marks a crossing that has been abandoned or taken out of service. Follow your local procedure about stopping.",
     "citation": "AR Driver License Study Guide, p. 29 — Railroad (Exempt) Signs",
+    "image": "signs/exempt.svg",
     "difficulty": 3
   },
   {
@@ -425,6 +427,7 @@
     "answerIndex": 1,
     "explanation": "The number sign tells how many tracks are present. Cross multiple tracks only when any train is well down the tracks — a second train can be hidden behind the first.",
     "citation": "AR Driver License Study Guide, p. 30 — Multiple Tracks",
+    "image": "signs/two-tracks.svg",
     "difficulty": 2
   },
   {
@@ -445,16 +448,17 @@
   {
     "id": "signs-030",
     "topic": "signs-signals-markings",
-    "question": "A white sign showing an arrow inside a red circle with a slash through it means:",
+    "question": "What does this sign mean?",
     "choices": [
-      "The maneuver shown is recommended",
-      "The maneuver shown (such as that turn) is prohibited",
-      "One-way traffic",
-      "Detour ahead"
+      "Left turns are recommended",
+      "Left turns are prohibited at this intersection",
+      "One-way traffic to the left",
+      "Detour to the left ahead"
     ],
     "answerIndex": 1,
-    "explanation": "Regulation signs with the red circle-and-slash prohibit the maneuver shown — no left turn, no right turn, no U-turn.",
+    "explanation": "A red circle-and-slash over a symbol prohibits that maneuver. This one bans left turns; the same pattern is used for no right turn and no U-turn.",
     "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs",
+    "image": "signs/no-left-turn.svg",
     "difficulty": 1
   },
   {
@@ -553,7 +557,7 @@
   {
     "id": "signs-037",
     "topic": "signs-signals-markings",
-    "question": "An orange diamond sign shows a worker holding a flag. What does it mean?",
+    "question": "What does this sign mean?",
     "choices": [
       "Crossing guard ahead",
       "A flagger may be stationed ahead to control traffic — obey their directions",
@@ -563,14 +567,15 @@
     "answerIndex": 1,
     "explanation": "The flagger-symbol sign marks locations where a flagger may be controlling traffic. A flagger's instructions overrule all other signals and devices.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
+    "image": "signs/flagger.svg",
     "difficulty": 2
   },
   {
     "id": "signs-038",
     "topic": "signs-signals-markings",
-    "question": "An orange sign reads 'DETOUR 1000 FT'. This warns you of:",
+    "question": "An orange DETOUR sign warns you of:",
     "choices": [
-      "A toll booth in 1,000 feet",
+      "A toll booth ahead",
       "An approaching alternate route of travel through a construction zone",
       "The end of the work zone",
       "A rest area"
@@ -578,21 +583,23 @@
     "answerIndex": 1,
     "explanation": "DETOUR signs warn drivers of an approaching alternate route through a construction zone. ROAD WORK signs with distances mean work is underway on your route — be prepared for obstructions.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
+    "image": "signs/detour.svg",
     "difficulty": 1
   },
   {
     "id": "signs-039",
     "topic": "signs-signals-markings",
-    "question": "An orange diamond shows two arrows pointing in opposite directions. In a work zone this warns of:",
+    "question": "What does this sign warn you about?",
     "choices": [
-      "A divided highway",
-      "Two-way traffic along a single-lane roadway",
+      "A divided highway begins",
+      "Two-way traffic along a single roadway",
       "A passing zone",
       "Lanes shifting left"
     ],
     "answerIndex": 1,
-    "explanation": "In work zones this sign warns that opposing traffic shares a single roadway — often when one side of a divided highway is closed. Stay alert and keep right.",
+    "explanation": "The two-way traffic sign warns that opposing traffic shares the roadway — in work zones, often because one side of a divided highway is closed. Stay alert and keep right.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
+    "image": "signs/two-way-traffic.svg",
     "difficulty": 2
   },
   {
@@ -658,7 +665,7 @@
   {
     "id": "signs-044",
     "topic": "signs-signals-markings",
-    "question": "A yellow diamond sign shows a car with wavy skid marks behind it. This warns:",
+    "question": "What does this sign warn you about?",
     "choices": [
       "Race track ahead",
       "The road is slippery when wet — slow down in rain",
@@ -668,6 +675,7 @@
     "answerIndex": 1,
     "explanation": "The slippery-when-wet warning marks pavement that loses traction in rain. Slow down at the first sign of rain — especially the first few minutes, when surface oil hasn't washed away.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Slippery When Wet)",
+    "image": "signs/slippery-when-wet.svg",
     "difficulty": 1
   },
   {
@@ -698,6 +706,38 @@
     "answerIndex": 2,
     "explanation": "Make a complete stop BEFORE reaching the stop line. If a sign or obstacle blocks your view, stop first, then pull forward carefully until you can see.",
     "citation": "AR Driver License Study Guide, p. 34 — Crosswalks and Stop Lines",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-047",
+    "topic": "signs-signals-markings",
+    "question": "What does this sign warn you about?",
+    "choices": [
+      "A school zone",
+      "A pedestrian crossing ahead — be ready to slow or stop for people crossing",
+      "A hiking trailhead",
+      "A hospital exit"
+    ],
+    "answerIndex": 1,
+    "explanation": "The pedestrian-crossing warning diamond marks places where people frequently cross. Yield to pedestrians in or about to enter the crosswalk — and remember not all crosswalks are marked.",
+    "citation": "AR Driver License Study Guide, p. 27, 34 — Roadway Signs (Pedestrian Crossing)",
+    "image": "signs/pedestrian-crossing.svg",
+    "difficulty": 1
+  },
+  {
+    "id": "signs-048",
+    "topic": "signs-signals-markings",
+    "question": "What does this sign mean?",
+    "choices": [
+      "U-turns permitted ahead",
+      "No U-turns allowed here",
+      "Roundabout ahead",
+      "Left exit ahead"
+    ],
+    "answerIndex": 1,
+    "explanation": "The red circle-and-slash over the U-shaped arrow prohibits U-turns. Even where no sign prohibits them, only make a U-turn where you can see clearly in both directions.",
+    "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs (No U-Turn)",
+    "image": "signs/no-u-turn.svg",
     "difficulty": 1
   }
 ]
