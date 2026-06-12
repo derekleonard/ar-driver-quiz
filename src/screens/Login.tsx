@@ -1,0 +1,50 @@
+import { useState } from "react";
+import { signInWithGoogle, signOutUser } from "../firebase/firebase";
+
+export function LoginScreen() {
+  const [error, setError] = useState<string | null>(null);
+  return (
+    <div className="screen login-screen">
+      <header className="app-header">
+        <h1>AR Driver Quiz</h1>
+        <p className="subtitle">Arkansas knowledge test prep</p>
+      </header>
+      <button
+        className="btn primary"
+        onClick={() =>
+          signInWithGoogle().catch((e) => {
+            if (e.code !== "auth/popup-closed-by-user") setError(String(e.message ?? e));
+          })
+        }
+      >
+        Sign in with Google
+      </button>
+      {error && <p className="error-text">{error}</p>}
+    </div>
+  );
+}
+
+export function DeniedScreen() {
+  return (
+    <div className="screen login-screen">
+      <header className="app-header">
+        <h1>AR Driver Quiz</h1>
+      </header>
+      <div className="card">
+        <p className="question-text">This account isn't on the family list yet.</p>
+        <p>Ask Dad to add your Google email to the allowlist, then sign in again.</p>
+      </div>
+      <button className="btn" onClick={() => void signOutUser()}>
+        Use a different account
+      </button>
+    </div>
+  );
+}
+
+export function LoadingScreen() {
+  return (
+    <div className="screen login-screen">
+      <p className="subtitle">Loading…</p>
+    </div>
+  );
+}

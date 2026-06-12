@@ -286,3 +286,43 @@ h2 {
   margin: 0;
   font-size: 0.95rem;
 }
+
+.login-screen {
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+}
+
+.error-text {
+  color: var(--red);
+  font-size: 0.9rem;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: var(--muted);
+  text-decoration: underline;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 8px;
+  align-self: center;
+}
+
+.diag-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 4px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  border-bottom: 1px solid #eef1f5;
+}
+
+.diag-row:last-child {
+  border-bottom: none;
+}
+
+.diag-row .good { color: var(--green); }
+.diag-row .ok { color: var(--amber); }
+.diag-row .bad { color: var(--red); }

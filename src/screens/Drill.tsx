@@ -1,31 +1,34 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import QuestionCard from "../components/QuestionCard";
 import { BANK } from "../data/bank";
 import { applyAnswer } from "../lib/leitner";
 import { perTopicForAnswers } from "../lib/scoring";
 import { shuffle } from "../lib/shuffle";
-import { loadSrs, saveAttempt, saveSrs } from "../lib/storage";
-import type { Topic } from "../types";
+import { useAppData } from "../state/AppData";
+import type { SrsState, Topic } from "../types";
 import { TOPIC_LABELS } from "../types";
 
 const DRILL_SIZE = 10;
 
 export default function Drill() {
   const { topic } = useParams<{ topic: Topic }>();
+  const { srs, finishQuiz } = useAppData();
   const [startedAt] = useState(Date.now());
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [revealed, setRevealed] = useState(false);
-  const [answers, setAnswers] = useState<(number | null)[]>([]);
+  const [answers, setAnswers] = useState<number[]>([]);
+  // Accumulates SRS updates during the session; persisted once at the end.
+  const sessionSrs = useRef<SrsState | null>(null);
 
   const questions = useMemo(() => {
-    const srs = loadSrs();
     const pool = BANK.filter((q) => q.topic === topic);
     // Worst-first: lowest Leitner box (unseen = box 1), then shuffle within.
     return shuffle(pool)
       .sort((a, b) => (srs[a.id]?.box ?? 1) - (srs[b.id]?.box ?? 1))
       .slice(0, DRILL_SIZE);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [topic]);
 
   if (!topic || questions.length === 0) {
@@ -44,16 +47,23 @@ export default function Drill() {
     setSelected(i);
     setRevealed(true);
     const q = questions[index];
-    saveSrs(applyAnswer(loadSrs(), q.id, i === q.answerIndex, Date.now()));
+    sessionSrs.current = applyAnswer(
+      sessionSrs.current ?? srs,
+      q.id,
+      i === q.answerIndex,
+      Date.now(),
+    );
     setAnswers((a) => [...a, i]);
   }
 
   function next() {
     if (index + 1 >= questions.length) {
-      const { perTopic, missedIds, score } = perTopicForAnswers(questions, [
-        ...answers,
-      ]);
-      saveAttempt({
+      const finalAnswers = [...answers];
+      const { perTopic, missedIds, score } = perTopicForAnswers(
+        questions,
+        finalAnswers,
+      );
+      finishQuiz(sessionSrs.current ?? srs, {
         mode: "drill",
         topic,
         score,

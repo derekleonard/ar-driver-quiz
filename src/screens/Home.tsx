@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 import { BANK, BANK_IDS } from "../data/bank";
 import { readinessScore, topicStatsFromAttempts } from "../lib/scoring";
-import { loadAttempts, loadSrs } from "../lib/storage";
+import { useAppData } from "../state/AppData";
 import { TOPICS, TOPIC_LABELS } from "../types";
 
 export default function Home() {
-  const srs = loadSrs();
-  const attempts = loadAttempts();
+  const { srs, attempts, mode, userName, signOut } = useAppData();
   const readiness = readinessScore(srs, BANK_IDS, attempts);
   const stats = topicStatsFromAttempts(attempts);
   const exams = attempts.filter((a) => a.mode === "exam");
@@ -19,7 +18,10 @@ export default function Home() {
     <div className="screen">
       <header className="app-header">
         <h1>AR Driver Quiz</h1>
-        <p className="subtitle">Arkansas knowledge test prep</p>
+        <p className="subtitle">
+          Arkansas knowledge test prep
+          {userName ? ` · ${userName.split(" ")[0]}` : ""}
+        </p>
       </header>
 
       <div className="readiness">
@@ -32,7 +34,13 @@ export default function Home() {
         </div>
       </div>
 
-      <Link className="btn primary" to="/exam">
+      {attempts.length === 0 && (
+        <Link className="btn primary" to="/diagnostic">
+          Start with the Diagnostic (40 questions)
+        </Link>
+      )}
+
+      <Link className={`btn ${attempts.length === 0 ? "" : "primary"}`} to="/exam">
         Take a Practice Exam (25 questions)
       </Link>
 
@@ -66,6 +74,12 @@ export default function Home() {
             ))}
           </ul>
         </>
+      )}
+
+      {mode === "cloud" && (
+        <button className="link-btn" onClick={signOut}>
+          Sign out
+        </button>
       )}
     </div>
   );
