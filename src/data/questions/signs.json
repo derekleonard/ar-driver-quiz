@@ -279,16 +279,16 @@
   {
     "id": "signs-019",
     "topic": "signs-signals-markings",
-    "question": "What is the standard color and meaning of guide signs that give distance and direction information?",
+    "question": "A large X with the letters 'RR' is painted on the pavement of your lane. This means:",
     "choices": [
-      "Blue with white letters",
-      "Green with white letters",
-      "Brown with white letters",
-      "Yellow with black letters"
+      "Road repairs ahead",
+      "The same thing as the round advance warning sign — a railroad crossing is ahead",
+      "A rest area exit",
+      "Reduced-speed residential zone"
     ],
     "answerIndex": 1,
-    "explanation": "Green signs guide you: destinations, distances, and highway exits. Blue signs show services (gas, food, lodging); brown signs mark parks and recreation.",
-    "citation": "AR Driver License Study Guide — Traffic Signs (Guide)",
+    "explanation": "Railroad pavement markings mean the same as the advance warning sign: slow down, look and listen, and be prepared to stop. On two-lane roads they come with a no-passing marking, and there may be a white stop line before the tracks.",
+    "citation": "AR Driver License Study Guide, p. 28 — Railroad Pavement Markings",
     "difficulty": 2
   },
   {

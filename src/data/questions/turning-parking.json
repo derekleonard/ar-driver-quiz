@@ -102,16 +102,16 @@
   {
     "id": "trn-008",
     "topic": "turning-parking",
-    "question": "A U-turn is legal only when:",
+    "question": "When turning left at an intersection, you should avoid cutting the corner because:",
     "choices": [
-      "You can see far enough in both directions and no sign prohibits it",
-      "You are at any intersection",
-      "Traffic is light",
-      "You are on a curve or near a hill"
+      "It wears your tires faster",
+      "Turning sharp could cause you to hit a vehicle approaching from the left — and always leave room for oncoming vehicles turning left in front of you",
+      "It is only a problem for trucks",
+      "It confuses your GPS"
     ],
-    "answerIndex": 0,
-    "explanation": "Never make a U-turn where signs prohibit it, on curves or hillcrests where others can't see you, or where you can't see oncoming traffic clearly.",
-    "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs (No U-Turn)",
+    "answerIndex": 1,
+    "explanation": "Don't cut left-turn corners: a sharp early turn puts you into the path of traffic approaching from the left. Begin signaling and slowing at least 100 feet from the corner, and leave room for oncoming left-turners.",
+    "citation": "AR Driver License Study Guide, p. 33 — Left Turns",
     "difficulty": 2
   },
   {
