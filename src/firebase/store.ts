@@ -13,8 +13,11 @@ import {
   type Firestore,
 } from "firebase/firestore";
 import { mergeSrs } from "../lib/leitner";
+import type { UserSummary } from "../lib/summary";
 import type { Attempt, SrsState } from "../types";
 import { db } from "./firebase";
+
+export type { UserSummary } from "../lib/summary";
 
 /**
  * Every function in this module is cloud-only; AppData routes to lib/storage
@@ -86,13 +89,6 @@ export async function loadAttempts(uid: string): Promise<Attempt[]> {
 
 export async function addAttemptDoc(uid: string, attempt: Attempt): Promise<void> {
   await addDoc(collection(requireDb(), "users", uid, "attempts"), attempt);
-}
-
-export interface UserSummary {
-  readiness: number;
-  streak: number;
-  topicMastery: Record<string, number>;
-  lastExam?: { score: number; total: number; passed: boolean; at: number };
 }
 
 export interface FamilyUser {

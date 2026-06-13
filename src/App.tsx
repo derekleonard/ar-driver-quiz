@@ -6,7 +6,7 @@ import Exam from "./screens/Exam";
 import Diagnostic from "./screens/Diagnostic";
 import Review from "./screens/Review";
 import Dashboard, { KidDetail } from "./screens/Dashboard";
-import { DeniedScreen, LoadingScreen, LoginScreen } from "./screens/Login";
+import { DeniedScreen, ErrorScreen, LoadingScreen, LoginScreen } from "./screens/Login";
 
 export default function App() {
   const { phase, role, syncError } = useAppData();
@@ -14,6 +14,7 @@ export default function App() {
   if (phase === "loading") return <LoadingScreen />;
   if (phase === "signed-out") return <LoginScreen />;
   if (phase === "denied") return <DeniedScreen />;
+  if (phase === "error") return <ErrorScreen />;
 
   return (
     <>

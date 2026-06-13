@@ -44,6 +44,28 @@ export function DeniedScreen() {
   );
 }
 
+export function ErrorScreen() {
+  const { errorReason, retry } = useAppData();
+  return (
+    <div className="screen login-screen">
+      <header className="app-header">
+        <h1>AR Driver Quiz</h1>
+      </header>
+      <div className="card">
+        <p className="question-text">Can't reach the cloud right now.</p>
+        <p>Your progress is safe. Reconnect, then try again.</p>
+        {errorReason && <p className="citation">{errorReason}</p>}
+      </div>
+      <button className="btn primary" onClick={retry}>
+        Try again
+      </button>
+      <button className="btn" onClick={() => void signOutUser()}>
+        Sign out
+      </button>
+    </div>
+  );
+}
+
 export function LoadingScreen() {
   return (
     <div className="screen login-screen">
