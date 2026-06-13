@@ -9,8 +9,16 @@ export interface TopicStats {
 export function topicStatsFromAttempts(attempts: Attempt[]): Partial<Record<Topic, TopicStats>> {
   const out: Partial<Record<Topic, TopicStats>> = {};
   for (const a of attempts) {
-    for (const [topic, s] of Object.entries(a.perTopic) as [Topic, TopicStats][]) {
-      const cur = (out[topic] ??= { correct: 0, total: 0 });
+    // perTopic can be element-corrupt in a cloud attempt: firestore.rules only
+    // checks `perTopic is map`, not the shape of its values (rules can't iterate
+    // a map's entries), so an allowlisted student could store {topic:"junk"}.
+    // Skip entries that aren't {correct:number,total:number} so one bad value
+    // can't poison the dashboard math with NaN.
+    for (const [topic, s] of Object.entries(a.perTopic)) {
+      if (!s || typeof s.correct !== "number" || typeof s.total !== "number") {
+        continue;
+      }
+      const cur = (out[topic as Topic] ??= { correct: 0, total: 0 });
       cur.correct += s.correct;
       cur.total += s.total;
     }

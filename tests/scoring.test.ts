@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { masteryClass, perTopicForAnswers, readinessScore } from "../src/lib/scoring";
+import {
+  masteryClass,
+  perTopicForAnswers,
+  readinessScore,
+  topicStatsFromAttempts,
+} from "../src/lib/scoring";
 import type { Attempt, Question } from "../src/types";
 
 const q = (id: string, topic: Question["topic"]): Question => ({
@@ -30,6 +35,51 @@ describe("perTopicForAnswers", () => {
     const { score, missedIds } = perTopicForAnswers([q("a1", "right-of-way")], [null]);
     expect(score).toBe(0);
     expect(missedIds).toEqual(["a1"]);
+  });
+});
+
+describe("topicStatsFromAttempts", () => {
+  it("sums correct/total per topic across attempts", () => {
+    const a = (perTopic: Attempt["perTopic"]): Attempt => ({
+      mode: "drill",
+      score: 0,
+      total: 0,
+      startedAt: 0,
+      durationSec: 0,
+      perTopic,
+      missedIds: [],
+    });
+    const stats = topicStatsFromAttempts([
+      a({ "right-of-way": { correct: 1, total: 2 } }),
+      a({ "right-of-way": { correct: 3, total: 4 } }),
+    ]);
+    expect(stats["right-of-way"]).toEqual({ correct: 4, total: 6 });
+  });
+
+  it("tolerates element-corrupt perTopic from a cloud attempt (no NaN poisoning)", () => {
+    // firestore.rules only checks `perTopic is map`, so an allowlisted student
+    // could store junk values in their own attempts. Malformed entries must be
+    // skipped, not folded in as NaN.
+    const corrupt = {
+      mode: "drill",
+      score: 0,
+      total: 0,
+      startedAt: 0,
+      durationSec: 0,
+      perTopic: {
+        "right-of-way": "junk",
+        "speed-following": { correct: "1", total: 2 },
+        "signs-signals-markings": null,
+        "sharing-the-road": { correct: 2, total: 3 },
+      },
+      missedIds: [1, 2],
+    } as unknown as Attempt;
+    const stats = topicStatsFromAttempts([corrupt]);
+    expect(stats["sharing-the-road"]).toEqual({ correct: 2, total: 3 });
+    expect(stats["right-of-way"]).toBeUndefined();
+    expect(stats["speed-following"]).toBeUndefined();
+    expect(stats["signs-signals-markings"]).toBeUndefined();
+    expect(Number.isNaN(stats["sharing-the-road"]!.correct)).toBe(false);
   });
 });
 
