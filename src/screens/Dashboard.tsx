@@ -6,6 +6,7 @@ import {
   type FamilyUser,
 } from "../firebase/store";
 import { masteryClass } from "../lib/scoring";
+import { displayStreak } from "../lib/streak";
 import { TOPIC_LABELS, type Attempt, type Topic } from "../types";
 
 function ago(ts: number | null): string {
@@ -70,7 +71,9 @@ export default function Dashboard() {
                 <span className="kid-stat-label">readiness</span>
               </div>
               <div className="kid-stat">
-                <span className="kid-stat-num">{s?.streak ?? 0}</span>
+                <span className="kid-stat-num">
+                  {displayStreak(s?.streak ?? 0, kid.lastActive, Date.now())}
+                </span>
                 <span className="kid-stat-label">day streak</span>
               </div>
               <div className="kid-stat">

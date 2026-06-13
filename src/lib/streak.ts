@@ -12,6 +12,25 @@ function dayKey(ts: number): number {
 }
 
 /**
+ * Freshness-aware streak for the parent dashboard. `stored` was computed at
+ * the kid's LAST session (summaries are written only then), so it goes stale:
+ * a "5-day streak" written Monday would still read 5 on Friday. `lastActive`
+ * is bumped on every summary write; once more than one calendar day has
+ * passed since then, the streak is over — show 0, not the stale value.
+ * (lastActive is also bumped at sign-in without a session, so a stale value
+ * can briefly survive a kid who logs in but never finishes a quiz — still
+ * strictly fresher than the raw stored number.)
+ */
+export function displayStreak(
+  stored: number,
+  lastActive: number | null,
+  now: number,
+): number {
+  if (lastActive === null) return 0;
+  return dayKey(now) - dayKey(lastActive) > 1 ? 0 : stored;
+}
+
+/**
  * Consecutive calendar days with at least one attempt, ending today or
  * yesterday (so the streak isn't broken before the day's study session).
  */

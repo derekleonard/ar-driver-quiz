@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { studyStreak } from "../src/lib/streak";
+import { displayStreak, studyStreak } from "../src/lib/streak";
 import type { Attempt } from "../src/types";
 
 const DAY = 86_400_000;
@@ -46,5 +46,24 @@ describe("studyStreak", () => {
   it("a gap resets the streak", () => {
     const attempts = [attempt(NOW - 5 * DAY), attempt(NOW - DAY), attempt(NOW)];
     expect(studyStreak(attempts, NOW)).toBe(2);
+  });
+});
+
+describe("displayStreak", () => {
+  it("shows the stored streak when last active today", () => {
+    expect(displayStreak(5, NOW - 3600_000, NOW)).toBe(5);
+  });
+
+  it("shows the stored streak when last active yesterday (today's session pending)", () => {
+    expect(displayStreak(5, NOW - DAY, NOW)).toBe(5);
+  });
+
+  it("zeroes a stale streak when last active 2+ days ago", () => {
+    expect(displayStreak(5, NOW - 2 * DAY, NOW)).toBe(0);
+    expect(displayStreak(5, NOW - 30 * DAY, NOW)).toBe(0);
+  });
+
+  it("is 0 for a kid who was never active", () => {
+    expect(displayStreak(5, null, NOW)).toBe(0);
   });
 });
