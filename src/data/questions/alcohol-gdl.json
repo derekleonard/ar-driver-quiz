@@ -264,5 +264,117 @@
     "answerIndex": 1,
     "explanation": "Stimulants wear off into nervousness, dizziness, and poor concentration and vision. No drug increases concentration safely — and none stops impairment from alcohol.",
     "citation": "AR Driver License Study Guide, p. 75 — Other Types of Drugs and Driving"
+  },
+  {
+    "id": "alc-020",
+    "topic": "alcohol-gdl",
+    "question": "After you drink alcohol, about how long does it take to reach your brain and begin affecting you?",
+    "choices": [
+      "Instantly",
+      "About 15 to 40 minutes",
+      "About 2 hours",
+      "Only after several drinks"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alcohol is absorbed from the stomach and small intestine into the blood, reaching the brain in about 15 to 40 minutes. The first ability it affects is judgment.",
+    "citation": "AR Driver License Study Guide, p. 73 — Alcohol Impairment"
+  },
+  {
+    "id": "alc-021",
+    "topic": "alcohol-gdl",
+    "question": "About how fast does the body get rid of alcohol?",
+    "choices": [
+      "Roughly one drink per hour — and nothing speeds it up",
+      "About three drinks per hour",
+      "Coffee doubles the rate",
+      "It leaves as soon as you stop drinking"
+    ],
+    "answerIndex": 0,
+    "explanation": "The liver breaks down only about 0.5 to 1 ounce of alcohol per hour — roughly one drink. Coffee, fresh air, food, and cold showers will NOT speed it up; only time will.",
+    "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism"
+  },
+  {
+    "id": "alc-022",
+    "topic": "alcohol-gdl",
+    "question": "When an officer asks you to take a chemical test for alcohol, who decides which test (breath, blood, urine, or saliva) is given?",
+    "choices": [
+      "You choose the test you prefer",
+      "The law enforcement officer chooses the test",
+      "A judge decides later",
+      "No test can be required without a warrant"
+    ],
+    "answerIndex": 1,
+    "explanation": "The officer chooses the test. Breath alcohol concentration (BrAC) is measured from your breath; blood alcohol concentration (BAC) from blood. You are compelled by law to take it — refusing can cost you your license.",
+    "citation": "AR Driver License Study Guide, p. 74 — Alcohol and the Law"
+  },
+  {
+    "id": "alc-023",
+    "topic": "alcohol-gdl",
+    "question": "Penalties for drinking and driving in Arkansas can include higher insurance rates, jail, loss of license, and:",
+    "choices": [
+      "A written warning",
+      "A required ignition interlock device",
+      "A defensive-driving coupon",
+      "No further consequences after the fine"
+    ],
+    "answerIndex": 1,
+    "explanation": "People who drink and drive risk higher insurance rates, loss of license, jail, and possible ignition interlock devices (which won't let the car start if they detect alcohol). Penalties get worse for repeat offenses.",
+    "citation": "AR Driver License Study Guide, p. 73 — Drinking and Driving"
+  },
+  {
+    "id": "alc-024",
+    "topic": "alcohol-gdl",
+    "question": "You are in a traffic crash and your BAC is 0.05% — below the usual 0.08% limit. In Arkansas you:",
+    "choices": [
+      "Cannot be charged with anything",
+      "Can still be charged with DWI — a BAC between 0.04% and 0.08% can bring a charge if you're in a crash or serious traffic offense",
+      "Only face a parking fine",
+      "Are automatically cleared"
+    ],
+    "answerIndex": 1,
+    "explanation": "0.08% is the usual DWI threshold, but if you're involved in a crash or a serious traffic offense you can be charged with DWI at a BAC between 0.04% and 0.08%.",
+    "citation": "AR Driver License Study Guide, p. 74 — Alcohol and the Law"
+  },
+  {
+    "id": "alc-025",
+    "topic": "alcohol-gdl",
+    "question": "According to the study guide, studies show drivers who use marijuana:",
+    "choices": [
+      "Drive more carefully",
+      "Make more mistakes, have more trouble adjusting to glare, and get more traffic violations than other drivers",
+      "Are unaffected behind the wheel",
+      "Only have slower reaction time at night"
+    ],
+    "answerIndex": 1,
+    "explanation": "Illegal drugs impair driving. Studies show marijuana users make more mistakes, have more trouble adjusting to glare, and are arrested for traffic violations more than other drivers.",
+    "citation": "AR Driver License Study Guide, p. 75 — Other Types of Drugs and Driving"
+  },
+  {
+    "id": "alc-026",
+    "topic": "alcohol-gdl",
+    "question": "Eating a big meal before you drink alcohol will:",
+    "choices": [
+      "Keep you completely sober",
+      "Slow how fast alcohol is absorbed, but NOT prevent you from becoming intoxicated",
+      "Let you drive safely afterward",
+      "Lower your BAC below the legal limit"
+    ],
+    "answerIndex": 1,
+    "explanation": "Food slows the rate at which alcohol enters the blood, but it will not prevent intoxication. The only thing that lowers your alcohol level is time.",
+    "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism"
+  },
+  {
+    "id": "alc-027",
+    "topic": "alcohol-gdl",
+    "question": "As the amount of alcohol in your body increases, it:",
+    "choices": [
+      "Improves your reaction time",
+      "Worsens your judgment and decreases your skills — including judging distances, speeds, and the movement of other vehicles",
+      "Affects only your vision",
+      "Has no effect until you reach 0.08%"
+    ],
+    "answerIndex": 1,
+    "explanation": "More alcohol means worse judgment and weaker driving skills: slower reflexes, blurred vision, and trouble judging distances, speeds, and how other vehicles are moving — plus the danger of losing control.",
+    "citation": "AR Driver License Study Guide, p. 73 — Alcohol Impairment"
   }
 ]

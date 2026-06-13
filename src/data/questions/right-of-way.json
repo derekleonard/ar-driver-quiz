@@ -306,5 +306,47 @@
     "answerIndex": 1,
     "explanation": "Not all crosswalks are marked. Drivers must yield where necessary to avoid striking pedestrians legally crossing the road, and watch for them at every intersection.",
     "citation": "AR Driver License Study Guide, p. 34-35 — Crosswalks / Pedestrians"
+  },
+  {
+    "id": "row-023",
+    "topic": "right-of-way",
+    "question": "As you approach a roundabout, the FIRST thing you should do is:",
+    "choices": [
+      "Speed up to merge with circulating traffic",
+      "Slow down — going slower gives you more time to yield and makes any crash less severe",
+      "Come to a full stop and wait for the roundabout to empty",
+      "Move to the left lane regardless of your exit"
+    ],
+    "answerIndex": 1,
+    "explanation": "Navigate a roundabout as easy as 1-2-3: (1) slow down, (2) look around and pick your lane, (3) be ready to yield to traffic already circulating. The curve of a roundabout naturally encourages slower, safer speeds.",
+    "citation": "AR Driver License Study Guide, p. 38 — How to Navigate Roundabouts"
+  },
+  {
+    "id": "row-024",
+    "topic": "right-of-way",
+    "question": "At a four-way stop, you and a car directly across from you stop at the same time. You are turning left; they are going straight. Who goes first?",
+    "choices": [
+      "You do, because you are turning",
+      "The car going straight goes first",
+      "Whoever honks first",
+      "The larger vehicle"
+    ],
+    "answerIndex": 1,
+    "explanation": "When two vehicles are directly across from each other and one is turning left, the vehicle going straight goes first. (First to stop goes first; if tied, the vehicle on the right goes.)",
+    "citation": "AR Driver License Study Guide, p. 39 — Right of Way at Stop Signs"
+  },
+  {
+    "id": "row-025",
+    "topic": "right-of-way",
+    "question": "A large truck or bus is circulating in the lane next to you inside a roundabout. You should:",
+    "choices": [
+      "Drive right beside it to stay even",
+      "Give it room and avoid driving next to it — large vehicles may need extra space inside the roundabout",
+      "Pass it quickly on the inside",
+      "Stop in the roundabout to let it go"
+    ],
+    "answerIndex": 1,
+    "explanation": "Give large vehicles like trucks and buses extra space in a roundabout and don't drive next to them — they may need more than one lane to get through. Follow the pavement markings to your exit.",
+    "citation": "AR Driver License Study Guide, p. 38 — How to Navigate Roundabouts"
   }
 ]

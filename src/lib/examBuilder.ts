@@ -9,10 +9,14 @@ export function isPassing(score: number): boolean {
   return score >= PASS_SCORE;
 }
 
-/** Approximate topic mix of the real 25-question AR knowledge test. */
+/**
+ * Approximate topic mix of the real 25-question AR knowledge test:
+ * about one third signs/signals/markings, two thirds rules of the road.
+ * Counts must sum to EXAM_SIZE.
+ */
 export const EXAM_MIX: Record<Topic, number> = {
-  "signs-signals-markings": 7,
-  "right-of-way": 4,
+  "signs-signals-markings": 8,
+  "right-of-way": 3,
   "speed-following": 3,
   "turning-parking": 3,
   "adverse-conditions": 2,

@@ -696,5 +696,160 @@
     "explanation": "The red circle-and-slash over the U-shaped arrow prohibits U-turns. Even where no sign prohibits them, only make a U-turn where you can see clearly in both directions.",
     "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs (No U-Turn)",
     "image": "signs/no-u-turn.svg"
+  },
+  {
+    "id": "signs-049",
+    "topic": "signs-signals-markings",
+    "question": "A steady YELLOW arrow at a traffic signal means:",
+    "choices": [
+      "Left turns are protected — go ahead",
+      "The signal is about to turn red; a driver turning should stop if it is safe to do so",
+      "Turns are permitted but you must yield to oncoming traffic",
+      "Stop and do not turn at all"
+    ],
+    "answerIndex": 1,
+    "explanation": "A steady yellow arrow means the signal is getting ready to turn red. A driver turning should stop if it is safe to do so — it works like a steady yellow light, but for the turn movement.",
+    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows"
+  },
+  {
+    "id": "signs-050",
+    "topic": "signs-signals-markings",
+    "question": "What does this sign mean?",
+    "choices": [
+      "No right turn allowed here",
+      "Right turn only",
+      "Sharp right curve ahead",
+      "Merge right"
+    ],
+    "answerIndex": 0,
+    "explanation": "The red circle-and-slash over the right-turn arrow prohibits right turns at this location. Regulation signs use a red circle with a slash to show that a maneuver is not allowed.",
+    "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs",
+    "image": "signs/no-right-turn.svg"
+  },
+  {
+    "id": "signs-051",
+    "topic": "signs-signals-markings",
+    "question": "On a two-lane road you see a solid yellow line right next to a broken yellow line. Passing is permitted:",
+    "choices": [
+      "From either side",
+      "Only from the side where the line is BROKEN",
+      "Only from the side where the line is SOLID",
+      "Never, in either direction"
+    ],
+    "answerIndex": 1,
+    "explanation": "You may pass only from the side where the line is broken. If the solid yellow line is on your side, passing is not permitted.",
+    "citation": "AR Driver License Study Guide, p. 31 — Yellow Lane Markings"
+  },
+  {
+    "id": "signs-052",
+    "topic": "signs-signals-markings",
+    "question": "You want to turn left into a driveway, but a solid double yellow line runs down the center of the road. You may:",
+    "choices": [
+      "Never cross a double yellow line for any reason",
+      "Cross the double yellow line to turn into the driveway if no opposing traffic is approaching",
+      "Cross it only at an intersection",
+      "Cross it only after signaling for at least 5 seconds"
+    ],
+    "answerIndex": 1,
+    "explanation": "Double solid yellow lines prohibit passing in both directions, but a driver MAY cross them to turn into a driveway or alley when no opposing traffic is approaching.",
+    "citation": "AR Driver License Study Guide, p. 31 — Yellow Lane Markings"
+  },
+  {
+    "id": "signs-053",
+    "topic": "signs-signals-markings",
+    "question": "You have started across railroad tracks and the crossing gates begin to come down. You should:",
+    "choices": [
+      "Stop on the tracks and wait",
+      "Back up off the crossing quickly",
+      "Keep going and clear the tracks, even if it means breaking the gate",
+      "Stop and put the car in reverse"
+    ],
+    "answerIndex": 2,
+    "explanation": "Never drive around lowered gates. But if the gates begin to lower while you are already crossing, keep going and clear the tracks — even if it means breaking the gate. Never stop on the tracks.",
+    "citation": "AR Driver License Study Guide, p. 29 — Gates and Lights"
+  },
+  {
+    "id": "signs-054",
+    "topic": "signs-signals-markings",
+    "question": "At a railroad crossing the red lights are flashing but you do not see a train. You should:",
+    "choices": [
+      "Proceed across since no train is visible",
+      "Stop — a train is present or approaching; do not cross even if the lights keep flashing and no train appears",
+      "Speed across before the gates lower",
+      "Treat the flashing lights like a yield sign"
+    ],
+    "answerIndex": 1,
+    "explanation": "Flashing red lights mean a train is present or approaching. Stop and do not cross. Even if the lights continue to flash and no train appears, do not cross.",
+    "citation": "AR Driver License Study Guide, p. 29 — Gates and Lights"
+  },
+  {
+    "id": "signs-055",
+    "topic": "signs-signals-markings",
+    "question": "A white square or rectangular sign showing a symbol inside a red circle with a red slash through it tells a driver that:",
+    "choices": [
+      "The maneuver shown is required",
+      "The maneuver shown is prohibited (not allowed)",
+      "There is a hazard ahead",
+      "Services are located nearby"
+    ],
+    "answerIndex": 1,
+    "explanation": "Regulation signs are white squares or rectangles with black and/or red letters or symbols. A red circle with a slash over a symbol means that maneuver — such as a turn — is prohibited.",
+    "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs"
+  },
+  {
+    "id": "signs-056",
+    "topic": "signs-signals-markings",
+    "question": "A sign below the crossbuck at a railroad crossing reads '2 TRACKS.' After the first train passes, you should:",
+    "choices": [
+      "Cross immediately behind the train",
+      "Watch for additional trains from either direction and cross only when the train is well down the tracks",
+      "Assume no other train is coming",
+      "Honk and proceed"
+    ],
+    "answerIndex": 1,
+    "explanation": "A number beneath the crossbuck tells how many tracks are present. Watch for additional trains coming from either direction, and cross only when the train is well down the tracks.",
+    "citation": "AR Driver License Study Guide, p. 30 — Multiple Tracks"
+  },
+  {
+    "id": "signs-057",
+    "topic": "signs-signals-markings",
+    "question": "A FLASHING yellow traffic light means:",
+    "choices": [
+      "Stop, then go when safe — like a stop sign",
+      "Slow down and proceed with caution",
+      "The light is broken; treat it as green",
+      "Make a complete stop and wait"
+    ],
+    "answerIndex": 1,
+    "explanation": "A flashing yellow light means slow down and proceed with caution. (A flashing RED light means stop, then go when it's safe, just like a stop sign.)",
+    "citation": "AR Driver License Study Guide, p. 24 — Flashing Lights"
+  },
+  {
+    "id": "signs-058",
+    "topic": "signs-signals-markings",
+    "question": "What is the difference between WHITE and YELLOW lines painted on the road?",
+    "choices": [
+      "There is no difference",
+      "White lines separate traffic going the SAME direction; yellow lines separate traffic going OPPOSITE directions",
+      "Yellow lines mark same-direction lanes; white lines mark opposite directions",
+      "White lines are only for parking"
+    ],
+    "answerIndex": 1,
+    "explanation": "White lane lines separate lanes of traffic moving in the same direction. Yellow lines separate traffic moving in opposite directions (and mark the left edge of one-way roads).",
+    "citation": "AR Driver License Study Guide, p. 31 — Pavement Markings"
+  },
+  {
+    "id": "signs-059",
+    "topic": "signs-signals-markings",
+    "question": "You see ORANGE signs and cones along the road. These tell you that:",
+    "choices": [
+      "There is a permanent hazard",
+      "You are in or approaching a construction or maintenance work zone — slow down and be prepared for changes",
+      "A school zone is ahead",
+      "Parking is available"
+    ],
+    "answerIndex": 1,
+    "explanation": "Orange is the color for temporary traffic control in work zones. Orange signs, cones, and barrels mark construction and maintenance areas — reduce speed and watch for workers and changing conditions.",
+    "citation": "AR Driver License Study Guide, p. 16, 18 — Work Zone Safety / Signs"
   }
 ]

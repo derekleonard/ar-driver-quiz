@@ -334,5 +334,89 @@
     "answerIndex": 2,
     "explanation": "Research shows over two-thirds of car/motorcycle crashes result from a car driver turning in front of the motorcyclist. Look twice — especially before left turns at intersections.",
     "citation": "AR Driver License Study Guide, p. 69 — Sharing the Road with Motorcyclists"
+  },
+  {
+    "id": "shr-025",
+    "topic": "sharing-the-road",
+    "question": "A driver convicted of illegally passing a stopped school bus with its red lights flashing faces:",
+    "choices": [
+      "A warning for a first offense",
+      "A misdemeanor — a fine of at least $250 (up to $1,000), up to 90 days in jail, or both; and a felony if it causes a death (Isaac's Law)",
+      "Only points on the license",
+      "A $50 ticket"
+    ],
+    "answerIndex": 1,
+    "explanation": "Passing a stopped school bus with red lights flashing is a misdemeanor: a minimum $250 fine (up to $1,000) and up to 90 days in jail. Causing a death by violating this law is a felony under Isaac's Law.",
+    "citation": "AR Driver License Study Guide, p. 13 — School Bus Law and Rules"
+  },
+  {
+    "id": "shr-026",
+    "topic": "sharing-the-road",
+    "question": "A school bus stops for passengers on a two-lane road, or on a four-lane road with NO median dividing it. Traffic must stop:",
+    "choices": [
+      "Only behind the bus",
+      "From BOTH directions",
+      "Only in the bus's lane",
+      "Only if children are visible"
+    ],
+    "answerIndex": 1,
+    "explanation": "On a two-lane road (with or without a center turn lane) and on a four-lane road without a median, all traffic in BOTH directions must stop. Only on a divided highway with a median do oncoming drivers not have to stop.",
+    "citation": "AR Driver License Study Guide, p. 13 — School Bus Law and Rules"
+  },
+  {
+    "id": "shr-027",
+    "topic": "sharing-the-road",
+    "question": "You are following a motorcycle on a road with wet pavement, gravel, or a metal surface like a bridge grating or railroad tracks. You should:",
+    "choices": [
+      "Follow closer, since motorcycles stop slowly",
+      "Allow an extra cushion of space — these surfaces increase the rider's chance of falling",
+      "Pass immediately on these surfaces",
+      "Expect the rider to pull onto the shoulder"
+    ],
+    "answerIndex": 1,
+    "explanation": "Allow an extra cushion behind a motorcycle. Wet, icy, gravel, or metal surfaces — bridges, gratings, streetcar and railroad tracks — increase the chance a rider could fall, so give even more room.",
+    "citation": "AR Driver License Study Guide, p. 59 — Following Motorcycles"
+  },
+  {
+    "id": "shr-028",
+    "topic": "sharing-the-road",
+    "question": "On the road, a bicyclist:",
+    "choices": [
+      "Must always ride on the sidewalk",
+      "Has the same rights and responsibilities as a driver and must obey the same traffic laws",
+      "Has no right to use the travel lane",
+      "Must yield to all cars at all times"
+    ],
+    "answerIndex": 1,
+    "explanation": "Bicycles have the same road rights as cars and must follow the same traffic laws. Treat a cyclist as you would another vehicle, and give them room.",
+    "citation": "AR Driver License Study Guide, p. 67 — Sharing the Road with Bicycles"
+  },
+  {
+    "id": "shr-029",
+    "topic": "sharing-the-road",
+    "question": "About how far does a loaded tractor-trailer traveling 55 mph need to come to a complete stop?",
+    "choices": [
+      "About the same as a car (225 feet)",
+      "More than 335 feet — about the length of a football field",
+      "About 100 feet",
+      "Trucks stop faster than cars"
+    ],
+    "answerIndex": 1,
+    "explanation": "A loaded tractor-trailer at 55 mph needs more than 335 feet to stop — far more than a car's ~225 feet. Never cut in close in front of a truck and then slow down.",
+    "citation": "AR Driver License Study Guide, p. 64 — Tractor Trailer Rigs (Braking)"
+  },
+  {
+    "id": "shr-030",
+    "topic": "sharing-the-road",
+    "question": "Why is it especially important to look carefully for motorcycles before changing lanes or turning?",
+    "choices": [
+      "Motorcycles are required to yield to all cars",
+      "Their small size makes them hard to see, and it is hard to judge how fast they are approaching",
+      "Motorcycles always travel below the speed limit",
+      "Motorcycles cannot use the full lane"
+    ],
+    "answerIndex": 1,
+    "explanation": "A motorcycle's small size makes it hard to see and its speed hard to judge. Look twice — especially before left turns and lane changes, where most car/motorcycle crashes happen.",
+    "citation": "AR Driver License Study Guide, p. 69 — Sharing the Road with Motorcyclists"
   }
 ]

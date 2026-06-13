@@ -292,5 +292,159 @@
     "answerIndex": 1,
     "explanation": "A head-on crash is usually the worst outcome — leaving the road under control beats it. Grip the wheel with both hands (10 and 2), and don't turn so sharply or brake so hard that the front wheels lock and plow.",
     "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions (Turning)"
+  },
+  {
+    "id": "adv-022",
+    "topic": "adverse-conditions",
+    "question": "When you are stopped behind another vehicle on a hill, you should:",
+    "choices": [
+      "Pull up close to its bumper",
+      "Leave extra space — the vehicle ahead may roll back when it starts moving from the stop",
+      "Honk so it doesn't roll",
+      "Stay in neutral with no brake"
+    ],
+    "answerIndex": 1,
+    "explanation": "Leave extra space when stopped on an incline. Vehicles in front of you can roll backward as they take off from the stop, especially those with a manual transmission.",
+    "citation": "AR Driver License Study Guide, p. 59 — Stopping on an Incline"
+  },
+  {
+    "id": "adv-023",
+    "topic": "adverse-conditions",
+    "question": "You are driving between oncoming traffic on your left and a row of parked cars on your right. The 'split-difference rule' says to:",
+    "choices": [
+      "Hug the parked cars",
+      "Steer a middle course between the two hazards — and leave more room toward the side that is more dangerous",
+      "Drive on the center line",
+      "Speed up to clear both quickly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Split the difference: steer the middle course between two hazards. If one side is more dangerous (for example a tractor-trailer rather than parked cars), give that side more room.",
+    "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Split Difference)"
+  },
+  {
+    "id": "adv-024",
+    "topic": "adverse-conditions",
+    "question": "Which of these is a 'trouble spot' where the study guide says you should slow down and be ready to react?",
+    "choices": [
+      "An open rural interstate",
+      "Shopping-center lots, rush-hour traffic, narrow bridges, toll booths, and school/playground areas",
+      "A long straightaway",
+      "A divided highway at night"
+    ],
+    "answerIndex": 1,
+    "explanation": "Trouble spots limit your room to maneuver: shopping centers and downtown areas, heavy rush-hour traffic, narrow bridges and tunnels, toll booths, and schools or playgrounds. Reduce speed in crowded spaces.",
+    "citation": "AR Driver License Study Guide, p. 57 — Trouble Spots"
+  },
+  {
+    "id": "adv-025",
+    "topic": "adverse-conditions",
+    "question": "When you are following a police car, ambulance, or fire truck that is responding to a call, you should:",
+    "choices": [
+      "Follow closely to get through traffic behind it",
+      "Keep well back — emergency vehicles need room to work and may stop suddenly",
+      "Pass it on the left",
+      "Match its speed exactly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Police vehicles, ambulances, and fire trucks need room to work. Don't tailgate an emergency vehicle; leave space so you aren't caught out if it stops or maneuvers suddenly.",
+    "citation": "AR Driver License Study Guide, p. 59 — Following Emergency Vehicles"
+  },
+  {
+    "id": "adv-026",
+    "topic": "adverse-conditions",
+    "question": "In rain, most tires keep good traction up to about 35 mph. In heavy rain, your tires can lose ALL contact with the road at about:",
+    "choices": [
+      "25 mph",
+      "50 mph",
+      "70 mph",
+      "Tires never fully lose contact"
+    ],
+    "answerIndex": 1,
+    "explanation": "In heavy rain, tires can lose all traction and ride up on the water (hydroplane) at around 50 mph. Worn tires hydroplane even more easily — keep your speed down on wet roads.",
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Water Over the Roadway"
+  },
+  {
+    "id": "adv-027",
+    "topic": "adverse-conditions",
+    "question": "On a two-lane road, to keep a safety cushion to your sides you should:",
+    "choices": [
+      "Drive close to the center line",
+      "Not crowd the center line — keep space from oncoming vehicles and drive in the center of your lane",
+      "Hug the right edge line at all times",
+      "Straddle the center line on curves"
+    ],
+    "answerIndex": 1,
+    "explanation": "Keep as much space as you can between your vehicle and oncoming traffic. Don't crowd the center line on a two-lane road — drive in the center of your own lane.",
+    "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Traffic to the Side)"
+  },
+  {
+    "id": "adv-028",
+    "topic": "adverse-conditions",
+    "question": "Why is the condition of your tires so important in rain or ice?",
+    "choices": [
+      "Tires only matter for fuel economy",
+      "The tires are the only contact your vehicle has with the road — worn tread can be dangerous on wet or icy roads",
+      "Tire condition affects only steering, not stopping",
+      "Modern tires never lose grip"
+    ],
+    "answerIndex": 1,
+    "explanation": "Your vehicle's only contact with the road is through the tires. Tires with worn tread can be dangerous on wet or icy roads — reduce your speed below the posted limit when traction is poor.",
+    "citation": "AR Driver License Study Guide, p. 54 — Adjust to Road Conditions"
+  },
+  {
+    "id": "adv-029",
+    "topic": "adverse-conditions",
+    "question": "The correct way to handle a sharp curve is to:",
+    "choices": [
+      "Brake hard while in the curve",
+      "Slow down BEFORE the curve, so you don't have to brake in it",
+      "Accelerate through the curve",
+      "Coast in neutral around it"
+    ],
+    "answerIndex": 1,
+    "explanation": "A vehicle can travel much faster in a straight line than around a curve. Slow down before the curve so you don't have to brake in it — braking in a curve can cause a skid.",
+    "citation": "AR Driver License Study Guide, p. 54 — Adjust to Road Conditions (Curves)"
+  },
+  {
+    "id": "adv-030",
+    "topic": "adverse-conditions",
+    "question": "You want to alert another driver who appears not to see you. The horn should be used to:",
+    "choices": [
+      "Scold them for a mistake",
+      "Warn of a dangerous situation — such as a driver drifting into your lane or a person moving into your path",
+      "Greet a friend on the road",
+      "Hurry slower traffic along"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use the horn to warn of danger: a driver who doesn't see you, someone moving into your lane, or approaching a blind hill or curve. Never use it to scold, greet, or rush others — and never at a blind pedestrian.",
+    "citation": "AR Driver License Study Guide, p. 52 — Warning Horn"
+  },
+  {
+    "id": "adv-031",
+    "topic": "adverse-conditions",
+    "question": "At night, one way to alert another driver who may not see you is to:",
+    "choices": [
+      "Turn off your headlights briefly",
+      "Flick your headlights",
+      "Turn on your dome light",
+      "Drive on the shoulder"
+    ],
+    "answerIndex": 1,
+    "explanation": "Headlights help others see you; if needed, flick your headlights to alert another driver. Turn on your headlights any time you have trouble seeing others, even during the day.",
+    "citation": "AR Driver License Study Guide, p. 51 — External Vehicle Lights"
+  },
+  {
+    "id": "adv-032",
+    "topic": "adverse-conditions",
+    "question": "Fog (or heavy rain or snow) becomes so thick that you cannot see the road ahead at all. You should:",
+    "choices": [
+      "Turn on your high beams and continue",
+      "Pull over in a safe place and wait until the weather clears",
+      "Speed up to get out of the fog faster",
+      "Follow the taillights of the car ahead closely"
+    ],
+    "answerIndex": 1,
+    "explanation": "Under 200 feet of visibility, slow to 30 mph or less; if you can't see the road ahead at all, pull over in a safe place and wait for conditions to improve. Use low beams in fog, not high beams.",
+    "citation": "AR Driver License Study Guide, p. 58 — Rain, Fog, or Snow"
   }
 ]

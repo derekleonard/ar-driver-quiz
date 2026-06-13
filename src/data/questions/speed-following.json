@@ -334,5 +334,173 @@
     "answerIndex": 1,
     "explanation": "As a rule, pass only ONE vehicle at a time. Passing several cars at once gambles on time and space you can't be sure you have.",
     "citation": "AR Driver License Study Guide, p. 61 — Passing Distance"
+  },
+  {
+    "id": "spd-025",
+    "topic": "speed-following",
+    "question": "Total stopping distance is made up of:",
+    "choices": [
+      "Braking distance only",
+      "The distance traveled during your reaction time PLUS the braking distance",
+      "The distance to the car ahead",
+      "Only the distance after the brakes lock"
+    ],
+    "answerIndex": 1,
+    "explanation": "Total stopping distance = reaction distance (while you perceive the hazard and move your foot) + braking distance. That's why it grows quickly with speed — and why a loaded truck needs far more room than a car.",
+    "citation": "AR Driver License Study Guide, p. 54, 58 — Adjusting the Vehicle Speed"
+  },
+  {
+    "id": "spd-026",
+    "topic": "speed-following",
+    "question": "About how many feet does an average passenger car need to stop completely from 40 mph?",
+    "choices": [
+      "About 75 feet",
+      "About 124 feet",
+      "About 225 feet",
+      "About 335 feet"
+    ],
+    "answerIndex": 1,
+    "explanation": "At 40 mph total stopping distance is about 124 feet; at 55 mph it grows to about 225 feet. Higher speed means much longer stopping distance.",
+    "citation": "AR Driver License Study Guide, p. 58 — Visibility and Reaction"
+  },
+  {
+    "id": "spd-027",
+    "topic": "speed-following",
+    "question": "What is the safest speed to drive in traffic?",
+    "choices": [
+      "As fast as the law allows",
+      "The same speed as the other vehicles traveling in your direction",
+      "Five mph below everyone else",
+      "Whatever speed keeps you alone on the road"
+    ],
+    "answerIndex": 1,
+    "explanation": "Vehicles moving in the same direction at the same speed are least likely to collide. Going faster means constant passing (each pass risks a crash); going much slower backs up traffic.",
+    "citation": "AR Driver License Study Guide, p. 56 — Adjusting to the Flow of Traffic (Keeping Pace)"
+  },
+  {
+    "id": "spd-028",
+    "topic": "speed-following",
+    "question": "According to the study guide, driving faster than the flow of traffic to save time:",
+    "choices": [
+      "Saves a great deal of time on most trips",
+      "Saves no more than a few minutes an hour — while greatly increasing your crash risk",
+      "Is the mark of an efficient driver",
+      "Is fine as long as you stay under the limit"
+    ],
+    "answerIndex": 1,
+    "explanation": "Speeding does not save more than a few minutes an hour, yet each pass you make adds a chance of a collision. Slow down and keep pace with traffic.",
+    "citation": "AR Driver License Study Guide, p. 56 — Keeping Pace"
+  },
+  {
+    "id": "spd-029",
+    "topic": "speed-following",
+    "question": "You are about to take an exit from a high-speed roadway. You should:",
+    "choices": [
+      "Slow down well before the exit, in the travel lane",
+      "Not slow down until you have moved onto the exit ramp",
+      "Stop at the start of the ramp and check traffic",
+      "Speed up through the exit"
+    ],
+    "answerIndex": 1,
+    "explanation": "Stay at the speed of traffic and don't slow down until you are on the exit ramp — braking early in the travel lane surprises drivers behind you. Use your turn signal to show your intentions.",
+    "citation": "AR Driver License Study Guide, p. 56 — Exiting Traffic"
+  },
+  {
+    "id": "spd-030",
+    "topic": "speed-following",
+    "question": "Farm tractors, animal-drawn vehicles, and roadway maintenance vehicles usually travel:",
+    "choices": [
+      "At the posted speed limit",
+      "25 mph or less — and should display a slow-moving-vehicle emblem on the rear",
+      "Faster than traffic",
+      "Only on the shoulder"
+    ],
+    "answerIndex": 1,
+    "explanation": "These vehicles travel 25 mph or less and display the orange-red slow-moving-vehicle triangle. Be ready to slow well in advance, since slowing suddenly can cause a crash.",
+    "citation": "AR Driver License Study Guide, p. 57 — Slow-Moving Traffic"
+  },
+  {
+    "id": "spd-031",
+    "topic": "speed-following",
+    "question": "When merging into traffic, you should enter:",
+    "choices": [
+      "The smallest gap available to get in quickly",
+      "A gap big enough to give you a cushion of space — never try to squeeze into a small gap",
+      "Any gap, since traffic must let you in",
+      "Only after coming to a stop at the end of the ramp"
+    ],
+    "answerIndex": 1,
+    "explanation": "You need about a 4-second gap to merge. Don't try to merge into a small gap — it can quickly become even smaller. Never drive to the end of the ramp and stop.",
+    "citation": "AR Driver License Study Guide, p. 56, 61 — Merging With Traffic"
+  },
+  {
+    "id": "spd-032",
+    "topic": "speed-following",
+    "question": "You are judging whether you have time to pass on a two-lane road. An oncoming vehicle far in the distance:",
+    "choices": [
+      "Is always safe to pass before",
+      "Can appear to be standing still — if you can see it getting closer, it may be moving too fast for you to pass",
+      "Is moving slower than it looks",
+      "Can be ignored if it has not flashed its lights"
+    ],
+    "answerIndex": 1,
+    "explanation": "It's hard to judge the speed of oncoming vehicles at a distance — one far away can look stationary. If you can tell it's getting closer, it may be too fast to pass safely. When unsure, wait.",
+    "citation": "AR Driver License Study Guide, p. 62 — Oncoming Vehicles"
+  },
+  {
+    "id": "spd-033",
+    "topic": "speed-following",
+    "question": "Before you begin to pass another vehicle, you must be sure that:",
+    "choices": [
+      "The other driver will make room for you",
+      "You have enough space to return to the driving lane",
+      "You can pass at least two cars at once",
+      "The shoulder is clear in case you need it"
+    ],
+    "answerIndex": 1,
+    "explanation": "Never pass unless you have enough room to return to your lane. Don't count on other drivers making room — and watch for things (bikes, a narrow bridge, ice or potholes) that could cost you your passing space.",
+    "citation": "AR Driver License Study Guide, p. 63 — Lane Obstructions"
+  },
+  {
+    "id": "spd-034",
+    "topic": "speed-following",
+    "question": "You are following a large truck, van, or a vehicle towing a trailer that may not be able to see you. You should:",
+    "choices": [
+      "Stay close so the driver knows you are there",
+      "Reduce your speed and fall back so you can see ahead and the driver can see you",
+      "Pass on the right immediately",
+      "Flash your high beams continuously"
+    ],
+    "answerIndex": 1,
+    "explanation": "Drivers of trucks, buses, vans, or vehicles pulling trailers may not see you behind them and could stop suddenly. Reduce speed and fall back — that gives you more room to see ahead, too.",
+    "citation": "AR Driver License Study Guide, p. 59 — Following Drivers Who Cannot See Your Vehicle"
+  },
+  {
+    "id": "spd-035",
+    "topic": "speed-following",
+    "question": "Posted speed limits are set based on:",
+    "choices": [
+      "How fast most drivers want to go",
+      "The road's design, the type of vehicles using it, and the location — and they assume ideal conditions",
+      "The width of the shoulder only",
+      "A statewide flat number"
+    ],
+    "answerIndex": 1,
+    "explanation": "Speed limits reflect the road's design, the vehicles that use it, and the location, and are posted for ideal conditions. In bad weather or heavy traffic you must slow below the limit.",
+    "citation": "AR Driver License Study Guide, p. 58 — Speed Limits"
+  },
+  {
+    "id": "spd-036",
+    "topic": "speed-following",
+    "question": "You merge into the MIDDLE of a four-second gap in traffic. The following distance between you and the car behind you is now about:",
+    "choices": [
+      "Four seconds",
+      "Two seconds",
+      "One second",
+      "Six seconds"
+    ],
+    "answerIndex": 1,
+    "explanation": "If you move into the middle of a four-second gap, you and the vehicle behind you each end up with about a two-second following distance. Aim to keep a four-second gap when merging or changing lanes.",
+    "citation": "AR Driver License Study Guide, p. 61 — Merging"
   }
 ]

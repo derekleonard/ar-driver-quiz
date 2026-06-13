@@ -37,6 +37,15 @@ describe("buildExam", () => {
     expect(sum).toBe(EXAM_SIZE);
   });
 
+  it("matches the real AR blueprint: ~1/3 signs, ~2/3 rules of the road", () => {
+    const signs = EXAM_MIX["signs-signals-markings"];
+    expect(signs).toBe(8); // pin the tuned value so it can't silently drift back
+    // signs should be roughly one third of the exam; the rest are rules of the road
+    expect(signs / EXAM_SIZE).toBeGreaterThanOrEqual(0.3);
+    expect(signs / EXAM_SIZE).toBeLessThanOrEqual(0.36);
+    expect(EXAM_SIZE - signs).toBe(17);
+  });
+
   it("builds a 25-question exam matching the topic mix when the bank is rich", () => {
     const exam = buildExam(makeBank(10), mulberry32(42));
     expect(exam).toHaveLength(EXAM_SIZE);

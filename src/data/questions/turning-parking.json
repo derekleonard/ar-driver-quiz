@@ -306,5 +306,131 @@
     "answerIndex": 1,
     "explanation": "Check traffic before opening your door, and use the curb side when you can. If you must exit street-side, look again before stepping out.",
     "citation": "AR Driver License Study Guide, p. 41 — Parking Tips"
+  },
+  {
+    "id": "trn-023",
+    "topic": "turning-parking",
+    "question": "On a road with three or more lanes traveling in the same direction, you should generally:",
+    "choices": [
+      "Stay in the left lane",
+      "Remain in the right lane except to pass (use the center lane if there is a lot of merging traffic)",
+      "Use whichever lane is emptiest",
+      "Change lanes constantly to keep moving"
+    ],
+    "answerIndex": 1,
+    "explanation": "On three-or-more same-direction lanes, stay in the right lane except to pass. If there is a lot of merging traffic, use the center travel lane. The far-left lane is for passing.",
+    "citation": "AR Driver License Study Guide, p. 32 — General Driving"
+  },
+  {
+    "id": "trn-024",
+    "topic": "turning-parking",
+    "question": "Driving on the shoulder of a street or road is:",
+    "choices": [
+      "Fine for passing slow traffic",
+      "Never allowed unless a police officer directs you to",
+      "Allowed if your hazard lights are on",
+      "Allowed when the shoulder is paved"
+    ],
+    "answerIndex": 1,
+    "explanation": "Never drive on the shoulder unless directed by a police officer, and never pass on the shoulder (paved or not) — other drivers won't expect you there and may pull off without looking.",
+    "citation": "AR Driver License Study Guide, p. 32 — General Driving / Passing"
+  },
+  {
+    "id": "trn-025",
+    "topic": "turning-parking",
+    "question": "On a multilane highway, when you find yourself driving right beside another vehicle, you should:",
+    "choices": [
+      "Stay even with it so you can watch it",
+      "Move ahead of it or drop behind it, rather than riding alongside in its blind spot",
+      "Speed up well past the limit to clear it",
+      "Match its exact speed indefinitely"
+    ],
+    "answerIndex": 1,
+    "explanation": "Don't ride alongside another vehicle on a multilane road — move ahead or drop back so you're not stuck in each other's blind spot. If someone follows you too closely, move into the lane to your right when clear.",
+    "citation": "AR Driver License Study Guide, p. 34 — Multiple Lanes"
+  },
+  {
+    "id": "trn-026",
+    "topic": "turning-parking",
+    "question": "Where signs are posted, Arkansas's Do-Not-Park list prohibits parking within how many feet of a fire-station driveway (on the same side of the street)?",
+    "choices": [
+      "5 feet",
+      "10 feet",
+      "20 feet",
+      "100 feet"
+    ],
+    "answerIndex": 2,
+    "explanation": "Don't park within 20 feet of a fire-station driveway on the same side of the street where signs are posted, so fire apparatus can get out quickly.",
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
+  },
+  {
+    "id": "trn-027",
+    "topic": "turning-parking",
+    "question": "A curb painted YELLOW means:",
+    "choices": [
+      "A fire zone — no stopping ever",
+      "A loading zone or other parking restriction",
+      "Free parking",
+      "Reserved for disabled parking"
+    ],
+    "answerIndex": 1,
+    "explanation": "A yellow curb marks a loading zone or other restriction. (A red curb means a fire zone.) Colored curb markings indicate restricted parking areas.",
+    "citation": "AR Driver License Study Guide, p. 42 — Restricted Parking Zones"
+  },
+  {
+    "id": "trn-028",
+    "topic": "turning-parking",
+    "question": "Turn signals should be used before:",
+    "choices": [
+      "Only a left turn",
+      "A lane change, a left or right turn, and each time you merge into traffic or park",
+      "Only turns at intersections",
+      "Only when other cars are nearby"
+    ],
+    "answerIndex": 1,
+    "explanation": "Signal before every lane change, every left or right turn, and each time you merge into traffic or park. Proper signaling gives other drivers time to react to your moves.",
+    "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions"
+  },
+  {
+    "id": "trn-029",
+    "topic": "turning-parking",
+    "question": "When speeding up from a stop, you should:",
+    "choices": [
+      "Accelerate as hard as possible",
+      "Accelerate smoothly and gradually — sudden acceleration is harder to control and can cause a skid on a slippery road",
+      "Spin the tires to get moving",
+      "Rev the engine first"
+    ],
+    "answerIndex": 1,
+    "explanation": "Accelerate smoothly and gradually. Hard, sudden acceleration makes the vehicle harder to control and can break traction (spin or skid) on wet or icy surfaces.",
+    "citation": "AR Driver License Study Guide, p. 44 — Acceleration"
+  },
+  {
+    "id": "trn-030",
+    "topic": "turning-parking",
+    "question": "To keep from unintentionally speeding, the study guide suggests you:",
+    "choices": [
+      "Rely on how fast the car feels",
+      "Glance at your speedometer from time to time — it is easy to go faster than you think",
+      "Watch only the cars around you",
+      "Use cruise control on every road"
+    ],
+    "answerIndex": 1,
+    "explanation": "Monitor your speed by checking the speedometer periodically. It's easy to drive faster than you realize, especially after leaving a high-speed road.",
+    "citation": "AR Driver License Study Guide, p. 44 — Monitor Vehicle Speed"
+  },
+  {
+    "id": "trn-031",
+    "topic": "turning-parking",
+    "question": "Which is also on Arkansas's Do-Not-Park list?",
+    "choices": [
+      "Any legal parking space downtown",
+      "On a crosswalk or sidewalk in a construction area if your vehicle blocks traffic",
+      "On a residential street overnight",
+      "In a parking garage"
+    ],
+    "answerIndex": 1,
+    "explanation": "Don't park on a crosswalk or sidewalk in a construction area if your vehicle blocks traffic. Other no-park spots include intersections, within 20 ft of a crosswalk, and blocking a curb ramp.",
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
   }
 ]
