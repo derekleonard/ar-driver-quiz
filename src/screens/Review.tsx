@@ -41,7 +41,7 @@ export default function Review() {
   return (
     <div className="screen">
       <header className="quiz-header">
-        <Link to="/">←</Link>
+        <Link to="/" onClick={quiz.confirmLeave}>←</Link>
         <span>Review</span>
         <span>
           {quiz.index + 1}/{quiz.total}

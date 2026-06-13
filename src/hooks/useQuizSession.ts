@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { isPassing } from "../lib/examBuilder";
 import { applyAnswer } from "../lib/leitner";
 import { perTopicForAnswers } from "../lib/scoring";
@@ -33,6 +33,29 @@ export function useQuizSession(
 
   const selected = answers[index] ?? null;
   const result = finished ? perTopicForAnswers(questions, answers) : null;
+  const inProgress = !finished && answers.some((a) => a !== null);
+
+  // A refresh, tab close, or back-swipe out of the app would silently drop
+  // the in-flight session — ask first.
+  useEffect(() => {
+    if (!inProgress) return;
+    const handler = (e: BeforeUnloadEvent) => {
+      e.preventDefault();
+      e.returnValue = "";
+    };
+    window.addEventListener("beforeunload", handler);
+    return () => window.removeEventListener("beforeunload", handler);
+  }, [inProgress]);
+
+  /** onClick guard for in-app exits (the header home link). */
+  function confirmLeave(e: { preventDefault: () => void }) {
+    if (
+      inProgress &&
+      !window.confirm("Leave this session? Your progress so far will be lost.")
+    ) {
+      e.preventDefault();
+    }
+  }
 
   function choose(i: number) {
     if (revealEach && revealed) return;
@@ -82,5 +105,6 @@ export function useQuizSession(
     result,
     choose,
     next,
+    confirmLeave,
   };
 }

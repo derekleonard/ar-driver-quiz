@@ -11,4 +11,13 @@ export const firebaseConfig = {
   appId: "1:581493540665:web:8795d2300e6182a86a0ae8",
 };
 
-export const isFirebaseConfigured = firebaseConfig.apiKey !== "PASTE_ME";
+// In dev, default to LOCAL mode so `npm run dev` can never write the
+// production Firestore by accident (StrictMode double-invokes effects).
+// Opt in explicitly when cloud behavior is what you're testing:
+//   VITE_USE_EMULATOR=1 npm run dev   (cloud code against the local emulator)
+//   VITE_USE_CLOUD=1 npm run dev      (the real production project — careful)
+export const isFirebaseConfigured =
+  firebaseConfig.apiKey !== "PASTE_ME" &&
+  (!import.meta.env.DEV ||
+    !!import.meta.env.VITE_USE_EMULATOR ||
+    !!import.meta.env.VITE_USE_CLOUD);

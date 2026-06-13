@@ -58,7 +58,7 @@ export default function Exam() {
   return (
     <div className="screen">
       <header className="quiz-header">
-        <Link to="/">←</Link>
+        <Link to="/" onClick={quiz.confirmLeave}>←</Link>
         <span>Practice Exam</span>
         <span>
           {quiz.index + 1}/{quiz.total}

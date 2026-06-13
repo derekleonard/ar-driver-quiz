@@ -49,7 +49,7 @@ export default function Diagnostic() {
   return (
     <div className="screen">
       <header className="quiz-header">
-        <Link to="/">←</Link>
+        <Link to="/" onClick={quiz.confirmLeave}>←</Link>
         <span>Diagnostic</span>
         <span>
           {quiz.index + 1}/{quiz.total}
