@@ -63,6 +63,28 @@ describe("storage", () => {
     expect(storage.loadAttempts()).toEqual([]);
   });
 
+  it("drops corrupt elements inside otherwise-valid containers", () => {
+    // A garbage SRS entry or attempt element must not survive the load and
+    // crash a consumer later (Object.entries(a.perTopic), entry.box math).
+    store.set(
+      "ardq:srs",
+      JSON.stringify({
+        good: { box: 2, due: 1, seen: 1, correct: 1 },
+        num: 5,
+        nul: null,
+        partial: { box: 2 },
+        strings: { box: "2", due: "1", seen: "1", correct: "1" },
+      }),
+    );
+    expect(Object.keys(storage.loadSrs())).toEqual(["good"]);
+
+    store.set(
+      "ardq:attempts",
+      JSON.stringify([attempt(1), 5, null, "x", { mode: "drill" }, { ...attempt(2), perTopic: null }]),
+    );
+    expect(storage.loadAttempts().map((a) => a.startedAt)).toEqual([1]);
+  });
+
   it("clearAll removes both keys", () => {
     storage.saveSrs({ q1: { box: 1, due: 0, seen: 0, correct: 0 } });
     storage.saveAttempt(attempt(1));
