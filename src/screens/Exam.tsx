@@ -28,23 +28,17 @@ export default function Exam() {
           <>
             <h2>Review your misses</h2>
             {missed.map(({ q, given }) => (
-              <div key={q.id} className="card miss-review">
-                {q.image && (
-                  <img
-                    className="sign-img small"
-                    src={`${import.meta.env.BASE_URL}${q.image}`}
-                    alt="Road sign"
-                  />
-                )}
-                <p className="question-text">{q.question}</p>
-                <p className="wrong-line">
-                  ✗ Your answer: {given === null ? "(not answered)" : q.choices[given]}
-                </p>
-                <p className="answer-line">✓ {q.choices[q.answerIndex]}</p>
-                <p>{q.explanation}</p>
+              <div key={q.id}>
                 <p className="citation">
-                  {q.citation} · {TOPIC_LABELS[q.topic]}
+                  {TOPIC_LABELS[q.topic]}
+                  {given === null ? " · not answered" : ""}
                 </p>
+                <QuestionCard
+                  question={q}
+                  selected={given}
+                  revealed
+                  onSelect={() => {}}
+                />
               </div>
             ))}
           </>
