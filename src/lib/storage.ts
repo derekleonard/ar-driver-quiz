@@ -8,23 +8,30 @@ export function isRecord(v: unknown): v is Record<string, unknown> {
 }
 
 export function isSrsEntry(v: unknown): v is SrsEntry {
+  // Number.isFinite (not typeof === "number") because typeof NaN/Infinity is
+  // "number" too; a NaN box/due would serialize to Firestore as null on
+  // write-back and poison Leitner math.
   return (
     isRecord(v) &&
-    typeof v.box === "number" &&
-    typeof v.due === "number" &&
-    typeof v.seen === "number" &&
-    typeof v.correct === "number"
+    Number.isFinite(v.box) &&
+    Number.isFinite(v.due) &&
+    Number.isFinite(v.seen) &&
+    Number.isFinite(v.correct)
   );
 }
 
 export function isAttempt(v: unknown): v is Attempt {
+  // Number.isFinite + total>0: typeof NaN === "number", so a NaN/Infinity or
+  // zero-total exam would otherwise pass and make readinessScore divide
+  // score/total = 0/0 = NaN, which reaches the dashboard as the literal "NaN".
   return (
     isRecord(v) &&
     typeof v.mode === "string" &&
-    typeof v.score === "number" &&
-    typeof v.total === "number" &&
-    typeof v.startedAt === "number" &&
-    typeof v.durationSec === "number" &&
+    Number.isFinite(v.score) &&
+    Number.isFinite(v.total) &&
+    (v.total as number) > 0 &&
+    Number.isFinite(v.startedAt) &&
+    Number.isFinite(v.durationSec) &&
     isRecord(v.perTopic) &&
     Array.isArray(v.missedIds)
   );

@@ -15,7 +15,7 @@ export function topicStatsFromAttempts(attempts: Attempt[]): Partial<Record<Topi
     // Skip entries that aren't {correct:number,total:number} so one bad value
     // can't poison the dashboard math with NaN.
     for (const [topic, s] of Object.entries(a.perTopic)) {
-      if (!s || typeof s.correct !== "number" || typeof s.total !== "number") {
+      if (!s || !Number.isFinite(s.correct) || !Number.isFinite(s.total)) {
         continue;
       }
       const cur = (out[topic as Topic] ??= { correct: 0, total: 0 });
@@ -67,11 +67,18 @@ export function readinessScore(
 ): number {
   const mastery = masteryFraction(srs, allIds);
 
+  // Defensive: even though isAttempt now rejects total<=0 / non-finite fields,
+  // cloud attempts can reach here via paths that don't re-validate, so clamp
+  // each exam's ratio to a finite [0,1] so one bad row can't yield NaN.
   const exams = attempts.filter((a) => a.mode === "exam").slice(-5);
+  const examRatio = (a: Attempt): number => {
+    if (!Number.isFinite(a.score) || !Number.isFinite(a.total) || a.total <= 0) return 0;
+    return Math.max(0, Math.min(1, a.score / a.total));
+  };
   const examAvg =
     exams.length === 0
       ? 0
-      : exams.reduce((s, a) => s + a.score / a.total, 0) / exams.length;
+      : exams.reduce((s, a) => s + examRatio(a), 0) / exams.length;
 
   const stats = topicStatsFromAttempts(attempts);
   const topicRates = Object.values(stats)

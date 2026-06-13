@@ -147,39 +147,54 @@ describe("fuzz: sanitizeSrs only emits well-formed entries", () => {
 });
 
 // ---------------------------------------------------------------------------
-// SURFACED BUGS (pinned to current behavior to keep the suite green; NOT fixed
-// in this pass). These document inputs that the guards ACCEPT but that produce
-// NaN downstream — a NaN readiness reaches Dashboard.tsx as `{s?.readiness ?? "—"}`,
-// and `NaN ?? x === NaN`, so the parent dashboard renders the literal "NaN".
+// FIXED BUGS (regression guards). These previously documented inputs that the
+// guards ACCEPTED but that produced NaN downstream — a NaN readiness reaches
+// Dashboard.tsx as `{s?.readiness ?? "—"}`, and `NaN ?? x === NaN`, so the
+// parent dashboard rendered the literal "NaN". The guards now reject them and
+// readinessScore is defensively clamped to a finite number.
 // ---------------------------------------------------------------------------
-describe("SURFACED BUG: NaN/zero-total slips through isAttempt into readinessScore", () => {
-  // src/lib/storage.ts isAttempt: `typeof v.score === "number"` is TRUE for NaN
-  // (typeof NaN === "number"), and there is no `total > 0` check.
-  // src/lib/scoring.ts:73 readinessScore: `a.score / a.total` is 0/0 === NaN for
-  // a zero-total exam, and `examAvg` then poisons the whole score.
-  it("isAttempt accepts an exam with total:0 and NaN fields", () => {
+describe("FIXED: NaN/zero-total no longer slips through isAttempt into readinessScore", () => {
+  // src/lib/storage.ts isAttempt now uses Number.isFinite + total>0.
+  // src/lib/scoring.ts readinessScore now clamps each exam ratio to [0,1].
+  it("isAttempt rejects an exam with total:0 and NaN fields", () => {
     const zeroTotal: Attempt = {
       mode: "exam", score: 0, total: 0, startedAt: 1, durationSec: 60,
       perTopic: {}, missedIds: [],
     };
-    expect(isAttempt(zeroTotal)).toBe(true); // <-- accepted (no total>0 guard)
-    // BUG: readiness becomes NaN; pinning the current (buggy) value.
-    expect(Number.isNaN(readinessScore({}, ["a"], [zeroTotal]))).toBe(true);
+    expect(isAttempt(zeroTotal)).toBe(false); // <-- rejected (total>0 guard)
 
-    const nanFields = { ...zeroTotal, score: NaN, startedAt: NaN } as Attempt;
-    expect(isAttempt(nanFields)).toBe(true); // typeof NaN === "number"
-    expect(Number.isNaN(readinessScore({}, ["a"], [nanFields]))).toBe(true);
+    const nanFields = { ...zeroTotal, total: 10, score: NaN, startedAt: NaN } as Attempt;
+    expect(isAttempt(nanFields)).toBe(false); // Number.isFinite rejects NaN
+  });
+
+  it("readinessScore stays finite even if a bad attempt slips through", () => {
+    // Bad attempts that bypass isAttempt (e.g. a cloud doc) must not yield NaN.
+    const zeroTotal = {
+      mode: "exam", score: 0, total: 0, startedAt: 1, durationSec: 60,
+      perTopic: {}, missedIds: [],
+    } as Attempt;
+    expect(Number.isFinite(readinessScore({}, ["a"], [zeroTotal]))).toBe(true);
+
+    const nanFields = { ...zeroTotal, total: 10, score: NaN } as Attempt;
+    expect(Number.isFinite(readinessScore({}, ["a"], [nanFields]))).toBe(true);
   });
 });
 
-describe("SURFACED BUG: sanitizeSrs keeps entries with NaN numeric fields", () => {
-  // src/lib/storage.ts isSrsEntry uses `typeof === "number"`, which is true for
-  // NaN, so a corrupt cloud/local entry with NaN box/due survives sanitize and
-  // is written back to Firestore (where JSON.stringify turns NaN into null).
-  it("a NaN entry survives instead of being dropped", () => {
+describe("FIXED: sanitizeSrs drops entries with NaN numeric fields", () => {
+  // src/lib/storage.ts isSrsEntry now uses Number.isFinite, so a corrupt
+  // cloud/local entry with NaN box/due is dropped instead of being written
+  // back to Firestore (where JSON.stringify would turn NaN into null).
+  it("a NaN entry is dropped", () => {
     const clean = sanitizeSrs({ q: { box: NaN, due: NaN, seen: NaN, correct: NaN } });
-    expect("q" in clean).toBe(true); // BUG: should arguably be dropped
-    expect(Number.isNaN(clean.q.box)).toBe(true);
+    expect("q" in clean).toBe(false); // dropped
+
+    // Infinity is likewise non-finite and dropped; a clean sibling survives.
+    const mixed = sanitizeSrs({
+      bad: { box: Infinity, due: 1, seen: 1, correct: 1 },
+      good: { box: 2, due: 1_750_000_000_000, seen: 3, correct: 2 },
+    });
+    expect("bad" in mixed).toBe(false);
+    expect("good" in mixed).toBe(true);
   });
 });
 
