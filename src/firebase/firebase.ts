@@ -9,7 +9,9 @@ import {
 } from "firebase/auth";
 import {
   connectFirestoreEmulator,
-  getFirestore,
+  initializeFirestore,
+  persistentLocalCache,
+  persistentMultipleTabManager,
   type Firestore,
 } from "firebase/firestore";
 import { firebaseConfig, isFirebaseConfigured } from "./config";
@@ -21,7 +23,11 @@ let dbInstance: Firestore | null = null;
 if (isFirebaseConfigured) {
   app = initializeApp(firebaseConfig);
   authInstance = getAuth(app);
-  dbInstance = getFirestore(app);
+  // Persistent (IndexedDB) cache: launching offline serves the last-synced
+  // data and queues writes, instead of being fully dead without a network.
+  dbInstance = initializeFirestore(app, {
+    localCache: persistentLocalCache({ tabManager: persistentMultipleTabManager() }),
+  });
   if (import.meta.env.VITE_USE_EMULATOR) {
     connectAuthEmulator(authInstance, "http://127.0.0.1:9099", {
       disableWarnings: true,
