@@ -15,17 +15,56 @@ service cloud.firestore {
 
     function isParent() {
       return request.auth != null
+        && request.auth.token.email_verified
         && request.auth.token.email == allowlist().parentEmail;
     }
 
+    // The role is derived from the allowlist server-side, never trusted
+    // from the client: a student can't self-promote to "parent" (or demote
+    // themselves off the dashboard).
+    function roleFor() {
+      return request.auth.token.email == allowlist().parentEmail
+        ? "parent"
+        : "student";
+    }
+
+    function validSummary(s) {
+      return s is map
+        && s.keys().hasOnly(["readiness", "streak", "topicMastery", "lastExam"])
+        && (s.readiness is number && s.readiness >= 0 && s.readiness <= 100)
+        && (s.streak is number && s.streak >= 0)
+        && s.topicMastery is map
+        && (!("lastExam" in s)
+            || (s.lastExam is map
+                && s.lastExam.keys().hasOnly(["score", "total", "passed", "at"])
+                && s.lastExam.score is number
+                && s.lastExam.total is number
+                && s.lastExam.passed is bool
+                && s.lastExam.at is number));
+    }
+
+    function validUserDoc(d) {
+      return d.keys().hasOnly(["email", "displayName", "role", "lastActive", "summary"])
+        && (!("email" in d) || d.email == request.auth.token.email)
+        && (!("role" in d) || d.role == roleFor())
+        && (!("summary" in d) || validSummary(d.summary));
+    }
+
     match /config/allowlist {
-      allow read: if request.auth != null;
+      // The doc lists the family's emails, so only family members may read
+      // it. A read of a missing doc is allowed (resource == null) so the
+      // client can still diagnose "allowlist not created" during setup.
+      allow read: if request.auth != null
+        && (resource == null
+            || request.auth.token.email in resource.data.emails);
       allow write: if false; // edited in the Firebase console only
     }
 
     match /users/{uid} {
       allow read: if (isAllowed() && request.auth.uid == uid) || isParent();
-      allow write: if isAllowed() && request.auth.uid == uid;
+      allow write: if isAllowed()
+        && request.auth.uid == uid
+        && validUserDoc(request.resource.data);
 
       match /{document=**} {
         allow read: if (isAllowed() && request.auth.uid == uid) || isParent();

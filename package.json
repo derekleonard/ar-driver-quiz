@@ -8,7 +8,7 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:rules": "firebase emulators:exec --only firestore 'vitest run tests/rules'",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-ar-driver-quiz 'vitest run tests/rules'",
     "validate-bank": "node scripts/validate-bank.mjs"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "firebase-tools": "^15.20.0",
     "typescript": "^5.5.4",
     "vite": "^5.4.0",
     "vitest": "^2.0.5"

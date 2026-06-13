@@ -1,6 +1,7 @@
 // Firestore security-rules tests. These need the emulator:
 //   npm run test:rules
-// They are skipped automatically in plain `npm test`.
+// They are skipped automatically in plain `npm test`. CI runs them in the
+// dedicated `rules` job (see .github/workflows/deploy.yml).
 import { readFileSync } from "node:fs";
 import { afterAll, beforeAll, describe, it } from "vitest";
 import {
@@ -20,8 +21,15 @@ describe.skipIf(!hasEmulator)("firestore.rules", () => {
   const KID_B = "kidb@example.com";
   const STRANGER = "rando@example.com";
 
-  const ctx = (uid: string, email: string) =>
-    env.authenticatedContext(uid, { email, email_verified: true }).firestore();
+  const ctx = (uid: string, email: string, verified = true) =>
+    env.authenticatedContext(uid, { email, email_verified: verified }).firestore();
+
+  const VALID_SUMMARY = {
+    readiness: 72,
+    streak: 3,
+    topicMastery: { "right-of-way": 80 },
+    lastExam: { score: 21, total: 25, passed: true, at: 1234 },
+  };
 
   beforeAll(async () => {
     env = await initializeTestEnvironment({
@@ -34,6 +42,7 @@ describe.skipIf(!hasEmulator)("firestore.rules", () => {
         .doc("config/allowlist")
         .set({ emails: [PARENT, KID_A, KID_B], parentEmail: PARENT });
       await c.firestore().doc("users/kidA/state/srs").set({ entries: {} });
+      await c.firestore().doc("users/kidA/attempts/a1").set({ startedAt: 1 });
     });
   });
 
@@ -67,13 +76,77 @@ describe.skipIf(!hasEmulator)("firestore.rules", () => {
     await assertFails(db.doc("users/kidA").get());
   });
 
+  it("an unauthenticated client is denied everything", async () => {
+    const db = env.unauthenticatedContext().firestore();
+    await assertFails(db.doc("config/allowlist").get());
+    await assertFails(db.doc("users/kidA").get());
+    await assertFails(db.doc("users/kidA/state/srs").set({ entries: {} }));
+  });
+
+  it("an unverified email is denied even when allowlisted", async () => {
+    const db = ctx("kidA", KID_A, false);
+    await assertFails(db.doc("users/kidA").set({ email: KID_A }));
+    await assertFails(db.doc("users/kidA/state/srs").get());
+  });
+
+  it("an unverified parent email gets no dashboard access (isParent checks it too)", async () => {
+    const db = ctx("dad", PARENT, false);
+    await assertFails(db.doc("users/kidA").get());
+    await assertFails(db.doc("users/kidA/state/srs").get());
+  });
+
   it("nobody can write the allowlist", async () => {
     const db = ctx("dad", PARENT);
     await assertFails(db.doc("config/allowlist").set({ emails: [] }));
   });
 
-  it("signed-in users can read the allowlist", async () => {
-    const db = ctx("rando", STRANGER);
-    await assertSucceeds(db.doc("config/allowlist").get());
+  it("only family members can read the allowlist", async () => {
+    await assertSucceeds(ctx("kidA", KID_A).doc("config/allowlist").get());
+    await assertSucceeds(ctx("dad", PARENT).doc("config/allowlist").get());
+    await assertFails(ctx("rando", STRANGER).doc("config/allowlist").get());
+  });
+
+  it("a student cannot self-promote to role parent (or forge an email)", async () => {
+    const db = ctx("kidA", KID_A);
+    await assertFails(db.doc("users/kidA").set({ email: KID_A, role: "parent" }));
+    await assertFails(db.doc("users/kidA").set({ email: PARENT }));
+    await assertSucceeds(db.doc("users/kidA").set({ email: KID_A, role: "student" }));
+  });
+
+  it("the parent's own doc gets role parent", async () => {
+    const db = ctx("dad", PARENT);
+    await assertSucceeds(db.doc("users/dad").set({ email: PARENT, role: "parent" }));
+    await assertFails(db.doc("users/dad").set({ email: PARENT, role: "student" }));
+  });
+
+  it("the summary must have the dashboard's shape", async () => {
+    const db = ctx("kidA", KID_A);
+    await assertSucceeds(db.doc("users/kidA").set({ summary: VALID_SUMMARY }));
+    await assertFails(
+      db.doc("users/kidA").set({ summary: { ...VALID_SUMMARY, readiness: "high" } }),
+    );
+    await assertFails(
+      db.doc("users/kidA").set({ summary: { ...VALID_SUMMARY, readiness: 9999 } }),
+    );
+    await assertFails(
+      db.doc("users/kidA").set({ summary: { ...VALID_SUMMARY, injected: true } }),
+    );
+    await assertFails(db.doc("users/kidA").set({ summary: 42 }));
+  });
+
+  it("unknown top-level user-doc fields are rejected", async () => {
+    const db = ctx("kidA", KID_A);
+    await assertFails(db.doc("users/kidA").set({ email: KID_A, isAdmin: true }));
+  });
+
+  it("attempts subcollection: owner writes, parent reads, others denied", async () => {
+    await assertSucceeds(
+      ctx("kidA", KID_A).collection("users/kidA/attempts").add({ startedAt: 2 }),
+    );
+    await assertSucceeds(ctx("dad", PARENT).doc("users/kidA/attempts/a1").get());
+    await assertFails(ctx("kidB", KID_B).doc("users/kidA/attempts/a1").get());
+    await assertFails(
+      ctx("rando", STRANGER).collection("users/kidA/attempts").add({ startedAt: 3 }),
+    );
   });
 });
