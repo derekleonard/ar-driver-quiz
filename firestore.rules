@@ -66,7 +66,11 @@ service cloud.firestore {
         && request.auth.uid == uid
         && validUserDoc(request.resource.data);
 
-      match /{document=**} {
+      // NOT {document=**}: in rules_version 2 a recursive wildcard matches
+      // ZERO or more segments, so it would also match /users/{uid} itself
+      // and let writes bypass validUserDoc above (caught by the rules
+      // tests). Subcollection docs live at exactly this depth.
+      match /{collection}/{docId} {
         allow read: if (isAllowed() && request.auth.uid == uid) || isParent();
         allow write: if isAllowed() && request.auth.uid == uid;
       }
