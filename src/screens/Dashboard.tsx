@@ -134,9 +134,9 @@ export function KidDetail() {
       </header>
       {recent.length === 0 && <p className="subtitle">No sessions yet.</p>}
       <ul className="exam-history">
-        {recent.map((a, i) => (
+        {recent.map((a) => (
           <li
-            key={i}
+            key={a.startedAt}
             className={
               a.mode === "exam" ? (a.passed ? "passed" : "failed") : ""
             }

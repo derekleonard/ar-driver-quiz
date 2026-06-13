@@ -107,6 +107,15 @@ describe("leitner", () => {
     expect(Object.keys(a)).toHaveLength(3);
   });
 
+  it("mergeSrs breaks a seen/box/due tie on the higher correct count", () => {
+    // Same seen, box, and due on both sides: without the correct tie-break the
+    // entry with the lower correct count would silently win and drop stats.
+    const a = { q: { box: 2, due: NOW + DAY, seen: 4, correct: 1 } };
+    const b = { q: { box: 2, due: NOW + DAY, seen: 4, correct: 3 } };
+    expect(mergeSrs(a, b).q).toEqual(b.q); // b's higher correct wins
+    expect(mergeSrs(b, a).q).toEqual(b.q); // order-independent
+  });
+
   it("mergeSrs of a state with empty is identity", () => {
     const a = { x: { box: 2, due: NOW, seen: 1, correct: 1 } };
     expect(mergeSrs(a, {})).toEqual(a);

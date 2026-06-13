@@ -60,7 +60,10 @@ export function applyAnswer(state: SrsState, id: string, correct: boolean, now: 
 /**
  * Merge two SRS states that progressed independently (e.g. local + cloud).
  * Per id, keeps the entry with the most history: higher seen, then higher
- * box, then later due. Histories may overlap, so counts are never summed.
+ * box, then later due, then higher correct. Histories may overlap, so counts
+ * are never summed. The final `correct` tie-break keeps the better stats when
+ * seen/box/due are otherwise identical, instead of silently dropping a tab's
+ * higher correct count.
  */
 export function mergeSrs(a: SrsState, b: SrsState): SrsState {
   const merged: SrsState = { ...a };
@@ -69,7 +72,10 @@ export function mergeSrs(a: SrsState, b: SrsState): SrsState {
     if (
       !ea ||
       eb.seen > ea.seen ||
-      (eb.seen === ea.seen && (eb.box > ea.box || (eb.box === ea.box && eb.due > ea.due)))
+      (eb.seen === ea.seen &&
+        (eb.box > ea.box ||
+          (eb.box === ea.box &&
+            (eb.due > ea.due || (eb.due === ea.due && eb.correct > ea.correct)))))
     ) {
       merged[id] = eb;
     }
