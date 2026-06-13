@@ -99,6 +99,24 @@ describe("bootstrapCloudUser access policy", () => {
     expect(reason).toMatch(/rules/);
   });
 
+  it("a missing config/allowlist doc is a denial naming the setup fix", async () => {
+    store.fetchAllowlist.mockRejectedValue(new Error("allowlist-missing"));
+    const r = await bootstrapCloudUser(user(KID), T);
+    expect(r.kind).toBe("denied");
+    const reason = (r as { reason: string }).reason;
+    expect(reason).toMatch(/config/);
+    expect(reason).toMatch(/allowlist/);
+  });
+
+  it("a malformed config/allowlist doc is a denial naming the required shape", async () => {
+    store.fetchAllowlist.mockRejectedValue(new Error("allowlist-malformed"));
+    const r = await bootstrapCloudUser(user(KID), T);
+    expect(r.kind).toBe("denied");
+    const reason = (r as { reason: string }).reason;
+    expect(reason).toMatch(/emails/);
+    expect(reason).toMatch(/parentEmail/);
+  });
+
   it("a hanging allowlist read times out into an ERROR, not a spinner", async () => {
     store.fetchAllowlist.mockReturnValue(new Promise(() => {}));
     const r = await bootstrapCloudUser(user(KID), T);

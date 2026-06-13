@@ -14,7 +14,7 @@ import {
 } from "firebase/firestore";
 import { mergeSrs } from "../lib/leitner";
 import { isAttempt, isRecord, sanitizeSrs } from "../lib/storage";
-import type { UserSummary } from "../lib/summary";
+import { isUserSummary, type UserSummary } from "../lib/summary";
 import type { Attempt, SrsState } from "../types";
 import { db } from "./firebase";
 
@@ -141,9 +141,10 @@ export async function fetchFamily(): Promise<FamilyUser[]> {
       displayName: data.displayName ?? data.email ?? d.id,
       role: data.role ?? "student",
       lastActive: data.lastActive?.toMillis?.() ?? null,
-      // The dashboard null-guards every field it reads, but `summary` itself
-      // must at least be an object for those guards to work.
-      summary: isRecord(data.summary) ? (data.summary as unknown as UserSummary) : undefined,
+      // Validate the whole shape instead of blind-casting: a pre-shape-rule
+      // legacy doc with wrong-typed fields is dropped rather than handed to the
+      // dashboard, where numeric reads would silently render NaN/undefined.
+      summary: isUserSummary(data.summary) ? data.summary : undefined,
     };
   });
 }

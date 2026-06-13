@@ -1,5 +1,6 @@
 import type { Attempt, SrsState } from "../types";
 import { readinessScore, topicStatsFromAttempts } from "./scoring";
+import { isRecord } from "./storage";
 import { studyStreak } from "./streak";
 
 /** What the parent dashboard reads from users/{uid}.summary. */
@@ -8,6 +9,37 @@ export interface UserSummary {
   streak: number;
   topicMastery: Record<string, number>;
   lastExam?: { score: number; total: number; passed: boolean; at: number };
+}
+
+/**
+ * Validate an untrusted users/{uid}.summary field instead of blind-casting it.
+ * Pre-shape-rule legacy docs (or a hand-edited console doc) could carry
+ * wrong-typed fields; a bad summary should be dropped, not handed to the
+ * dashboard where every numeric read would silently render NaN/undefined.
+ */
+export function isUserSummary(v: unknown): v is UserSummary {
+  if (
+    !isRecord(v) ||
+    typeof v.readiness !== "number" ||
+    typeof v.streak !== "number" ||
+    !isRecord(v.topicMastery) ||
+    !Object.values(v.topicMastery).every((n) => typeof n === "number")
+  ) {
+    return false;
+  }
+  if (v.lastExam !== undefined) {
+    const e = v.lastExam;
+    if (
+      !isRecord(e) ||
+      typeof e.score !== "number" ||
+      typeof e.total !== "number" ||
+      typeof e.passed !== "boolean" ||
+      typeof e.at !== "number"
+    ) {
+      return false;
+    }
+  }
+  return true;
 }
 
 /** Build the dashboard summary written after every finished session. */
