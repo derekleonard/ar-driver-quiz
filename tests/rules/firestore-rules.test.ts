@@ -31,6 +31,16 @@ describe.skipIf(!hasEmulator)("firestore.rules", () => {
     lastExam: { score: 21, total: 25, passed: true, at: 1234 },
   };
 
+  const VALID_ATTEMPT = {
+    mode: "drill",
+    score: 8,
+    total: 10,
+    startedAt: 1700000000000,
+    durationSec: 120,
+    perTopic: { "right-of-way": { correct: 8, total: 10 } },
+    missedIds: ["q1", "q2"],
+  };
+
   beforeAll(async () => {
     env = await initializeTestEnvironment({
       projectId: "ar-driver-quiz-test",
@@ -141,12 +151,58 @@ describe.skipIf(!hasEmulator)("firestore.rules", () => {
 
   it("attempts subcollection: owner writes, parent reads, others denied", async () => {
     await assertSucceeds(
-      ctx("kidA", KID_A).collection("users/kidA/attempts").add({ startedAt: 2 }),
+      ctx("kidA", KID_A).collection("users/kidA/attempts").add(VALID_ATTEMPT),
     );
     await assertSucceeds(ctx("dad", PARENT).doc("users/kidA/attempts/a1").get());
     await assertFails(ctx("kidB", KID_B).doc("users/kidA/attempts/a1").get());
     await assertFails(
-      ctx("rando", STRANGER).collection("users/kidA/attempts").add({ startedAt: 3 }),
+      ctx("rando", STRANGER).collection("users/kidA/attempts").add(VALID_ATTEMPT),
     );
+  });
+
+  it("an attempt with the wrong shape is rejected", async () => {
+    const db = ctx("kidA", KID_A);
+    // Missing required fields (the shape isAttempt also checks client-side).
+    await assertFails(db.collection("users/kidA/attempts").add({ startedAt: 2 }));
+    // Right keys, wrong types.
+    await assertFails(
+      db.collection("users/kidA/attempts").add({ ...VALID_ATTEMPT, score: "lots" }),
+    );
+    await assertFails(
+      db.collection("users/kidA/attempts").add({ ...VALID_ATTEMPT, missedIds: "q1" }),
+    );
+  });
+
+  it("an oversized attempt is rejected (quota/cost abuse)", async () => {
+    const db = ctx("kidA", KID_A);
+    // ~60 KB of junk pushes the doc past the 50 KB bound in validAttempt.
+    const huge = "x".repeat(60000);
+    await assertFails(
+      db.collection("users/kidA/attempts").add({ ...VALID_ATTEMPT, junk: huge }),
+    );
+  });
+
+  it("a state doc with the wrong shape is rejected", async () => {
+    const db = ctx("kidA", KID_A);
+    // Missing `entries`.
+    await assertFails(db.doc("users/kidA/state/srs").set({ nope: 1 }));
+    // `entries` present but not a map.
+    await assertFails(db.doc("users/kidA/state/srs").set({ entries: 5 }));
+    // Extra top-level keys.
+    await assertFails(db.doc("users/kidA/state/srs").set({ entries: {}, extra: 1 }));
+  });
+
+  it("an oversized state doc is rejected (quota/cost abuse)", async () => {
+    const db = ctx("kidA", KID_A);
+    const huge: Record<string, string> = {};
+    // ~150 KB across many entries, past the 100 KB bound in validState.
+    for (let i = 0; i < 1500; i++) huge["k" + i] = "x".repeat(100);
+    await assertFails(db.doc("users/kidA/state/srs").set({ entries: huge }));
+  });
+
+  it("a student cannot WRITE a sibling's subcollection docs", async () => {
+    const db = ctx("kidB", KID_B);
+    await assertFails(db.doc("users/kidA/state/srs").set({ entries: {} }));
+    await assertFails(db.collection("users/kidA/attempts").add(VALID_ATTEMPT));
   });
 });

@@ -50,6 +50,30 @@ service cloud.firestore {
         && (!("summary" in d) || validSummary(d.summary));
     }
 
+    // An attempt mirrors the client Attempt type (src/types.ts). The required
+    // fields are checked for presence and type; the catch-all size bound keeps
+    // a (possibly larger, e.g. perTopic/missedIds) doc from being abused as
+    // bulk storage. Numbers/bools/strings are typed so a garbage doc that the
+    // client would silently drop (isAttempt) is rejected at the source.
+    function validAttempt(d) {
+      return request.resource.size() < 50000
+        && d.mode is string
+        && d.score is number
+        && d.total is number
+        && d.startedAt is number
+        && d.perTopic is map
+        && d.missedIds is list;
+    }
+
+    // The SRS state doc is exactly { entries: <map> } (src/firebase/store.ts).
+    // Bound the size — the bank is small (~200 ids) so a legit doc is tiny;
+    // anything large is abuse.
+    function validState(d) {
+      return request.resource.size() < 100000
+        && d.keys().hasOnly(["entries"])
+        && d.entries is map;
+    }
+
     match /config/allowlist {
       // The doc lists the family's emails, so only family members may read
       // it. A read of a missing doc is allowed (resource == null) so the
@@ -72,7 +96,13 @@ service cloud.firestore {
       // tests). Subcollection docs live at exactly this depth.
       match /{collection}/{docId} {
         allow read: if (isAllowed() && request.auth.uid == uid) || isParent();
-        allow write: if isAllowed() && request.auth.uid == uid;
+        // Only the two collections the client actually uses are writable, and
+        // each must match its shape/size — an allowlisted student can't dump
+        // arbitrary garbage or oversized docs into their own subtree.
+        allow write: if isAllowed()
+          && request.auth.uid == uid
+          && ((collection == "attempts" && validAttempt(request.resource.data))
+              || (collection == "state" && validState(request.resource.data)));
       }
     }
   }
