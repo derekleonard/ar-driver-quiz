@@ -1,4 +1,4 @@
-import { initializeApp, type FirebaseApp } from "firebase/app";
+import { initializeApp } from "firebase/app";
 import {
   connectAuthEmulator,
   getAuth,
@@ -16,12 +16,11 @@ import {
 } from "firebase/firestore";
 import { firebaseConfig, isFirebaseConfigured } from "./config";
 
-let app: FirebaseApp | null = null;
 let authInstance: Auth | null = null;
 let dbInstance: Firestore | null = null;
 
 if (isFirebaseConfigured) {
-  app = initializeApp(firebaseConfig);
+  const app = initializeApp(firebaseConfig);
   authInstance = getAuth(app);
   // Persistent (IndexedDB) cache: launching offline serves the last-synced
   // data and queues writes, instead of being fully dead without a network.
