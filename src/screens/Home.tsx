@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { BANK, BANK_IDS } from "../data/bank";
+import { DIAGNOSTIC_SIZE } from "../lib/diagnosticBuilder";
+import { EXAM_SIZE } from "../lib/examBuilder";
 import { dueCount, reviewQueue } from "../lib/leitner";
-import { readinessScore, topicStatsFromAttempts } from "../lib/scoring";
+import { masteryClass, readinessScore, topicStatsFromAttempts } from "../lib/scoring";
 import { studyStreak } from "../lib/streak";
 import { useAppData } from "../state/AppData";
 import { TOPICS, TOPIC_LABELS } from "../types";
@@ -50,7 +52,7 @@ export default function Home() {
 
       {attempts.length === 0 && (
         <Link className="btn primary" to="/diagnostic">
-          Start with the Diagnostic (40 questions)
+          Start with the Diagnostic ({DIAGNOSTIC_SIZE} questions)
         </Link>
       )}
 
@@ -65,7 +67,7 @@ export default function Home() {
         className={`btn ${attempts.length === 0 || due > 0 ? "" : "primary"}`}
         to="/exam"
       >
-        Take a Practice Exam (25 questions)
+        Take a Practice Exam ({EXAM_SIZE} questions)
       </Link>
 
       <h2>Drill by topic</h2>
@@ -76,7 +78,7 @@ export default function Home() {
           return (
             <Link key={t} className="topic-tile" to={`/drill/${t}`}>
               <span className="topic-name">{TOPIC_LABELS[t]}</span>
-              <span className={`topic-pct ${pct === null ? "" : pct >= 80 ? "good" : pct >= 60 ? "ok" : "bad"}`}>
+              <span className={`topic-pct ${pct === null ? "" : masteryClass(pct)}`}>
                 {pct === null ? "—" : `${pct}%`}
               </span>
             </Link>

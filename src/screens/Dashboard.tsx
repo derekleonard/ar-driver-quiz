@@ -5,6 +5,7 @@ import {
   loadAttempts,
   type FamilyUser,
 } from "../firebase/store";
+import { masteryClass } from "../lib/scoring";
 import { TOPIC_LABELS, type Attempt, type Topic } from "../types";
 
 function ago(ts: number | null): string {
@@ -14,10 +15,6 @@ function ago(ts: number | null): string {
   const hours = Math.floor(mins / 60);
   if (hours < 24) return `${hours}h ago`;
   return `${Math.floor(hours / 24)}d ago`;
-}
-
-function masteryClass(pct: number): string {
-  return pct >= 80 ? "good" : pct >= 60 ? "ok" : "bad";
 }
 
 export default function Dashboard() {

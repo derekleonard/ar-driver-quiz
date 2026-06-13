@@ -4,6 +4,7 @@ import QuestionCard from "../components/QuestionCard";
 import { BANK } from "../data/bank";
 import { useQuizSession } from "../hooks/useQuizSession";
 import { buildDiagnostic } from "../lib/diagnosticBuilder";
+import { masteryClass } from "../lib/scoring";
 import type { Topic } from "../types";
 import { TOPIC_LABELS } from "../types";
 
@@ -30,7 +31,7 @@ export default function Diagnostic() {
             return (
               <Link key={topic} className="diag-row" to={`/drill/${topic}`}>
                 <span>{TOPIC_LABELS[topic]}</span>
-                <span className={pct >= 80 ? "good" : pct >= 60 ? "ok" : "bad"}>
+                <span className={masteryClass(pct)}>
                   {s.correct}/{s.total}
                 </span>
               </Link>

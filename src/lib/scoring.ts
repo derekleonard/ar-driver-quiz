@@ -40,6 +40,14 @@ export function perTopicForAnswers(
 }
 
 /**
+ * Single owner of the mastery color bands every screen uses (topic tiles,
+ * diagnostic rows, dashboard chips).
+ */
+export function masteryClass(pct: number): "good" | "ok" | "bad" {
+  return pct >= 80 ? "good" : pct >= 60 ? "ok" : "bad";
+}
+
+/**
  * Readiness 0-100: 50% bank mastery (Leitner box >= 3), 30% recent exam
  * average, 20% worst-topic floor. Encourages fixing weak topics, not just
  * grinding strong ones.

@@ -3,6 +3,7 @@ import { TOPICS } from "../types";
 import { shuffle } from "./shuffle";
 
 export const DIAGNOSTIC_PER_TOPIC = 5;
+export const DIAGNOSTIC_SIZE = DIAGNOSTIC_PER_TOPIC * TOPICS.length;
 
 /** Stratified sample across every topic to seed the topic heatmap and SRS. */
 export function buildDiagnostic(
