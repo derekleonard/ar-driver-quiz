@@ -50,28 +50,31 @@ service cloud.firestore {
         && (!("summary" in d) || validSummary(d.summary));
     }
 
-    // An attempt mirrors the client Attempt type (src/types.ts). The required
-    // fields are checked for presence and type; the catch-all size bound keeps
-    // a (possibly larger, e.g. perTopic/missedIds) doc from being abused as
-    // bulk storage. Numbers/bools/strings are typed so a garbage doc that the
-    // client would silently drop (isAttempt) is rejected at the source.
+    // An attempt mirrors the client Attempt type (src/types.ts). hasAll guards
+    // presence BEFORE the `is` checks (reading an absent key throws an eval
+    // error, not false), and hasOnly rejects junk keys — which is also how a
+    // bloated doc is bounded, since rules cannot measure document bytes.
     function validAttempt(d) {
-      return request.resource.size() < 50000
+      return d.keys().hasAll(["mode", "score", "total", "startedAt", "durationSec", "perTopic", "missedIds"])
+        && d.keys().hasOnly(["mode", "topic", "score", "total", "passed", "startedAt", "durationSec", "perTopic", "missedIds"])
         && d.mode is string
         && d.score is number
         && d.total is number
         && d.startedAt is number
+        && d.durationSec is number
         && d.perTopic is map
-        && d.missedIds is list;
+        && d.missedIds is list
+        && (!("topic" in d) || d.topic is string)
+        && (!("passed" in d) || d.passed is bool);
     }
 
     // The SRS state doc is exactly { entries: <map> } (src/firebase/store.ts).
-    // Bound the size — the bank is small (~200 ids) so a legit doc is tiny;
-    // anything large is abuse.
+    // Rules cannot measure bytes, so bound the entry COUNT — the bank is ~200
+    // ids, so a legit doc is small; thousands of entries is abuse.
     function validState(d) {
-      return request.resource.size() < 100000
-        && d.keys().hasOnly(["entries"])
-        && d.entries is map;
+      return d.keys().hasOnly(["entries"])
+        && d.entries is map
+        && d.entries.size() <= 1000;
     }
 
     match /config/allowlist {

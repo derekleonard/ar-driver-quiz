@@ -173,9 +173,10 @@ describe.skipIf(!hasEmulator)("firestore.rules", () => {
     );
   });
 
-  it("an oversized attempt is rejected (quota/cost abuse)", async () => {
+  it("an attempt with extra keys is rejected (quota/cost abuse)", async () => {
     const db = ctx("kidA", KID_A);
-    // ~60 KB of junk pushes the doc past the 50 KB bound in validAttempt.
+    // Rules can't measure bytes, so bulk-storage abuse is blocked by hasOnly:
+    // a junk key (here holding ~60 KB) is rejected regardless of its size.
     const huge = "x".repeat(60000);
     await assertFails(
       db.collection("users/kidA/attempts").add({ ...VALID_ATTEMPT, junk: huge }),
@@ -192,10 +193,11 @@ describe.skipIf(!hasEmulator)("firestore.rules", () => {
     await assertFails(db.doc("users/kidA/state/srs").set({ entries: {}, extra: 1 }));
   });
 
-  it("an oversized state doc is rejected (quota/cost abuse)", async () => {
+  it("a state doc with too many entries is rejected (quota/cost abuse)", async () => {
     const db = ctx("kidA", KID_A);
     const huge: Record<string, string> = {};
-    // ~150 KB across many entries, past the 100 KB bound in validState.
+    // 1500 entries is well past the bank size (~200); validState bounds the
+    // entry count (rules can't measure bytes) so this is rejected.
     for (let i = 0; i < 1500; i++) huge["k" + i] = "x".repeat(100);
     await assertFails(db.doc("users/kidA/state/srs").set({ entries: huge }));
   });
