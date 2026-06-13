@@ -24,6 +24,7 @@ export function isAttempt(v: unknown): v is Attempt {
     typeof v.score === "number" &&
     typeof v.total === "number" &&
     typeof v.startedAt === "number" &&
+    typeof v.durationSec === "number" &&
     isRecord(v.perTopic) &&
     Array.isArray(v.missedIds)
   );

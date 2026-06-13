@@ -85,6 +85,18 @@ describe("storage", () => {
     expect(storage.loadAttempts().map((a) => a.startedAt)).toEqual([1]);
   });
 
+  it("rejects a stale attempt missing durationSec (rules require it)", () => {
+    // A pre-durationSec localStorage attempt would be rejected by validAttempt
+    // in firestore.rules; isAttempt must drop it client-side so the cloud
+    // migration never tries to upload a doc the rules will deny.
+    const stale: Partial<Attempt> = attempt(7);
+    delete stale.durationSec;
+    expect(storage.isAttempt(stale)).toBe(false);
+    expect(storage.isAttempt(attempt(7))).toBe(true);
+    store.set("ardq:attempts", JSON.stringify([attempt(1), stale]));
+    expect(storage.loadAttempts().map((a) => a.startedAt)).toEqual([1]);
+  });
+
   it("clearAll removes both keys", () => {
     storage.saveSrs({ q1: { box: 1, due: 0, seen: 0, correct: 0 } });
     storage.saveAttempt(attempt(1));

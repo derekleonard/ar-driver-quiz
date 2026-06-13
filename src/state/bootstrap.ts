@@ -148,14 +148,31 @@ export async function bootstrapCloudUser(
         (x, y) => x.startedAt - y.startedAt,
       );
       try {
+        // Upload attempts individually and tolerate per-doc rejections: a
+        // single stale/malformed attempt (e.g. a pre-durationSec doc the rules
+        // reject) must NOT throw and wedge the entire sign-in into the denied
+        // screen. Skip+count the bad one and keep migrating the rest.
+        let rejected = 0;
         await withTimeout(
           (async () => {
-            for (const a of fresh) await addAttemptDoc(u.uid, a);
+            for (const a of fresh) {
+              try {
+                await addAttemptDoc(u.uid, a);
+              } catch (ae: unknown) {
+                if (errCode(ae) !== "permission-denied") throw ae;
+                rejected += 1;
+              }
+            }
             await saveSrsDoc(u.uid, srs);
           })(),
           timeouts.migrateMs,
           "migrate",
         );
+        if (rejected > 0) {
+          console.warn(
+            `Skipped ${rejected} local attempt(s) the cloud rejected during migration.`,
+          );
+        }
         local.clearAll();
       } catch (e: unknown) {
         if (errCode(e) === "permission-denied") throw e;

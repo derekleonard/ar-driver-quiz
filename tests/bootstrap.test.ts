@@ -160,6 +160,26 @@ describe("bootstrapCloudUser data load", () => {
     expect(local.loadSrs()).toEqual({});
   });
 
+  it("login succeeds even if one attempt upload is rejected by the rules", async () => {
+    // A single stale/malformed local attempt the cloud denies must be skipped,
+    // not allowed to wedge the entire sign-in into the denied screen.
+    store.loadAttempts.mockResolvedValue([]);
+    local.saveAttempt(attempt(10)); // bad: cloud rejects this one
+    local.saveAttempt(attempt(20)); // good
+    store.addAttemptDoc.mockImplementation((_uid: string, a: Attempt) =>
+      a.startedAt === 10
+        ? Promise.reject({ code: "permission-denied" })
+        : Promise.resolve(undefined),
+    );
+
+    const r = await bootstrapCloudUser(user(KID), T);
+    expect(r.kind).toBe("ready");
+    expect(store.addAttemptDoc).toHaveBeenCalledTimes(2);
+    expect(store.saveSrsDoc).toHaveBeenCalledTimes(1);
+    // migration ran to completion -> local queue cleared
+    expect(local.loadAttempts()).toEqual([]);
+  });
+
   it("serves the merged view but KEEPS localStorage when migration fails transiently", async () => {
     store.saveSrsDoc.mockRejectedValue({ code: "unavailable" });
     local.saveAttempt(attempt(20));
