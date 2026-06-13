@@ -8,16 +8,23 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const questionsDir = join(root, "src", "data", "questions");
 const publicDir = join(root, "public");
 
-const TOPICS = new Set([
-  "signs-signals-markings",
-  "right-of-way",
-  "speed-following",
-  "turning-parking",
-  "adverse-conditions",
-  "sharing-the-road",
-  "alcohol-gdl",
-  "license-admin",
-]);
+// Single-source the topic list from src/types.ts (the app's authority).
+// A .mjs script can't import a .ts module, so extract the `TOPICS = [...]`
+// literal textually — and fail loudly if the shape ever changes.
+function loadTopics() {
+  const src = readFileSync(join(root, "src", "types.ts"), "utf8");
+  const m = src.match(/export const TOPICS = \[([^\]]*)\]/);
+  const topics = m ? [...m[1].matchAll(/"([^"]+)"/g)].map((x) => x[1]) : [];
+  if (topics.length === 0) {
+    console.error(
+      "validate-bank: couldn't extract TOPICS from src/types.ts — update loadTopics() to match its new shape.",
+    );
+    process.exit(1);
+  }
+  return new Set(topics);
+}
+
+const TOPICS = loadTopics();
 
 const errors = [];
 const ids = new Set();
