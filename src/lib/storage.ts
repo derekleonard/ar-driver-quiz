@@ -3,11 +3,11 @@ import type { Attempt, SrsEntry, SrsState } from "../types";
 const SRS_KEY = "ardq:srs";
 const ATTEMPTS_KEY = "ardq:attempts";
 
-function isRecord(v: unknown): v is Record<string, unknown> {
+export function isRecord(v: unknown): v is Record<string, unknown> {
   return !!v && typeof v === "object" && !Array.isArray(v);
 }
 
-function isSrsEntry(v: unknown): v is SrsEntry {
+export function isSrsEntry(v: unknown): v is SrsEntry {
   return (
     isRecord(v) &&
     typeof v.box === "number" &&
@@ -17,7 +17,7 @@ function isSrsEntry(v: unknown): v is SrsEntry {
   );
 }
 
-function isAttempt(v: unknown): v is Attempt {
+export function isAttempt(v: unknown): v is Attempt {
   return (
     isRecord(v) &&
     typeof v.mode === "string" &&
@@ -29,18 +29,24 @@ function isAttempt(v: unknown): v is Attempt {
   );
 }
 
+/**
+ * Coerce untrusted data (localStorage JSON or a Firestore doc field) into a
+ * well-formed SrsState. "null" or "5" parse cleanly but aren't states, and
+ * individual entries can be garbage too — keep only well-formed entries so
+ * one corrupt value can't white-screen the app downstream.
+ */
+export function sanitizeSrs(parsed: unknown): SrsState {
+  if (!isRecord(parsed)) return {};
+  const out: SrsState = {};
+  for (const [id, entry] of Object.entries(parsed)) {
+    if (isSrsEntry(entry)) out[id] = entry;
+  }
+  return out;
+}
+
 export function loadSrs(): SrsState {
   try {
-    const parsed: unknown = JSON.parse(localStorage.getItem(SRS_KEY) ?? "{}");
-    // "null" or "5" parse cleanly but aren't states, and individual entries
-    // can be garbage too — keep only well-formed entries so one corrupt
-    // value can't white-screen the app downstream.
-    if (!isRecord(parsed)) return {};
-    const out: SrsState = {};
-    for (const [id, entry] of Object.entries(parsed)) {
-      if (isSrsEntry(entry)) out[id] = entry;
-    }
-    return out;
+    return sanitizeSrs(JSON.parse(localStorage.getItem(SRS_KEY) ?? "{}"));
   } catch {
     return {};
   }

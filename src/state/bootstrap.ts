@@ -82,6 +82,11 @@ export async function bootstrapCloudUser(
         "Setup problem: the Firestore doc config/allowlist was not found. Check the collection is named exactly 'config' and the document 'allowlist'.",
       );
     }
+    if (code === "allowlist-malformed") {
+      return denied(
+        "Setup problem: config/allowlist exists but is malformed. It needs an 'emails' array of strings and a 'parentEmail' string.",
+      );
+    }
     if (code === "permission-denied") {
       // The rules only let family members read the allowlist, so this is
       // the normal denial for strangers — but also what a missing rules
