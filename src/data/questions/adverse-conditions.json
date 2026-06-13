@@ -11,8 +11,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Stay off the brake — braking can make the skid worse. Steer where you want to go, then correct back the other way as the car straightens, and keep steering until you regain control. Most skids are caused by driving too fast for conditions.",
-    "citation": "AR Driver License Study Guide, p. 79 — Skids",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 79 — Skids"
   },
   {
     "id": "adv-002",
@@ -26,8 +25,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Ease off the gas, keep the wheel straight, and don't try to stop or turn until your tires grip again. In heavy rain tires can lose all road contact at 50 mph — keep your speed down on wet roads.",
-    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Water Over the Roadway",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Water Over the Roadway"
   },
   {
     "id": "adv-003",
@@ -41,8 +39,7 @@
     ],
     "answerIndex": 1,
     "explanation": "High beams reflect off fog and rain, causing glare that makes it harder to see. Use low beams. Arkansas law also requires headlights whenever your wipers are needed — and driving with only parking lights is illegal.",
-    "citation": "AR Driver License Study Guide, p. 51 — External Vehicle Lights / High and Low Beams",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 51 — External Vehicle Lights / High and Low Beams"
   },
   {
     "id": "adv-004",
@@ -56,8 +53,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Dim high beams within 500 feet of oncoming traffic and switch to low beams when following another vehicle closer than 200 feet, so you don't blind other drivers.",
-    "citation": "AR Driver License Study Guide, p. 51 — High and Low Beam Headlights",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 51 — High and Low Beam Headlights"
   },
   {
     "id": "adv-005",
@@ -71,8 +67,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Bridges and overpasses are among the first road sections to develop ice — the stretches leading up to them may be completely clear. Ice near the freezing point can be MORE slippery than ice at colder temperatures.",
-    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads"
   },
   {
     "id": "adv-006",
@@ -86,8 +81,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Grip the wheel firmly and keep the vehicle going straight. Slow gradually — foot off the gas, light braking — and pull off the road in a safe place rather than stopping on the roadway.",
-    "citation": "AR Driver License Study Guide, p. 77 — Blowouts",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 77 — Blowouts"
   },
   {
     "id": "adv-007",
@@ -101,8 +95,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Wet road: about 10 mph slower. Packed snow: cut your speed in half. Ice: slow to a coast — and if possible, don't drive at all when roads are icy. If glare ice forms, stop driving as soon as you safely can.",
-    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads"
   },
   {
     "id": "adv-008",
@@ -116,8 +109,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Headlights: half an hour after sunset to half an hour before sunrise, anytime visibility drops below 500 feet, and by law whenever wipers are needed. Driving with only parking lights is illegal.",
-    "citation": "AR Driver License Study Guide, p. 51 — External Vehicle Lights",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 51 — External Vehicle Lights"
   },
   {
     "id": "adv-009",
@@ -131,8 +123,7 @@
     ],
     "answerIndex": 1,
     "explanation": "High beams let you see twice as far — use them on unfamiliar roads, in construction zones, and wherever no one is oncoming. Dim within 500 feet of oncoming traffic and use low beams within 200 feet of a car you're following.",
-    "citation": "AR Driver License Study Guide, p. 51 — High and Low Beam Headlights",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 51 — High and Low Beam Headlights"
   },
   {
     "id": "adv-010",
@@ -146,8 +137,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Heat brings the asphalt's oil to the surface; the first minutes of rain float on that oil film until it washes off. Slow down right when rain begins.",
-    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads"
   },
   {
     "id": "adv-011",
@@ -161,8 +151,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Pump the pedal first — it often builds enough pressure to stop. If not, apply the parking brake slowly (ready to release if you skid), then shift to lower gears and find a safe place to slow to a stop.",
-    "citation": "AR Driver License Study Guide, p. 77 — Brake Failure",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 77 — Brake Failure"
   },
   {
     "id": "adv-012",
@@ -176,8 +165,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Shift to neutral first — that disconnects the engine from the wheels — then steer off the road and shut the engine down.",
-    "citation": "AR Driver License Study Guide, p. 77 — Faulty Accelerator",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 77 — Faulty Accelerator"
   },
   {
     "id": "adv-013",
@@ -191,8 +179,7 @@
     ],
     "answerIndex": 1,
     "explanation": "With ABS: press hard and hold — the pulsing pedal is the system working. Without ABS: brake hard, and if the wheels lock, let up and reapply.",
-    "citation": "AR Driver License Study Guide, p. 78 — Stopping (With ABS)",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 78 — Stopping (With ABS)"
   },
   {
     "id": "adv-014",
@@ -206,8 +193,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Shady stretches freeze first and thaw last. Bridges and overpasses can also be icy while the road before and after them is clear.",
-    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads"
   },
   {
     "id": "adv-015",
@@ -221,8 +207,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Ice can be very wet when it first forms — near the freezing point it's MORE slippery than at much colder temperatures. If glare ice forms, stop driving as soon as you safely can.",
-    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 55 — Adjust to Slippery Roads"
   },
   {
     "id": "adv-016",
@@ -236,8 +221,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Try the switch a few times; if the lights stay out, use whatever lights work — flashers, signals, fog lights — to be seen, and get off the road quickly.",
-    "citation": "AR Driver License Study Guide, p. 77 — Headlight Failure",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 77 — Headlight Failure"
   },
   {
     "id": "adv-017",
@@ -251,8 +235,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Engine failure kills the power assist, not the controls: keep a strong grip (steering is stiff but works), push the brake hard, and steer off the roadway.",
-    "citation": "AR Driver License Study Guide, p. 77 — Engine Failure",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 77 — Engine Failure"
   },
   {
     "id": "adv-018",
@@ -266,8 +249,7 @@
     ],
     "answerIndex": 1,
     "explanation": "You can often avoid a crash by (1) stopping, (2) turning, or (3) speeding up. Many drivers panic and fail to act — knowing the options ahead of time helps you use one.",
-    "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions"
   },
   {
     "id": "adv-019",
@@ -281,8 +263,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Without ABS, locked wheels mean a skid. Brake hard, and if you feel the skid begin, release briefly and reapply — repeat until stopped. (With ABS: press hard and HOLD.)",
-    "citation": "AR Driver License Study Guide, p. 78 — Stopping (Without ABS)",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 78 — Stopping (Without ABS)"
   },
   {
     "id": "adv-020",
@@ -296,8 +277,7 @@
     ],
     "answerIndex": 1,
     "explanation": "If the threat comes from the side or behind and there's room in front, accelerating out of the danger zone can prevent the crash. Slow back down once the danger has passed.",
-    "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions (Accelerating)",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions (Accelerating)"
   },
   {
     "id": "adv-021",
@@ -311,7 +291,6 @@
     ],
     "answerIndex": 1,
     "explanation": "A head-on crash is usually the worst outcome — leaving the road under control beats it. Grip the wheel with both hands (10 and 2), and don't turn so sharply or brake so hard that the front wheels lock and plow.",
-    "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions (Turning)",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 78 — Avoiding Collisions (Turning)"
   }
 ]

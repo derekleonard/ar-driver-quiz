@@ -14,7 +14,6 @@ function makeBank(perTopic: number): Question[] {
         answerIndex: 0,
         explanation: "e",
         citation: "c",
-        difficulty: 1,
       });
     }
   }

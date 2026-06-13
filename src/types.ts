@@ -31,7 +31,6 @@ export interface Question {
   explanation: string;
   citation: string;
   image?: string;
-  difficulty: 1 | 2 | 3;
 }
 
 export interface SrsEntry {

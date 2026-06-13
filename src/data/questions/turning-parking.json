@@ -11,8 +11,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Arkansas law requires a continuous turn signal during at least the last 100 feet before turning. Signal earlier at highway speeds.",
-    "citation": "AR Driver License Study Guide, p. 33, 53 — Signaling to Change Directions",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 33, 53 — Signaling to Change Directions"
   },
   {
     "id": "trn-002",
@@ -26,8 +25,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Turn right from the right lane into the right lane. Cutting across to a far lane during a turn is illegal and dangerous.",
-    "citation": "AR Driver License Study Guide, p. 33 — Right Turns",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 33 — Right Turns"
   },
   {
     "id": "trn-003",
@@ -41,8 +39,7 @@
     ],
     "answerIndex": 1,
     "explanation": "The center turn lane is only for starting and completing left turns from either direction — never for passing or through travel.",
-    "citation": "AR Driver License Study Guide, p. 32 — Shared Center Lane",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 32 — Shared Center Lane"
   },
   {
     "id": "trn-004",
@@ -56,18 +53,21 @@
     ],
     "answerIndex": 1,
     "explanation": "Parking is prohibited within 15 feet of a fire hydrant so fire crews always have access.",
-    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
   },
   {
     "id": "trn-005",
     "topic": "turning-parking",
     "question": "Parking is NOT allowed within ____ of a stop sign, yield sign, or traffic signal.",
-    "choices": ["10 feet", "20 feet", "30 feet", "50 feet"],
+    "choices": [
+      "10 feet",
+      "20 feet",
+      "30 feet",
+      "50 feet"
+    ],
     "answerIndex": 2,
     "explanation": "Stay at least 30 feet back from stop signs, yield signs, and signals so other drivers can see them. Also: 20 ft from a crosswalk, 50 ft from a railroad crossing.",
-    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
   },
   {
     "id": "trn-006",
@@ -81,8 +81,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Downhill: wheels toward the curb. Uphill with a curb: wheels away from the curb (so the car rolls back into it). No curb: wheels toward the edge of the road. Always set the parking brake.",
-    "citation": "AR Driver License Study Guide, p. 41 — Parking Tips (Hills)",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 41 — Parking Tips (Hills)"
   },
   {
     "id": "trn-007",
@@ -96,8 +95,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Mirrors and cameras have blind zones. Physically turn your head and look through the rear window while backing slowly.",
-    "citation": "AR Driver License Study Guide, p. 41 — Parking (Backing)",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 41 — Parking (Backing)"
   },
   {
     "id": "trn-008",
@@ -111,18 +109,21 @@
     ],
     "answerIndex": 1,
     "explanation": "Don't cut left-turn corners: a sharp early turn puts you into the path of traffic approaching from the left. Begin signaling and slowing at least 100 feet from the corner, and leave room for oncoming left-turners.",
-    "citation": "AR Driver License Study Guide, p. 33 — Left Turns",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 33 — Left Turns"
   },
   {
     "id": "trn-009",
     "topic": "turning-parking",
     "question": "When parallel parking, your vehicle should be no more than ____ from the curb.",
-    "choices": ["6 inches", "12 inches", "18 inches", "24 inches"],
+    "choices": [
+      "6 inches",
+      "12 inches",
+      "18 inches",
+      "24 inches"
+    ],
     "answerIndex": 2,
     "explanation": "Park within 18 inches of the curb — parking farther out than 18 inches is on the Do-Not-Park list.",
-    "citation": "AR Driver License Study Guide, p. 41-42 — Parking Tips / Do Not Park",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 41-42 — Parking Tips / Do Not Park"
   },
   {
     "id": "trn-010",
@@ -136,8 +137,7 @@
     ],
     "answerIndex": 1,
     "explanation": "No driver may leave a vehicle unattended on a grade without setting the parking brake and turning the wheels to the curb or side of the highway. Also leave it in 'park' (or in gear with a manual).",
-    "citation": "AR Driver License Study Guide, p. 41 — Parking Tips",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 41 — Parking Tips"
   },
   {
     "id": "trn-011",
@@ -151,8 +151,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Never park on bridges, overpasses, or in tunnels/underpasses — or in intersections, on railroad tracks, beside another parked car (double parking), or blocking driveways or lowered curbs.",
-    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
   },
   {
     "id": "trn-012",
@@ -166,8 +165,7 @@
     ],
     "answerIndex": 2,
     "explanation": "Double parking is on the Do-Not-Park list — it blocks a travel lane and traps the parked car.",
-    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
   },
   {
     "id": "trn-013",
@@ -181,8 +179,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Signal just after passing through the intersection. An early signal misleads other drivers — including anyone waiting to pull out between you and your turn.",
-    "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions"
   },
   {
     "id": "trn-014",
@@ -196,8 +193,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Cancel your signal after every turn or lane change. A signal left on tells other drivers a turn is coming that isn't — and they may pull out in front of you.",
-    "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions"
   },
   {
     "id": "trn-015",
@@ -211,8 +207,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Blind spots are the rear corners your mirrors can't see. Check mirrors, then turn your head for a quick glance over your shoulder — but don't take your eyes off the road ahead for more than an instant.",
-    "citation": "AR Driver License Study Guide, p. 49-50 — Changing Lanes / Blind Spots",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 49-50 — Changing Lanes / Blind Spots"
   },
   {
     "id": "trn-016",
@@ -226,8 +221,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Walk-around first: check behind the vehicle before you get in. Then back slowly with your body turned, looking directly through the rear window — and use a helper outside whenever possible.",
-    "citation": "AR Driver License Study Guide, p. 50 — Backing",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 50 — Backing"
   },
   {
     "id": "trn-017",
@@ -241,8 +235,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Back slowly. Place your right arm over the seat back, turn your body, and look directly through the rear window — mirrors can't show what's directly behind you.",
-    "citation": "AR Driver License Study Guide, p. 50 — Backing",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 50 — Backing"
   },
   {
     "id": "trn-018",
@@ -256,8 +249,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Never back up in any travel lane, and never stop in a travel lane for any reason — keep moving until you can safely pull off and turn around.",
-    "citation": "AR Driver License Study Guide, p. 32 — General Driving",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 32 — General Driving"
   },
   {
     "id": "trn-019",
@@ -271,8 +263,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Check behind before slowing. Gradual, signaled slowing keeps the driver behind you from being surprised — especially where they wouldn't expect a stop, like a private driveway.",
-    "citation": "AR Driver License Study Guide, p. 50 — Slowing",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 50 — Slowing"
   },
   {
     "id": "trn-020",
@@ -286,8 +277,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Signal early, pull alongside the space, and let following traffic clear before you back in. Helping the driver behind you know your intentions prevents rear-end crashes.",
-    "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Parallel Parking)",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Parallel Parking)"
   },
   {
     "id": "trn-021",
@@ -301,8 +291,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Keep hands on opposite sides of the wheel and use hand-over-hand for sharp turns — never turn the wheel in the palm of your hand. Return the wheel to track the direction of travel after the turn.",
-    "citation": "AR Driver License Study Guide, p. 44 — Steering the Vehicle",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 44 — Steering the Vehicle"
   },
   {
     "id": "trn-022",
@@ -316,7 +305,6 @@
     ],
     "answerIndex": 1,
     "explanation": "Check traffic before opening your door, and use the curb side when you can. If you must exit street-side, look again before stepping out.",
-    "citation": "AR Driver License Study Guide, p. 41 — Parking Tips",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 41 — Parking Tips"
   }
 ]

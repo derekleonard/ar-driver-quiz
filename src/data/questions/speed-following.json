@@ -3,11 +3,15 @@
     "id": "spd-001",
     "topic": "speed-following",
     "question": "If a county judge has not set a speed limit on an Arkansas county road, the speed limit is:",
-    "choices": ["30 mph", "40 mph", "45 mph", "55 mph"],
+    "choices": [
+      "30 mph",
+      "40 mph",
+      "45 mph",
+      "55 mph"
+    ],
     "answerIndex": 1,
     "explanation": "Unposted county roads in Arkansas default to 40 mph. Going more than 15 mph over a county-road limit is a Class C misdemeanor.",
-    "citation": "AR Driver License Study Guide, p. 26 — Speed Limits on County Roads (27-51-216)",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 26 — Speed Limits on County Roads (27-51-216)"
   },
   {
     "id": "spd-002",
@@ -21,18 +25,21 @@
     ],
     "answerIndex": 1,
     "explanation": "Drivers must adjust to current conditions. Even at the posted limit, you can get a ticket for traveling too fast for the conditions.",
-    "citation": "AR Driver License Study Guide, p. 58 — Speed Limits",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 58 — Speed Limits"
   },
   {
     "id": "spd-003",
     "topic": "speed-following",
     "question": "About how many feet does it take an average passenger car traveling 55 mph to come to a complete stop?",
-    "choices": ["100 feet", "150 feet", "225 feet", "335 feet"],
+    "choices": [
+      "100 feet",
+      "150 feet",
+      "225 feet",
+      "335 feet"
+    ],
     "answerIndex": 2,
     "explanation": "An average car at 55 mph needs about 225 feet of total stopping distance (reaction + braking). A loaded tractor-trailer needs more than 335 feet — the length of a football field.",
-    "citation": "AR Driver License Study Guide, p. 54 — Adjusting the Vehicle Speed",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 54 — Adjusting the Vehicle Speed"
   },
   {
     "id": "spd-004",
@@ -46,8 +53,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Headlights let you see about 400 feet ahead. Drive at a speed that allows you to stop within that distance — around 50 mph. In rain or fog with under 200 feet of visibility, keep it to 30 mph or less.",
-    "citation": "AR Driver License Study Guide, p. 58 — Visibility and Reaction (Darkness)",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 58 — Visibility and Reaction (Darkness)"
   },
   {
     "id": "spd-005",
@@ -61,8 +67,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Use the two-second rule: when the rear of the vehicle ahead passes a stationary point, count 'one-thousand-one, one-thousand-two.' If you pass the point before you finish, you're too close. Use four seconds in bad conditions.",
-    "citation": "AR Driver License Study Guide, p. 59 — Following Distance",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 59 — Following Distance"
   },
   {
     "id": "spd-006",
@@ -76,8 +81,7 @@
     ],
     "answerIndex": 2,
     "explanation": "Never slow down too quickly to discourage a tailgater — it increases the risk of being hit from behind. Move right and let them by; with no right lane, wait until the path ahead is clear and reduce speed gradually.",
-    "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Being Tailgated)",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Being Tailgated)"
   },
   {
     "id": "spd-007",
@@ -91,8 +95,7 @@
     ],
     "answerIndex": 1,
     "explanation": "The safest speed in traffic is the same speed as other vehicles. If cars accumulate behind you, pull over and allow them to pass.",
-    "citation": "AR Driver License Study Guide, p. 56 — Adjusting to the Flow of Traffic",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 56 — Adjusting to the Flow of Traffic"
   },
   {
     "id": "spd-008",
@@ -106,8 +109,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Enter at the same speed as traffic. Use the ramp to reach traffic speed, never drive to the end of the ramp and stop, and check your blind spot over your shoulder before merging. You need about a four-second gap.",
-    "citation": "AR Driver License Study Guide, p. 56 — Merging With Traffic",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 56 — Merging With Traffic"
   },
   {
     "id": "spd-009",
@@ -121,18 +123,21 @@
     ],
     "answerIndex": 1,
     "explanation": "Never drive faster than the distance you can see. Count one-one-thousand to four-one-thousand toward the farthest object you can clearly see; reaching it early means slow down. At night, use it with your headlights.",
-    "citation": "AR Driver License Study Guide, p. 58 — Sight-Distance Rule",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 58 — Sight-Distance Rule"
   },
   {
     "id": "spd-010",
     "topic": "speed-following",
     "question": "If rain or fog keeps you from seeing more than 200 feet ahead, you should drive no faster than:",
-    "choices": ["50 mph", "45 mph", "30 mph", "20 mph"],
+    "choices": [
+      "50 mph",
+      "45 mph",
+      "30 mph",
+      "20 mph"
+    ],
     "answerIndex": 2,
     "explanation": "Under 200 feet of visibility → 30 mph or less. If you can't see the road ahead at all, pull over in a safe place and wait for the weather to clear.",
-    "citation": "AR Driver License Study Guide, p. 58 — Rain, Fog, or Snow",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 58 — Rain, Fog, or Snow"
   },
   {
     "id": "spd-011",
@@ -146,8 +151,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Two seconds is the minimum for ideal conditions. Use four when stopping takes longer or seeing ahead is harder: slippery roads, towing, bad weather, motorcycles ahead, or big vehicles blocking your view.",
-    "citation": "AR Driver License Study Guide, p. 59 — Distance and Reaction",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 59 — Distance and Reaction"
   },
   {
     "id": "spd-012",
@@ -161,18 +165,21 @@
     ],
     "answerIndex": 2,
     "explanation": "At 55 mph you need about a 10-second gap and sight distance: combined, you and oncoming traffic travel over 1,600 feet — a third of a mile. If you're not sure there's time, wait.",
-    "citation": "AR Driver License Study Guide, p. 62 — Oncoming Vehicles",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 62 — Oncoming Vehicles"
   },
   {
     "id": "spd-013",
     "topic": "speed-following",
     "question": "You should never pass when you are within ____ of a hill or curve.",
-    "choices": ["100 feet", "1/3 of a mile", "1 mile", "500 feet"],
+    "choices": [
+      "100 feet",
+      "1/3 of a mile",
+      "1 mile",
+      "500 feet"
+    ],
     "answerIndex": 1,
     "explanation": "Anytime a hill or curve blocks your view, assume an oncoming vehicle is there — never start a pass within 1/3 mile of a hill or curve.",
-    "citation": "AR Driver License Study Guide, p. 62 — Hills and Curves",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 62 — Hills and Curves"
   },
   {
     "id": "spd-014",
@@ -186,8 +193,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Leave enough room before pulling back in: at night, seeing both of the passed vehicle's headlights in your rear-view mirror means you have cleared it safely.",
-    "citation": "AR Driver License Study Guide, p. 63 — Lane Obstructions",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 63 — Lane Obstructions"
   },
   {
     "id": "spd-015",
@@ -201,8 +207,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Under 27-51-301, don't cruise in the left lane: it's for passing, for when other lanes are closed/undrivable, or when exiting left.",
-    "citation": "AR Driver License Study Guide, p. 63 — Left Lane for Passing Only",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 63 — Left Lane for Passing Only"
   },
   {
     "id": "spd-016",
@@ -216,8 +221,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Change one lane at a time, checking mirrors and blind spot for each move. Keep a four-second gap when merging or changing lanes.",
-    "citation": "AR Driver License Study Guide, p. 61 — Merging",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 61 — Merging"
   },
   {
     "id": "spd-017",
@@ -231,18 +235,21 @@
     ],
     "answerIndex": 1,
     "explanation": "Look at least 15 seconds down the road: one city block in the city, a quarter mile on highways and interstates. The leading cause of car crashes is inattention.",
-    "citation": "AR Driver License Study Guide, p. 48 — Stay Alert (Looking Ahead)",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 48 — Stay Alert (Looking Ahead)"
   },
   {
     "id": "spd-018",
     "topic": "speed-following",
     "question": "What is the leading cause of car crashes?",
-    "choices": ["Bad weather", "Inattention", "Mechanical failure", "Speeding"],
+    "choices": [
+      "Bad weather",
+      "Inattention",
+      "Mechanical failure",
+      "Speeding"
+    ],
     "answerIndex": 1,
     "explanation": "Inattention is the leading cause of crashes. Defensive driving starts with staying alert and keeping your eyes fixed on the road ahead.",
-    "citation": "AR Driver License Study Guide, p. 48 — Stay Alert",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 48 — Stay Alert"
   },
   {
     "id": "spd-019",
@@ -256,8 +263,7 @@
     ],
     "answerIndex": 1,
     "explanation": "All moving violations — speeding, reckless driving, distracted driving — carry DOUBLE fines in work zones, up to $5,000. Mobile work zones count too.",
-    "citation": "AR Driver License Study Guide, p. 18-19 — Work Zone Fines Double",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 18-19 — Work Zone Fines Double"
   },
   {
     "id": "spd-020",
@@ -271,8 +277,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Merge early — ideally a mile or more before the closure — and be patient. Rear-end collisions are common in work zones, so keep your following distance.",
-    "citation": "AR Driver License Study Guide, p. 20 — Work Zone Q&A (Merge Early)",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 20 — Work Zone Q&A (Merge Early)"
   },
   {
     "id": "spd-021",
@@ -286,8 +291,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Reduced work-zone limits are clearly posted. With no reduced limit, the normal posted limit applies — but stay ready for sudden stops, equipment, and changing patterns.",
-    "citation": "AR Driver License Study Guide, p. 17 — Work Zone Speed Limits",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 17 — Work Zone Speed Limits"
   },
   {
     "id": "spd-022",
@@ -301,8 +305,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Cameras in interstate work zones let an officer wait at the end of the zone instead of inside it — safer for everyone, and you still get pulled over.",
-    "citation": "AR Driver License Study Guide, p. 19 — Work Zone Speed Limit",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 19 — Work Zone Speed Limit"
   },
   {
     "id": "spd-023",
@@ -316,8 +319,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Prepare to pass from two to three seconds back: check mirrors, blind spot, and oncoming traffic; confirm safe passing distance; signal — then accelerate into the passing lane.",
-    "citation": "AR Driver License Study Guide, p. 62 — Passing Procedures",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 62 — Passing Procedures"
   },
   {
     "id": "spd-024",
@@ -331,7 +333,6 @@
     ],
     "answerIndex": 1,
     "explanation": "As a rule, pass only ONE vehicle at a time. Passing several cars at once gambles on time and space you can't be sure you have.",
-    "citation": "AR Driver License Study Guide, p. 61 — Passing Distance",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 61 — Passing Distance"
   }
 ]

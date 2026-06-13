@@ -11,8 +11,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Police can stop you just for an unbelted driver or front-seat passenger (primary enforcement, since 2009). All children under 15 must be properly restrained wherever they sit.",
-    "citation": "AR Driver License Study Guide, p. 9 — Arkansas Seat Belt Law",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 9 — Arkansas Seat Belt Law"
   },
   {
     "id": "lic-002",
@@ -26,8 +25,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Children younger than 6 who weigh less than 60 pounds must be secured in a child passenger safety seat. All children under 15 must wear appropriate restraints while the vehicle is moving.",
-    "citation": "AR Driver License Study Guide, p. 9 — Child Passenger Protection Act (27-34-104)",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 9 — Child Passenger Protection Act (27-34-104)"
   },
   {
     "id": "lic-003",
@@ -41,8 +39,7 @@
     ],
     "answerIndex": 1,
     "explanation": "You must stop, move the vehicle so it doesn't block traffic, and notify police immediately when there's injury, death, or damage over $1,000. You can't leave a crash with injury or death until police have talked with you — and crashes with injury, death, or over $3,000 damage must also be reported to the Office of Driver Services within 30 days.",
-    "citation": "AR Driver License Study Guide, p. 80-81 — Traffic Crashes",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 80-81 — Traffic Crashes"
   },
   {
     "id": "lic-004",
@@ -56,8 +53,7 @@
     ],
     "answerIndex": 1,
     "explanation": "You must provide your driver's license, proof of insurance, and registration when an officer requests them. Tell the officer where the documents are and ask before reaching for them.",
-    "citation": "AR Driver License Study Guide — What To Do When Stopped by Law Enforcement",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide — What To Do When Stopped by Law Enforcement"
   },
   {
     "id": "lic-005",
@@ -71,8 +67,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Texting is illegal for ALL drivers (27-51-1501). Under 18, no cell phone use is allowed at all, including hands-free. Ages 18-20 may use hands-free only; 21+ may use a phone but it's never truly safe.",
-    "citation": "AR Driver License Study Guide, p. 46 — Distracted Driving Law (27-51-1601)",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 46 — Distracted Driving Law (27-51-1601)"
   },
   {
     "id": "lic-006",
@@ -86,18 +81,21 @@
     ],
     "answerIndex": 2,
     "explanation": "Arkansas requires at least 20/70 vision in at least one eye, with or without corrective lenses. If you have a 'B' restriction, you must wear your corrective lenses while driving or you can be ticketed.",
-    "citation": "AR Driver License Study Guide, p. 71 — Vision",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 71 — Vision"
   },
   {
     "id": "lic-007",
     "topic": "license-admin",
     "question": "After a crash with injury, death, or more than $3,000 damage to one person's property, you must file a report with the Office of Driver Services within:",
-    "choices": ["48 hours", "10 days", "30 days", "90 days"],
+    "choices": [
+      "48 hours",
+      "10 days",
+      "30 days",
+      "90 days"
+    ],
     "answerIndex": 2,
     "explanation": "File the accident report within 30 days (someone may file for you if you're injured). Separately, police must be notified immediately when there's injury, death, or damage over $1,000.",
-    "citation": "AR Driver License Study Guide, p. 81 — Keep a Record of Crash Information",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 81 — Keep a Record of Crash Information"
   },
   {
     "id": "lic-008",
@@ -111,8 +109,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Don't move the injured unless danger (like fire) forces it. Check breathing, apply direct pressure to bleeding, keep them warm to prevent shock, and don't give them anything to drink.",
-    "citation": "AR Driver License Study Guide, p. 81 — Assisting the Injured",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 81 — Assisting the Injured"
   },
   {
     "id": "lic-009",
@@ -126,8 +123,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Hazards warn other drivers of an emergency or a stopped/broken-down vehicle. In fog or rain, drive with low-beam headlights instead.",
-    "citation": "AR Driver License Study Guide, p. 52 — Emergency Flashers",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 52 — Emergency Flashers"
   },
   {
     "id": "lic-010",
@@ -141,18 +137,21 @@
     ],
     "answerIndex": 1,
     "explanation": "The Protection from Secondhand Smoke for Children Act (§20-27-1903) bans smoking in any motor vehicle in which a child under 14 is a passenger.",
-    "citation": "AR Driver License Study Guide, p. 9 — Protection from Secondhand Smoke",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 9 — Protection from Secondhand Smoke"
   },
   {
     "id": "lic-011",
     "topic": "license-admin",
     "question": "Each written (knowledge) examination in Arkansas costs:",
-    "choices": ["Nothing", "$5.00", "$25.00", "$50.00"],
+    "choices": [
+      "Nothing",
+      "$5.00",
+      "$25.00",
+      "$50.00"
+    ],
     "answerIndex": 1,
     "explanation": "Act 1289 of 2015 requires a $5 fee per written exam, collected with the license cost — another good reason to pass on the next try!",
-    "citation": "AR Driver License Study Guide, p. 1 — Introduction (Act 1289)",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 1 — Introduction (Act 1289)"
   },
   {
     "id": "lic-012",
@@ -166,8 +165,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Epilepsy under medical control is usually not dangerous for driving: the standard is doctor's care plus one year seizure-free.",
-    "citation": "AR Driver License Study Guide, p. 72 — Health (Epilepsy)",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 72 — Health (Epilepsy)"
   },
   {
     "id": "lic-013",
@@ -181,8 +179,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Yes — holding your phone for calls, texts, directions, or social media is a moving violation. In a work zone with workers present, that fine DOUBLES.",
-    "citation": "AR Driver License Study Guide, p. 19 — Leave Your Phone Alone",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 19 — Leave Your Phone Alone"
   },
   {
     "id": "lic-014",
@@ -196,8 +193,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Five seconds at 55 mph covers about a football field — blind. Texting is the most alarming distraction because it combines all three types at once.",
-    "citation": "AR Driver License Study Guide, p. 45 — What is Distracted Driving?",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 45 — What is Distracted Driving?"
   },
   {
     "id": "lic-015",
@@ -211,18 +207,21 @@
     ],
     "answerIndex": 0,
     "explanation": "Texting hits all three at once: VISUAL (eyes off the road), MANUAL (hands off the wheel), and COGNITIVE (mind off driving). That's what makes it the most dangerous distraction.",
-    "citation": "AR Driver License Study Guide, p. 46 — Dangerous Distractions",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 46 — Dangerous Distractions"
   },
   {
     "id": "lic-016",
     "topic": "license-admin",
     "question": "Compared with other drivers, teens who text while driving are about how much more likely to crash?",
-    "choices": ["2 times", "5 times", "23 times", "100 times"],
+    "choices": [
+      "2 times",
+      "5 times",
+      "23 times",
+      "100 times"
+    ],
     "answerIndex": 2,
     "explanation": "National research: distracted teens texting behind the wheel are 23 times more likely to be involved in a crash — and those crashes are often worse because there's no reaction before impact.",
-    "citation": "AR Driver License Study Guide, p. 17 — Work Zone Safety (Distracted Driving)",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 17 — Work Zone Safety (Distracted Driving)"
   },
   {
     "id": "lic-017",
@@ -236,8 +235,7 @@
     ],
     "answerIndex": 1,
     "explanation": "In a crash with a parked vehicle you must try to locate the owner. Police must be notified immediately for any injury, death, or damage over $1,000.",
-    "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes"
   },
   {
     "id": "lic-018",
@@ -251,8 +249,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Don't stop at a crash unless you're involved or help hasn't arrived. Spectators block police, ambulances, and tow trucks — keep moving and watch for people near the road.",
-    "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes"
   },
   {
     "id": "lic-019",
@@ -266,8 +263,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Turn off wrecked vehicles' ignitions and don't smoke near them — spilled fuel ignites. Stay away from any downed electrical wires, and don't stand in traffic lanes.",
-    "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes"
   },
   {
     "id": "lic-020",
@@ -281,8 +277,7 @@
     ],
     "answerIndex": 1,
     "explanation": "If you're sleepy, stop and sleep. Plan trips for when you're rested, avoid drowsy-making medicines, eat light, take regular breaks — and avoid driving during hours your body expects to rest.",
-    "citation": "AR Driver License Study Guide, p. 72 — Fatigue",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 72 — Fatigue"
   },
   {
     "id": "lic-021",
@@ -296,8 +291,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Within five minutes the interior matches the outside temperature, then gains ~15° every 9 minutes. Never leave children or pets unattended in a vehicle.",
-    "citation": "AR Driver License Study Guide, p. 10 — Unattended Children and Pets",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 10 — Unattended Children and Pets"
   },
   {
     "id": "lic-022",
@@ -311,7 +305,6 @@
     ],
     "answerIndex": 1,
     "explanation": "Hearing helps (horns, sirens), but deaf and hearing-impaired drivers compensate by staying visually alert — and their records are as good as anyone's.",
-    "citation": "AR Driver License Study Guide, p. 71 — Hearing",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 71 — Hearing"
   }
 ]

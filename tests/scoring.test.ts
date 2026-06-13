@@ -10,7 +10,6 @@ const q = (id: string, topic: Question["topic"]): Question => ({
   answerIndex: 1,
   explanation: "e",
   citation: "c",
-  difficulty: 1,
 });
 
 describe("perTopicForAnswers", () => {

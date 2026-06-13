@@ -12,8 +12,7 @@
     "answerIndex": 1,
     "explanation": "An octagon always means STOP. You must come to a complete stop at the stop line or crosswalk, then proceed only when the way is clear.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
-    "image": "signs/stop.svg",
-    "difficulty": 1
+    "image": "signs/stop.svg"
   },
   {
     "id": "signs-002",
@@ -28,18 +27,21 @@
     "answerIndex": 1,
     "explanation": "A downward-pointing triangle is a YIELD sign: slow down, be ready to stop, and let traffic, pedestrians, or bicycles pass before you proceed.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
-    "image": "signs/yield.svg",
-    "difficulty": 1
+    "image": "signs/yield.svg"
   },
   {
     "id": "signs-003",
     "topic": "signs-signals-markings",
     "question": "Which shape is used ONLY for stop signs?",
-    "choices": ["Diamond", "Octagon (8 sides)", "Pentagon (5 sides)", "Circle"],
+    "choices": [
+      "Diamond",
+      "Octagon (8 sides)",
+      "Pentagon (5 sides)",
+      "Circle"
+    ],
     "answerIndex": 1,
     "explanation": "The 8-sided octagon is reserved exclusively for stop signs so drivers can recognize it by shape alone, even if the face is covered with snow.",
-    "citation": "AR Driver License Study Guide, p. 25 — Stop Signs",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 25 — Stop Signs"
   },
   {
     "id": "signs-004",
@@ -53,8 +55,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Yellow diamond signs warn of hazards ahead: curves, intersections, merges, narrow bridges, and similar conditions. Slow down and be ready to react.",
-    "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Warning)",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Warning)"
   },
   {
     "id": "signs-005",
@@ -69,8 +70,7 @@
     "answerIndex": 0,
     "explanation": "The arrow shows the path of the road: it bends right first, then back to the left. Slow down before entering the curves.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Warning)",
-    "image": "signs/warning-curve.svg",
-    "difficulty": 2
+    "image": "signs/warning-curve.svg"
   },
   {
     "id": "signs-006",
@@ -85,8 +85,7 @@
     "answerIndex": 0,
     "explanation": "The round advance warning sign is posted BEFORE a railroad crossing. Slow down, look and listen for trains, and be prepared to stop before the tracks.",
     "citation": "AR Driver License Study Guide, p. 28 — Railroad Crossing Signs",
-    "image": "signs/rr-advance.svg",
-    "difficulty": 1
+    "image": "signs/rr-advance.svg"
   },
   {
     "id": "signs-007",
@@ -101,8 +100,7 @@
     "answerIndex": 0,
     "explanation": "The 5-sided (pentagon) sign marks a school zone or school crossing. Slow down, obey the posted school speed limit, and watch for children.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (School Zone)",
-    "image": "signs/school-zone.svg",
-    "difficulty": 1
+    "image": "signs/school-zone.svg"
   },
   {
     "id": "signs-008",
@@ -117,8 +115,7 @@
     "answerIndex": 1,
     "explanation": "The pennant-shaped NO PASSING ZONE sign is the only sign posted on the left side of the road. It marks where passing is prohibited.",
     "citation": "AR Driver License Study Guide, p. 28, 62 — No Passing Zone",
-    "image": "signs/no-passing-pennant.svg",
-    "difficulty": 2
+    "image": "signs/no-passing-pennant.svg"
   },
   {
     "id": "signs-009",
@@ -133,8 +130,7 @@
     "answerIndex": 1,
     "explanation": "The red circle with the white bar means DO NOT ENTER. It is posted at exit ramps and one-way streets to keep you from driving into oncoming traffic.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
-    "image": "signs/do-not-enter.svg",
-    "difficulty": 1
+    "image": "signs/do-not-enter.svg"
   },
   {
     "id": "signs-010",
@@ -149,8 +145,7 @@
     "answerIndex": 0,
     "explanation": "WRONG WAY means you have entered a roadway against the flow of traffic. Pull over and turn around as soon as it is safe.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
-    "image": "signs/wrong-way.svg",
-    "difficulty": 1
+    "image": "signs/wrong-way.svg"
   },
   {
     "id": "signs-011",
@@ -165,8 +160,7 @@
     "answerIndex": 1,
     "explanation": "Orange is the color of work zones. Slow down, obey the posted work-zone speed limit, and watch for workers and equipment. Fines often double in work zones.",
     "citation": "AR Driver License Study Guide, p. 16-21 — Work Zone Safety",
-    "image": "signs/construction.svg",
-    "difficulty": 1
+    "image": "signs/construction.svg"
   },
   {
     "id": "signs-012",
@@ -181,8 +175,7 @@
     "answerIndex": 0,
     "explanation": "The merge sign warns that another roadway joins yours ahead. Adjust your speed and position to let merging traffic blend in safely.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Warning)",
-    "image": "signs/merge.svg",
-    "difficulty": 2
+    "image": "signs/merge.svg"
   },
   {
     "id": "signs-013",
@@ -197,8 +190,7 @@
     "answerIndex": 1,
     "explanation": "The orange-and-red triangle marks slow-moving vehicles such as farm equipment. Slow down early and pass only when it is safe and legal.",
     "citation": "AR Driver License Study Guide, p. 26 — Slow Moving Vehicle Sign",
-    "image": "signs/slow-moving-vehicle.svg",
-    "difficulty": 1
+    "image": "signs/slow-moving-vehicle.svg"
   },
   {
     "id": "signs-014",
@@ -213,8 +205,7 @@
     "answerIndex": 0,
     "explanation": "ONE WAY means all traffic on that street moves in the direction the arrow points. Never turn against the arrow.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
-    "image": "signs/one-way.svg",
-    "difficulty": 1
+    "image": "signs/one-way.svg"
   },
   {
     "id": "signs-015",
@@ -228,8 +219,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Yellow lines separate traffic moving in opposite directions. A solid yellow line on your side means passing is prohibited for you. A broken line means you may pass when safe.",
-    "citation": "AR Driver License Study Guide, p. 31 — Pavement Markings",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 31 — Pavement Markings"
   },
   {
     "id": "signs-016",
@@ -243,8 +233,7 @@
     ],
     "answerIndex": 1,
     "explanation": "White lines divide lanes of traffic moving in the SAME direction; yellow lines divide traffic moving in OPPOSITE directions.",
-    "citation": "AR Driver License Study Guide, p. 31 — Pavement Markings",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 31 — Pavement Markings"
   },
   {
     "id": "signs-017",
@@ -258,8 +247,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Flashing red = stop sign. Stop completely, yield, then proceed when safe. Flashing yellow means slow down and proceed with caution.",
-    "citation": "AR Driver License Study Guide, p. 23-24 — Lighted Traffic Signals",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 23-24 — Lighted Traffic Signals"
   },
   {
     "id": "signs-018",
@@ -273,8 +261,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Green means you may go, but only after yielding to pedestrians and any vehicles still clearing the intersection.",
-    "citation": "AR Driver License Study Guide, p. 23-24 — Lighted Traffic Signals",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 23-24 — Lighted Traffic Signals"
   },
   {
     "id": "signs-019",
@@ -288,8 +275,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Railroad pavement markings mean the same as the advance warning sign: slow down, look and listen, and be prepared to stop. On two-lane roads they come with a no-passing marking, and there may be a white stop line before the tracks.",
-    "citation": "AR Driver License Study Guide, p. 28 — Railroad Pavement Markings",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 28 — Railroad Pavement Markings"
   },
   {
     "id": "signs-020",
@@ -304,8 +290,7 @@
     "answerIndex": 1,
     "explanation": "A speed limit sign sets the MAXIMUM legal speed in ideal conditions. In rain, fog, or heavy traffic, the safe speed may be much lower.",
     "citation": "AR Driver License Study Guide, p. 25 — Speed Limit Sign",
-    "image": "signs/speed-limit-50.svg",
-    "difficulty": 1
+    "image": "signs/speed-limit-50.svg"
   },
   {
     "id": "signs-021",
@@ -319,8 +304,7 @@
     ],
     "answerIndex": 1,
     "explanation": "A steady red arrow means stop: turning in the arrow's direction is not allowed until the arrow changes.",
-    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows"
   },
   {
     "id": "signs-022",
@@ -334,8 +318,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Flashing yellow arrow = turns permitted but NOT protected: yield to oncoming traffic and pedestrians, then proceed with caution. A steady GREEN arrow is the protected turn.",
-    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows"
   },
   {
     "id": "signs-023",
@@ -349,8 +332,7 @@
     ],
     "answerIndex": 0,
     "explanation": "A green arrow is a protected turn: opposing traffic is stopped. Still check that the intersection is clear before turning.",
-    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows"
   },
   {
     "id": "signs-024",
@@ -364,8 +346,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Steady yellow = the light is about to turn red. Stop if you can do so safely. If you are already stopped at the line, you may not proceed.",
-    "citation": "AR Driver License Study Guide, p. 23 — Lighted Traffic Signals",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 23 — Lighted Traffic Signals"
   },
   {
     "id": "signs-025",
@@ -379,8 +360,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Right on red is legal in Arkansas after a complete stop and a check for opposing traffic and pedestrians — unless a sign says NO RIGHT TURN ON RED. Never stop or block a crosswalk.",
-    "citation": "AR Driver License Study Guide, p. 25 — Right on Red Rule",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 25 — Right on Red Rule"
   },
   {
     "id": "signs-026",
@@ -395,8 +375,7 @@
     "answerIndex": 1,
     "explanation": "The crossbuck marks the crossing itself and works like a yield sign: yield the right-of-way to any train. Failing to yield at a yield sign can mean a fine up to $1,000 and a 180-day license suspension.",
     "citation": "AR Driver License Study Guide, p. 28 — Cross Buck Sign",
-    "image": "signs/crossbuck.svg",
-    "difficulty": 2
+    "image": "signs/crossbuck.svg"
   },
   {
     "id": "signs-027",
@@ -411,8 +390,7 @@
     "answerIndex": 1,
     "explanation": "EXEMPT marks a crossing that has been abandoned or taken out of service. Follow your local procedure about stopping.",
     "citation": "AR Driver License Study Guide, p. 29 — Railroad (Exempt) Signs",
-    "image": "signs/exempt.svg",
-    "difficulty": 3
+    "image": "signs/exempt.svg"
   },
   {
     "id": "signs-028",
@@ -427,8 +405,7 @@
     "answerIndex": 1,
     "explanation": "The number sign tells how many tracks are present. Cross multiple tracks only when any train is well down the tracks — a second train can be hidden behind the first.",
     "citation": "AR Driver License Study Guide, p. 30 — Multiple Tracks",
-    "image": "signs/two-tracks.svg",
-    "difficulty": 2
+    "image": "signs/two-tracks.svg"
   },
   {
     "id": "signs-029",
@@ -442,8 +419,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Red curb = fire zone. Yellow curb = loading zone or other restriction. Always check for signs that limit parking.",
-    "citation": "AR Driver License Study Guide, p. 42 — Restricted Parking Zones",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 42 — Restricted Parking Zones"
   },
   {
     "id": "signs-030",
@@ -458,8 +434,7 @@
     "answerIndex": 1,
     "explanation": "A red circle-and-slash over a symbol prohibits that maneuver. This one bans left turns; the same pattern is used for no right turn and no U-turn.",
     "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs",
-    "image": "signs/no-left-turn.svg",
-    "difficulty": 1
+    "image": "signs/no-left-turn.svg"
   },
   {
     "id": "signs-031",
@@ -473,8 +448,7 @@
     ],
     "answerIndex": 0,
     "explanation": "The fog line marks the outer edge of the roadway — especially useful at night and in rain or fog. Never drive on the shoulder beyond it unless directed by police.",
-    "citation": "AR Driver License Study Guide, p. 31 — Fog Line and Lane Lines",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 31 — Fog Line and Lane Lines"
   },
   {
     "id": "signs-032",
@@ -488,8 +462,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Passing is permitted on the side with the BROKEN line and prohibited on the side with the solid line. A double solid yellow line means no passing either direction.",
-    "citation": "AR Driver License Study Guide, p. 31 — Yellow Lane Markings",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 31 — Yellow Lane Markings"
   },
   {
     "id": "signs-033",
@@ -503,8 +476,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Flaggers are legally authorized to direct traffic in work zones — their signals overrule other traffic signals and devices. Stop at the designated spot or at least a car length away.",
-    "citation": "AR Driver License Study Guide, p. 22 — Work Zone Flaggers",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 22 — Work Zone Flaggers"
   },
   {
     "id": "signs-034",
@@ -519,8 +491,7 @@
     "answerIndex": 2,
     "explanation": "The yellow diamond with a cross symbol warns of an intersection ahead — traffic may merge or cross. Slow down and look left and right.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Intersection)",
-    "image": "signs/intersection.svg",
-    "difficulty": 1
+    "image": "signs/intersection.svg"
   },
   {
     "id": "signs-035",
@@ -535,8 +506,7 @@
     "answerIndex": 1,
     "explanation": "The lane-ends warning sign tells you a lane is ending. Merge early and smoothly — don't race to the end of the closing lane.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Traffic Lane Ends)",
-    "image": "signs/lane-ends.svg",
-    "difficulty": 1
+    "image": "signs/lane-ends.svg"
   },
   {
     "id": "signs-036",
@@ -551,8 +521,7 @@
     "answerIndex": 1,
     "explanation": "The signal-ahead warning sign is posted where a traffic light may not be visible in time — often before hills or curves. Be prepared to stop.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Traffic Signal)",
-    "image": "signs/signal-ahead.svg",
-    "difficulty": 1
+    "image": "signs/signal-ahead.svg"
   },
   {
     "id": "signs-037",
@@ -567,8 +536,7 @@
     "answerIndex": 1,
     "explanation": "The flagger-symbol sign marks locations where a flagger may be controlling traffic. A flagger's instructions overrule all other signals and devices.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
-    "image": "signs/flagger.svg",
-    "difficulty": 2
+    "image": "signs/flagger.svg"
   },
   {
     "id": "signs-038",
@@ -583,8 +551,7 @@
     "answerIndex": 1,
     "explanation": "DETOUR signs warn drivers of an approaching alternate route through a construction zone. ROAD WORK signs with distances mean work is underway on your route — be prepared for obstructions.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
-    "image": "signs/detour.svg",
-    "difficulty": 1
+    "image": "signs/detour.svg"
   },
   {
     "id": "signs-039",
@@ -599,8 +566,7 @@
     "answerIndex": 1,
     "explanation": "The two-way traffic sign warns that opposing traffic shares the roadway — in work zones, often because one side of a divided highway is closed. Stay alert and keep right.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
-    "image": "signs/two-way-traffic.svg",
-    "difficulty": 2
+    "image": "signs/two-way-traffic.svg"
   },
   {
     "id": "signs-040",
@@ -614,8 +580,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Arkansas recently authorized flashing green lights (along with yellow or white) on construction and maintenance vehicles. They mark an active standard or mobile work zone.",
-    "citation": "AR Driver License Study Guide, p. 18 — Green Lights in Work Zones",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 18 — Green Lights in Work Zones"
   },
   {
     "id": "signs-041",
@@ -629,8 +594,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Mobile work zones (striping crews, pothole patching, debris removal) are marked by signs on the back of ARDOT vehicles. Fines double there just like in standard work zones.",
-    "citation": "AR Driver License Study Guide, p. 17-19 — Mobile Work Zones",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 17-19 — Mobile Work Zones"
   },
   {
     "id": "signs-042",
@@ -644,8 +608,7 @@
     ],
     "answerIndex": 0,
     "explanation": "Work zone signs use orange, white, or black backgrounds with white or black letters or symbols — covering reduced speeds, detours, slow equipment, and changing surfaces.",
-    "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs"
   },
   {
     "id": "signs-043",
@@ -659,8 +622,7 @@
     ],
     "answerIndex": 1,
     "explanation": "The Emergency Notification System sign lets the public reach the railroad responsible for the crossing and identify the exact crossing in an emergency — critical if a vehicle is stuck on the tracks.",
-    "citation": "AR Driver License Study Guide, p. 29 — Emergency Notification Systems",
-    "difficulty": 3
+    "citation": "AR Driver License Study Guide, p. 29 — Emergency Notification Systems"
   },
   {
     "id": "signs-044",
@@ -675,8 +637,7 @@
     "answerIndex": 1,
     "explanation": "The slippery-when-wet warning marks pavement that loses traction in rain. Slow down at the first sign of rain — especially the first few minutes, when surface oil hasn't washed away.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Slippery When Wet)",
-    "image": "signs/slippery-when-wet.svg",
-    "difficulty": 1
+    "image": "signs/slippery-when-wet.svg"
   },
   {
     "id": "signs-045",
@@ -690,8 +651,7 @@
     ],
     "answerIndex": 1,
     "explanation": "The pentagon with crosswalk lines marks the school crossing itself; without the lines it marks the school zone. Either way: slow down and watch for children.",
-    "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (School Crossing)",
-    "difficulty": 2
+    "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (School Crossing)"
   },
   {
     "id": "signs-046",
@@ -705,8 +665,7 @@
     ],
     "answerIndex": 2,
     "explanation": "Make a complete stop BEFORE reaching the stop line. If a sign or obstacle blocks your view, stop first, then pull forward carefully until you can see.",
-    "citation": "AR Driver License Study Guide, p. 34 — Crosswalks and Stop Lines",
-    "difficulty": 1
+    "citation": "AR Driver License Study Guide, p. 34 — Crosswalks and Stop Lines"
   },
   {
     "id": "signs-047",
@@ -721,8 +680,7 @@
     "answerIndex": 1,
     "explanation": "The pedestrian-crossing warning diamond marks places where people frequently cross. Yield to pedestrians in or about to enter the crosswalk — and remember not all crosswalks are marked.",
     "citation": "AR Driver License Study Guide, p. 27, 34 — Roadway Signs (Pedestrian Crossing)",
-    "image": "signs/pedestrian-crossing.svg",
-    "difficulty": 1
+    "image": "signs/pedestrian-crossing.svg"
   },
   {
     "id": "signs-048",
@@ -737,7 +695,6 @@
     "answerIndex": 1,
     "explanation": "The red circle-and-slash over the U-shaped arrow prohibits U-turns. Even where no sign prohibits them, only make a U-turn where you can see clearly in both directions.",
     "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs (No U-Turn)",
-    "image": "signs/no-u-turn.svg",
-    "difficulty": 1
+    "image": "signs/no-u-turn.svg"
   }
 ]

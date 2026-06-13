@@ -47,7 +47,6 @@ for (const file of readdirSync(questionsDir).filter((f) => f.endsWith(".json")))
     if (!q.question) errors.push(`${where}: missing question`);
     if (!q.explanation) errors.push(`${where}: missing explanation`);
     if (!q.citation) errors.push(`${where}: missing citation`);
-    if (![1, 2, 3].includes(q.difficulty)) errors.push(`${where}: bad difficulty`);
     if (q.image && !existsSync(join(publicDir, q.image)))
       errors.push(`${where}: image '${q.image}' not found in public/`);
     if (new Set(q.choices).size !== q.choices?.length)
