@@ -24,6 +24,14 @@ const num = (s) => {
 };
 const content = (s) =>
   new Set((s.toLowerCase().match(/[a-z0-9]+/g) || []).filter((t) => t.length > 2 && !STOP.has(t)));
+const countMatches = (s, re) => (s.match(re) || []).length;
+const median = (a) => {
+  const s = [...a].sort((x, y) => x - y), m = s.length >> 1;
+  return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
+};
+// safety/caution lexicon + conditional words, for the report-only tells below
+const SAFE = /\b(slow|slower|slow down|stop|stopp|yield|caution|careful|carefully|check|watch|wait|safe|safely|safety|reduce|signal|avoid|distance|gap|look|prepare|brake|gently|gradually|pull over|both directions|defensiv|let them|give way|do not|don't)\b/gi;
+const COND = /\b(when|unless|except|if|while|where|only|after|before|until)\b/gi;
 
 // Expected score of a strategy that, per question, narrows to a chosen set of
 // option indices and guesses uniformly among them (tie-break). Averaged over
@@ -80,6 +88,33 @@ const echoEV = strategyEV((q) => {
   return new Set(idx(q).filter((i) => ov[i] === mx));
 }).ev;
 
+// --- cautious "safest answer" (report only): pick the option with the most
+// safety/caution words. Real but largely inherent — in a safe-driving test the
+// correct action genuinely tends to be the cautious one; watch, don't chase. ---
+const cautious = strategyEV((q) => {
+  const sc = q.choices.map((c) => countMatches(c, SAFE));
+  const mx = Math.max(...sc);
+  return mx > 0 ? new Set(idx(q).filter((i) => sc[i] === mx)) : null;
+});
+
+// --- most-qualified / conditional (report only): most commas + when/unless/if.
+// Also partly inherent (correct answers are often the nuanced, conditional ones). ---
+const qualified = strategyEV((q) => {
+  const sp = q.choices.map((c) => (c.match(/,/g) || []).length + countMatches(c, COND));
+  const mx = Math.max(...sp);
+  return mx > 0 ? new Set(idx(q).filter((i) => sp[i] === mx)) : null;
+});
+
+// --- length outlier (report only): the option whose length deviates most from
+// the median (a residual of length even after longest/shortest are neutral). ---
+const outlierEV = strategyEV((q) => {
+  const L = q.choices.map((c) => c.trim().length);
+  const med = median(L);
+  const dev = L.map((l) => Math.abs(l - med));
+  const mx = Math.max(...dev);
+  return new Set(idx(q).filter((i) => dev[i] === mx));
+}).ev;
+
 // --- all/none of the above ---
 const aona = BANK.reduce((n, q) => n + q.choices.filter((c) => AONA.test(c)).length, 0);
 
@@ -100,9 +135,14 @@ const rows = [
   ["position max share", posMax, T.posHi, "<"],
   ["position min share", posMin, T.posLo, ">"],
 ];
+// Report-only (no CI gate): mild and/or inherent to driving content — track as
+// the bank grows, but don't distort facts chasing them toward chance.
 const reportOnly = [
   ["stem keyword-echo", echoEV],
   ["numeric-middle strategy EV", numMid.ev],
+  [`cautious "safest answer" (${cautious.applic} qs)`, cautious.ev],
+  [`most-qualified/conditional (${qualified.applic} qs)`, qualified.ev],
+  ["length-outlier (odd one out)", outlierEV],
 ];
 
 let failed = 0;
@@ -111,11 +151,11 @@ console.log(`Question bank tell audit — ${N} questions (chance ≈ 25%)\n`);
 for (const [name, val, thr, op] of rows) {
   const ok = op === "<" ? val < thr : op === ">" ? val > thr : val === thr;
   if (!ok) failed++;
-  console.log(`  [${ok ? "OK " : "BAD"}] ${name.padEnd(28)} ${pct(val).padStart(7)}  (need ${op} ${pct(thr)})`);
+  console.log(`  [${ok ? "OK " : "BAD"}] ${name.padEnd(34)} ${pct(val).padStart(7)}  (need ${op} ${pct(thr)})`);
 }
 console.log("  -- report only --");
 for (const [name, val] of reportOnly)
-  console.log(`        ${name.padEnd(28)} ${pct(val).padStart(7)}`);
+  console.log(`        ${name.padEnd(34)} ${pct(val).padStart(7)}`);
 
 if (failed) {
   console.error(`\nTELL AUDIT FAILED: ${failed} guarded tell(s) over threshold.`);
