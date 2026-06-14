@@ -23,8 +23,8 @@ export default tseslint.config(
     },
   },
   {
-    // Plain node scripts (no DOM, CommonJS-style globals).
-    files: ["scripts/**/*.mjs"],
+    // Node scripts (no DOM, CommonJS-style globals).
+    files: ["scripts/**/*.{mjs,ts}"],
     languageOptions: {
       globals: { console: "readonly", process: "readonly" },
     },
