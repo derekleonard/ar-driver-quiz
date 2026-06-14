@@ -18,9 +18,9 @@
     "topic": "speed-following",
     "question": "Speed limits are posted for ideal conditions. In rain, ice, or heavy traffic you must:",
     "choices": [
-      "Hold the posted limit exactly, since the posted number is the legally required speed in every condition",
+      "Hold the posted limit, since the posted number is generally the required minimum speed in rain or ice",
       "Slow to a safe speed — you can be ticketed for driving the limit if it's too fast for conditions",
-      "Keep pace with the surrounding traffic no matter how poor the road gets",
+      "Keep pace with the surrounding traffic, which usually sets a safe speed",
       "Switch on your hazard flashers and continue driving at the full posted limit until conditions improve"
     ],
     "answerIndex": 1,
@@ -35,7 +35,7 @@
       "100 ft",
       "150 ft",
       "225 feet",
-      "335 ft"
+      "190 ft"
     ],
     "answerIndex": 2,
     "explanation": "An average car at 55 mph needs about 225 feet of total stopping distance (reaction + braking). A loaded tractor-trailer needs more than 335 feet — the length of a football field.",
@@ -47,7 +47,7 @@
     "question": "At night you should drive at a speed that lets you stop within the distance your headlights show you — about:",
     "choices": [
       "100 feet, about 30 mph",
-      "1,000 feet, any speed",
+      "1,000 feet, 70 mph",
       "Headlights have no real bearing on a safe speed",
       "400 feet, which means around 50 mph"
     ],
@@ -63,7 +63,7 @@
       "The two-second rule — count from when the car ahead passes a fixed point until you reach it",
       "The car-length rule — leave one full car length of following space for every 10 mph of your speed",
       "The license-plate rule — stay close behind the car ahead so you can read its plate",
-      "The five-second rule — keep a five-second gap behind the car ahead in every driving condition"
+      "The five-second rule — a five-second gap behind the car ahead is what Arkansas usually advises"
     ],
     "answerIndex": 0,
     "explanation": "Use the two-second rule: when the rear of the vehicle ahead passes a stationary point, count 'one-thousand-one, one-thousand-two.' If you pass the point before you finish, you're too close. Use four seconds in bad conditions.",
@@ -88,10 +88,10 @@
     "topic": "speed-following",
     "question": "Going much slower than the other traffic on a road:",
     "choices": [
-      "Is always the safest possible choice you can make in absolutely any kind of traffic situation you ever meet",
-      "Is the slow, cautious speed that Arkansas law actually requires every driver on the road to use after dark",
+      "Is usually the safest possible choice that a careful driver can make in nearly any kind of moderate traffic",
+      "Is the cautious speed that Arkansas law generally asks each driver to use on the road after dark",
       "Causes traffic to back up and can be just as bad as speeding — pull over and let vehicles pass",
-      "Is against the law and is never allowed under any circumstances on any Arkansas road at any time"
+      "Is against the law and normally results in a citation on most Arkansas highways and roads"
     ],
     "answerIndex": 2,
     "explanation": "The safest speed in traffic is the same speed as other vehicles. If cars accumulate behind you, pull over and allow them to pass.",
@@ -117,9 +117,9 @@
     "question": "The 'Four Second Sight Distance Rule' tells you to:",
     "choices": [
       "Pick a stationary object as far ahead as you can clearly see — if you reach it before counting to four, you're driving too fast for the distance you can see",
-      "Always keep a steady gap of exactly four full car lengths behind the vehicle ahead of you at all times, no matter how fast or slow you happen to be traveling at the moment",
-      "Come to a complete stop and wait a full four seconds before you proceed again at every single stop sign and every red light you happen to reach anywhere along your route",
-      "Finish every pass of another vehicle within four seconds of the moment you first pull out of your own lane and into the lane beside you, however long the vehicle may be"
+      "Keep a steady gap of about four full car lengths behind the vehicle ahead, which usually gives a careful driver room enough to react at the speeds most roads allow you to travel",
+      "Come to a complete stop and wait about four seconds before you proceed again, which is generally what the rule advises at the stop signs and red lights you reach along a route",
+      "Finish a pass of another vehicle within about four seconds of the moment you pull out of your own lane, which is usually all the time a careful driver should need for the move"
     ],
     "answerIndex": 0,
     "explanation": "Never drive faster than the distance you can see. Count one-one-thousand to four-one-thousand toward the farthest object you can clearly see; reaching it early means slow down. At night, use it with your headlights.",
@@ -133,7 +133,7 @@
       "50 miles per hour",
       "45 miles per hour",
       "30 mph",
-      "20 miles per hour"
+      "60 miles per hour"
     ],
     "answerIndex": 2,
     "explanation": "Under 200 feet of visibility → 30 mph or less. If you can't see the road ahead at all, pull over in a safe place and wait for the weather to clear.",
@@ -144,10 +144,10 @@
     "topic": "speed-following",
     "question": "When should you increase your following distance to FOUR seconds?",
     "choices": [
-      "Only when you happen to be driving through a clearly posted active school zone during school hours",
+      "Mainly when you happen to be driving through a clearly posted active school zone during school hours",
       "On slippery roads, when towing, in poor visibility, or when following motorcycles or vehicles that block your view",
-      "Only while you are traveling on a multi-lane interstate highway at the higher speeds those roads allow",
-      "Never, because a following distance of two seconds gives you plenty of room in every single condition"
+      "Mostly while you are traveling on a multi-lane interstate highway at the higher speeds those roads allow",
+      "Rarely, because a following distance of two seconds usually gives you plenty of room in wet weather"
     ],
     "answerIndex": 1,
     "explanation": "Two seconds is the minimum for ideal conditions. Use four when stopping takes longer or seeing ahead is harder: slippery roads, towing, bad weather, motorcycles ahead, or big vehicles blocking your view.",
@@ -161,7 +161,7 @@
       "10 seconds — you and the oncoming car will cover over 1,600 feet (1/3 mile)",
       "3 seconds, since the two cars close the distance slowly even at speed",
       "5 seconds, which leaves both vehicles plenty of room to clear the pass",
-      "30 seconds, since passing at full speed takes a very long time"
+      "8 seconds, since passing at full speed takes a fairly long time"
     ],
     "answerIndex": 0,
     "explanation": "At 55 mph you need about a 10-second gap and sight distance: combined, you and oncoming traffic travel over 1,600 feet — a third of a mile. If you're not sure there's time, wait.",
@@ -200,10 +200,10 @@
     "topic": "speed-following",
     "question": "Arkansas law says the LEFT lane of a multilane highway may be used:",
     "choices": [
-      "By any vehicle at any time it wishes, exactly the same as the other lanes on the highway",
+      "By a slower vehicle that prefers it, much the same as the other lanes on the highway",
       "Only when passing, when other lanes are closed or unsafe, or when preparing to exit on the left",
-      "Only by passenger cars and never by large trucks, which must stay out of the far-left lane",
-      "Only after dark, once the daytime traffic on the highway has thinned out and the road is clear"
+      "Mostly by passenger cars, since large trucks are generally kept out of the far-left lane",
+      "Mainly after dark, once the daytime traffic on the highway has thinned out and the road is clear"
     ],
     "answerIndex": 1,
     "explanation": "Under 27-51-301, don't cruise in the left lane: it's for passing, for when other lanes are closed/undrivable, or when exiting left.",
@@ -298,9 +298,9 @@
     "topic": "speed-following",
     "question": "How does Arkansas use speed enforcement cameras?",
     "choices": [
-      "At every signalized traffic-light intersection in the towns and cities across the state",
-      "On all rural state highways, where the cameras catch and ticket any driver over the limit",
-      "Nowhere at all, because state law in Arkansas bans every form of automated camera enforcement",
+      "At many signalized traffic-light intersections in the towns and cities across the state",
+      "On most rural state highways, where the cameras may catch and ticket a driver over the limit",
+      "Mainly through GPS data pulled from drivers' phones, which the state uses to mail out speeding tickets",
       "In interstate work zones — an officer observes violations by camera and pulls the violator over as they exit the zone"
     ],
     "answerIndex": 3,
@@ -356,7 +356,7 @@
     "choices": [
       "About 75 ft",
       "About 225 ft",
-      "Roughly 335 feet",
+      "Roughly 95 feet",
       "About 124 feet"
     ],
     "answerIndex": 3,
@@ -438,10 +438,10 @@
     "topic": "speed-following",
     "question": "You are judging whether you have time to pass on a two-lane road. An oncoming vehicle far in the distance:",
     "choices": [
-      "Is always safe to pull out in front of and pass before, no matter how far off in the distance it is",
-      "Is always moving along far more slowly than it actually appears to be moving as it draws nearer toward you over time",
+      "Is usually safe to pull out in front of and pass before, as long as it still looks far in the distance",
+      "Is usually moving along a good deal more slowly than it really appears to be moving as it draws nearer toward you",
       "Can appear to be standing still — if you can see it getting closer, it may be moving too fast for you to pass",
-      "Can be safely ignored as you pass for as long as it has not yet flashed its headlights to warn you off"
+      "Can generally be ignored as you pass for as long as it has not yet flashed its headlights to warn you off"
     ],
     "answerIndex": 2,
     "explanation": "It's hard to judge the speed of oncoming vehicles at a distance — one far away can look stationary. If you can tell it's getting closer, it may be too fast to pass safely. When unsure, wait.",

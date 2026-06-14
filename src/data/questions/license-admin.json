@@ -4,10 +4,10 @@
     "topic": "license-admin",
     "question": "Arkansas's seat belt law makes it illegal to:",
     "choices": [
-      "Ride unbelted in the front seat only on interstate highways outside of city limits",
+      "Ride unbelted in the front seat once you are driving past city-limit signs",
       "Drive or ride in the front seat without wearing a safety belt — and it's a primary offense",
-      "Drive without a belt yourself, though front-seat passengers may freely choose for themselves",
-      "Ride in the front seat without a belt only between sunset and sunrise each night"
+      "Drive without a belt yourself, though front-seat passengers usually just choose for themselves",
+      "Ride in the front seat without a belt during the hours after sunset each night"
     ],
     "answerIndex": 1,
     "explanation": "Police can stop you just for an unbelted driver or front-seat passenger (primary enforcement, since 2009). All children under 15 must be properly restrained wherever they sit.",
@@ -19,7 +19,7 @@
     "question": "Arkansas requires a child to ride in a child safety seat if the child is:",
     "choices": [
       "Under 6 years old AND under 60 pounds",
-      "Under 10 years old, no matter the weight",
+      "Under 3 years old, no matter the weight",
       "Under 4 feet tall, regardless of age",
       "Under 8 years old OR under 80 pounds"
     ],
@@ -32,9 +32,9 @@
     "topic": "license-admin",
     "question": "You are involved in a crash where someone is injured or property damage exceeds $1,000. Arkansas law requires you to:",
     "choices": [
-      "Leave the scene quickly so that you do not end up blocking the normal flow of traffic for everyone else",
-      "Simply call up your own insurance company and just let them handle reporting the whole thing to the police",
-      "Stay seated inside of your vehicle and refuse to move it at all under any circumstances whatsoever",
+      "Leave the scene quickly so that you generally avoid blocking the flow of traffic for other people",
+      "Simply call up your own insurance company and usually let them report the whole thing to the police",
+      "Stay seated inside of your vehicle and typically decline to move it for the police who respond",
       "Stop, move your vehicle off the roadway if possible, and notify the police immediately"
     ],
     "answerIndex": 3,
@@ -46,10 +46,10 @@
     "topic": "license-admin",
     "question": "When stopped by a law enforcement officer, Arkansas law requires you to provide:",
     "choices": [
-      "Only your full legal name and your current home address, but nothing further",
-      "Nothing at all until you can call your own lawyer",
+      "Generally your full legal name and your current home address, and no more",
+      "Typically little else until you can phone your own lawyer",
       "Your driver's license, proof of insurance, and vehicle registration when requested",
-      "Your driver's license, but only in the event that you were stopped for speeding"
+      "Your driver's license, but usually just if you happened to be stopped for speeding"
     ],
     "answerIndex": 2,
     "explanation": "You must provide your driver's license, proof of insurance, and registration when an officer requests them. Tell the officer where the documents are and ask before reaching for them.",
@@ -145,7 +145,7 @@
     "question": "Each written (knowledge) examination in Arkansas costs:",
     "choices": [
       "$5.00",
-      "$2.00 plus tax",
+      "$10.00 plus tax",
       "$25.00",
       "$50.00"
     ],
@@ -158,10 +158,10 @@
     "topic": "license-admin",
     "question": "If you have epilepsy, Arkansas allows you to drive if:",
     "choices": [
-      "You make sure that you never drive entirely alone behind the wheel",
+      "You make sure that a licensed adult is usually riding along with you",
       "You are under a doctor's care and have been seizure-free for one year",
-      "You restrict all of your driving strictly to the daylight hours only",
-      "Never — epilepsy always disqualifies you for life"
+      "You generally restrict your driving to the daylight hours, day to day",
+      "No — epilepsy typically keeps you from a license"
     ],
     "answerIndex": 1,
     "explanation": "Epilepsy under medical control is usually not dangerous for driving: the standard is doctor's care plus one year seizure-free.",
@@ -172,10 +172,10 @@
     "topic": "license-admin",
     "question": "Does holding your phone to take a call, send a text, look up directions, or scroll social media count as a moving traffic violation in Arkansas?",
     "choices": [
-      "No — only the actual sending or reading of a text message is ever counted as one",
-      "Yes, but only on a divided interstate highway lane",
+      "No — generally just the sending or reading of a text message is counted as one",
+      "Yes, but generally just on a divided interstate lane",
       "Yes — if you can't use a hands-free connection while driving, don't use your phone",
-      "Yes, but the rule against it applies only to drivers under 21 years of age"
+      "Yes, but the rule against it typically applies to drivers under 21"
     ],
     "answerIndex": 2,
     "explanation": "Yes — holding your phone for calls, texts, directions, or social media is a moving violation. In a work zone with workers present, that fine DOUBLES.",
@@ -214,9 +214,9 @@
     "topic": "license-admin",
     "question": "Compared with other drivers, teens who text while driving are about how much more likely to crash?",
     "choices": [
-      "About 2 times",
+      "About 40 times",
       "23 times",
-      "About 5 times",
+      "About 60 times",
       "100 times"
     ],
     "answerIndex": 1,
@@ -257,9 +257,9 @@
     "question": "At a crash scene with a wrecked vehicle, you should turn off the ignition and:",
     "choices": [
       "Not smoke anywhere near it — fuel may have spilled and could start a fire",
-      "Light a road flare and set it down right beside the wrecked vehicle",
-      "Push the wrecked car all the way off of the road right away entirely by yourself",
-      "Disconnect both of the vehicle's battery cables before you go and do anything else"
+      "You should light a road flare and set it down right beside the wreck",
+      "Push the wrecked car off of the road right away, generally by yourself",
+      "Usually disconnect both of the vehicle's battery cables before you do anything else"
     ],
     "answerIndex": 0,
     "explanation": "Turn off wrecked vehicles' ignitions and don't smoke near them — spilled fuel ignites. Stay away from any downed electrical wires, and don't stand in traffic lanes.",
@@ -271,9 +271,9 @@
     "question": "Which is the study guide's advice about driving while tired?",
     "choices": [
       "Never drive if you are sleepy — it is better to stop and sleep for a few hours than take a chance you can stay awake",
-      "A few good cups of strong black coffee right before you leave will make long overnight drives perfectly safe to take on",
-      "Rolling all of the windows the whole way down will reliably keep almost any tired driver wide awake at the wheel",
-      "Eating a large, heavy meal right before setting out on a long road trip is a good way to help keep yourself alert"
+      "A few good cups of strong black coffee right before you go should make a long overnight drive safe to take on",
+      "Rolling the car windows the whole way down will generally keep almost any tired driver wide awake at the wheel",
+      "Eating a large, heavy meal right before setting out on a long road trip should help to keep yourself alert"
     ],
     "answerIndex": 0,
     "explanation": "If you're sleepy, stop and sleep. Plan trips for when you're rested, avoid drowsy-making medicines, eat light, take regular breaks — and avoid driving during hours your body expects to rest.",
@@ -298,10 +298,10 @@
     "topic": "license-admin",
     "question": "Which statement about deaf or hearing-impaired drivers is TRUE?",
     "choices": [
-      "By law they are permitted to drive only during the daytime hours and never once it has gotten fully dark outside at night",
-      "By law they are not permitted to drive on any interstate highway at all, and may use only city streets and back roads",
+      "By law they are generally permitted to drive just during the daytime hours and not once it has gotten dark out at night",
+      "By law they typically cannot drive on an interstate highway, and should use just city streets and back roads instead",
       "Studies show their driving records are as good as drivers with normal hearing — they adjust by relying on vision",
-      "By law they must always carry along with them a licensed passenger who is able to hear clearly out on the road at all times"
+      "By law they should generally carry along a licensed passenger who is able to hear clearly out on the road with them"
     ],
     "answerIndex": 2,
     "explanation": "Hearing helps (horns, sirens), but deaf and hearing-impaired drivers compensate by staying visually alert — and their records are as good as anyone's.",
@@ -312,10 +312,10 @@
     "topic": "license-admin",
     "question": "Arkansas requires a driver's license or certificate to operate which of the following on public highways?",
     "choices": [
-      "Only passenger cars and pickup trucks, nothing smaller",
+      "Generally just passenger cars and pickup trucks, nothing else",
       "A car, motorcycle, motor-driven cycle, or motorized bicycle",
-      "Only a vehicle whose motor is larger than 50 cubic centimeters",
-      "Cars and trucks, but not motorcycles or mopeds"
+      "Typically a vehicle whose motor is larger than 50 cubic centimeters",
+      "Cars and trucks, but usually not motorcycles or mopeds"
     ],
     "answerIndex": 1,
     "explanation": "Anyone who operates a motor vehicle, motorcycle, motor-driven cycle, or motorized bicycle on public highways must have a license or certificate.",
@@ -328,8 +328,8 @@
     "choices": [
       "Within 30 days",
       "Within about 10 days",
-      "Within 6 months",
-      "Within 1 year"
+      "Within 60 days",
+      "Within 90 days"
     ],
     "answerIndex": 0,
     "explanation": "A new resident must obtain an Arkansas license within 30 days. A nonresident who has been physically present in the state for 6 months must also get one (27-16-606).",
@@ -424,10 +424,10 @@
     "topic": "license-admin",
     "question": "An Intermediate License holder driving without a licensed adult in the front seat may carry:",
     "choices": [
-      "Any number of passengers at all that they might want",
-      "Only passengers who are their family members",
+      "Generally as many passengers as they might want to bring",
+      "Usually just passengers who are family members",
       "No more than one unrelated minor passenger",
-      "No passengers in the vehicle with them at all, ever"
+      "Typically no passengers riding in the vehicle with them"
     ],
     "answerIndex": 2,
     "explanation": "Without a licensed driver 21+ in the front seat, an Intermediate driver may not carry more than one unrelated minor passenger. All passengers must wear seat belts.",
@@ -468,8 +468,8 @@
     "choices": [
       "90 degrees for a person with two functional eyes, or 60 degrees with just one eye",
       "140 degrees for a person with two functional eyes (105 degrees with one eye)",
-      "180 degrees for every single licensed driver, in every case, without any exception",
-      "There is actually no field-of-vision requirement of any kind whatsoever in Arkansas"
+      "180 degrees for a licensed driver, generally with very few exceptions allowed",
+      "Arkansas generally sets no field-of-vision requirement of its own for driving"
     ],
     "answerIndex": 1,
     "explanation": "Field of vision must be 140 degrees for a person with two functional eyes, or 105 degrees for a person with one functional eye. A vision test is valid for one year.",
@@ -481,9 +481,9 @@
     "question": "Your license shows a 'B' restriction. While driving, you:",
     "choices": [
       "May leave your glasses at home if the trip is a short one",
-      "Only need to put on your corrective lenses after dark",
+      "Generally need to put on your corrective lenses after dark",
       "Must wear your corrective lenses, or you can be ticketed",
-      "Only need your corrective lenses while on the highway"
+      "Usually need your corrective lenses just out on the highway"
     ],
     "answerIndex": 2,
     "explanation": "A 'B' restriction means you must drive with your corrective lenses. If stopped by law enforcement, you can be ticketed for failing to wear them. Keep an extra pair in the vehicle.",
@@ -536,10 +536,10 @@
     "topic": "license-admin",
     "question": "A person with heart disease, high blood pressure, or circulation problems:",
     "choices": [
-      "Is honestly never affected in any single way while they are out behind the wheel of a car",
-      "Is restricted by law to driving only those cars that happen to have an automatic transmission",
+      "Is honestly not affected in a single way while they are out behind the wheel of a car",
+      "May generally be restricted by law to driving cars that have an automatic transmission",
       "May risk blackouts, fainting, or a heart attack and should ask a doctor before driving",
-      "Is permitted to drive only at those times when another licensed adult passenger is in the car"
+      "Should generally drive at just those times when another licensed adult is in the car"
     ],
     "answerIndex": 2,
     "explanation": "These conditions can bring on blackouts, fainting, or a heart attack. If you're being treated for a heart condition, ask your doctor before driving.",
@@ -564,10 +564,10 @@
     "topic": "license-admin",
     "question": "According to the manual, which of these can affect your ability to drive safely?",
     "choices": [
-      "Only a genuinely serious illness can affect driving",
+      "Generally just a genuinely serious illness affects driving",
       "Even a bad cold, a stiff neck, a cough, or a sore leg",
-      "Nothing short of a real disability affects driving",
-      "Only a condition a doctor has formally diagnosed"
+      "Typically little short of a real disability affects driving",
+      "Usually just a doctor-diagnosed condition affects driving"
     ],
     "answerIndex": 1,
     "explanation": "Many health problems — even a bad cold, infection, stiff neck, cough, or sore leg — can affect your driving. If you aren't feeling well and have places to go, let someone else drive.",
@@ -620,10 +620,10 @@
     "topic": "license-admin",
     "question": "Using another person's disabled-parking Special Certificate is:",
     "choices": [
-      "Only a minor infraction that carries a small fine and nothing more",
+      "Generally a minor infraction that carries just a small fine",
       "Fraud — a Class A misdemeanor with fines and a possible license suspension",
-      "Perfectly fine if you are on your way to pick that person up",
-      "Only a problem if you actually end up getting a ticket for it"
+      "Usually fine if you happen to be on your way to pick that person up",
+      "Typically a problem just if you actually end up getting a ticket"
     ],
     "answerIndex": 1,
     "explanation": "Illegally using someone else's Special Certificate is fraud (a Class A misdemeanor). A first offense is $100-$500; a second is $250-$1,000 plus a 6-month license suspension.",
@@ -635,9 +635,9 @@
     "question": "After you pass your driver tests in Arkansas, you are asked whether you wish to be an organ and tissue donor. If you say yes:",
     "choices": [
       "The words 'Organ Donor' are printed on the front of your license and you are listed in a state registry",
-      "Nothing about your choice is recorded by the state in any way, and it stays between you and the clerk",
-      "You are simply handed a separate paper donor card that you are then required to carry around with you at all times",
-      "Your decision is treated as permanent and can never afterward be changed"
+      "Generally nothing about your choice is recorded by the state, and it stays between you and the clerk",
+      "You are typically handed a separate paper donor card that you are then expected to carry around with you",
+      "Your decision is usually treated as permanent and can't afterward be changed"
     ],
     "answerIndex": 0,
     "explanation": "Applicants are asked at testing. Those who choose to participate have 'Organ Donor' printed on the license and are listed in a state registry that helps medical personnel identify donors.",
@@ -676,10 +676,10 @@
     "topic": "license-admin",
     "question": "If you are pulled over at night, the study guide says you should:",
     "choices": [
-      "Step out of the car so that the officer is able to get a clear, full look at you",
+      "You should step out of the car so that the officer is able to get a clear look at you",
       "Turn on your interior (dome) lights so the officer can see you more clearly",
-      "Flash your high-beam headlights toward the officer as they walk up toward you",
-      "Switch off every single light on and inside your vehicle until the officer arrives"
+      "You might flash your high-beam headlights toward the officer as they walk up to you",
+      "Generally switch off the lights on and inside your vehicle until the officer arrives"
     ],
     "answerIndex": 1,
     "explanation": "At night, turn on the interior lights so the officer can see inside the vehicle clearly. Also turn off the radio, put down any devices, and give the officer your full attention.",
@@ -705,9 +705,9 @@
     "question": "Signing a traffic citation:",
     "choices": [
       "Is a promise to appear in court or pay the fine — NOT an admission of guilt; refusing to sign can lead to arrest",
-      "Counts as a full and binding admission that you are in fact guilty of committing the violation cited",
-      "Means you have given up your right to take the matter before a judge later",
-      "Is an entirely optional formality that carries no consequences at all"
+      "Generally counts as a binding admission that you are in fact guilty of the violation cited",
+      "Usually means you have given up your right to take it before a judge later",
+      "Is typically an optional formality that carries no real consequences"
     ],
     "answerIndex": 0,
     "explanation": "Signing a citation is not an admission of guilt — it's a promise to appear in court or pay the fine before the court date. Refusing to sign, if required, can result in a physical arrest.",
@@ -774,10 +774,10 @@
     "topic": "license-admin",
     "question": "If you have a concealed carry permit and are stopped by an officer, you should:",
     "choices": [
-      "Keep the permit to yourself and never once bring it up at all",
+      "Generally keep the permit to yourself and not bring it up at the stop",
       "Present it to the officer along with your driver's license",
-      "Mention the permit only if the officer specifically asks you",
-      "Step out of the vehicle so you can discuss the permit in person"
+      "Mention the permit usually just if the officer asks you about it",
+      "You should step out of the vehicle and discuss the permit in person"
     ],
     "answerIndex": 1,
     "explanation": "Present your concealed carry permit to the officer with your driver's license. Also tell the officer where any weapon is located, and do not reach for it.",
@@ -788,10 +788,10 @@
     "topic": "license-admin",
     "question": "Failing to move over or slow down for a stopped emergency or law-enforcement vehicle with its lights on (the Move Over Law) can bring:",
     "choices": [
-      "Nothing more than a simple spoken warning from the officer the first time",
-      "A flat $20 ticket and no other penalty at all beyond just paying that one small fine",
+      "Generally just a simple spoken warning from the officer the first time",
+      "A flat $20 ticket and generally no other penalty beyond paying that one small fine",
       "A fine, jail time, community service, and a license suspension of up to 6 months",
-      "No penalty at all the very first time you are caught"
+      "Typically no penalty the very first time that you are caught"
     ],
     "answerIndex": 2,
     "explanation": "On a multilane highway you must move to the farthest lane from a stopped emergency/law-enforcement vehicle, or slow down if changing lanes isn't possible. Violations can mean fines, jail, community service, and up to a 6-month license suspension.",
@@ -802,9 +802,9 @@
     "topic": "license-admin",
     "question": "Emergency and authorized vehicles in Arkansas may display which light colors?",
     "choices": [
-      "Only purple lights and no other",
-      "Only blue, and no other color is ever permitted",
-      "Only green, and no other color is ever permitted",
+      "Generally just purple lights, no others",
+      "Usually blue, with no other color being permitted",
+      "Typically green, with no other color permitted",
       "Yellow, red, red & white, red & blue, or blue"
     ],
     "answerIndex": 3,
@@ -817,9 +817,9 @@
     "question": "Which testing resource is officially offered by the Arkansas State Police?",
     "choices": [
       "An app called 'AR Driver Testing' in the Google Play or Apple app store",
-      "Any one of the many third-party driving practice-test websites out there",
-      "A paid one-on-one tutoring service run out of the state police office",
-      "There is actually no official testing resource of any kind available"
+      "Usually one of the many third-party driving practice-test websites",
+      "A paid one-on-one tutoring service generally run from the police office",
+      "Generally there is no official testing resource that is available"
     ],
     "answerIndex": 0,
     "explanation": "The Arkansas State Police is NOT associated with third-party practice-test websites. It does offer an official testing app, 'AR Driver Testing,' in the Google Play and Apple app stores.",

@@ -5,8 +5,8 @@
     "question": "In Arkansas you will be arrested for driving while intoxicated (DWI) with a blood or breath alcohol concentration of:",
     "choices": [
       "Over 0.05%",
-      "Over 0.10%",
-      "Over 0.12%",
+      "Over 0.06%",
+      "Over 0.07%",
       "0.08% or more"
     ],
     "answerIndex": 3,
@@ -32,10 +32,10 @@
     "topic": "alcohol-gdl",
     "question": "If a law enforcement officer instructs you to take an alcohol test (breath, blood, or urine), you:",
     "choices": [
-      "May politely refuse to take the test, and no penalty of any kind can be applied to you",
+      "Usually may refuse the test, and typically no penalty will be applied to you",
       "Are compelled by law to take it — refusing can cost you your driver's license",
       "May personally pick whichever one of the tests you happen to most prefer taking",
-      "Only have to take the test if you were actually involved in a crash at the time"
+      "Typically have to take the test only if you were actually involved in a crash"
     ],
     "answerIndex": 1,
     "explanation": "The officer chooses the test, and you are compelled by law to take it. You can lose your driver's license if you refuse — separate from any DWI charge.",
@@ -60,8 +60,8 @@
     "topic": "alcohol-gdl",
     "question": "A driver with an Arkansas Instruction Permit or Learner's License must be accompanied by:",
     "choices": [
-      "Anyone with a valid driver's license",
-      "A parent and no other adult in the car",
+      "A licensed driver who is at least 16",
+      "A licensed adult who is at least 19 years old",
       "A licensed driver at least 18 years old",
       "A licensed driver who is at least 21 years old"
     ],
@@ -74,8 +74,8 @@
     "topic": "alcohol-gdl",
     "question": "For drivers holding an Arkansas Learner's or Intermediate License, cell phone use while driving is:",
     "choices": [
-      "Allowed any time the phone is fully hands-free",
-      "Allowed for phone calls but never for texting",
+      "Usually allowed when the phone is fully hands-free",
+      "Allowed for short calls but generally not for texting",
       "Prohibited by law except for an emergency",
       "Allowed while the car is stopped at red lights"
     ],
@@ -88,10 +88,10 @@
     "topic": "alcohol-gdl",
     "question": "The Arkansas Intermediate License is issued to drivers age 16–18. The restriction is that the driver:",
     "choices": [
-      "May never drive on any interstate or controlled-access highway",
+      "May not drive on the interstate after 9 p.m. on weekends",
       "Must be accompanied by a licensed driver 21+ until the 6-month restricted period is complete",
-      "May only drive directly to and from school, and only during the daylight hours of the day",
-      "May not, under any circumstances, drive faster than 45 mph"
+      "May drive only directly to and from school, and only during the daylight hours of day",
+      "May not, on residential streets, drive faster than 45 mph"
     ],
     "answerIndex": 1,
     "explanation": "Intermediate License holders are restricted for 6 months from permit issuance (or until requirements are met at 16): a licensed driver 21 or older must accompany them, all passengers must be belted, and no cell phone use is allowed.",
@@ -103,7 +103,7 @@
     "question": "One 'drink' is considered 1.5 oz of 80-proof liquor, a 6-oz glass of wine, or:",
     "choices": [
       "A 12-oz beer",
-      "A single 6-oz beer",
+      "A single 16-oz beer",
       "A large 24-oz beer",
       "A 32-oz mug of beer"
     ],
@@ -130,10 +130,10 @@
     "topic": "alcohol-gdl",
     "question": "A first DWI conviction in Arkansas can bring:",
     "choices": [
-      "Only a verbal warning from the arresting officer, with no fine and no other penalty",
+      "A verbal warning from the arresting officer, plus a modest court filing fee",
       "A $150–$1,000 fine, up to one year in jail, and a 120-day license suspension",
-      "A small $50 fine, no jail, and no license suspension",
-      "A few hours of court-ordered community service work and nothing more than that"
+      "A $50 fine, two days of jail, and a 30-day license suspension",
+      "A few hours of court-ordered community service and a small fine of forty dollars"
     ],
     "answerIndex": 1,
     "explanation": "First conviction: $150–$1,000 plus court costs, up to a year in jail, and a 120-day suspension. Penalties get much worse for repeat offenses.",
@@ -144,10 +144,10 @@
     "topic": "alcohol-gdl",
     "question": "A person under 21 convicted of merely PURCHASING or POSSESSING alcohol (not driving):",
     "choices": [
-      "Faces a possible fine but no driving-related consequences of any kind whatsoever",
-      "Receives only a written warning letter mailed to them at their home address",
+      "Faces a possible fine but usually keeps their driving privileges intact",
+      "Usually receives a written warning letter mailed to their home address",
       "Will have their driving privileges suspended, revoked, or disqualified",
-      "Pays a small $25 fine and nothing more"
+      "Pays a small $25 fine and keeps driving"
     ],
     "answerIndex": 2,
     "explanation": "Under-21 alcohol purchase or possession costs your driving privileges in Arkansas — even with no car involved. Underage DUI itself can mean license revoked until 21 and a $2,000 fine.",
@@ -173,9 +173,9 @@
     "question": "Many prescription and over-the-counter drugs (cold, allergy, pain medicine):",
     "choices": [
       "Can impair your driving like alcohol — check the label or ask your doctor or pharmacist before driving",
-      "Have absolutely no effect whatsoever on your ability to drive, so you may safely take them and then drive freely",
-      "Only impair your ability to drive when they happen to be taken together with some larger amount of alcohol too",
-      "Are completely illegal for anyone at all to take at any point before they get behind the wheel and drive off"
+      "Usually have little or no effect on your ability to drive, so most people can safely take them and drive",
+      "Generally impair your ability to drive only when taken together with a fairly large amount of alcohol",
+      "Are usually illegal for most people to take at any time before they get behind the wheel and drive off"
     ],
     "answerIndex": 0,
     "explanation": "Drowsiness-causing medicines impair reflexes, judgment, and vision. Mixing them with alcohol multiplies the effects. Check labels for the 'do not operate machinery' warning.",
@@ -186,10 +186,10 @@
     "topic": "alcohol-gdl",
     "question": "Alcohol is involved in approximately what percentage of fatal traffic crashes?",
     "choices": [
-      "About 10%",
+      "About 50%",
       "38%",
-      "About 20%",
-      "About 75%"
+      "About 65%",
+      "About 80%"
     ],
     "answerIndex": 1,
     "explanation": "About 38% of traffic crashes in which someone is killed involve alcohol. There is no safe alcohol concentration for driving — and new drivers are affected even more than experienced ones.",
@@ -200,10 +200,10 @@
     "topic": "alcohol-gdl",
     "question": "When going out where alcohol will be served, the study guide recommends:",
     "choices": [
-      "Eating a very large meal beforehand so that you are able to drink as much as you want and still drive home safely",
+      "Eating a very large meal beforehand so that you can drink a good deal and still safely drive yourself home",
       "Drinking several cups of strong black coffee right before you get into the car to start driving home",
       "Going with two or more people so one can be the designated driver — or using public transportation or a cab",
-      "Sticking to only the quiet back roads on the way home and simply driving very slowly and carefully"
+      "Sticking to the quiet back roads on the way home and simply driving very slowly and carefully"
     ],
     "answerIndex": 2,
     "explanation": "Plan ahead: a designated driver, a cab, or public transportation. Food slows alcohol absorption but will NOT prevent you from getting intoxicated.",
@@ -214,9 +214,9 @@
     "topic": "alcohol-gdl",
     "question": "Which statement about alcohol and new drivers is TRUE?",
     "choices": [
-      "Experienced drivers have, over the course of many years, built up a complete immunity to all of alcohol's effects",
-      "Having just one single drink will never cause any impairment at all for an otherwise perfectly healthy adult driver",
-      "Alcohol only begins to affect a driver once they have actually gone above the 0.08% legal BAC limit for adult drivers",
+      "Experienced drivers, over many years of driving, build up a strong tolerance to most of alcohol's effects",
+      "Having just one single drink will rarely cause noticeable impairment in an otherwise healthy adult driver",
+      "Alcohol usually begins to affect a driver only once they have gone above the 0.08% legal BAC limit for adults",
       "Every driver is affected by alcohol, and new drivers are affected even MORE because they are still learning"
     ],
     "answerIndex": 3,
@@ -244,7 +244,7 @@
     "choices": [
       "In a separate document held by the local court",
       "On the reverse side of the driver's license",
-      "Only inside the state's central computer system",
+      "Inside the state's central driver computer system",
       "On the vehicle's registration card"
     ],
     "answerIndex": 1,
@@ -256,10 +256,10 @@
     "topic": "alcohol-gdl",
     "question": "Pep pills, 'uppers,' and diet pills can make a driver feel more alert for a short time. Later, they can cause:",
     "choices": [
-      "A lasting, permanent state of sharp focus and steady alertness",
+      "A lasting state of sharp focus and steady, reliable alertness",
       "A real, long-lasting improvement in reaction time",
       "Nervousness, dizziness, inability to concentrate, and poor vision",
-      "Absolutely no harmful after-effects of any kind on the driver at all"
+      "Usually no harmful after-effects of any sort for the driver later on"
     ],
     "answerIndex": 2,
     "explanation": "Stimulants wear off into nervousness, dizziness, and poor concentration and vision. No drug increases concentration safely — and none stops impairment from alcohol.",
@@ -284,10 +284,10 @@
     "topic": "alcohol-gdl",
     "question": "About how fast does the body get rid of alcohol?",
     "choices": [
-      "About three full drinks every single hour, or even more",
+      "Roughly three full drinks per hour for a healthy adult",
       "Roughly one drink per hour — and nothing speeds it up",
       "Drinking a few cups of black coffee can double the rate",
-      "It all leaves your system the moment you stop drinking"
+      "Most of it leaves your system soon after you stop drinking"
     ],
     "answerIndex": 1,
     "explanation": "The liver breaks down only about 0.5 to 1 ounce of alcohol per hour — roughly one drink. Coffee, fresh air, food, and cold showers will NOT speed it up; only time will.",
@@ -301,7 +301,7 @@
       "The law enforcement officer chooses the test",
       "You personally choose the test you prefer",
       "A judge decides which test later in court",
-      "No test can be required without a warrant"
+      "A warrant is generally required before testing"
     ],
     "answerIndex": 0,
     "explanation": "The officer chooses the test. Breath alcohol concentration (BrAC) is measured from your breath; blood alcohol concentration (BAC) from blood. You are compelled by law to take it — refusing can cost you your license.",
@@ -314,7 +314,7 @@
     "choices": [
       "A simple written warning from the court",
       "A defensive-driving class coupon",
-      "No other consequences",
+      "Lower car insurance rates",
       "A required ignition interlock device"
     ],
     "answerIndex": 3,
@@ -326,10 +326,10 @@
     "topic": "alcohol-gdl",
     "question": "You are in a traffic crash and your BAC is 0.05% — below the usual 0.08% limit. In Arkansas you:",
     "choices": [
-      "Cannot be charged with anything at all in that situation, since your reading is comfortably below the usual 0.08% legal limit for adults",
-      "Will only ever face a minor parking-type fine for the crash itself, because a 0.05% reading is simply not considered a DWI in the state of Arkansas",
+      "Usually cannot be charged with much at all there, since your reading is comfortably below the usual 0.08% legal limit for adult drivers",
+      "Will usually face only a minor parking-type fine for the crash itself, because a 0.05% reading is generally not treated as a DWI in Arkansas",
       "Can still be charged with DWI — a BAC between 0.04% and 0.08% can bring a charge if you're in a crash or serious traffic offense",
-      "Are automatically cleared of any alcohol-related charge, because under the law it only counts as DWI at a reading of 0.08% or higher"
+      "Are generally cleared of an alcohol-related charge, because under the law it usually counts as DWI only at a reading of 0.08% or higher"
     ],
     "answerIndex": 2,
     "explanation": "0.08% is the usual DWI threshold, but if you're involved in a crash or a serious traffic offense you can be charged with DWI at a BAC between 0.04% and 0.08%.",
@@ -343,7 +343,7 @@
       "Tend to slow themselves down, pay much closer attention, and drive far more carefully and cautiously than other drivers do",
       "Make more mistakes, have more trouble adjusting to glare, and get more traffic violations than other drivers",
       "Are essentially unaffected behind the wheel and drive about as well as anyone else who happens to be out on the road",
-      "Only show a very slightly slower reaction time when they happen to be driving late at night in the dark"
+      "Usually show only a slightly slower reaction time when they happen to be driving late at night"
     ],
     "answerIndex": 1,
     "explanation": "Illegal drugs impair driving. Studies show marijuana users make more mistakes, have more trouble adjusting to glare, and are arrested for traffic violations more than other drivers.",
@@ -355,8 +355,8 @@
     "question": "Eating a big meal before you drink alcohol will:",
     "choices": [
       "Slow how fast alcohol is absorbed, but NOT prevent you from becoming intoxicated",
-      "Keep you completely sober no matter how many alcoholic drinks you may go on to have",
-      "Make it perfectly safe for you to drive yourself home a short while afterward",
+      "Usually keep you sober even after you have had a good many alcoholic drinks",
+      "Usually make it safe enough for you to drive yourself home a short while later",
       "Lower your blood alcohol level and reliably keep it below the legal driving limit"
     ],
     "answerIndex": 0,
@@ -369,8 +369,8 @@
     "question": "As the amount of alcohol in your body increases, it:",
     "choices": [
       "Improves your reaction time and steadily sharpens your driving skills, getting better the more that you drink",
-      "Affects only your eyesight and nothing else at all, leaving the rest of your driving skills fully intact and unharmed",
-      "Has no real effect on your ability to drive at all until the very moment that you happen to reach the 0.08% legal limit",
+      "Affects mainly your eyesight and little else, leaving the rest of your driving skills largely intact and fine",
+      "Has little real effect on your ability to drive until right about the moment that you happen to reach the 0.08% limit",
       "Worsens your judgment and decreases your skills — including judging distances, speeds, and the movement of other vehicles"
     ],
     "answerIndex": 3,

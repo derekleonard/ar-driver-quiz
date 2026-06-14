@@ -102,9 +102,9 @@
     "topic": "adverse-conditions",
     "question": "Arkansas requires headlights on:",
     "choices": [
-      "Only after full dark, since headlights aren't needed while any daylight remains, and never in rain or fog",
-      "Only when you are driving on a highway at night, because city and town streets are already lit well enough by their streetlights and lighted signs that your own headlights add nothing useful",
-      "From the exact moment of sunset until the exact moment of sunrise only, with no separate requirement ever tied to rain, fog, snow, or any other drop in how far ahead the driver can clearly see",
+      "Mainly after full dark, since headlights usually add little while daylight remains, and skip them in light rain",
+      "Mainly when you are driving a highway at night, since city and town streets are generally lit well enough by their streetlights and lighted signs that your own headlights tend to add little",
+      "From right around sunset until about sunrise, with the requirement generally tied to time of day rather than to rain, fog, snow, or some drop in how far ahead the driver can clearly see",
       "From 30 minutes after sunset to 30 minutes before sunrise, whenever you can't see a person or object clearly within 500 feet — and whenever your windshield wipers are needed"
     ],
     "answerIndex": 3,

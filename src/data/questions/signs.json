@@ -5,8 +5,8 @@
     "question": "What does this sign mean?",
     "choices": [
       "Slow down and roll through if it looks clear",
-      "Stop only when other vehicles are present",
-      "Yield to any traffic approaching on your right",
+      "Stop here if you see other vehicles coming",
+      "Yield to traffic approaching on your right",
       "Come to a complete stop, then go when safe"
     ],
     "answerIndex": 3,
@@ -22,7 +22,7 @@
       "Come to a full and complete stop here before you continue ahead",
       "Speed up as needed so you can merge in with the faster traffic",
       "Slow down and give the right-of-way to crossing or merging traffic",
-      "Make no turns of any kind while crossing through the intersection"
+      "You should make a left turn at the upcoming intersection"
     ],
     "answerIndex": 2,
     "explanation": "A downward-pointing triangle is a YIELD sign: slow down, be ready to stop, and let traffic, pedestrians, or bicycles pass before you proceed.",
@@ -49,7 +49,7 @@
     "question": "A diamond-shaped yellow sign means:",
     "choices": [
       "A warning about a hazard or change in the road ahead",
-      "A rule or regulation that you are required to obey",
+      "A rule or regulation you should normally obey",
       "Directions guiding you to a nearby roadside service",
       "A school zone where children cross near the roadway"
     ],
@@ -77,8 +77,8 @@
     "topic": "signs-signals-markings",
     "question": "What does this round yellow sign with an X and 'RR' mean?",
     "choices": [
-      "You are now right at the railroad tracks — stop immediately",
-      "The road ahead is fully closed, so you must turn around now",
+      "You are right at the railroad tracks now — stop and wait",
+      "The road ahead is closed, so you should turn around soon",
       "Railroad crossing ahead — slow down and be ready to stop",
       "An intersection with a one-way street is just ahead of you"
     ],
@@ -124,7 +124,7 @@
     "choices": [
       "This is a one-way street, so do not drive in",
       "A stop sign is just ahead, so be ready to stop",
-      "No parking is allowed along this whole part of the road",
+      "Parking is generally allowed along this stretch",
       "Do not enter — the roadway ahead is closed to you"
     ],
     "answerIndex": 3,
@@ -140,7 +140,7 @@
       "You have driven past and missed the exit you wanted to take",
       "You are driving against traffic on a one-way road or ramp",
       "The road just ahead of you is closed for road construction",
-      "You have entered a lane that is set aside for trucks only now"
+      "You have entered a lane that is reserved for buses now"
     ],
     "answerIndex": 1,
     "explanation": "WRONG WAY means you have entered a roadway against the flow of traffic. Pull over and turn around as soon as it is safe.",
@@ -155,7 +155,7 @@
       "A school zone where children cross",
       "A recreational area or park drivers can reach",
       "Construction or maintenance work area ahead",
-      "A hospital zone where you must keep quiet and slow"
+      "A hospital zone where you should keep quiet and slow"
     ],
     "answerIndex": 2,
     "explanation": "Orange is the color of work zones. Slow down, obey the posted work-zone speed limit, and watch for workers and equipment. Fines often double in work zones.",
@@ -254,10 +254,10 @@
     "topic": "signs-signals-markings",
     "question": "A steady green light means:",
     "choices": [
-      "Go right away, because on a green light you always have the right-of-way",
+      "Go right away, since on a green light you have the right-of-way",
       "Go, but first yield to vehicles and pedestrians still in the intersection",
-      "Speed up so you can get all the way through before the light changes",
-      "Only right turns may be made while the light is showing green"
+      "Speed up so you can get clear through before the light changes",
+      "You may turn right only after the light first turns red"
     ],
     "answerIndex": 1,
     "explanation": "Green means you may go, but only after yielding to pedestrians and any vehicles still clearing the intersection.",
@@ -282,10 +282,10 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign set?",
     "choices": [
-      "The minimum speed you are required to drive",
+      "The minimum speed you should normally drive",
       "The speed recommended for driving at night",
       "The maximum legal speed under ideal conditions",
-      "The speed limit that applies to trucks only"
+      "The speed limit that applies to trucks ahead"
     ],
     "answerIndex": 2,
     "explanation": "A speed limit sign sets the MAXIMUM legal speed in ideal conditions. In rain, fog, or heavy traffic, the safe speed may be much lower.",
@@ -299,7 +299,7 @@
     "choices": [
       "Turn quickly before the cross traffic moves",
       "Stop — you may not turn in the direction of the arrow",
-      "Yield to all traffic first, then turn when it is clear",
+      "Yield to traffic first, then turn when it is clear",
       "The signal has malfunctioned, so use caution and proceed"
     ],
     "answerIndex": 1,
@@ -339,7 +339,7 @@
     "topic": "signs-signals-markings",
     "question": "A steady YELLOW traffic light means:",
     "choices": [
-      "Speed up so that you can get all the way through before it turns red",
+      "Speed up so that you can get clear through before it turns red",
       "Proceed straight through the intersection without slowing",
       "The signal is changing from green to red — stop if it is safe to do so",
       "Pedestrians at the corner may now begin crossing in front of you"
@@ -353,9 +353,9 @@
     "topic": "signs-signals-markings",
     "question": "Before turning right at a red light, you must:",
     "choices": [
-      "Slow down and carefully merge in with the flow of the cross traffic before turning right",
+      "Slow down and carefully merge in with the flow of cross traffic before turning right",
       "Come to a complete stop, check for traffic and pedestrians, and make sure no sign prohibits the turn",
-      "Sound your horn once to warn any nearby traffic and pedestrians and then proceed with your right turn",
+      "Sound your horn once to warn nearby traffic and pedestrians and then proceed with your right turn",
       "Wait for the light to turn green before turning, since making a right turn on red is illegal in Arkansas"
     ],
     "answerIndex": 1,
@@ -368,9 +368,9 @@
     "question": "The white X-shaped CROSSBUCK sign at railroad tracks requires you to:",
     "choices": [
       "Yield the right-of-way to the train",
-      "Always come to a full and complete stop",
+      "Come to a full and complete stop every time",
       "Sound your horn before you cross over",
-      "Slow to exactly 15 mph before crossing"
+      "Slow to about 15 mph before crossing"
     ],
     "answerIndex": 0,
     "explanation": "The crossbuck marks the crossing itself and works like a yield sign: yield the right-of-way to any train. Failing to yield at a yield sign can mean a fine up to $1,000 and a 180-day license suspension.",
@@ -383,7 +383,7 @@
     "question": "An EXEMPT sign below a railroad crossbuck means:",
     "choices": [
       "The tracks are safe to stop or park on because no trains use them",
-      "Only high-speed express trains use this crossing",
+      "High-speed express trains usually use this crossing",
       "This crossing carries the heaviest train traffic in the entire county",
       "The crossing has been abandoned or its use discontinued"
     ],
@@ -398,9 +398,9 @@
     "question": "A small sign under a railroad crossbuck reads '2 TRACKS'. This warns you:",
     "choices": [
       "Two separate trains pass through this particular railroad crossing on an average day",
-      "The railroad crossing itself stretches all the way across two miles of the road",
+      "The railroad crossing itself stretches across nearly two miles of the road",
       "There is more than one track — after one train passes, another may be coming from either direction",
-      "Trucks and other large commercial vehicles are required to use the second track's crossing point"
+      "Trucks and other large commercial vehicles should use the second track's crossing point"
     ],
     "answerIndex": 2,
     "explanation": "The number sign tells how many tracks are present. Cross multiple tracks only when any train is well down the tracks — a second train can be hidden behind the first.",
@@ -412,10 +412,10 @@
     "topic": "signs-signals-markings",
     "question": "A curb painted RED means:",
     "choices": [
-      "Loading zone only",
+      "Loading zone for trucks",
       "Fire zone — no parking",
       "15-minute limit",
-      "Handicapped parking only"
+      "Reserved handicapped spot"
     ],
     "answerIndex": 1,
     "explanation": "Red curb = fire zone. Yellow curb = loading zone or other restriction. Always check for signs that limit parking.",
@@ -458,7 +458,7 @@
       "For traffic on the side that has the solid line, when no oncoming car is near",
       "For traffic on the side with the broken line, when there is no opposing traffic",
       "For traffic in both directions at once, if the road ahead looks clear",
-      "For traffic in neither direction at all, because both of these lines forbid any passing"
+      "For traffic in neither direction at once, since both lines forbid passing here"
     ],
     "answerIndex": 1,
     "explanation": "Passing is permitted on the side with the BROKEN line and prohibited on the side with the solid line. A double solid yellow line means no passing either direction.",
@@ -469,10 +469,10 @@
     "topic": "signs-signals-markings",
     "question": "In a work zone, a flagger holds a STOP/SLOW paddle. The flagger's instructions:",
     "choices": [
-      "Are only suggestions; posted signs control",
-      "Apply only to trucks and large vehicles",
+      "Are merely suggestions; posted signs control",
+      "Apply mainly to trucks and large vehicles",
       "Overrule any other traffic signals or devices",
-      "Apply only when road workers are actually present"
+      "Apply just while road workers are actually present"
     ],
     "answerIndex": 2,
     "explanation": "Flaggers are legally authorized to direct traffic in work zones — their signals overrule other traffic signals and devices. Stop at the designated spot or at least a car length away.",
@@ -543,7 +543,7 @@
     "topic": "signs-signals-markings",
     "question": "An orange DETOUR sign warns you of:",
     "choices": [
-      "A toll booth ahead, where you must stop and pay before you keep going",
+      "A toll booth ahead, where you should stop and pay before going on",
       "The end of the work zone ahead, where normal driving will soon resume",
       "A roadside rest area just ahead where you can pull over and stop",
       "An approaching alternate route of travel through a construction zone"
@@ -587,7 +587,7 @@
     "topic": "signs-signals-markings",
     "question": "An ARDOT truck ahead displays a sign on its back: 'WORK ZONE — FINES DOUBLE'. This means you are approaching:",
     "choices": [
-      "A highway weigh station, where trucks and large commercial vehicles must pull off to be weighed",
+      "A highway weigh station, where trucks and large commercial vehicles pull off to be weighed",
       "A school zone, where the posted speed limit drops sharply and children may be crossing the road near a school",
       "An accident scene a short distance ahead, where police and emergency crews are responding and lanes are blocked",
       "A mobile work zone — a crew working at slow speed with periodic stops, where fines double like any work zone"
@@ -615,10 +615,10 @@
     "topic": "signs-signals-markings",
     "question": "The blue ENS sign posted at every railroad crossing gives you:",
     "choices": [
-      "The full daily schedule listing every single time that a train is expected to pass through this particular crossing point",
+      "The full daily schedule listing each single time that a train is expected to pass through this particular crossing point",
       "An emergency phone number and the crossing's ID number, so you can report a problem (like a stalled car) to the railroad",
       "The street name and full mailing address of the main headquarters of the railroad company that owns and runs the crossing",
-      "The posted maximum speed limit that all of the trains are required to obey while approaching and passing through the crossing"
+      "The posted maximum speed limit that the trains should obey while approaching and passing through this crossing point"
     ],
     "answerIndex": 1,
     "explanation": "The Emergency Notification System sign lets the public reach the railroad responsible for the crossing and identify the exact crossing in an emergency — critical if a vehicle is stuck on the tracks.",
@@ -658,10 +658,10 @@
     "topic": "signs-signals-markings",
     "question": "There is a white stop line painted across your lane at a stop sign. Where must you stop?",
     "choices": [
-      "Anywhere inside the intersection",
+      "Somewhere inside the intersection",
       "With your front bumper stopped past the line",
       "Before the vehicle reaches the stop line",
-      "Only when pedestrians are waiting to cross"
+      "Just when pedestrians are waiting to cross"
     ],
     "answerIndex": 2,
     "explanation": "Make a complete stop BEFORE reaching the stop line. If a sign or obstacle blocks your view, stop first, then pull forward carefully until you can see.",
@@ -702,9 +702,9 @@
     "topic": "signs-signals-markings",
     "question": "A steady YELLOW arrow at a traffic signal means:",
     "choices": [
-      "Left turns are fully protected right now, so just go ahead and make your own turn safely",
-      "Turns here are permitted, but a driver must first yield to all of the oncoming traffic",
-      "Come to a complete stop and do not make the turn at all while this is showing",
+      "Left turns are protected right now, so just go ahead and make your own turn safely",
+      "Turns here are permitted, but a driver should first yield to oncoming traffic",
+      "Come to a complete stop and do not make the turn while this is showing",
       "The signal is about to turn red; a driver turning should stop if it is safe to do so"
     ],
     "answerIndex": 3,
@@ -732,9 +732,9 @@
     "question": "On a two-lane road you see a solid yellow line right next to a broken yellow line. Passing is permitted:",
     "choices": [
       "From either side when the way is clear",
-      "Only from the side where the line is SOLID",
+      "Just from the side where the line is SOLID",
       "Only from the side where the line is BROKEN",
-      "Never from either direction along the road"
+      "From neither direction along the road here"
     ],
     "answerIndex": 2,
     "explanation": "You may pass only from the side where the line is broken. If the solid yellow line is on your side, passing is not permitted.",
@@ -745,9 +745,9 @@
     "topic": "signs-signals-markings",
     "question": "You want to turn left into a driveway, but a solid double yellow line runs down the center of the road. You may:",
     "choices": [
-      "Never cross over a solid double yellow line for any reason at all, no matter what the situation is",
-      "Cross over the double yellow line only when you are stopped at a marked intersection",
-      "Cross over the double yellow line only after signaling your own turn for at least 5 full seconds",
+      "You should not cross over a solid double yellow line for any reason while in this particular situation",
+      "Cross the double yellow line just while you are stopped at a marked intersection",
+      "Cross the double yellow line only after first signaling your own turn for at least 5 full seconds",
       "Cross the double yellow line to turn into the driveway if no opposing traffic is approaching"
     ],
     "answerIndex": 3,
@@ -773,7 +773,7 @@
     "topic": "signs-signals-markings",
     "question": "At a railroad crossing the red lights are flashing but you do not see a train. You should:",
     "choices": [
-      "Go ahead and drive on across the tracks, since there is no train coming and none anywhere in sight at all right now",
+      "Go ahead and drive on across the tracks, since no train is coming and none is in sight anywhere right now",
       "Stop — a train is present or approaching; do not cross even if the lights keep flashing and no train appears",
       "Speed up and get across the tracks quickly before the crossing gates have a chance to come down on you",
       "Treat the flashing red lights the same as you would a yield sign and roll through when the way looks clear"
@@ -787,7 +787,7 @@
     "topic": "signs-signals-markings",
     "question": "A white square or rectangular sign showing a symbol inside a red circle with a red slash through it tells a driver that:",
     "choices": [
-      "The maneuver shown on the sign is required",
+      "The maneuver shown on the sign is recommended",
       "There is a hazard on the road just ahead now",
       "The maneuver shown is prohibited (not allowed)",
       "Travel services such as food are nearby"
@@ -801,9 +801,9 @@
     "topic": "signs-signals-markings",
     "question": "A sign below the crossbuck at a railroad crossing reads '2 TRACKS.' After the first train passes, you should:",
     "choices": [
-      "Cross right away, immediately behind the very first train as soon as it has finished going right past you",
+      "Cross right away, just behind the very first train as soon as it has finished going right past you",
       "Assume that no other train is going to be coming through and simply go ahead and drive on across the tracks now",
-      "Sound your horn a few times to warn anyone nearby and then go ahead and proceed across the tracks",
+      "Sound your horn a few times to warn others nearby and then go ahead and proceed across the tracks",
       "Watch for additional trains from either direction and cross only when the train is well down the tracks"
     ],
     "answerIndex": 3,
@@ -829,10 +829,10 @@
     "topic": "signs-signals-markings",
     "question": "What is the difference between WHITE and YELLOW lines painted on the road?",
     "choices": [
-      "There is really no difference at all between the yellow and the white painted lines that are on the road",
+      "There is really not much difference between the yellow and the white painted lines on the road",
       "White lines separate traffic going the SAME direction; yellow lines separate traffic going OPPOSITE directions",
       "Yellow lines separate traffic going the same direction, while white lines separate traffic going opposite directions",
-      "White painted lines are the only lines that are ever used to mark off the edges of the parking spaces along a road"
+      "White painted lines are usually the only lines used to mark off the edges of the parking spaces by a road"
     ],
     "answerIndex": 1,
     "explanation": "White lane lines separate lanes of traffic moving in the same direction. Yellow lines separate traffic moving in opposite directions (and mark the left edge of one-way roads).",
@@ -843,7 +843,7 @@
     "topic": "signs-signals-markings",
     "question": "You see ORANGE signs and cones along the road. These tell you that:",
     "choices": [
-      "There is a permanent hazard up ahead on this road that never changes at all from one day to the next, so use care",
+      "There is a lasting hazard up ahead on this road that seldom changes from one day to the next, so use care",
       "A school zone is coming up just ahead on the road, so slow down and watch closely for children crossing",
       "You are in or approaching a construction or maintenance work zone — slow down and be prepared for changes",
       "Open parking is available just ahead along the side of the road, so you may pull over and stop if you wish"

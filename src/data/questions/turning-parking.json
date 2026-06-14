@@ -4,10 +4,10 @@
     "topic": "turning-parking",
     "question": "In Arkansas, how far before a turn must you begin signaling?",
     "choices": [
-      "At least 50 feet before you start the turn",
+      "At least 150 feet before you start the turn",
       "At least 100 feet",
       "At least 200 feet ahead of the turn",
-      "At least 25 feet before turning"
+      "At least 300 feet before turning"
     ],
     "answerIndex": 1,
     "explanation": "Arkansas law requires a continuous turn signal during at least the last 100 feet before turning. Signal earlier at highway speeds.",
@@ -49,7 +49,7 @@
       "No closer than 10 feet from it",
       "No closer than 25 feet to it",
       "No closer than 15 feet",
-      "No closer than 5 feet"
+      "No closer than 40 feet"
     ],
     "answerIndex": 2,
     "explanation": "Parking is prohibited within 15 feet of a fire hydrant so fire crews always have access.",
@@ -62,8 +62,8 @@
     "choices": [
       "10 ft",
       "30 feet",
-      "20 ft",
-      "50 ft"
+      "25 ft",
+      "5 ft"
     ],
     "answerIndex": 1,
     "explanation": "Stay at least 30 feet back from stop signs, yield signs, and signals so other drivers can see them. Also: 20 ft from a crosswalk, 50 ft from a railroad crossing.",
@@ -119,7 +119,7 @@
       "6 in",
       "18 inches",
       "12 inches from the curb",
-      "2 feet"
+      "30 inches"
     ],
     "answerIndex": 1,
     "explanation": "Park within 18 inches of the curb — parking farther out than 18 inches is on the Do-Not-Park list.",
@@ -132,7 +132,7 @@
     "choices": [
       "Leave the transmission in neutral so it can roll if bumped",
       "Leave the engine running with the heater on the entire time the car sits parked",
-      "Park only on perfectly flat, level ground and never on any slope whatsoever",
+      "Park on flat, level ground, since a slope usually is not safe to park on",
       "Set the parking brake AND turn the wheels to the curb or side of the highway"
     ],
     "answerIndex": 3,
@@ -173,7 +173,7 @@
     "question": "You plan to turn into a driveway just BEYOND an intersection. When should you signal?",
     "choices": [
       "At least 100 feet before the intersection",
-      "Not at all; signals aren't required for driveways",
+      "Not at all; driveways usually don't call for a signal",
       "Just after you pass through the intersection — signaling earlier could make drivers think you're turning at the intersection",
       "Right as you begin the turn into the driveway"
     ],
@@ -299,7 +299,7 @@
     "question": "When exiting your parked car on a street, Arkansas's guide says you should:",
     "choices": [
       "Open the door quickly and step out to claim the space before another driver can take it from you",
-      "Always exit on the street side of the car, no matter which way the traffic happens to be flowing past",
+      "Usually exit on the street side of the car, regardless of which way the traffic happens to be flowing past",
       "Check traffic before opening the door, and exit on the curb side whenever possible",
       "Leave the door standing wide open the whole time you are loading your items into the parked car"
     ],
@@ -383,9 +383,9 @@
     "question": "Turn signals should be used before:",
     "choices": [
       "A lane change, a left or right turn, and each time you merge into traffic or park",
-      "Only a left turn, since right turns and lane changes never need any signal at all first",
-      "Only the turns that you make at intersections, but never turns into driveways or alleys",
-      "Only when there are other cars nearby that could actually be affected by the move you make"
+      "A left turn, though right turns and lane changes usually need no signal first",
+      "The turns you make at intersections, though driveways and alleys typically need none",
+      "Mainly when there are other cars nearby that could be affected by the move you make"
     ],
     "answerIndex": 0,
     "explanation": "Signal before every lane change, every left or right turn, and each time you merge into traffic or park. Proper signaling gives other drivers time to react to your moves.",

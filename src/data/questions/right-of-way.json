@@ -298,10 +298,10 @@
     "topic": "right-of-way",
     "question": "Which statement about pedestrians is true?",
     "choices": [
-      "Pedestrians must always yield the right-of-way to cars in every single situation, whether or not a crosswalk is painted there",
-      "Drivers are only ever required to yield to pedestrians at those intersections that happen to have a traffic signal controlling them",
+      "Pedestrians should normally yield the right-of-way to cars at any unsignalized intersection, since drivers there need not slow",
+      "A driver's duty to yield to crossing pedestrians applies just at the intersections that happen to have a working traffic signal",
       "Drivers must yield, where necessary, to avoid striking pedestrians who are legally crossing — even if no crosswalk is marked",
-      "Pedestrians are simply not permitted to cross the road at an intersection unless it has a clearly marked and painted crosswalk"
+      "Pedestrians should typically wait to cross until reaching a spot where a crosswalk is clearly marked and painted onto the road"
     ],
     "answerIndex": 2,
     "explanation": "Not all crosswalks are marked. Drivers must yield where necessary to avoid striking pedestrians legally crossing the road, and watch for them at every intersection.",

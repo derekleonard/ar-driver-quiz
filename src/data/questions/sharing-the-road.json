@@ -4,8 +4,8 @@
     "topic": "sharing-the-road",
     "question": "A school bus ahead stops with its red lights flashing. You must:",
     "choices": [
-      "Slow to about 10 mph and ease past the bus carefully as long as you watch closely for any children stepping into the roadway",
-      "Stop only if you are right behind the bus, since drivers approaching from other lanes stay free to keep going",
+      "Slow to about 10 mph and ease past the bus carefully as long as you watch closely for children stepping into the roadway",
+      "Stop when you are right behind the bus, since drivers approaching from other lanes stay free to keep going",
       "Make a complete stop no matter where your vehicle is positioned — same lane, opposing lane, or at an intersection — until the red lights are turned off",
       "Move into the left lane and pass the bus at a steady speed whenever no children happen to be visible getting on or off"
     ],
@@ -35,7 +35,7 @@
       "Trucks have large blind-spot 'No-Zones' — up to 20 feet in front, along both sides, and up to 200 feet behind",
       "Driving beside a commercial truck is illegal in Arkansas and earns a citation",
       "Large trucks tend to drift unpredictably between lanes, so it is risky",
-      "Truck drivers cannot use their side mirrors, leaving them fully blind to cars"
+      "Truck side mirrors are basically useless, leaving the driver blind to cars"
     ],
     "answerIndex": 0,
     "explanation": "If you can't see the truck driver in the truck's side mirror, the driver can't see you. Pass completely and on the left, and never cut in close — a loaded truck at 55 mph needs over 335 feet to stop.",
@@ -60,10 +60,10 @@
     "topic": "sharing-the-road",
     "question": "A police car is stopped on the shoulder ahead with its lights flashing. Arkansas's Move Over law requires you to:",
     "choices": [
-      "Come to a complete stop behind the police car and wait there until the officer waves you forward past the scene",
-      "Keep driving at the posted speed in your lane, since it is off the road",
+      "You should come to a stop behind the police car and wait until the officer waves you forward past the scene",
+      "You may keep driving at the posted speed in your lane, since it is off the road",
       "Move to the farthest lane away from it whenever possible, or slow down if you can't change lanes",
-      "Switch on your hazard lights and then pass the stopped police car quickly"
+      "You can switch on your hazard lights and then pass the stopped police car quickly"
     ],
     "answerIndex": 2,
     "explanation": "On a multilane highway you must move over to the farthest lane away from a stopped law-enforcement or emergency vehicle whenever possible. Violations carry fines up to $1,000, possible jail, and up to a 6-month license suspension.",
@@ -75,7 +75,7 @@
     "question": "Motorcycles are entitled to:",
     "choices": [
       "Half a traffic lane width",
-      "Use of the paved road shoulder only",
+      "Use of the paved road shoulder area",
       "Just the right third of a travel lane",
       "A full lane width, just like a car"
     ],
@@ -144,9 +144,9 @@
     "topic": "sharing-the-road",
     "question": "After passing a large truck, you should return to the lane in front of it only when:",
     "choices": [
-      "Your rear bumper has just cleared the truck's front bumper",
-      "The truck driver flashes the headlights at you, which is the accepted signal that it is now safe to merge back over",
-      "You have a lead of about two seconds, the normal gap behind a car",
+      "Your rear bumper should have just cleared the truck's front bumper",
+      "The truck driver flashes the headlights, which is usually the accepted signal that it is now safe to merge back over",
+      "You may have a lead of about two seconds, the normal gap behind a car",
       "You can see the truck's whole front in your rear-view mirror — then don't slow down"
     ],
     "answerIndex": 3,
@@ -158,10 +158,10 @@
     "topic": "sharing-the-road",
     "question": "A bicyclist may legally take the FULL lane when:",
     "choices": [
-      "Never, since Arkansas law requires every bicyclist to ride on the shoulder",
-      "Only while riding on residential streets, since cyclists must otherwise stay tight to the right edge on every single other type of road",
+      "Not at all, since Arkansas law tends to keep bicyclists on the shoulder",
+      "While riding on residential streets, since cyclists otherwise stay tight to the right edge on each other type of road out there",
       "The lane is too narrow to share safely, when passing, preparing a left turn, or avoiding hazards like parked cars and debris",
-      "Only inside lanes that are specially striped and marked as bicycle lanes, and never within any ordinary, unmarked travel lane"
+      "Inside lanes that are specially striped and marked as bicycle lanes, but not within an ordinary, unmarked travel lane"
     ],
     "answerIndex": 2,
     "explanation": "Bikes have the same road rights as cars. A cyclist away from the right edge isn't being careless — they're avoiding car doors, debris, or setting up a left turn. If the lane is too narrow to share, it's safest to let them have it.",
@@ -201,8 +201,8 @@
     "question": "When should you NOT use your horn?",
     "choices": [
       "When a child is about to dart from the curb into the street ahead",
-      "When another vehicle is drifting toward you and is in real danger of striking the side of your car at any moment",
-      "While approaching a blind hill or a sharp curve where an oncoming driver would have no way of seeing your vehicle",
+      "When another vehicle is drifting toward you and is in real danger of striking the side of your car in the next moment",
+      "While approaching a blind hill or a sharp curve where an oncoming driver could not easily see your vehicle yet",
       "At blind pedestrians, to greet a friend, or to scold another driver's mistake"
     ],
     "answerIndex": 3,
@@ -214,8 +214,8 @@
     "topic": "sharing-the-road",
     "question": "You are following a truck and cannot see its rear-view (side) mirrors. What does this mean?",
     "choices": [
-      "Nothing important at all, because modern trucks rely on rear-facing cameras that let the driver watch the traffic behind",
-      "You are positioned at a perfectly safe and legal following distance, so the truck's mirrors simply do not need to include you at all",
+      "Not a real concern, because modern trucks rely on rear-facing cameras that let the driver watch the traffic behind",
+      "You are positioned at a quite safe and legal following distance, so the truck's mirrors simply do not need to include your car",
       "The truck driver has no way of seeing you — you're in the rear No-Zone, which extends up to 200 feet behind the truck",
       "The truck is now required by law to yield the right-of-way to you because you are following directly within its rear blind area"
     ],
@@ -231,7 +231,7 @@
       "Honk impatiently at trucks waiting in the intersection, which startles the driver into pulling out far too soon, before it is actually safe to go",
       "Don't realize how close the truck is or how quickly it is approaching — a tractor-trailer's size makes it appear slower than it really is",
       "Follow large trucks far too closely through the intersection and then rear-end them whenever the truck driver happens to brake suddenly or unexpectedly",
-      "Cannot see the road over the high hood of their own vehicle and therefore completely fail to notice a large truck as it enters the intersection"
+      "Sit far too low behind the high front hood of their own vehicle and therefore fail to notice a large truck as it enters the intersection"
     ],
     "answerIndex": 1,
     "explanation": "Never underestimate an approaching tractor-trailer: its size makes its speed look slower than reality. When unsure, wait — don't pull out in front of a truck.",
@@ -243,9 +243,9 @@
     "question": "Crossing behind a truck that is backing up is:",
     "choices": [
       "Extremely dangerous — truck drivers have no rear-view mirror and may not see you cut in behind them",
-      "Perfectly fine as long as you move briskly across, whether you are on foot or driving, before the truck rolls back",
-      "Allowed the moment the truck's backup alarm goes silent, since that beeping is the only warning the driver provides",
-      "Allowed only within parking lots, where the lower speeds make it safe to slip behind a truck that is backing up"
+      "Usually fine as long as you move briskly across, whether you are on foot or driving, before the truck rolls back",
+      "Allowed the moment the truck's backup alarm goes silent, since that beeping is usually the lone warning provided",
+      "Allowed just within parking lots, where the lower speeds can make it safe to slip behind a truck that is backing up"
     ],
     "answerIndex": 0,
     "explanation": "Never cross behind a backing truck. Hundreds of motorists and pedestrians are killed or injured every year ignoring trucks backing up — the driver cannot see directly behind.",
@@ -285,8 +285,8 @@
     "question": "A child is riding a bicycle near the road ahead. You should expect that the child:",
     "choices": [
       "May make sudden moves or direction changes — children can't properly judge traffic conditions",
-      "Will carefully obey all of the traffic rules and signals exactly the way an experienced adult driver would expect",
-      "Will reliably stop and look both ways before crossing every driveway",
+      "Will usually obey the posted traffic rules and signals about the way an experienced adult driver normally would",
+      "Will usually stop and look both ways before crossing a driveway",
       "Can hear your car coming from behind and will move safely out of your way"
     ],
     "answerIndex": 0,
@@ -298,10 +298,10 @@
     "topic": "sharing-the-road",
     "question": "A strong gust of wind can move a motorcycle:",
     "choices": [
-      "Only a couple of inches, since its weight holds it firm against wind",
+      "Just a couple of inches, since its heavy weight holds it firm in wind",
       "Across an entire lane if the rider isn't prepared — including gusts from large trucks passing in the other lane",
-      "Sideways only above 70 mph, since slower riders feel no wind at all",
-      "Sideways only when the rider is traveling above 70 mph, since riders going any slower than that are unaffected by the wind"
+      "Sideways above 70 mph, since slower riders feel very little wind",
+      "Sideways when the rider is traveling above 70 mph, since riders going slower than that are not bothered by the wind"
     ],
     "answerIndex": 1,
     "explanation": "Wind — including blasts from passing trucks — can push a motorcycle a full lane's width. Give riders extra space in gusty conditions.",
@@ -326,9 +326,9 @@
     "topic": "sharing-the-road",
     "question": "Roughly what share of car/motorcycle crashes are caused by the CAR driver turning in front of the motorcycle?",
     "choices": [
-      "Only about 5 to 10%",
+      "About 5 to 10% of them",
       "Roughly one-quarter",
-      "Almost none of them",
+      "A tiny share of them",
       "Over two-thirds"
     ],
     "answerIndex": 3,
@@ -341,8 +341,8 @@
     "question": "A driver convicted of illegally passing a stopped school bus with its red lights flashing faces:",
     "choices": [
       "A misdemeanor — a fine of at least $250 (up to $1,000), up to 90 days in jail, or both; and a felony if it causes a death (Isaac's Law)",
-      "Only a verbal or written warning for a first offense, with no fine and no jail time at all unless the driver happens to do it again later",
-      "Nothing more than a set of points added to the driver's record, which fall off automatically after a year or two",
+      "A verbal or written warning for a first offense, with a token fine and a little jail time, unless the driver does it again later on",
+      "Just a few extra points added to the driver's license record, which fall off automatically after about a year or two",
       "A simple $50 traffic ticket that can be paid by mail, the same as an ordinary minor moving violation in the state"
     ],
     "answerIndex": 0,
@@ -354,10 +354,10 @@
     "topic": "sharing-the-road",
     "question": "A school bus stops for passengers on a two-lane road, or on a four-lane road with NO median dividing it. Traffic must stop:",
     "choices": [
-      "Only behind the bus",
+      "In lanes behind the bus",
       "From BOTH directions",
       "In the bus's lane",
-      "Only with kids out"
+      "When kids are getting out"
     ],
     "answerIndex": 1,
     "explanation": "On a two-lane road (with or without a center turn lane) and on a four-lane road without a median, all traffic in BOTH directions must stop. Only on a divided highway with a median do oncoming drivers not have to stop.",
@@ -410,10 +410,10 @@
     "topic": "sharing-the-road",
     "question": "Why is it especially important to look carefully for motorcycles before changing lanes or turning?",
     "choices": [
-      "Motorcycles must by law yield to every car, so no need to check",
+      "Motorcycles are made by law to yield to cars, so little need to check",
       "Motorcycles are capped by law well below the speed limit and predictable",
       "Their small size makes them hard to see, and it is hard to judge how fast they are approaching",
-      "Motorcycles may not use a full lane and must hug one narrow edge"
+      "Motorcycles do not use a full lane and tend to hug one narrow edge"
     ],
     "answerIndex": 2,
     "explanation": "A motorcycle's small size makes it hard to see and its speed hard to judge. Look twice — especially before left turns and lane changes, where most car/motorcycle crashes happen.",
