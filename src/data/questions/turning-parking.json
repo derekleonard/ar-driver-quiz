@@ -4,10 +4,10 @@
     "topic": "turning-parking",
     "question": "In Arkansas, how far before a turn must you begin signaling?",
     "choices": [
-      "At least 50 feet",
+      "At least 50 feet before you start the turn",
       "At least 100 feet",
-      "At least 200 feet",
-      "Only as you start the turn"
+      "At least 200 feet ahead of the turn",
+      "At least 25 feet before turning"
     ],
     "answerIndex": 1,
     "explanation": "Arkansas law requires a continuous turn signal during at least the last 100 feet before turning. Signal earlier at highway speeds.",
@@ -18,12 +18,12 @@
     "topic": "turning-parking",
     "question": "When making a right turn, you should finish the turn in:",
     "choices": [
-      "Any open lane",
       "The lane closest to the curb (right lane)",
-      "The center lane",
-      "The left lane, then move right"
+      "Whichever through lane is open",
+      "The center lane first, then ease over to the right",
+      "The left lane first, then move all the way over to the right"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Turn right from the right lane into the right lane. Cutting across to a far lane during a turn is illegal and dangerous.",
     "citation": "AR Driver License Study Guide, p. 33 — Right Turns"
   },
@@ -32,12 +32,12 @@
     "topic": "turning-parking",
     "question": "A two-way center turn lane (shared left-turn lane) may be used for:",
     "choices": [
-      "Passing slower traffic",
-      "Making left turns (and waiting to merge), only",
-      "Through travel when traffic is heavy",
-      "Parking briefly"
+      "Passing slow traffic",
+      "Through travel when lanes are heavy",
+      "Parking there a while as you run a quick errand inside a store",
+      "Making left turns (and waiting to merge), only"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "The center turn lane is only for starting and completing left turns from either direction — never for passing or through travel.",
     "citation": "AR Driver License Study Guide, p. 32 — Shared Center Lane"
   },
@@ -46,12 +46,12 @@
     "topic": "turning-parking",
     "question": "How close to a fire hydrant may you legally park?",
     "choices": [
-      "No closer than 10 feet",
+      "No closer than 10 feet from it",
+      "No closer than 25 feet to it",
       "No closer than 15 feet",
-      "No closer than 25 feet",
-      "Anywhere if you stay in the car"
+      "No closer than 5 feet"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Parking is prohibited within 15 feet of a fire hydrant so fire crews always have access.",
     "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
   },
@@ -60,12 +60,12 @@
     "topic": "turning-parking",
     "question": "Parking is NOT allowed within ____ of a stop sign, yield sign, or traffic signal.",
     "choices": [
-      "10 feet",
-      "20 feet",
+      "10 ft",
       "30 feet",
-      "50 feet"
+      "20 ft",
+      "50 ft"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "Stay at least 30 feet back from stop signs, yield signs, and signals so other drivers can see them. Also: 20 ft from a crosswalk, 50 ft from a railroad crossing.",
     "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
   },
@@ -75,9 +75,9 @@
     "question": "When parking downhill WITH a curb, turn your front wheels:",
     "choices": [
       "Toward the curb",
-      "Away from the curb",
-      "Straight ahead",
-      "It doesn't matter if the parking brake is set"
+      "Out from curb",
+      "Straight",
+      "Any way if the brake is firmly set"
     ],
     "answerIndex": 0,
     "explanation": "Downhill: wheels toward the curb. Uphill with a curb: wheels away from the curb (so the car rolls back into it). No curb: wheels toward the edge of the road. Always set the parking brake.",
@@ -88,12 +88,12 @@
     "topic": "turning-parking",
     "question": "Before backing up, the most important thing to do is:",
     "choices": [
-      "Check only your rearview mirror",
-      "Turn and look over your right shoulder through the rear window",
-      "Rely on the backup camera alone",
-      "Honk twice"
+      "Glance at your rearview mirror only",
+      "Trust the backup camera by itself to show all that is behind you",
+      "Sound your horn twice and then slowly back up to warn anyone who may be nearby",
+      "Turn and look over your right shoulder through the rear window"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Mirrors and cameras have blind zones. Physically turn your head and look through the rear window while backing slowly.",
     "citation": "AR Driver License Study Guide, p. 41 — Parking (Backing)"
   },
@@ -102,12 +102,12 @@
     "topic": "turning-parking",
     "question": "When turning left at an intersection, you should avoid cutting the corner because:",
     "choices": [
-      "It wears your tires faster",
+      "It wears your front tires out a bit faster than usual",
+      "It is only a real concern for the drivers of large trucks and buses, so ordinary car drivers never need to worry at all about cutting the corner on any left turn they make",
       "Turning sharp could cause you to hit a vehicle approaching from the left — and always leave room for oncoming vehicles turning left in front of you",
-      "It is only a problem for trucks",
-      "It confuses your GPS"
+      "It can confuse your car's navigation system and cause it to lose your position for a moment, making it briefly recalculate the whole route as you complete the left turn ahead"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Don't cut left-turn corners: a sharp early turn puts you into the path of traffic approaching from the left. Begin signaling and slowing at least 100 feet from the corner, and leave room for oncoming left-turners.",
     "citation": "AR Driver License Study Guide, p. 33 — Left Turns"
   },
@@ -116,12 +116,12 @@
     "topic": "turning-parking",
     "question": "When parallel parking, your vehicle should be no more than ____ from the curb.",
     "choices": [
-      "6 inches",
-      "12 inches",
+      "6 in",
       "18 inches",
-      "24 inches"
+      "12 inches from the curb",
+      "2 feet"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "Park within 18 inches of the curb — parking farther out than 18 inches is on the Do-Not-Park list.",
     "citation": "AR Driver License Study Guide, p. 41-42 — Parking Tips / Do Not Park"
   },
@@ -130,12 +130,12 @@
     "topic": "turning-parking",
     "question": "Before leaving a parked car on a hill, Arkansas requires you to:",
     "choices": [
-      "Leave the transmission in neutral",
-      "Set the parking brake AND turn the wheels to the curb or side of the highway",
-      "Leave the engine running",
-      "Park only on flat ground"
+      "Leave the transmission in neutral so it can roll if bumped",
+      "Leave the engine running with the heater on the entire time the car sits parked",
+      "Park only on perfectly flat, level ground and never on any slope whatsoever",
+      "Set the parking brake AND turn the wheels to the curb or side of the highway"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "No driver may leave a vehicle unattended on a grade without setting the parking brake and turning the wheels to the curb or side of the highway. Also leave it in 'park' (or in gear with a manual).",
     "citation": "AR Driver License Study Guide, p. 41 — Parking Tips"
   },
@@ -145,9 +145,9 @@
     "question": "Which of these is on Arkansas's DO-NOT-PARK list?",
     "choices": [
       "On a bridge, overpass, tunnel, or underpass",
-      "Within 100 feet of any intersection",
-      "On any street after dark",
-      "Within 5 feet of a driveway"
+      "Anywhere within 100 feet of any roadway intersection",
+      "On a public street after dark",
+      "Within 5 feet of a residential driveway"
     ],
     "answerIndex": 0,
     "explanation": "Never park on bridges, overpasses, or in tunnels/underpasses — or in intersections, on railroad tracks, beside another parked car (double parking), or blocking driveways or lowered curbs.",
@@ -158,12 +158,12 @@
     "topic": "turning-parking",
     "question": "Parking alongside another vehicle that is parked at the curb (double parking) is:",
     "choices": [
-      "Allowed for quick deliveries",
-      "Allowed with hazard lights on",
+      "Permitted",
       "Prohibited",
-      "Allowed for less than 5 minutes"
+      "Legal",
+      "Allowed"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "Double parking is on the Do-Not-Park list — it blocks a travel lane and traps the parked car.",
     "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
   },
@@ -173,11 +173,11 @@
     "question": "You plan to turn into a driveway just BEYOND an intersection. When should you signal?",
     "choices": [
       "At least 100 feet before the intersection",
+      "Not at all; signals aren't required for driveways",
       "Just after you pass through the intersection — signaling earlier could make drivers think you're turning at the intersection",
-      "Don't signal for driveways",
-      "As you begin the turn"
+      "Right as you begin the turn into the driveway"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Signal just after passing through the intersection. An early signal misleads other drivers — including anyone waiting to pull out between you and your turn.",
     "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions"
   },
@@ -186,12 +186,12 @@
     "topic": "turning-parking",
     "question": "After you complete a turn or lane change, you should:",
     "choices": [
-      "Leave the signal on for the next turn",
-      "Turn your signal off — a false turn signal is unsafe",
-      "Flash your hazards once",
-      "Tap the brake pedal"
+      "Leave it on, set for your next turn",
+      "Flash your hazards once to thank drivers",
+      "Tap the brake lightly to alert the car behind",
+      "Turn your signal off — a false turn signal is unsafe"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Cancel your signal after every turn or lane change. A signal left on tells other drivers a turn is coming that isn't — and they may pull out in front of you.",
     "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions"
   },
@@ -200,12 +200,12 @@
     "topic": "turning-parking",
     "question": "Why must you look over your shoulder before changing lanes?",
     "choices": [
-      "To check your seat belt",
       "Your rear-view and side mirrors cannot show vehicles in your blind spots — the rear corners of your vehicle",
-      "It is only required for trucks",
-      "To make eye contact with the driver behind you"
+      "To make sure your seat belt is buckled snugly across your lap and shoulder before you begin changing lanes for safety",
+      "Because turning your head is required only for the drivers of large trucks, buses, and other oversized commercial vehicles",
+      "To make eye contact with the driver behind you so that they clearly understand you are about to change lanes ahead"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Blind spots are the rear corners your mirrors can't see. Check mirrors, then turn your head for a quick glance over your shoulder — but don't take your eyes off the road ahead for more than an instant.",
     "citation": "AR Driver License Study Guide, p. 49-50 — Changing Lanes / Blind Spots"
   },
@@ -214,10 +214,10 @@
     "topic": "turning-parking",
     "question": "Before backing out of a parking space, when should you check behind your vehicle?",
     "choices": [
-      "After starting the engine",
+      "Right after you start the engine, using your mirrors to scan the area behind the car for any hazards",
       "BEFORE you get in — children and small objects cannot be seen from the driver's seat",
-      "Only in school parking lots",
-      "Backup cameras make checking unnecessary"
+      "Only when parked in a school or daycare lot",
+      "Never; a backup camera shows it all"
     ],
     "answerIndex": 1,
     "explanation": "Walk-around first: check behind the vehicle before you get in. Then back slowly with your body turned, looking directly through the rear window — and use a helper outside whenever possible.",
@@ -228,12 +228,12 @@
     "topic": "turning-parking",
     "question": "When backing up, you should:",
     "choices": [
-      "Back quickly to spend less time in reverse",
+      "Back up fast to spend the least time in reverse",
+      "Rely only on the mirror to watch behind",
       "Back slowly — your vehicle is much harder to steer in reverse",
-      "Rely on the rearview mirror alone",
-      "Keep both hands at 10 and 2"
+      "Keep both hands at the 10 and 2 o'clock positions"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Back slowly. Place your right arm over the seat back, turn your body, and look directly through the rear window — mirrors can't show what's directly behind you.",
     "citation": "AR Driver License Study Guide, p. 50 — Backing"
   },
@@ -242,12 +242,12 @@
     "topic": "turning-parking",
     "question": "You miss your turn on a busy street. You should:",
     "choices": [
-      "Stop and back up to the turn",
-      "Continue to a safe place to turn around — backing in a travel lane is illegal and unsafe",
-      "Make a quick U-turn from your lane",
-      "Stop and wait for a gap to reverse"
+      "Stop and carefully back up to the turn you missed",
+      "Make a quick U-turn directly from your current lane to get yourself back to the turn that you missed",
+      "Stop right where you are in your lane and wait for a gap so you can safely reverse to the missed turn",
+      "Continue to a safe place to turn around — backing in a travel lane is illegal and unsafe"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Never back up in any travel lane, and never stop in a travel lane for any reason — keep moving until you can safely pull off and turn around.",
     "citation": "AR Driver License Study Guide, p. 32 — General Driving"
   },
@@ -256,12 +256,12 @@
     "topic": "turning-parking",
     "question": "Before slowing down — for example, to turn into a driveway — you should:",
     "choices": [
-      "Brake firmly right away",
       "Check the traffic behind you in your mirrors and allow plenty of time to slow gradually",
-      "Turn on hazard lights",
-      "Swerve right first"
+      "Brake firmly right away to scrub off all of your speed just as fast as you possibly can right then and there",
+      "Switch on your hazard lights to warn drivers behind",
+      "Swerve toward the right edge of the road, then stop"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Check behind before slowing. Gradual, signaled slowing keeps the driver behind you from being surprised — especially where they wouldn't expect a stop, like a private driveway.",
     "citation": "AR Driver License Study Guide, p. 50 — Slowing"
   },
@@ -270,12 +270,12 @@
     "topic": "turning-parking",
     "question": "You want to parallel park but a car is following close behind you. You should:",
     "choices": [
-      "Stop suddenly so they pass",
       "Turn on your signal, pull up next to the space, and let traffic behind you pass before backing in",
-      "Skip the space and circle the block",
-      "Wave them around while you reverse"
+      "Stop short so the driver behind is forced to go around you",
+      "Skip the space and circle the block until no one is following close",
+      "Wave the driver behind you to go around while you start backing into the space"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Signal early, pull alongside the space, and let following traffic clear before you back in. Helping the driver behind you know your intentions prevents rear-end crashes.",
     "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Parallel Parking)"
   },
@@ -284,12 +284,12 @@
     "topic": "turning-parking",
     "question": "Which is the correct way to grip the steering wheel for a sharp turn, such as around a corner?",
     "choices": [
-      "Palm the wheel with one hand",
-      "Use the hand-over-hand technique, with hands on opposite sides of the wheel",
-      "Grip the bottom of the wheel with both hands",
-      "Steer with your knee while signaling"
+      "Palm the wheel with one hand and spin it around the corner",
+      "Grip the very bottom of the wheel with both hands",
+      "Steer using only your knee for a moment so that one hand stays free to operate the turn signal",
+      "Use the hand-over-hand technique, with hands on opposite sides of the wheel"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Keep hands on opposite sides of the wheel and use hand-over-hand for sharp turns — never turn the wheel in the palm of your hand. Return the wheel to track the direction of travel after the turn.",
     "citation": "AR Driver License Study Guide, p. 44 — Steering the Vehicle"
   },
@@ -298,12 +298,12 @@
     "topic": "turning-parking",
     "question": "When exiting your parked car on a street, Arkansas's guide says you should:",
     "choices": [
-      "Open the door quickly to claim space",
+      "Open the door quickly and step out to claim the space before another driver can take it from you",
+      "Always exit on the street side of the car, no matter which way the traffic happens to be flowing past",
       "Check traffic before opening the door, and exit on the curb side whenever possible",
-      "Always exit on the street side",
-      "Leave the door open while loading"
+      "Leave the door standing wide open the whole time you are loading your items into the parked car"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Check traffic before opening your door, and use the curb side when you can. If you must exit street-side, look again before stepping out.",
     "citation": "AR Driver License Study Guide, p. 41 — Parking Tips"
   },
@@ -312,10 +312,10 @@
     "topic": "turning-parking",
     "question": "On a road with three or more lanes traveling in the same direction, you should generally:",
     "choices": [
-      "Stay in the left lane",
+      "Stay in the far-left lane and use it as your normal cruising lane the whole trip",
       "Remain in the right lane except to pass (use the center lane if there is a lot of merging traffic)",
-      "Use whichever lane is emptiest",
-      "Change lanes constantly to keep moving"
+      "Use whichever lane happens to have the fewest cars right now",
+      "Change lanes constantly, weaving between them to keep moving fast"
     ],
     "answerIndex": 1,
     "explanation": "On three-or-more same-direction lanes, stay in the right lane except to pass. If there is a lot of merging traffic, use the center travel lane. The far-left lane is for passing.",
@@ -326,12 +326,12 @@
     "topic": "turning-parking",
     "question": "Driving on the shoulder of a street or road is:",
     "choices": [
-      "Fine for passing slow traffic",
       "Never allowed unless a police officer directs you to",
-      "Allowed if your hazard lights are on",
-      "Allowed when the shoulder is paved"
+      "Perfectly fine any time you need to get around slow traffic ahead of you",
+      "Allowed when your hazards are on",
+      "Allowed if it is paved"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Never drive on the shoulder unless directed by a police officer, and never pass on the shoulder (paved or not) — other drivers won't expect you there and may pull off without looking.",
     "citation": "AR Driver License Study Guide, p. 32 — General Driving / Passing"
   },
@@ -340,12 +340,12 @@
     "topic": "turning-parking",
     "question": "On a multilane highway, when you find yourself driving right beside another vehicle, you should:",
     "choices": [
-      "Stay even with it so you can watch it",
-      "Move ahead of it or drop behind it, rather than riding alongside in its blind spot",
-      "Speed up well past the limit to clear it",
-      "Match its exact speed indefinitely"
+      "Stay exactly even with it so you can watch what the driver does",
+      "Speed up past the limit to clear past it quickly",
+      "Match its speed and ride alongside it the whole way",
+      "Move ahead of it or drop behind it, rather than riding alongside in its blind spot"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Don't ride alongside another vehicle on a multilane road — move ahead or drop back so you're not stuck in each other's blind spot. If someone follows you too closely, move into the lane to your right when clear.",
     "citation": "AR Driver License Study Guide, p. 34 — Multiple Lanes"
   },
@@ -354,10 +354,10 @@
     "topic": "turning-parking",
     "question": "Where signs are posted, Arkansas's Do-Not-Park list prohibits parking within how many feet of a fire-station driveway (on the same side of the street)?",
     "choices": [
-      "5 feet",
-      "10 feet",
+      "5 ft",
+      "100 feet",
       "20 feet",
-      "100 feet"
+      "1,000 feet"
     ],
     "answerIndex": 2,
     "explanation": "Don't park within 20 feet of a fire-station driveway on the same side of the street where signs are posted, so fire apparatus can get out quickly.",
@@ -368,10 +368,10 @@
     "topic": "turning-parking",
     "question": "A curb painted YELLOW means:",
     "choices": [
-      "A fire zone — no stopping ever",
+      "A fire zone — no stopping allowed",
       "A loading zone or other parking restriction",
-      "Free parking",
-      "Reserved for disabled parking"
+      "Free parking, with no time limit or restriction at all",
+      "A space reserved only for disabled-permit holders"
     ],
     "answerIndex": 1,
     "explanation": "A yellow curb marks a loading zone or other restriction. (A red curb means a fire zone.) Colored curb markings indicate restricted parking areas.",
@@ -382,12 +382,12 @@
     "topic": "turning-parking",
     "question": "Turn signals should be used before:",
     "choices": [
-      "Only a left turn",
       "A lane change, a left or right turn, and each time you merge into traffic or park",
-      "Only turns at intersections",
-      "Only when other cars are nearby"
+      "Only a left turn, since right turns and lane changes never need any signal at all first",
+      "Only the turns that you make at intersections, but never turns into driveways or alleys",
+      "Only when there are other cars nearby that could actually be affected by the move you make"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Signal before every lane change, every left or right turn, and each time you merge into traffic or park. Proper signaling gives other drivers time to react to your moves.",
     "citation": "AR Driver License Study Guide, p. 53 — Signaling to Change Directions"
   },
@@ -396,12 +396,12 @@
     "topic": "turning-parking",
     "question": "When speeding up from a stop, you should:",
     "choices": [
-      "Accelerate as hard as possible",
-      "Accelerate smoothly and gradually — sudden acceleration is harder to control and can cause a skid on a slippery road",
-      "Spin the tires to get moving",
-      "Rev the engine first"
+      "Accelerate just as hard as you possibly can so that you reach the speed of the surrounding traffic in the very shortest time that you are able to",
+      "Spin the tires briefly to break them free of the pavement and get the heavy vehicle moving away from the stop more quickly",
+      "Rev the engine up first to build up plenty of power and then release the brake to launch yourself smoothly away from the stop",
+      "Accelerate smoothly and gradually — sudden acceleration is harder to control and can cause a skid on a slippery road"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Accelerate smoothly and gradually. Hard, sudden acceleration makes the vehicle harder to control and can break traction (spin or skid) on wet or icy surfaces.",
     "citation": "AR Driver License Study Guide, p. 44 — Acceleration"
   },
@@ -410,10 +410,10 @@
     "topic": "turning-parking",
     "question": "To keep from unintentionally speeding, the study guide suggests you:",
     "choices": [
-      "Rely on how fast the car feels",
+      "Rely on how fast the car feels and adjust by that feeling alone",
       "Glance at your speedometer from time to time — it is easy to go faster than you think",
-      "Watch only the cars around you",
-      "Use cruise control on every road"
+      "Watch the other cars and just keep pace with the flow",
+      "Use cruise control on every road so it holds your speed"
     ],
     "answerIndex": 1,
     "explanation": "Monitor your speed by checking the speedometer periodically. It's easy to drive faster than you realize, especially after leaving a high-speed road.",
@@ -424,12 +424,12 @@
     "topic": "turning-parking",
     "question": "Which is also on Arkansas's Do-Not-Park list?",
     "choices": [
-      "Any legal parking space downtown",
+      "In any legal, marked parking space that is located in the downtown area of a busy city",
+      "Along a quiet residential street overnight while the residents who live there are all asleep",
       "On a crosswalk or sidewalk in a construction area if your vehicle blocks traffic",
-      "On a residential street overnight",
-      "In a parking garage"
+      "Inside a public parking garage on any of the levels that happen to be above the very ground floor"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Don't park on a crosswalk or sidewalk in a construction area if your vehicle blocks traffic. Other no-park spots include intersections, within 20 ft of a crosswalk, and blocking a curb ramp.",
     "citation": "AR Driver License Study Guide, p. 42 — Do Not Park"
   }

@@ -4,12 +4,12 @@
     "topic": "alcohol-gdl",
     "question": "In Arkansas you will be arrested for driving while intoxicated (DWI) with a blood or breath alcohol concentration of:",
     "choices": [
-      "0.05% or more",
-      "0.08% or more",
-      "0.10% or more",
-      "Only if visibly impaired"
+      "Over 0.05%",
+      "Over 0.10%",
+      "Over 0.12%",
+      "0.08% or more"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "0.08% is the DWI threshold — and if you're in a crash or serious traffic offense, you can be charged with DWI between 0.04% and 0.08%. First conviction: $150–$1,000 fine, up to 1 year in jail, and a 120-day license suspension.",
     "citation": "AR Driver License Study Guide, p. 74 — Alcohol and the Law"
   },
@@ -18,10 +18,10 @@
     "topic": "alcohol-gdl",
     "question": "A driver UNDER 21 can be arrested for Underage Driving Under the Influence at a BAC of:",
     "choices": [
-      "0.08%",
-      "0.05%",
+      "0.08% BAC",
+      "0.05% BAC",
       "0.02%",
-      "0.10%"
+      "0.10% BAC"
     ],
     "answerIndex": 2,
     "explanation": "Arkansas's underage DUI threshold is just 0.02% — roughly one drink. A conviction can mean license revocation until age 21 and a fine up to $2,000.",
@@ -32,10 +32,10 @@
     "topic": "alcohol-gdl",
     "question": "If a law enforcement officer instructs you to take an alcohol test (breath, blood, or urine), you:",
     "choices": [
-      "May refuse with no consequences",
+      "May politely refuse to take the test, and no penalty of any kind can be applied to you",
       "Are compelled by law to take it — refusing can cost you your driver's license",
-      "May choose which test you prefer",
-      "Only have to take it if you were in a crash"
+      "May personally pick whichever one of the tests you happen to most prefer taking",
+      "Only have to take the test if you were actually involved in a crash at the time"
     ],
     "answerIndex": 1,
     "explanation": "The officer chooses the test, and you are compelled by law to take it. You can lose your driver's license if you refuse — separate from any DWI charge.",
@@ -46,12 +46,12 @@
     "topic": "alcohol-gdl",
     "question": "The ONLY thing that will sober you up is:",
     "choices": [
-      "Black coffee",
-      "A cold shower",
       "Time",
-      "Fresh air and exercise"
+      "Gum",
+      "A cold shower",
+      "Fresh air"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "The body rids itself of alcohol at about one drink per hour. Coffee, fresh air, exercise, and cold showers will NOT help — only time will.",
     "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism"
   },
@@ -60,12 +60,12 @@
     "topic": "alcohol-gdl",
     "question": "A driver with an Arkansas Instruction Permit or Learner's License must be accompanied by:",
     "choices": [
-      "Any licensed driver",
-      "A licensed driver who is at least 21 years old",
-      "A parent only",
-      "A licensed driver who is at least 18 years old"
+      "Anyone with a valid driver's license",
+      "A parent and no other adult in the car",
+      "A licensed driver at least 18 years old",
+      "A licensed driver who is at least 21 years old"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Permit and Learner's License holders must drive with a licensed driver 21 or older (beside the driver for a permit), and all passengers must wear seat belts.",
     "citation": "AR Driver License Study Guide, p. 3 — Types of Graduated Driver's Licenses"
   },
@@ -74,10 +74,10 @@
     "topic": "alcohol-gdl",
     "question": "For drivers holding an Arkansas Learner's or Intermediate License, cell phone use while driving is:",
     "choices": [
-      "Allowed if hands-free",
-      "Allowed for calls but not texting",
+      "Allowed any time the phone is fully hands-free",
+      "Allowed for phone calls but never for texting",
       "Prohibited by law except for an emergency",
-      "Allowed when stopped at red lights"
+      "Allowed while the car is stopped at red lights"
     ],
     "answerIndex": 2,
     "explanation": "For Learner's and Intermediate license holders, ANY cell phone use — talking or texting — is prohibited except in an emergency. Under 18, even hands-free devices are not allowed.",
@@ -88,10 +88,10 @@
     "topic": "alcohol-gdl",
     "question": "The Arkansas Intermediate License is issued to drivers age 16–18. The restriction is that the driver:",
     "choices": [
-      "May not drive on interstates",
+      "May never drive on any interstate or controlled-access highway",
       "Must be accompanied by a licensed driver 21+ until the 6-month restricted period is complete",
-      "May only drive to school",
-      "May not drive faster than 45 mph"
+      "May only drive directly to and from school, and only during the daylight hours of the day",
+      "May not, under any circumstances, drive faster than 45 mph"
     ],
     "answerIndex": 1,
     "explanation": "Intermediate License holders are restricted for 6 months from permit issuance (or until requirements are met at 16): a licensed driver 21 or older must accompany them, all passengers must be belted, and no cell phone use is allowed.",
@@ -102,12 +102,12 @@
     "topic": "alcohol-gdl",
     "question": "One 'drink' is considered 1.5 oz of 80-proof liquor, a 6-oz glass of wine, or:",
     "choices": [
-      "A 6-oz beer",
       "A 12-oz beer",
-      "A 24-oz beer",
-      "Two 12-oz beers"
+      "A single 6-oz beer",
+      "A large 24-oz beer",
+      "A 32-oz mug of beer"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "1.5 oz of liquor = 6 oz of wine = 12 oz of beer. Specialty drinks can equal several normal drinks. Even two drinks may cause impairment and can get you arrested.",
     "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism"
   },
@@ -116,12 +116,12 @@
     "topic": "alcohol-gdl",
     "question": "The FIRST driving ability affected by alcohol is:",
     "choices": [
-      "Vision",
-      "Judgment",
+      "Your eyesight",
       "Reaction time",
-      "Coordination"
+      "Coordination",
+      "Judgment"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Judgment goes first — which is exactly why people keep drinking past their limit and decide they're 'fine to drive.' By the time you feel the alcohol, your judgment is already severely affected.",
     "citation": "AR Driver License Study Guide, p. 73-74 — Alcohol Impairment"
   },
@@ -130,10 +130,10 @@
     "topic": "alcohol-gdl",
     "question": "A first DWI conviction in Arkansas can bring:",
     "choices": [
-      "Only a warning",
+      "Only a verbal warning from the arresting officer, with no fine and no other penalty",
       "A $150–$1,000 fine, up to one year in jail, and a 120-day license suspension",
-      "A $50 fine",
-      "Community service only"
+      "A small $50 fine, no jail, and no license suspension",
+      "A few hours of court-ordered community service work and nothing more than that"
     ],
     "answerIndex": 1,
     "explanation": "First conviction: $150–$1,000 plus court costs, up to a year in jail, and a 120-day suspension. Penalties get much worse for repeat offenses.",
@@ -144,12 +144,12 @@
     "topic": "alcohol-gdl",
     "question": "A person under 21 convicted of merely PURCHASING or POSSESSING alcohol (not driving):",
     "choices": [
-      "Faces no driving consequences",
+      "Faces a possible fine but no driving-related consequences of any kind whatsoever",
+      "Receives only a written warning letter mailed to them at their home address",
       "Will have their driving privileges suspended, revoked, or disqualified",
-      "Gets a warning letter",
-      "Pays a $25 fine only"
+      "Pays a small $25 fine and nothing more"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Under-21 alcohol purchase or possession costs your driving privileges in Arkansas — even with no car involved. Underage DUI itself can mean license revoked until 21 and a $2,000 fine.",
     "citation": "AR Driver License Study Guide, p. 75 — Underage Driving Under the Influence"
   },
@@ -158,12 +158,12 @@
     "topic": "alcohol-gdl",
     "question": "An Arkansas Instruction Permit requires the driver to be at least 14, pass the knowledge and vision tests, and is valid for:",
     "choices": [
-      "6 months",
+      "1 week",
       "1 year",
-      "2 years",
-      "Until age 18"
+      "5 days",
+      "2 years"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "The permit is issued for 2 years from the date of the passed knowledge exam. The permit holder must drive with a licensed driver 21+ in the seat beside them.",
     "citation": "AR Driver License Study Guide, p. 3 — Instruction Permit"
   },
@@ -172,12 +172,12 @@
     "topic": "alcohol-gdl",
     "question": "Many prescription and over-the-counter drugs (cold, allergy, pain medicine):",
     "choices": [
-      "Never affect driving",
       "Can impair your driving like alcohol — check the label or ask your doctor or pharmacist before driving",
-      "Only matter if mixed with alcohol",
-      "Are illegal to take before driving"
+      "Have absolutely no effect whatsoever on your ability to drive, so you may safely take them and then drive freely",
+      "Only impair your ability to drive when they happen to be taken together with some larger amount of alcohol too",
+      "Are completely illegal for anyone at all to take at any point before they get behind the wheel and drive off"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Drowsiness-causing medicines impair reflexes, judgment, and vision. Mixing them with alcohol multiplies the effects. Check labels for the 'do not operate machinery' warning.",
     "citation": "AR Driver License Study Guide, p. 75 — Other Types of Drugs and Driving"
   },
@@ -186,12 +186,12 @@
     "topic": "alcohol-gdl",
     "question": "Alcohol is involved in approximately what percentage of fatal traffic crashes?",
     "choices": [
-      "10%",
-      "20%",
+      "About 10%",
       "38%",
-      "75%"
+      "About 20%",
+      "About 75%"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "About 38% of traffic crashes in which someone is killed involve alcohol. There is no safe alcohol concentration for driving — and new drivers are affected even more than experienced ones.",
     "citation": "AR Driver License Study Guide, p. 73 — Drinking and Driving"
   },
@@ -200,12 +200,12 @@
     "topic": "alcohol-gdl",
     "question": "When going out where alcohol will be served, the study guide recommends:",
     "choices": [
-      "Eating a large meal so you can drink safely",
+      "Eating a very large meal beforehand so that you are able to drink as much as you want and still drive home safely",
+      "Drinking several cups of strong black coffee right before you get into the car to start driving home",
       "Going with two or more people so one can be the designated driver — or using public transportation or a cab",
-      "Drinking coffee before driving home",
-      "Driving slowly on back roads"
+      "Sticking to only the quiet back roads on the way home and simply driving very slowly and carefully"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Plan ahead: a designated driver, a cab, or public transportation. Food slows alcohol absorption but will NOT prevent you from getting intoxicated.",
     "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism"
   },
@@ -214,12 +214,12 @@
     "topic": "alcohol-gdl",
     "question": "Which statement about alcohol and new drivers is TRUE?",
     "choices": [
-      "Experienced drivers are immune to alcohol's effects",
-      "Every driver is affected by alcohol, and new drivers are affected even MORE because they are still learning",
-      "One drink never causes impairment",
-      "Alcohol only affects drivers over 0.08% BAC"
+      "Experienced drivers have, over the course of many years, built up a complete immunity to all of alcohol's effects",
+      "Having just one single drink will never cause any impairment at all for an otherwise perfectly healthy adult driver",
+      "Alcohol only begins to affect a driver once they have actually gone above the 0.08% legal BAC limit for adult drivers",
+      "Every driver is affected by alcohol, and new drivers are affected even MORE because they are still learning"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "There is no safe alcohol concentration for driving. Even one drink affects judgment — and new drivers, still building skills, are affected more than veterans. Two drinks can mean an arrest.",
     "citation": "AR Driver License Study Guide, p. 73-74 — Alcohol Impairment"
   },
@@ -228,12 +228,12 @@
     "topic": "alcohol-gdl",
     "question": "To receive an Arkansas Learner's License, the applicant cannot have been involved in a crash or convicted of a serious traffic violation within:",
     "choices": [
-      "The preceding 30 days",
       "The preceding 6 months",
-      "The preceding 2 years",
-      "There is no such requirement"
+      "The preceding thirty days",
+      "The preceding 12 months",
+      "The preceding three years"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "A clean record for the preceding six months — no crashes, no serious traffic convictions — is required for the Learner's License (ages 14-16, after the knowledge, vision, and skills tests).",
     "citation": "AR Driver License Study Guide, p. 3 — Learner's License"
   },
@@ -242,10 +242,10 @@
     "topic": "alcohol-gdl",
     "question": "Where is an Intermediate License holder's restricted driving period recorded?",
     "choices": [
-      "In a separate court document",
+      "In a separate document held by the local court",
       "On the reverse side of the driver's license",
-      "Only in the state computer system",
-      "On the vehicle registration"
+      "Only inside the state's central computer system",
+      "On the vehicle's registration card"
     ],
     "answerIndex": 1,
     "explanation": "The period of restricted time is recorded on the back of the Intermediate License — officers (and parents) can check exactly when the supervised period ends.",
@@ -256,12 +256,12 @@
     "topic": "alcohol-gdl",
     "question": "Pep pills, 'uppers,' and diet pills can make a driver feel more alert for a short time. Later, they can cause:",
     "choices": [
-      "Permanent alertness",
+      "A lasting, permanent state of sharp focus and steady alertness",
+      "A real, long-lasting improvement in reaction time",
       "Nervousness, dizziness, inability to concentrate, and poor vision",
-      "Improved reaction time",
-      "No effects at all"
+      "Absolutely no harmful after-effects of any kind on the driver at all"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Stimulants wear off into nervousness, dizziness, and poor concentration and vision. No drug increases concentration safely — and none stops impairment from alcohol.",
     "citation": "AR Driver License Study Guide, p. 75 — Other Types of Drugs and Driving"
   },
@@ -270,12 +270,12 @@
     "topic": "alcohol-gdl",
     "question": "After you drink alcohol, about how long does it take to reach your brain and begin affecting you?",
     "choices": [
-      "Instantly",
+      "Instantly, as you swallow",
+      "About 2 to 3 full hours",
       "About 15 to 40 minutes",
-      "About 2 hours",
-      "Only after several drinks"
+      "About 5 to 10 seconds"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Alcohol is absorbed from the stomach and small intestine into the blood, reaching the brain in about 15 to 40 minutes. The first ability it affects is judgment.",
     "citation": "AR Driver License Study Guide, p. 73 — Alcohol Impairment"
   },
@@ -284,12 +284,12 @@
     "topic": "alcohol-gdl",
     "question": "About how fast does the body get rid of alcohol?",
     "choices": [
+      "About three full drinks every single hour, or even more",
       "Roughly one drink per hour — and nothing speeds it up",
-      "About three drinks per hour",
-      "Coffee doubles the rate",
-      "It leaves as soon as you stop drinking"
+      "Drinking a few cups of black coffee can double the rate",
+      "It all leaves your system the moment you stop drinking"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "The liver breaks down only about 0.5 to 1 ounce of alcohol per hour — roughly one drink. Coffee, fresh air, food, and cold showers will NOT speed it up; only time will.",
     "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism"
   },
@@ -298,12 +298,12 @@
     "topic": "alcohol-gdl",
     "question": "When an officer asks you to take a chemical test for alcohol, who decides which test (breath, blood, urine, or saliva) is given?",
     "choices": [
-      "You choose the test you prefer",
       "The law enforcement officer chooses the test",
-      "A judge decides later",
+      "You personally choose the test you prefer",
+      "A judge decides which test later in court",
       "No test can be required without a warrant"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The officer chooses the test. Breath alcohol concentration (BrAC) is measured from your breath; blood alcohol concentration (BAC) from blood. You are compelled by law to take it — refusing can cost you your license.",
     "citation": "AR Driver License Study Guide, p. 74 — Alcohol and the Law"
   },
@@ -312,12 +312,12 @@
     "topic": "alcohol-gdl",
     "question": "Penalties for drinking and driving in Arkansas can include higher insurance rates, jail, loss of license, and:",
     "choices": [
-      "A written warning",
-      "A required ignition interlock device",
-      "A defensive-driving coupon",
-      "No further consequences after the fine"
+      "A simple written warning from the court",
+      "A defensive-driving class coupon",
+      "No other consequences",
+      "A required ignition interlock device"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "People who drink and drive risk higher insurance rates, loss of license, jail, and possible ignition interlock devices (which won't let the car start if they detect alcohol). Penalties get worse for repeat offenses.",
     "citation": "AR Driver License Study Guide, p. 73 — Drinking and Driving"
   },
@@ -326,12 +326,12 @@
     "topic": "alcohol-gdl",
     "question": "You are in a traffic crash and your BAC is 0.05% — below the usual 0.08% limit. In Arkansas you:",
     "choices": [
-      "Cannot be charged with anything",
+      "Cannot be charged with anything at all in that situation, since your reading is comfortably below the usual 0.08% legal limit for adults",
+      "Will only ever face a minor parking-type fine for the crash itself, because a 0.05% reading is simply not considered a DWI in the state of Arkansas",
       "Can still be charged with DWI — a BAC between 0.04% and 0.08% can bring a charge if you're in a crash or serious traffic offense",
-      "Only face a parking fine",
-      "Are automatically cleared"
+      "Are automatically cleared of any alcohol-related charge, because under the law it only counts as DWI at a reading of 0.08% or higher"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "0.08% is the usual DWI threshold, but if you're involved in a crash or a serious traffic offense you can be charged with DWI at a BAC between 0.04% and 0.08%.",
     "citation": "AR Driver License Study Guide, p. 74 — Alcohol and the Law"
   },
@@ -340,10 +340,10 @@
     "topic": "alcohol-gdl",
     "question": "According to the study guide, studies show drivers who use marijuana:",
     "choices": [
-      "Drive more carefully",
+      "Tend to slow themselves down, pay much closer attention, and drive far more carefully and cautiously than other drivers do",
       "Make more mistakes, have more trouble adjusting to glare, and get more traffic violations than other drivers",
-      "Are unaffected behind the wheel",
-      "Only have slower reaction time at night"
+      "Are essentially unaffected behind the wheel and drive about as well as anyone else who happens to be out on the road",
+      "Only show a very slightly slower reaction time when they happen to be driving late at night in the dark"
     ],
     "answerIndex": 1,
     "explanation": "Illegal drugs impair driving. Studies show marijuana users make more mistakes, have more trouble adjusting to glare, and are arrested for traffic violations more than other drivers.",
@@ -354,12 +354,12 @@
     "topic": "alcohol-gdl",
     "question": "Eating a big meal before you drink alcohol will:",
     "choices": [
-      "Keep you completely sober",
       "Slow how fast alcohol is absorbed, but NOT prevent you from becoming intoxicated",
-      "Let you drive safely afterward",
-      "Lower your BAC below the legal limit"
+      "Keep you completely sober no matter how many alcoholic drinks you may go on to have",
+      "Make it perfectly safe for you to drive yourself home a short while afterward",
+      "Lower your blood alcohol level and reliably keep it below the legal driving limit"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Food slows the rate at which alcohol enters the blood, but it will not prevent intoxication. The only thing that lowers your alcohol level is time.",
     "citation": "AR Driver License Study Guide, p. 74 — Body Metabolism"
   },
@@ -368,12 +368,12 @@
     "topic": "alcohol-gdl",
     "question": "As the amount of alcohol in your body increases, it:",
     "choices": [
-      "Improves your reaction time",
-      "Worsens your judgment and decreases your skills — including judging distances, speeds, and the movement of other vehicles",
-      "Affects only your vision",
-      "Has no effect until you reach 0.08%"
+      "Improves your reaction time and steadily sharpens your driving skills, getting better the more that you drink",
+      "Affects only your eyesight and nothing else at all, leaving the rest of your driving skills fully intact and unharmed",
+      "Has no real effect on your ability to drive at all until the very moment that you happen to reach the 0.08% legal limit",
+      "Worsens your judgment and decreases your skills — including judging distances, speeds, and the movement of other vehicles"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "More alcohol means worse judgment and weaker driving skills: slower reflexes, blurred vision, and trouble judging distances, speeds, and how other vehicles are moving — plus the danger of losing control.",
     "citation": "AR Driver License Study Guide, p. 73 — Alcohol Impairment"
   }

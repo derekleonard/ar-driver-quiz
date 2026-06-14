@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { isPassing } from "../lib/examBuilder";
 import { applyAnswer } from "../lib/leitner";
 import { perTopicForAnswers } from "../lib/scoring";
+import { shuffleChoices } from "../lib/shuffle";
 import { useAppData } from "../state/AppData";
 import type { Question, QuizMode, Topic } from "../types";
 
@@ -22,17 +23,22 @@ export function useQuizSession(
   { mode, topic, revealEach = false }: Options,
 ) {
   const { srs, finishQuiz } = useAppData();
+  // Shuffle each question's choices once per session so neither answer
+  // position nor length is a tell. This is the canonical list for the
+  // session: screens must render from it (returned below) so the option the
+  // user taps matches what gets graded here.
+  const [items] = useState(() => questions.map((q) => shuffleChoices(q)));
   const [startedAt] = useState(() => Date.now());
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<(number | null)[]>(() =>
-    Array(questions.length).fill(null),
+    Array(items.length).fill(null),
   );
   const [revealed, setRevealed] = useState(false);
   const [finished, setFinished] = useState(false);
   const submitted = useRef(false);
 
   const selected = answers[index] ?? null;
-  const result = finished ? perTopicForAnswers(questions, answers) : null;
+  const result = finished ? perTopicForAnswers(items, answers) : null;
   const inProgress = !finished && answers.some((a) => a !== null);
 
   // A refresh, tab close, or back-swipe out of the app would silently drop
@@ -68,24 +74,24 @@ export function useQuizSession(
   }
 
   function next() {
-    if (index + 1 < questions.length) {
+    if (index + 1 < items.length) {
       setIndex(index + 1);
       setRevealed(false);
       return;
     }
     if (submitted.current) return;
     submitted.current = true;
-    const { perTopic, missedIds, score } = perTopicForAnswers(questions, answers);
+    const { perTopic, missedIds, score } = perTopicForAnswers(items, answers);
     const now = Date.now();
     let newSrs = srs;
-    questions.forEach((q, qi) => {
+    items.forEach((q, qi) => {
       newSrs = applyAnswer(newSrs, q.id, answers[qi] === q.answerIndex, now);
     });
     finishQuiz(newSrs, {
       mode,
       ...(topic && { topic }),
       score,
-      total: questions.length,
+      total: items.length,
       ...(mode === "exam" && { passed: isPassing(score) }),
       startedAt,
       durationSec: Math.round((now - startedAt) / 1000),
@@ -97,7 +103,8 @@ export function useQuizSession(
 
   return {
     index,
-    total: questions.length,
+    total: items.length,
+    questions: items,
     answers,
     selected,
     revealed,

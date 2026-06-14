@@ -12,7 +12,7 @@ export default function Exam() {
 
   if (quiz.finished && quiz.result) {
     const passed = isPassing(quiz.result.score);
-    const missed = questions
+    const missed = quiz.questions
       .map((q, i) => ({ q, given: quiz.answers[i] }))
       .filter(({ q }) => quiz.result!.missedIds.includes(q.id));
     return (
@@ -48,7 +48,7 @@ export default function Exam() {
     );
   }
 
-  const q = questions[quiz.index];
+  const q = quiz.questions[quiz.index];
   return (
     <div className="screen">
       <header className="quiz-header">

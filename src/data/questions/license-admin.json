@@ -4,12 +4,12 @@
     "topic": "license-admin",
     "question": "Arkansas's seat belt law makes it illegal to:",
     "choices": [
+      "Ride unbelted in the front seat only on interstate highways outside of city limits",
       "Drive or ride in the front seat without wearing a safety belt — and it's a primary offense",
-      "Ride unbelted only on highways",
-      "Drive unbelted, but passengers may choose",
-      "Ride unbelted only at night"
+      "Drive without a belt yourself, though front-seat passengers may freely choose for themselves",
+      "Ride in the front seat without a belt only between sunset and sunrise each night"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "Police can stop you just for an unbelted driver or front-seat passenger (primary enforcement, since 2009). All children under 15 must be properly restrained wherever they sit.",
     "citation": "AR Driver License Study Guide, p. 9 — Arkansas Seat Belt Law"
   },
@@ -19,8 +19,8 @@
     "question": "Arkansas requires a child to ride in a child safety seat if the child is:",
     "choices": [
       "Under 6 years old AND under 60 pounds",
-      "Under 10 years old",
-      "Under 4 feet tall",
+      "Under 10 years old, no matter the weight",
+      "Under 4 feet tall, regardless of age",
       "Under 8 years old OR under 80 pounds"
     ],
     "answerIndex": 0,
@@ -32,12 +32,12 @@
     "topic": "license-admin",
     "question": "You are involved in a crash where someone is injured or property damage exceeds $1,000. Arkansas law requires you to:",
     "choices": [
-      "Leave quickly to avoid blocking traffic",
-      "Stop, move your vehicle off the roadway if possible, and notify the police immediately",
-      "Only call your insurance company",
-      "Wait in your vehicle without moving it under any circumstances"
+      "Leave the scene quickly so that you do not end up blocking the normal flow of traffic for everyone else",
+      "Simply call up your own insurance company and just let them handle reporting the whole thing to the police",
+      "Stay seated inside of your vehicle and refuse to move it at all under any circumstances whatsoever",
+      "Stop, move your vehicle off the roadway if possible, and notify the police immediately"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "You must stop, move the vehicle so it doesn't block traffic, and notify police immediately when there's injury, death, or damage over $1,000. You can't leave a crash with injury or death until police have talked with you — and crashes with injury, death, or over $3,000 damage must also be reported to the Office of Driver Services within 30 days.",
     "citation": "AR Driver License Study Guide, p. 80-81 — Traffic Crashes"
   },
@@ -46,12 +46,12 @@
     "topic": "license-admin",
     "question": "When stopped by a law enforcement officer, Arkansas law requires you to provide:",
     "choices": [
-      "Only your name",
+      "Only your full legal name and your current home address, but nothing further",
+      "Nothing at all until you can call your own lawyer",
       "Your driver's license, proof of insurance, and vehicle registration when requested",
-      "Nothing until you call a lawyer",
-      "Your license only if you were speeding"
+      "Your driver's license, but only in the event that you were stopped for speeding"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "You must provide your driver's license, proof of insurance, and registration when an officer requests them. Tell the officer where the documents are and ask before reaching for them.",
     "citation": "AR Driver License Study Guide — What To Do When Stopped by Law Enforcement"
   },
@@ -60,10 +60,10 @@
     "topic": "license-admin",
     "question": "Under Arkansas's distracted driving laws, a driver UNDER 18:",
     "choices": [
-      "May use a phone hands-free",
+      "May freely use a cell phone at absolutely any time at all, as long as the phone connection is fully hands-free",
       "May not use a cell phone at all while driving — not even hands-free — except in an emergency",
-      "May talk but not text",
-      "May use a phone on rural roads"
+      "May talk away on a hand-held phone but is simply never allowed to send or read any text message at all",
+      "May use a hand-held cell phone freely, but only while driving on rural roads or other low-traffic roads"
     ],
     "answerIndex": 1,
     "explanation": "Texting is illegal for ALL drivers (27-51-1501). Under 18, no cell phone use is allowed at all, including hands-free. Ages 18-20 may use hands-free only; 21+ may use a phone but it's never truly safe.",
@@ -74,12 +74,12 @@
     "topic": "license-admin",
     "question": "To pass the Arkansas vision test, you must have at least:",
     "choices": [
-      "20/20 vision in both eyes",
-      "20/40 vision in both eyes",
       "20/70 vision in at least one eye, with or without corrective lenses",
-      "20/100 vision in one eye"
+      "20/20 vision in both eyes, corrected or not",
+      "20/40 vision in both of your eyes, whether corrected with lenses or not",
+      "20/100 vision in one eye, corrected or not"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "Arkansas requires at least 20/70 vision in at least one eye, with or without corrective lenses. If you have a 'B' restriction, you must wear your corrective lenses while driving or you can be ticketed.",
     "citation": "AR Driver License Study Guide, p. 71 — Vision"
   },
@@ -89,11 +89,11 @@
     "question": "After a crash with injury, death, or more than $3,000 damage to one person's property, you must file a report with the Office of Driver Services within:",
     "choices": [
       "48 hours",
-      "10 days",
-      "30 days",
-      "90 days"
+      "5 days",
+      "six months",
+      "30 days"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "File the accident report within 30 days (someone may file for you if you're injured). Separately, police must be notified immediately when there's injury, death, or damage over $1,000.",
     "citation": "AR Driver License Study Guide, p. 81 — Keep a Record of Crash Information"
   },
@@ -102,12 +102,12 @@
     "topic": "license-admin",
     "question": "At a crash scene, you should move an injured person:",
     "choices": [
-      "To the sidewalk right away",
+      "Onto the nearest sidewalk right away",
+      "Into your own car to drive them to a hospital",
       "Only if they are in immediate danger, such as a burning vehicle",
-      "Into your car to drive them to the hospital",
-      "Whenever they ask"
+      "Anytime they ask, whatever their injuries"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Don't move the injured unless danger (like fire) forces it. Check breathing, apply direct pressure to bleeding, keep them warm to prevent shock, and don't give them anything to drink.",
     "citation": "AR Driver License Study Guide, p. 81 — Assisting the Injured"
   },
@@ -116,10 +116,10 @@
     "topic": "license-admin",
     "question": "Emergency flashers (hazard lights) are for:",
     "choices": [
-      "Driving in heavy rain",
+      "Helping you see the road better in heavy rain, fog, or snow",
       "Warning others of an emergency, a broken-down vehicle, or that you're parked on the roadside",
-      "Parking anywhere you want",
-      "Following a funeral procession"
+      "Giving you permission to park your vehicle anywhere you want for as long as you need to leave it",
+      "Signaling drivers behind you that you follow a funeral procession"
     ],
     "answerIndex": 1,
     "explanation": "Hazards warn other drivers of an emergency or a stopped/broken-down vehicle. In fog or rain, drive with low-beam headlights instead.",
@@ -130,12 +130,12 @@
     "topic": "license-admin",
     "question": "Arkansas law on smoking in vehicles makes it illegal to knowingly smoke tobacco in a car carrying:",
     "choices": [
-      "Anyone under 18",
-      "A child under 14",
+      "A child younger than 18 years",
       "More than 2 passengers",
-      "Any non-smoker"
+      "Any non-smoker aboard",
+      "A child under 14"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "The Protection from Secondhand Smoke for Children Act (§20-27-1903) bans smoking in any motor vehicle in which a child under 14 is a passenger.",
     "citation": "AR Driver License Study Guide, p. 9 — Protection from Secondhand Smoke"
   },
@@ -144,12 +144,12 @@
     "topic": "license-admin",
     "question": "Each written (knowledge) examination in Arkansas costs:",
     "choices": [
-      "Nothing",
       "$5.00",
+      "$2.00 plus tax",
       "$25.00",
       "$50.00"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Act 1289 of 2015 requires a $5 fee per written exam, collected with the license cost — another good reason to pass on the next try!",
     "citation": "AR Driver License Study Guide, p. 1 — Introduction (Act 1289)"
   },
@@ -158,10 +158,10 @@
     "topic": "license-admin",
     "question": "If you have epilepsy, Arkansas allows you to drive if:",
     "choices": [
-      "You never drive alone",
+      "You make sure that you never drive entirely alone behind the wheel",
       "You are under a doctor's care and have been seizure-free for one year",
-      "You drive only in daylight",
-      "Epilepsy always disqualifies you"
+      "You restrict all of your driving strictly to the daylight hours only",
+      "Never — epilepsy always disqualifies you for life"
     ],
     "answerIndex": 1,
     "explanation": "Epilepsy under medical control is usually not dangerous for driving: the standard is doctor's care plus one year seizure-free.",
@@ -172,12 +172,12 @@
     "topic": "license-admin",
     "question": "Does holding your phone to take a call, send a text, look up directions, or scroll social media count as a moving traffic violation in Arkansas?",
     "choices": [
-      "No, only texting counts",
+      "No — only the actual sending or reading of a text message is ever counted as one",
+      "Yes, but only on a divided interstate highway lane",
       "Yes — if you can't use a hands-free connection while driving, don't use your phone",
-      "Only on interstates",
-      "Only for drivers under 21"
+      "Yes, but the rule against it applies only to drivers under 21 years of age"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Yes — holding your phone for calls, texts, directions, or social media is a moving violation. In a work zone with workers present, that fine DOUBLES.",
     "citation": "AR Driver License Study Guide, p. 19 — Leave Your Phone Alone"
   },
@@ -186,12 +186,12 @@
     "topic": "license-admin",
     "question": "Sending or reading a text takes your eyes off the road for about 5 seconds. At 55 mph, that is like driving:",
     "choices": [
-      "The length of a car with your eyes closed",
-      "The length of an entire football field with your eyes closed",
-      "Half a city block while alert",
-      "100 feet while glancing up"
+      "The length of one parked car with both of your eyes closed",
+      "About half of a city block while you keep staying fully alert ahead",
+      "Roughly 100 feet down the road while glancing up now and then",
+      "The length of an entire football field with your eyes closed"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Five seconds at 55 mph covers about a football field — blind. Texting is the most alarming distraction because it combines all three types at once.",
     "citation": "AR Driver License Study Guide, p. 45 — What is Distracted Driving?"
   },
@@ -201,9 +201,9 @@
     "question": "The three types of distraction involved in texting or hand-held phone use are:",
     "choices": [
       "Visual, manual, and cognitive — eyes off the road, hands off the wheel, mind off driving",
-      "Audio, video, and social",
-      "Legal, financial, and physical",
-      "Day, night, and weather"
+      "Audio, video, and social — ears off the road, eyes off the wheel, focus off driving",
+      "Legal, financial, and physical — fear of tickets, costs, and fatigue",
+      "Daytime, nighttime, and weather — the three conditions that pull focus from driving"
     ],
     "answerIndex": 0,
     "explanation": "Texting hits all three at once: VISUAL (eyes off the road), MANUAL (hands off the wheel), and COGNITIVE (mind off driving). That's what makes it the most dangerous distraction.",
@@ -214,12 +214,12 @@
     "topic": "license-admin",
     "question": "Compared with other drivers, teens who text while driving are about how much more likely to crash?",
     "choices": [
-      "2 times",
-      "5 times",
+      "About 2 times",
       "23 times",
+      "About 5 times",
       "100 times"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "National research: distracted teens texting behind the wheel are 23 times more likely to be involved in a crash — and those crashes are often worse because there's no reaction before impact.",
     "citation": "AR Driver License Study Guide, p. 17 — Work Zone Safety (Distracted Driving)"
   },
@@ -228,12 +228,12 @@
     "topic": "license-admin",
     "question": "You hit a parked car and can't find the owner. Arkansas requires you to:",
     "choices": [
-      "Leave — it's the owner's problem",
+      "Drive away from the scene, since the damage done to the parked car is really the other owner's problem now",
+      "Leave a written note under the wiper if the damage looks costly",
       "Try to locate the owner, and notify police immediately if anyone is injured or property damage exceeds $1,000",
-      "Leave a note only if damage looks expensive",
-      "Wait no more than 5 minutes, then go"
+      "Wait beside the parked car for about five minutes, then go on your way"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "In a crash with a parked vehicle you must try to locate the owner. Police must be notified immediately for any injury, death, or damage over $1,000.",
     "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes"
   },
@@ -242,12 +242,12 @@
     "topic": "license-admin",
     "question": "You drive past a crash that does not involve you, and emergency help has already arrived. You should:",
     "choices": [
-      "Stop and take photos",
-      "Keep moving and focus on your driving — stopping or driving to crash scenes blocks the way for rescue vehicles",
-      "Park nearby to watch",
-      "Honk to show support"
+      "Pull over to the shoulder, come to a complete stop, and take some photographs of the crash and the vehicles",
+      "Park your vehicle somewhere nearby on the side of the road so that you are able to safely watch what happens next",
+      "Honk your horn several times as you slowly pass by the crash to show the emergency responders your full support",
+      "Keep moving and focus on your driving — stopping or driving to crash scenes blocks the way for rescue vehicles"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Don't stop at a crash unless you're involved or help hasn't arrived. Spectators block police, ambulances, and tow trucks — keep moving and watch for people near the road.",
     "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes"
   },
@@ -256,12 +256,12 @@
     "topic": "license-admin",
     "question": "At a crash scene with a wrecked vehicle, you should turn off the ignition and:",
     "choices": [
-      "Light a flare right next to the car",
       "Not smoke anywhere near it — fuel may have spilled and could start a fire",
-      "Push the car off the road immediately",
-      "Disconnect the battery first"
+      "Light a road flare and set it down right beside the wrecked vehicle",
+      "Push the wrecked car all the way off of the road right away entirely by yourself",
+      "Disconnect both of the vehicle's battery cables before you go and do anything else"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Turn off wrecked vehicles' ignitions and don't smoke near them — spilled fuel ignites. Stay away from any downed electrical wires, and don't stand in traffic lanes.",
     "citation": "AR Driver License Study Guide, p. 80 — Traffic Crashes"
   },
@@ -270,12 +270,12 @@
     "topic": "license-admin",
     "question": "Which is the study guide's advice about driving while tired?",
     "choices": [
-      "Strong coffee makes long night drives safe",
       "Never drive if you are sleepy — it is better to stop and sleep for a few hours than take a chance you can stay awake",
-      "Open windows keep any driver alert",
-      "Eat a large meal before a long trip"
+      "A few good cups of strong black coffee right before you leave will make long overnight drives perfectly safe to take on",
+      "Rolling all of the windows the whole way down will reliably keep almost any tired driver wide awake at the wheel",
+      "Eating a large, heavy meal right before setting out on a long road trip is a good way to help keep yourself alert"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "If you're sleepy, stop and sleep. Plan trips for when you're rested, avoid drowsy-making medicines, eat light, take regular breaks — and avoid driving during hours your body expects to rest.",
     "citation": "AR Driver License Study Guide, p. 72 — Fatigue"
   },
@@ -284,12 +284,12 @@
     "topic": "license-admin",
     "question": "On a 90-degree day, about how quickly does the inside of a parked car reach the outdoor temperature — and then keep climbing?",
     "choices": [
-      "Within 5 minutes, rising about 15 degrees every 9 minutes after",
-      "It takes about an hour to warm up",
-      "Air conditioning keeps it cool for 30 minutes after parking",
-      "Cars don't heat up with windows cracked"
+      "Only after a full hour does the inside air finally begin to warm up",
+      "The air conditioning keeps the whole cabin cool for about 30 minutes",
+      "A parked car will not heat up at all as long as the windows are cracked",
+      "Within 5 minutes, rising about 15 degrees every 9 minutes after"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "Within five minutes the interior matches the outside temperature, then gains ~15° every 9 minutes. Never leave children or pets unattended in a vehicle.",
     "citation": "AR Driver License Study Guide, p. 10 — Unattended Children and Pets"
   },
@@ -298,12 +298,12 @@
     "topic": "license-admin",
     "question": "Which statement about deaf or hearing-impaired drivers is TRUE?",
     "choices": [
-      "They may only drive in daylight",
+      "By law they are permitted to drive only during the daytime hours and never once it has gotten fully dark outside at night",
+      "By law they are not permitted to drive on any interstate highway at all, and may use only city streets and back roads",
       "Studies show their driving records are as good as drivers with normal hearing — they adjust by relying on vision",
-      "They are not allowed to drive on interstates",
-      "They must carry a passenger who can hear"
+      "By law they must always carry along with them a licensed passenger who is able to hear clearly out on the road at all times"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Hearing helps (horns, sirens), but deaf and hearing-impaired drivers compensate by staying visually alert — and their records are as good as anyone's.",
     "citation": "AR Driver License Study Guide, p. 71 — Hearing"
   },
@@ -312,10 +312,10 @@
     "topic": "license-admin",
     "question": "Arkansas requires a driver's license or certificate to operate which of the following on public highways?",
     "choices": [
-      "Only cars and trucks",
+      "Only passenger cars and pickup trucks, nothing smaller",
       "A car, motorcycle, motor-driven cycle, or motorized bicycle",
-      "Only a vehicle with a motor larger than 50 cc",
-      "Motorcycles and mopeds are exempt"
+      "Only a vehicle whose motor is larger than 50 cubic centimeters",
+      "Cars and trucks, but not motorcycles or mopeds"
     ],
     "answerIndex": 1,
     "explanation": "Anyone who operates a motor vehicle, motorcycle, motor-driven cycle, or motorized bicycle on public highways must have a license or certificate.",
@@ -326,12 +326,12 @@
     "topic": "license-admin",
     "question": "If you move to Arkansas and become a resident, how soon must you obtain an Arkansas driver's license?",
     "choices": [
-      "Within 10 days",
       "Within 30 days",
+      "Within about 10 days",
       "Within 6 months",
       "Within 1 year"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "A new resident must obtain an Arkansas license within 30 days. A nonresident who has been physically present in the state for 6 months must also get one (27-16-606).",
     "citation": "AR Driver License Study Guide, p. 2 — The Driver's License (27-16-606)"
   },
@@ -340,12 +340,12 @@
     "topic": "license-admin",
     "question": "The Class D license — Arkansas's regular non-restricted driver's license — is issued to persons who are at least:",
     "choices": [
-      "14 years old",
-      "16 years old",
-      "18 years old",
-      "21 years old"
+      "age 14",
+      "age 16",
+      "at least 21 years old",
+      "18 years old"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "A Class D (non-restricted) license is for those 18 or older who have held an instruction permit and passed the knowledge, vision, and skills tests.",
     "citation": "AR Driver License Study Guide, p. 4 — Class D License"
   },
@@ -354,10 +354,10 @@
     "topic": "license-admin",
     "question": "Under Arkansas's graduated-license rules, sending text messages while driving is:",
     "choices": [
-      "Allowed for drivers 21 and older",
-      "Allowed if done hands-free",
+      "Allowed once a driver turns 21 years of age",
+      "Allowed if it is done with a hands-free device",
       "Not allowed regardless of the driver's age",
-      "Allowed on local streets only"
+      "Allowed on local city streets but not highways"
     ],
     "answerIndex": 2,
     "explanation": "Text messaging is not allowed regardless of age. A Class D driver 18-21 may use a hands-free device; a hand-held phone is for emergencies only; under 18, no phone use is allowed at all.",
@@ -368,10 +368,10 @@
     "topic": "license-admin",
     "question": "To ride a motorcycle on Arkansas roadways, a driver needs a:",
     "choices": [
-      "Class D license only",
+      "Class D license, nothing more",
       "Class M (Motorcycle) license",
       "Motorized Bicycle Certificate",
-      "Commercial License"
+      "Commercial Driver License"
     ],
     "answerIndex": 1,
     "explanation": "A Class M license authorizes motorcycle operation (age 16+). It requires a motorcycle knowledge exam, a vision test, and a motorcycle skills exam — the skills exam can be waived by completing a Motorcycle Safety Foundation Riders Course.",
@@ -382,12 +382,12 @@
     "topic": "license-admin",
     "question": "The Class MD (Motor-Driven Cycle) license, for ages 14-16, restricts the rider to motorcycles displacing:",
     "choices": [
-      "50 cc or less",
-      "150 cc or less",
       "250 cc or less",
-      "Any size"
+      "50 cc or less",
+      "150 cubic centimeters or less",
+      "Any size at all"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "A Class MD license is restricted to motorcycles displacing 250 cubic centimeters or less. It requires two knowledge exams, a vision test, and a motorcycle skills exam.",
     "citation": "AR Driver License Study Guide, p. 4 — Class MD (Motor Driven Cycles)"
   },
@@ -396,12 +396,12 @@
     "topic": "license-admin",
     "question": "A Motorized Bicycle Certificate (ages 14-16) allows operation of a motorized bicycle or motorcycle displacing no more than:",
     "choices": [
-      "50 cc",
-      "125 cc",
-      "250 cc",
-      "500 cc"
+      "5 cc",
+      "8 cc",
+      "2 cc",
+      "50 cc"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "The Motorized Bicycle Certificate restricts operation to 50 cc or less. Anyone already holding a Class A, B, C, D, Intermediate, Learner's, M, or MD license may also operate a motorized bicycle of 50 cc or less.",
     "citation": "AR Driver License Study Guide, p. 5 — Motorized Bicycle (MB) Certificate"
   },
@@ -412,8 +412,8 @@
     "choices": [
       "9:00 pm and 5:00 am",
       "11:00 pm and 4:00 am",
-      "Midnight and 6:00 am",
-      "10:00 pm and 5:00 am"
+      "midnight to 6 am",
+      "10 pm and 5:00 am"
     ],
     "answerIndex": 1,
     "explanation": "Intermediate License holders cannot drive between 11:00 pm and 4:00 am unless accompanied by a licensed driver 21 or older, or driving to/from a school activity, church activity, job, or an emergency.",
@@ -424,12 +424,12 @@
     "topic": "license-admin",
     "question": "An Intermediate License holder driving without a licensed adult in the front seat may carry:",
     "choices": [
-      "Any number of passengers",
+      "Any number of passengers at all that they might want",
+      "Only passengers who are their family members",
       "No more than one unrelated minor passenger",
-      "Only family members",
-      "No passengers at all"
+      "No passengers in the vehicle with them at all, ever"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Without a licensed driver 21+ in the front seat, an Intermediate driver may not carry more than one unrelated minor passenger. All passengers must wear seat belts.",
     "citation": "AR Driver License Study Guide, p. 4 — Intermediate License"
   },
@@ -438,12 +438,12 @@
     "topic": "license-admin",
     "question": "A vehicle designed to carry 16 or more passengers, haul hazardous material, or with a gross weight rating of 26,001 pounds or more requires:",
     "choices": [
-      "A Class D license",
-      "A Commercial License",
-      "An Intermediate License",
-      "Only a motorcycle endorsement"
+      "A regular Class D license",
+      "A learner's permit",
+      "A motorcycle endorsement",
+      "A Commercial License"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Instruction permits, Learner's, Intermediate, and Class D licenses cover four-wheel vehicles under 26,001 lbs GVWR. Bigger vehicles, 16+ passenger vehicles, or hazmat haulers require a Commercial Driver License.",
     "citation": "AR Driver License Study Guide, p. 3 — Types of Graduated Driver's Licenses"
   },
@@ -452,12 +452,12 @@
     "topic": "license-admin",
     "question": "An UNRESTRICTED Arkansas license requires 20/40 uncorrected vision. The minimum CORRECTED vision for a RESTRICTED license (must wear glasses or contacts) is:",
     "choices": [
-      "20/20",
-      "20/50",
       "20/70",
+      "20/200",
+      "20/125",
       "20/100"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "20/40 uncorrected earns an unrestricted license; 20/70 corrected earns a restricted license that requires wearing glasses or contacts while driving.",
     "citation": "AR Driver License Study Guide, p. 5 — Vision Requirements (27-16-704)"
   },
@@ -466,10 +466,10 @@
     "topic": "license-admin",
     "question": "Arkansas's vision standard requires a field of vision of at least:",
     "choices": [
-      "90 degrees with two eyes",
+      "90 degrees for a person with two functional eyes, or 60 degrees with just one eye",
       "140 degrees for a person with two functional eyes (105 degrees with one eye)",
-      "180 degrees in all cases",
-      "There is no field-of-vision requirement"
+      "180 degrees for every single licensed driver, in every case, without any exception",
+      "There is actually no field-of-vision requirement of any kind whatsoever in Arkansas"
     ],
     "answerIndex": 1,
     "explanation": "Field of vision must be 140 degrees for a person with two functional eyes, or 105 degrees for a person with one functional eye. A vision test is valid for one year.",
@@ -480,12 +480,12 @@
     "topic": "license-admin",
     "question": "Your license shows a 'B' restriction. While driving, you:",
     "choices": [
-      "May leave your glasses at home for short trips",
+      "May leave your glasses at home if the trip is a short one",
+      "Only need to put on your corrective lenses after dark",
       "Must wear your corrective lenses, or you can be ticketed",
-      "Only need them at night",
-      "Only need them on the highway"
+      "Only need your corrective lenses while on the highway"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "A 'B' restriction means you must drive with your corrective lenses. If stopped by law enforcement, you can be ticketed for failing to wear them. Keep an extra pair in the vehicle.",
     "citation": "AR Driver License Study Guide, p. 71 — Vision"
   },
@@ -494,12 +494,12 @@
     "topic": "license-admin",
     "question": "The study guide warns that wearing dark or tinted glasses or contact lenses at night:",
     "choices": [
-      "Is the best way to cut headlight glare",
-      "Cuts down too much light — and you need light to see the road ahead",
-      "Is required by law after dark",
-      "Improves your night vision"
+      "Is the single best way there is to cut down on oncoming headlight glare",
+      "Is actually required by Arkansas law any time you are driving after dark",
+      "Will noticeably sharpen and improve your night vision out on the road",
+      "Cuts down too much light — and you need light to see the road ahead"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Even though tinted lenses reduce glare, they cut out too much light at night, when you need all the light you can get to see the road. If glare bothers you at night, slow down and be careful.",
     "citation": "AR Driver License Study Guide, p. 71 — Vision (Night Vision)"
   },
@@ -508,12 +508,12 @@
     "topic": "license-admin",
     "question": "Because you cannot focus clearly on things to the side while looking ahead, the manual says to take advantage of your peripheral vision by:",
     "choices": [
-      "Staring at the center line",
       "Using your side mirrors and glancing to the side",
+      "Fixing your stare on the center line ahead",
       "Wearing wraparound sunglasses",
-      "Turning your whole body to look"
+      "Turning your whole body around to look aside"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Peripheral vision — the field of vision from the corner of your eye — helps you spot trouble on either side. Use your side mirrors and glance to the side, since you can't focus on things to the side while looking ahead.",
     "citation": "AR Driver License Study Guide, p. 71 — Vision (Peripheral Vision)"
   },
@@ -522,10 +522,10 @@
     "topic": "license-admin",
     "question": "The study guide advises that a driver with diabetes who takes insulin should NOT drive when:",
     "choices": [
-      "It is raining",
+      "It happens to be raining hard enough outside to noticeably reduce how far down the road they are able to see",
       "There is a chance of going into shock — for example after skipping a meal or taking the wrong amount of insulin",
-      "Only at night",
-      "They have eaten recently"
+      "It has gotten dark out for the night, because taking insulin sharply lowers a person's ability to see in the dark",
+      "They have just finished eating a full meal, since digestion makes insulin users drowsy"
     ],
     "answerIndex": 1,
     "explanation": "Diabetics on insulin shouldn't drive when there's a risk of going into shock (from a skipped meal/snack or the wrong insulin dose). Have someone else drive when adjusting insulin, and get your eyes checked for night blindness.",
@@ -536,12 +536,12 @@
     "topic": "license-admin",
     "question": "A person with heart disease, high blood pressure, or circulation problems:",
     "choices": [
-      "Is never affected behind the wheel",
+      "Is honestly never affected in any single way while they are out behind the wheel of a car",
+      "Is restricted by law to driving only those cars that happen to have an automatic transmission",
       "May risk blackouts, fainting, or a heart attack and should ask a doctor before driving",
-      "Must only drive automatic-transmission cars",
-      "Can drive only with a passenger"
+      "Is permitted to drive only at those times when another licensed adult passenger is in the car"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "These conditions can bring on blackouts, fainting, or a heart attack. If you're being treated for a heart condition, ask your doctor before driving.",
     "citation": "AR Driver License Study Guide, p. 72 — Health (Heart Condition)"
   },
@@ -550,12 +550,12 @@
     "topic": "license-admin",
     "question": "If you are very angry or excited, the study guide recommends you:",
     "choices": [
-      "Drive faster to blow off steam",
+      "Drive a bit faster than usual to blow off some steam",
+      "Turn the music up loud to take your mind off whatever is bothering you",
       "Give yourself time to calm down — take a short walk and stay off the road until you have cooled off",
-      "Turn the music up loud",
-      "Drive only on the interstate"
+      "Stick to the wide-open interstate, where the steady pace settles you down"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Strong emotions affect driving ability. When angry or excited, calm down first — take a short walk and stay off the road until you've cooled off. If you're impatient, leave a few minutes early.",
     "citation": "AR Driver License Study Guide, p. 72 — Health (Emotional Distress)"
   },
@@ -564,10 +564,10 @@
     "topic": "license-admin",
     "question": "According to the manual, which of these can affect your ability to drive safely?",
     "choices": [
-      "Only serious illnesses",
+      "Only a genuinely serious illness can affect driving",
       "Even a bad cold, a stiff neck, a cough, or a sore leg",
-      "Nothing short of a disability",
-      "Only a condition a doctor has diagnosed"
+      "Nothing short of a real disability affects driving",
+      "Only a condition a doctor has formally diagnosed"
     ],
     "answerIndex": 1,
     "explanation": "Many health problems — even a bad cold, infection, stiff neck, cough, or sore leg — can affect your driving. If you aren't feeling well and have places to go, let someone else drive.",
@@ -578,12 +578,12 @@
     "topic": "license-admin",
     "question": "To avoid getting drowsy on a long trip, the study guide suggests you:",
     "choices": [
-      "Eat a large, full meal before leaving",
       "Eat light meals, avoid drowsy-making medicine, and take regular breaks",
-      "Drink several cups of coffee and push through",
-      "Drive only with the windows down"
+      "Eat one large, full meal right before you leave so you won't get hungry",
+      "Drink several cups of strong black coffee and just push on through the trip",
+      "Drive the whole way with every one of the windows rolled completely down"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Large meals tend to cause drowsiness, so eat light; don't take medicine that makes you drowsy; and stop regularly to walk around and refresh. If you're sleepy, stop and sleep.",
     "citation": "AR Driver License Study Guide, p. 72 — Fatigue"
   },
@@ -592,12 +592,12 @@
     "topic": "license-admin",
     "question": "In Arkansas, a first littering conviction can bring a fine of up to:",
     "choices": [
-      "$100",
-      "$500",
-      "$1,000 and up to 8 hours of community service",
-      "$5,000"
+      "$100 and up to 2 hours of community service",
+      "$500 and up to 4 hours of community service",
+      "$5,000 and up to 40 hours of community service",
+      "$1,000 and up to 8 hours of community service"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "Littering is against the law. A first offense brings a fine up to $1,000 and up to 8 hours of community service; later convictions can reach $2,000 and 24 hours of community service.",
     "citation": "AR Driver License Study Guide, p. 10 — Arkansas Law on Littering"
   },
@@ -606,12 +606,12 @@
     "topic": "license-admin",
     "question": "To legally park in an accessible (handicapped) parking space, you must have:",
     "choices": [
-      "Any vehicle, as long as you park quickly",
+      "Any vehicle whatsoever, just so long as you are only parked there briefly for a quick errand",
+      "A clearly handwritten note left out in plain view across the top of your vehicle's dashboard",
       "The proper license plate with the international symbol, or a Special Certificate hang tag",
-      "A note left on the dashboard",
-      "A doctor's business card"
+      "A business card belonging to your personal doctor displayed somewhere in the front windshield"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "You need either the license plate bearing the international symbol or the designated hang tag ('Special Certificate'). The certificate holder must be in the vehicle, and the tag hangs from the rearview mirror or sits on the dashboard.",
     "citation": "AR Driver License Study Guide, p. 14 — AR Governor's Commission on People with Disabilities"
   },
@@ -620,10 +620,10 @@
     "topic": "license-admin",
     "question": "Using another person's disabled-parking Special Certificate is:",
     "choices": [
-      "A minor infraction",
+      "Only a minor infraction that carries a small fine and nothing more",
       "Fraud — a Class A misdemeanor with fines and a possible license suspension",
-      "Allowed if you are picking that person up",
-      "Only a problem if you get a ticket"
+      "Perfectly fine if you are on your way to pick that person up",
+      "Only a problem if you actually end up getting a ticket for it"
     ],
     "answerIndex": 1,
     "explanation": "Illegally using someone else's Special Certificate is fraud (a Class A misdemeanor). A first offense is $100-$500; a second is $250-$1,000 plus a 6-month license suspension.",
@@ -634,12 +634,12 @@
     "topic": "license-admin",
     "question": "After you pass your driver tests in Arkansas, you are asked whether you wish to be an organ and tissue donor. If you say yes:",
     "choices": [
-      "Nothing is recorded",
       "The words 'Organ Donor' are printed on the front of your license and you are listed in a state registry",
-      "You must carry a separate card",
-      "You can never change your mind"
+      "Nothing about your choice is recorded by the state in any way, and it stays between you and the clerk",
+      "You are simply handed a separate paper donor card that you are then required to carry around with you at all times",
+      "Your decision is treated as permanent and can never afterward be changed"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Applicants are asked at testing. Those who choose to participate have 'Organ Donor' printed on the license and are listed in a state registry that helps medical personnel identify donors.",
     "citation": "AR Driver License Study Guide, p. 76 — Arkansas Organ & Tissue Donor Information"
   },
@@ -648,12 +648,12 @@
     "topic": "license-admin",
     "question": "Which statement about organ and tissue donation is TRUE according to the study guide?",
     "choices": [
-      "Being a donor lowers the quality of emergency medical care you receive",
-      "The decision will NOT influence the quality of your emergency care, and your family pays nothing for the donation",
-      "Families are billed for the harvesting process",
-      "Donation changes how the body appears at a funeral"
+      "Choosing to register as an organ donor lowers the quality of the emergency medical care that you will receive",
+      "The donor's own surviving family is billed in full for every one of the costs of the organ-harvesting process afterward",
+      "Donating your organs noticeably changes the way that the body looks and appears later on at an open-casket funeral",
+      "The decision will NOT influence the quality of your emergency care, and your family pays nothing for the donation"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Donation only occurs after every effort to save your life. Being a donor does not affect the quality of your care, donors are treated with respect and dignity, and the donor's family is not charged for the donation.",
     "citation": "AR Driver License Study Guide, p. 76 — Arkansas Organ & Tissue Donor Information"
   },
@@ -662,12 +662,12 @@
     "topic": "license-admin",
     "question": "When you are stopped by a law enforcement officer, you should:",
     "choices": [
-      "Step out of the vehicle to meet the officer",
+      "Step out of your vehicle right away as soon as you stop so that you can meet the officer about halfway",
+      "Have all of your documents already gathered in your hand before the officer reaches your side window",
       "Keep both hands visible — for example at the top of the steering wheel — and avoid sudden movements",
-      "Reach for your documents before the officer arrives",
-      "Keep the engine revved"
+      "Keep your foot resting on the gas pedal so that the engine stays revved up while you wait there for them"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Stay in the vehicle unless told to exit, keep both hands visible (such as at the top of the steering wheel), and don't make sudden movements while looking for your documents.",
     "citation": "AR Driver License Study Guide — What To Do When Stopped by a Law Enforcement Officer"
   },
@@ -676,10 +676,10 @@
     "topic": "license-admin",
     "question": "If you are pulled over at night, the study guide says you should:",
     "choices": [
-      "Get out so the officer can see you",
+      "Step out of the car so that the officer is able to get a clear, full look at you",
       "Turn on your interior (dome) lights so the officer can see you more clearly",
-      "Flash your high beams at the officer",
-      "Keep all lights off"
+      "Flash your high-beam headlights toward the officer as they walk up toward you",
+      "Switch off every single light on and inside your vehicle until the officer arrives"
     ],
     "answerIndex": 1,
     "explanation": "At night, turn on the interior lights so the officer can see inside the vehicle clearly. Also turn off the radio, put down any devices, and give the officer your full attention.",
@@ -690,12 +690,12 @@
     "topic": "license-admin",
     "question": "If there is a weapon in your vehicle when you are stopped by an officer, you should:",
     "choices": [
-      "Hand it to the officer right away",
-      "Inform the officer of the weapon and its location — and do NOT reach for it",
-      "Hide it under the seat",
-      "Say nothing about it"
+      "Pick up the weapon and hand it directly over to the officer right away",
+      "Quietly slide the weapon down out of sight underneath one of the vehicle's seats",
+      "Say nothing at all to the officer about the weapon unless they happen to ask about it",
+      "Inform the officer of the weapon and its location — and do NOT reach for it"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Tell the officer there is a weapon, what type it is, and where it is — but do not reach for it. Always follow the officer's instructions regarding any weapon in the vehicle.",
     "citation": "AR Driver License Study Guide — What To Do When Stopped by a Law Enforcement Officer"
   },
@@ -704,12 +704,12 @@
     "topic": "license-admin",
     "question": "Signing a traffic citation:",
     "choices": [
-      "Is an admission that you are guilty",
       "Is a promise to appear in court or pay the fine — NOT an admission of guilt; refusing to sign can lead to arrest",
-      "Means you give up your right to go to court",
-      "Is optional with no consequences"
+      "Counts as a full and binding admission that you are in fact guilty of committing the violation cited",
+      "Means you have given up your right to take the matter before a judge later",
+      "Is an entirely optional formality that carries no consequences at all"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Signing a citation is not an admission of guilt — it's a promise to appear in court or pay the fine before the court date. Refusing to sign, if required, can result in a physical arrest.",
     "citation": "AR Driver License Study Guide — What To Do When Stopped by a Law Enforcement Officer"
   },
@@ -718,10 +718,10 @@
     "topic": "license-admin",
     "question": "If you are unsure whether the person trying to stop you is an actual police officer, you should:",
     "choices": [
-      "Speed away from them",
+      "Hit the gas pedal hard and just speed away as fast as you possibly can from the vehicle behind you",
       "Activate your turn signal, drive to the nearest well-lit location, and dial 9-1-1 to confirm",
-      "Stop immediately on the shoulder of a bridge",
-      "Ignore them and keep driving normally"
+      "Pull over and come to a stop right away on the shoulder of the very next bridge or overpass you reach",
+      "Pay them no attention whatsoever and simply keep on driving along the road exactly as you normally would"
     ],
     "answerIndex": 1,
     "explanation": "If you're unsure, activate your turn signal, pull to the nearest well-lit location, dial 9-1-1, and request confirmation that it is a real officer.",
@@ -732,12 +732,12 @@
     "topic": "license-admin",
     "question": "When pulling over for an officer, you should stop:",
     "choices": [
-      "On the nearest bridge or overpass",
+      "On the very next bridge or overpass that you happen to come to along the way",
+      "Right where you are at, in the middle of the travel lane you are driving along in",
       "At the closest safe spot out of the traffic lane — not on bridges or overpasses",
-      "In the middle of the travel lane",
-      "Wherever you are, immediately"
+      "Wherever you happen to be at that exact moment, stopping there"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Pull to the right and stop at the closest safe spot out of the traffic lane. Do not stop on bridges or overpasses.",
     "citation": "AR Driver License Study Guide — What To Do When Stopped by a Law Enforcement Officer"
   },
@@ -746,12 +746,12 @@
     "topic": "license-admin",
     "question": "If you wish to contest a citation, you should:",
     "choices": [
-      "Argue with the officer at the roadside",
-      "Contact the court listed on the citation — do not argue with the officer on the side of the road",
-      "Refuse to accept the ticket",
-      "Demand a supervisor come to the scene"
+      "Make your full case and argue the whole thing out with the officer right there at the roadside",
+      "Refuse to accept or take the paper ticket from the officer's hand so that it can never become official",
+      "Insist firmly that a supervising officer be sent out right away to the scene of the stop to hear you out",
+      "Contact the court listed on the citation — do not argue with the officer on the side of the road"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Be courteous even if you disagree. To contest a citation, contact the court listed on it; don't argue with the officer at the roadside.",
     "citation": "AR Driver License Study Guide — What To Do When Stopped by a Law Enforcement Officer"
   },
@@ -760,12 +760,12 @@
     "topic": "license-admin",
     "question": "An applicant under 18 applying for an Arkansas license or permit must provide a U.S. birth certificate and:",
     "choices": [
-      "Nothing else",
       "The signature of a parent or legal guardian (or a completed ASP-33 affidavit)",
-      "A high-school diploma",
-      "Two years of tax returns"
+      "Nothing further at all beyond the birth certificate itself is required",
+      "A diploma or transcript showing that they have already graduated from a high school",
+      "Copies of two full years' worth of signed federal tax returns"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Under-18 applicants need an original/certified U.S. birth certificate, a parent or legal guardian's signature (or an ASP-33 Financial Responsibility affidavit), and one accepted secondary ID.",
     "citation": "AR Driver License Study Guide, p. 7 — Accepted Identification (Under Age 18)"
   },
@@ -774,10 +774,10 @@
     "topic": "license-admin",
     "question": "If you have a concealed carry permit and are stopped by an officer, you should:",
     "choices": [
-      "Keep it to yourself",
+      "Keep the permit to yourself and never once bring it up at all",
       "Present it to the officer along with your driver's license",
-      "Only mention it if asked",
-      "Leave the vehicle to discuss it"
+      "Mention the permit only if the officer specifically asks you",
+      "Step out of the vehicle so you can discuss the permit in person"
     ],
     "answerIndex": 1,
     "explanation": "Present your concealed carry permit to the officer with your driver's license. Also tell the officer where any weapon is located, and do not reach for it.",
@@ -788,12 +788,12 @@
     "topic": "license-admin",
     "question": "Failing to move over or slow down for a stopped emergency or law-enforcement vehicle with its lights on (the Move Over Law) can bring:",
     "choices": [
-      "A warning only",
+      "Nothing more than a simple spoken warning from the officer the first time",
+      "A flat $20 ticket and no other penalty at all beyond just paying that one small fine",
       "A fine, jail time, community service, and a license suspension of up to 6 months",
-      "A $20 ticket",
-      "No penalty for a first offense"
+      "No penalty at all the very first time you are caught"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "On a multilane highway you must move to the farthest lane from a stopped emergency/law-enforcement vehicle, or slow down if changing lanes isn't possible. Violations can mean fines, jail, community service, and up to a 6-month license suspension.",
     "citation": "AR Driver License Study Guide, p. 11 — Move Over Law"
   },
@@ -802,12 +802,12 @@
     "topic": "license-admin",
     "question": "Emergency and authorized vehicles in Arkansas may display which light colors?",
     "choices": [
-      "Only red",
-      "Yellow, red, red & white, red & blue, or blue",
-      "Only blue",
-      "Green only"
+      "Only purple lights and no other",
+      "Only blue, and no other color is ever permitted",
+      "Only green, and no other color is ever permitted",
+      "Yellow, red, red & white, red & blue, or blue"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Emergency vehicles display yellow, red, red & white, red & blue, or blue lights. When one approaches with lights and siren, pull to the right edge and stop; move over or slow down for stopped ones.",
     "citation": "AR Driver License Study Guide, p. 15 — Approaching a Law Enforcement Vehicle with Emergency Lights On"
   },
@@ -816,12 +816,12 @@
     "topic": "license-admin",
     "question": "Which testing resource is officially offered by the Arkansas State Police?",
     "choices": [
-      "Any of the third-party practice-test websites",
       "An app called 'AR Driver Testing' in the Google Play or Apple app store",
-      "A paid tutoring service",
-      "There is no official resource"
+      "Any one of the many third-party driving practice-test websites out there",
+      "A paid one-on-one tutoring service run out of the state police office",
+      "There is actually no official testing resource of any kind available"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The Arkansas State Police is NOT associated with third-party practice-test websites. It does offer an official testing app, 'AR Driver Testing,' in the Google Play and Apple app stores.",
     "citation": "AR Driver License Study Guide, p. 1 — Introduction"
   },
@@ -830,12 +830,12 @@
     "topic": "license-admin",
     "question": "When you go to take your driver tests, the study guide reminds you that if you wear glasses or contact lenses, you should:",
     "choices": [
-      "Leave them at home for the eye test",
       "Bring them with you to the test",
-      "Only bring them for the road test",
-      "Buy new ones first"
+      "Leave them at home for the eye test",
+      "Bring them only to drive",
+      "Buy a brand-new pair before testing"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "If you wear contacts or glasses, bring them with you to test — you'll need them for the vision test and, if you require corrective lenses, your license will carry a restriction to wear them while driving.",
     "citation": "AR Driver License Study Guide, p. 7 — Accepted Identification"
   },
@@ -844,12 +844,12 @@
     "topic": "license-admin",
     "question": "The motorcycle SKILLS exam for a Class M license can be waived if the applicant:",
     "choices": [
-      "Is over 21",
-      "Completes a Motorcycle Safety Foundation Riders Course (and returns the certificate within 90 days)",
-      "Already has a car license",
-      "Passes the written test twice"
+      "Is already over the age of 21 at the time that they go in to apply for the new motorcycle license at the office",
+      "Already holds a valid and unexpired Arkansas Class D passenger-car driver's license at the time they apply",
+      "Takes and successfully passes the written motorcycle knowledge test on two completely separate occasions",
+      "Completes a Motorcycle Safety Foundation Riders Course (and returns the certificate within 90 days)"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "The motorcycle skills exam can be waived by successfully completing a Motorcycle Safety Foundation Riders Course; the certificate must be returned to an Arkansas State Police examiner within 90 days of finishing the course.",
     "citation": "AR Driver License Study Guide, p. 4 — Class M (Motorcycle) License"
   },
@@ -858,12 +858,12 @@
     "topic": "license-admin",
     "question": "Drivers from certain countries with a reciprocal agreement may be issued an Arkansas license without testing. Which is on that exempt list?",
     "choices": [
-      "Mexico",
+      "Argentina",
+      "Indonesia",
       "Germany",
-      "Brazil",
       "Australia"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Countries exempt from testing (by reciprocal agreement) include Manitoba (Canada), Germany, France, Taiwan, and South Korea. Those applicants are referred to the Department of Finance and Administration.",
     "citation": "AR Driver License Study Guide, p. 5 — Countries Exempt from Testing"
   }

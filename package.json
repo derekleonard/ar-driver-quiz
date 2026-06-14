@@ -10,7 +10,8 @@
     "test": "vitest run",
     "lint": "eslint .",
     "test:rules": "firebase emulators:exec --only firestore --project demo-ar-driver-quiz 'vitest run tests/rules'",
-    "validate-bank": "node scripts/validate-bank.mjs"
+    "validate-bank": "node scripts/validate-bank.mjs",
+    "normalize-bank": "node scripts/normalize-bank.mjs"
   },
   "dependencies": {
     "firebase": "^12.14.0",

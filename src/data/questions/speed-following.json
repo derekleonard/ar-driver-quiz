@@ -4,12 +4,12 @@
     "topic": "speed-following",
     "question": "If a county judge has not set a speed limit on an Arkansas county road, the speed limit is:",
     "choices": [
-      "30 mph",
       "40 mph",
-      "45 mph",
-      "55 mph"
+      "5 mph",
+      "45 miles per hour",
+      "55 miles per hour"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Unposted county roads in Arkansas default to 40 mph. Going more than 15 mph over a county-road limit is a Class C misdemeanor.",
     "citation": "AR Driver License Study Guide, p. 26 — Speed Limits on County Roads (27-51-216)"
   },
@@ -18,10 +18,10 @@
     "topic": "speed-following",
     "question": "Speed limits are posted for ideal conditions. In rain, ice, or heavy traffic you must:",
     "choices": [
-      "Always drive exactly the posted limit",
+      "Hold the posted limit exactly, since the posted number is the legally required speed in every condition",
       "Slow to a safe speed — you can be ticketed for driving the limit if it's too fast for conditions",
-      "Keep up with the flow of traffic no matter what",
-      "Turn on hazard flashers and continue at the limit"
+      "Keep pace with the surrounding traffic no matter how poor the road gets",
+      "Switch on your hazard flashers and continue driving at the full posted limit until conditions improve"
     ],
     "answerIndex": 1,
     "explanation": "Drivers must adjust to current conditions. Even at the posted limit, you can get a ticket for traveling too fast for the conditions.",
@@ -32,10 +32,10 @@
     "topic": "speed-following",
     "question": "About how many feet does it take an average passenger car traveling 55 mph to come to a complete stop?",
     "choices": [
-      "100 feet",
-      "150 feet",
+      "100 ft",
+      "150 ft",
       "225 feet",
-      "335 feet"
+      "335 ft"
     ],
     "answerIndex": 2,
     "explanation": "An average car at 55 mph needs about 225 feet of total stopping distance (reaction + braking). A loaded tractor-trailer needs more than 335 feet — the length of a football field.",
@@ -46,12 +46,12 @@
     "topic": "speed-following",
     "question": "At night you should drive at a speed that lets you stop within the distance your headlights show you — about:",
     "choices": [
-      "100 feet, or 30 mph",
-      "400 feet, which means around 50 mph",
-      "1,000 feet at any speed",
-      "Headlights don't affect safe speed"
+      "100 feet, about 30 mph",
+      "1,000 feet, any speed",
+      "Headlights have no real bearing on a safe speed",
+      "400 feet, which means around 50 mph"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Headlights let you see about 400 feet ahead. Drive at a speed that allows you to stop within that distance — around 50 mph. In rain or fog with under 200 feet of visibility, keep it to 30 mph or less.",
     "citation": "AR Driver License Study Guide, p. 58 — Visibility and Reaction (Darkness)"
   },
@@ -60,12 +60,12 @@
     "topic": "speed-following",
     "question": "What rule does Arkansas teach for checking your following distance behind the car ahead?",
     "choices": [
-      "One car length per 10 mph",
       "The two-second rule — count from when the car ahead passes a fixed point until you reach it",
-      "Stay close enough to read their license plate",
-      "The five-second rule at all times"
+      "The car-length rule — leave one full car length of following space for every 10 mph of your speed",
+      "The license-plate rule — stay close behind the car ahead so you can read its plate",
+      "The five-second rule — keep a five-second gap behind the car ahead in every driving condition"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Use the two-second rule: when the rear of the vehicle ahead passes a stationary point, count 'one-thousand-one, one-thousand-two.' If you pass the point before you finish, you're too close. Use four seconds in bad conditions.",
     "citation": "AR Driver License Study Guide, p. 59 — Following Distance"
   },
@@ -74,12 +74,12 @@
     "topic": "speed-following",
     "question": "Another driver is tailgating you on a multi-lane road. The best response is to:",
     "choices": [
-      "Brake hard to warn them off",
-      "Speed up to create space",
+      "Brake firmly and suddenly to warn the tailgater to drop back",
       "Move into the lane to your right when it is clear and let them pass",
-      "Tap your brakes repeatedly"
+      "Speed up well past the limit to open more space in front of you",
+      "Tap your brake pedal over and over to signal them to back off"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "Never slow down too quickly to discourage a tailgater — it increases the risk of being hit from behind. Move right and let them by; with no right lane, wait until the path ahead is clear and reduce speed gradually.",
     "citation": "AR Driver License Study Guide, p. 60 — The Safety Cushion (Being Tailgated)"
   },
@@ -88,12 +88,12 @@
     "topic": "speed-following",
     "question": "Going much slower than the other traffic on a road:",
     "choices": [
-      "Is always the safest choice",
+      "Is always the safest possible choice you can make in absolutely any kind of traffic situation you ever meet",
+      "Is the slow, cautious speed that Arkansas law actually requires every driver on the road to use after dark",
       "Causes traffic to back up and can be just as bad as speeding — pull over and let vehicles pass",
-      "Is required at night",
-      "Is illegal under all circumstances"
+      "Is against the law and is never allowed under any circumstances on any Arkansas road at any time"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "The safest speed in traffic is the same speed as other vehicles. If cars accumulate behind you, pull over and allow them to pass.",
     "citation": "AR Driver License Study Guide, p. 56 — Adjusting to the Flow of Traffic"
   },
@@ -102,12 +102,12 @@
     "topic": "speed-following",
     "question": "When merging onto an interstate highway, your speed should be:",
     "choices": [
-      "Well below the speed limit to stay safe",
-      "The same speed as the other traffic — use the ramp to build up speed",
-      "As fast as possible to get ahead of traffic",
-      "Exactly 45 mph"
+      "Kept well below the posted speed limit so you can merge safely",
+      "As fast as your car can possibly go to get ahead of traffic",
+      "Held at exactly 45 mph however fast the other traffic moves",
+      "The same speed as the other traffic — use the ramp to build up speed"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Enter at the same speed as traffic. Use the ramp to reach traffic speed, never drive to the end of the ramp and stop, and check your blind spot over your shoulder before merging. You need about a four-second gap.",
     "citation": "AR Driver License Study Guide, p. 56 — Merging With Traffic"
   },
@@ -116,12 +116,12 @@
     "topic": "speed-following",
     "question": "The 'Four Second Sight Distance Rule' tells you to:",
     "choices": [
-      "Always follow four car lengths behind",
       "Pick a stationary object as far ahead as you can clearly see — if you reach it before counting to four, you're driving too fast for the distance you can see",
-      "Wait four seconds at every stop sign",
-      "Pass within four seconds"
+      "Always keep a steady gap of exactly four full car lengths behind the vehicle ahead of you at all times, no matter how fast or slow you happen to be traveling at the moment",
+      "Come to a complete stop and wait a full four seconds before you proceed again at every single stop sign and every red light you happen to reach anywhere along your route",
+      "Finish every pass of another vehicle within four seconds of the moment you first pull out of your own lane and into the lane beside you, however long the vehicle may be"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Never drive faster than the distance you can see. Count one-one-thousand to four-one-thousand toward the farthest object you can clearly see; reaching it early means slow down. At night, use it with your headlights.",
     "citation": "AR Driver License Study Guide, p. 58 — Sight-Distance Rule"
   },
@@ -130,10 +130,10 @@
     "topic": "speed-following",
     "question": "If rain or fog keeps you from seeing more than 200 feet ahead, you should drive no faster than:",
     "choices": [
-      "50 mph",
-      "45 mph",
+      "50 miles per hour",
+      "45 miles per hour",
       "30 mph",
-      "20 mph"
+      "20 miles per hour"
     ],
     "answerIndex": 2,
     "explanation": "Under 200 feet of visibility → 30 mph or less. If you can't see the road ahead at all, pull over in a safe place and wait for the weather to clear.",
@@ -144,10 +144,10 @@
     "topic": "speed-following",
     "question": "When should you increase your following distance to FOUR seconds?",
     "choices": [
-      "Only in school zones",
+      "Only when you happen to be driving through a clearly posted active school zone during school hours",
       "On slippery roads, when towing, in poor visibility, or when following motorcycles or vehicles that block your view",
-      "Only on the interstate",
-      "Never — two seconds is always enough"
+      "Only while you are traveling on a multi-lane interstate highway at the higher speeds those roads allow",
+      "Never, because a following distance of two seconds gives you plenty of room in every single condition"
     ],
     "answerIndex": 1,
     "explanation": "Two seconds is the minimum for ideal conditions. Use four when stopping takes longer or seeing ahead is harder: slippery roads, towing, bad weather, motorcycles ahead, or big vehicles blocking your view.",
@@ -158,12 +158,12 @@
     "topic": "speed-following",
     "question": "To pass safely at 55 mph on a two-lane road, you need a gap in oncoming traffic of about:",
     "choices": [
-      "3 seconds",
-      "5 seconds",
       "10 seconds — you and the oncoming car will cover over 1,600 feet (1/3 mile)",
-      "30 seconds"
+      "3 seconds, since the two cars close the distance slowly even at speed",
+      "5 seconds, which leaves both vehicles plenty of room to clear the pass",
+      "30 seconds, since passing at full speed takes a very long time"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "At 55 mph you need about a 10-second gap and sight distance: combined, you and oncoming traffic travel over 1,600 feet — a third of a mile. If you're not sure there's time, wait.",
     "citation": "AR Driver License Study Guide, p. 62 — Oncoming Vehicles"
   },
@@ -173,11 +173,11 @@
     "question": "You should never pass when you are within ____ of a hill or curve.",
     "choices": [
       "100 feet",
-      "1/3 of a mile",
       "1 mile",
-      "500 feet"
+      "five hundred feet",
+      "1/3 of a mile"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Anytime a hill or curve blocks your view, assume an oncoming vehicle is there — never start a pass within 1/3 mile of a hill or curve.",
     "citation": "AR Driver License Study Guide, p. 62 — Hills and Curves"
   },
@@ -186,12 +186,12 @@
     "topic": "speed-following",
     "question": "After passing at night, it is safe to return to the driving lane when:",
     "choices": [
+      "You have stayed out in the passing lane for at least five full seconds",
+      "The driver of the car you just passed flashes their headlights at you twice",
       "You can see both headlights of the passed vehicle in your rear-view mirror",
-      "You have been in the passing lane for 5 seconds",
-      "The other driver flashes their lights",
-      "You are one car length ahead"
+      "You have moved a single car length ahead of the vehicle that you passed"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "Leave enough room before pulling back in: at night, seeing both of the passed vehicle's headlights in your rear-view mirror means you have cleared it safely.",
     "citation": "AR Driver License Study Guide, p. 63 — Lane Obstructions"
   },
@@ -200,10 +200,10 @@
     "topic": "speed-following",
     "question": "Arkansas law says the LEFT lane of a multilane highway may be used:",
     "choices": [
-      "By any vehicle at any time",
+      "By any vehicle at any time it wishes, exactly the same as the other lanes on the highway",
       "Only when passing, when other lanes are closed or unsafe, or when preparing to exit on the left",
-      "Only by cars, never trucks",
-      "Only at night"
+      "Only by passenger cars and never by large trucks, which must stay out of the far-left lane",
+      "Only after dark, once the daytime traffic on the highway has thinned out and the road is clear"
     ],
     "answerIndex": 1,
     "explanation": "Under 27-51-301, don't cruise in the left lane: it's for passing, for when other lanes are closed/undrivable, or when exiting left.",
@@ -214,12 +214,12 @@
     "topic": "speed-following",
     "question": "When you need to cross several lanes of traffic, you should:",
     "choices": [
-      "Cross them all at once to spend less time merging",
       "Take one lane at a time",
-      "Wait until all lanes are empty",
-      "Use the shoulder"
+      "Cross them all in one move",
+      "Wait for all lanes clear",
+      "Drive on the road shoulder"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Change one lane at a time, checking mirrors and blind spot for each move. Keep a four-second gap when merging or changing lanes.",
     "citation": "AR Driver License Study Guide, p. 61 — Merging"
   },
@@ -228,12 +228,12 @@
     "topic": "speed-following",
     "question": "To avoid last-minute braking, how far ahead should you be looking when you drive?",
     "choices": [
-      "5 seconds ahead",
-      "At least 15 seconds ahead — about one city block in town, or one-quarter mile on highways",
-      "30 seconds ahead at all times",
-      "Just past the car in front of you"
+      "About 5 seconds ahead — roughly the length of one city block when you are in town",
+      "A full 30 seconds ahead of your car at all times, no matter what road you happen to be driving on",
+      "Just past the rear bumper of the car directly in front of you in your own travel lane right now",
+      "At least 15 seconds ahead — about one city block in town, or one-quarter mile on highways"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Look at least 15 seconds down the road: one city block in the city, a quarter mile on highways and interstates. The leading cause of car crashes is inattention.",
     "citation": "AR Driver License Study Guide, p. 48 — Stay Alert (Looking Ahead)"
   },
@@ -242,12 +242,12 @@
     "topic": "speed-following",
     "question": "What is the leading cause of car crashes?",
     "choices": [
-      "Bad weather",
+      "Heavy bad weather",
+      "Badly worn brakes",
       "Inattention",
-      "Mechanical failure",
       "Speeding"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Inattention is the leading cause of crashes. Defensive driving starts with staying alert and keeping your eyes fixed on the road ahead.",
     "citation": "AR Driver License Study Guide, p. 48 — Stay Alert"
   },
@@ -256,10 +256,10 @@
     "topic": "speed-following",
     "question": "In an Arkansas work zone with workers present and warning signs posted, fines for moving traffic violations are:",
     "choices": [
-      "The same as anywhere else",
+      "The same amount it would cost you anywhere else",
       "Doubled — and depending on the violation, can be as high as $5,000",
-      "Reduced",
-      "Waived for first offenders"
+      "Reduced below the normal fine because workers are present",
+      "Waived completely for any first-time offender"
     ],
     "answerIndex": 1,
     "explanation": "All moving violations — speeding, reckless driving, distracted driving — carry DOUBLE fines in work zones, up to $5,000. Mobile work zones count too.",
@@ -270,10 +270,10 @@
     "topic": "speed-following",
     "question": "You see signs warning of a lane closure in a work zone ahead. When should you merge?",
     "choices": [
-      "At the last possible moment",
+      "At the very last possible moment, right before the closed lane ends",
       "As soon as it is safe to do so — ideally a mile or more before the closure",
-      "Only when a flagger directs you",
-      "After passing the slower traffic"
+      "Only at the exact point where a flagger waves traffic into the open lane",
+      "After you have driven past the slower vehicles already lined up to wait"
     ],
     "answerIndex": 1,
     "explanation": "Merge early — ideally a mile or more before the closure — and be patient. Rear-end collisions are common in work zones, so keep your following distance.",
@@ -284,12 +284,12 @@
     "topic": "speed-following",
     "question": "A work zone has no reduced speed limit posted. You should:",
     "choices": [
-      "Drive 10 mph through the zone",
+      "Drive through the whole work zone at a slow and steady 10 mph the entire way",
+      "Cut your speed down to half of the normally posted limit for that road no matter what",
       "Obey the normally posted speed limit, staying prepared for the unexpected",
-      "Drive at half the posted limit",
-      "Follow the vehicle ahead at any speed"
+      "Just follow the vehicle ahead of you at whatever speed it happens to travel"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Reduced work-zone limits are clearly posted. With no reduced limit, the normal posted limit applies — but stay ready for sudden stops, equipment, and changing patterns.",
     "citation": "AR Driver License Study Guide, p. 17 — Work Zone Speed Limits"
   },
@@ -298,12 +298,12 @@
     "topic": "speed-following",
     "question": "How does Arkansas use speed enforcement cameras?",
     "choices": [
-      "At every traffic light",
-      "In interstate work zones — an officer observes violations by camera and pulls the violator over as they exit the zone",
-      "On all rural highways",
-      "Arkansas bans all camera enforcement"
+      "At every signalized traffic-light intersection in the towns and cities across the state",
+      "On all rural state highways, where the cameras catch and ticket any driver over the limit",
+      "Nowhere at all, because state law in Arkansas bans every form of automated camera enforcement",
+      "In interstate work zones — an officer observes violations by camera and pulls the violator over as they exit the zone"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Cameras in interstate work zones let an officer wait at the end of the zone instead of inside it — safer for everyone, and you still get pulled over.",
     "citation": "AR Driver License Study Guide, p. 19 — Work Zone Speed Limit"
   },
@@ -312,12 +312,12 @@
     "topic": "speed-following",
     "question": "When preparing to pass on a two-lane road, position your vehicle:",
     "choices": [
-      "As close to the other car's bumper as possible",
       "Two to three seconds behind the vehicle you plan to pass",
-      "Ten seconds behind",
-      "Halfway into the oncoming lane"
+      "As close to the other car's bumper as you safely can",
+      "A full ten seconds back from the vehicle you mean to pass",
+      "Already partway into the oncoming lane"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Prepare to pass from two to three seconds back: check mirrors, blind spot, and oncoming traffic; confirm safe passing distance; signal — then accelerate into the passing lane.",
     "citation": "AR Driver License Study Guide, p. 62 — Passing Procedures"
   },
@@ -326,10 +326,10 @@
     "topic": "speed-following",
     "question": "How many vehicles is it safe to pass at one time on a two-lane road?",
     "choices": [
-      "As many as fit before oncoming traffic",
+      "As many vehicles as you can fit in before the oncoming traffic arrives",
       "One — do not count on having enough time to pass several cars at once",
-      "Two, if they are slow",
-      "Three on straightaways"
+      "Two vehicles at a time, as long as both of them are traveling quite slowly",
+      "Three vehicles at once whenever you are on a long and open straightaway"
     ],
     "answerIndex": 1,
     "explanation": "As a rule, pass only ONE vehicle at a time. Passing several cars at once gambles on time and space you can't be sure you have.",
@@ -340,12 +340,12 @@
     "topic": "speed-following",
     "question": "Total stopping distance is made up of:",
     "choices": [
-      "Braking distance only",
+      "The braking distance alone, from the moment the brakes grab",
+      "The open space between you and the car ahead as you brake",
       "The distance traveled during your reaction time PLUS the braking distance",
-      "The distance to the car ahead",
-      "Only the distance after the brakes lock"
+      "Only the distance the car keeps rolling after the wheels have fully locked up"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Total stopping distance = reaction distance (while you perceive the hazard and move your foot) + braking distance. That's why it grows quickly with speed — and why a loaded truck needs far more room than a car.",
     "citation": "AR Driver License Study Guide, p. 54, 58 — Adjusting the Vehicle Speed"
   },
@@ -354,12 +354,12 @@
     "topic": "speed-following",
     "question": "About how many feet does an average passenger car need to stop completely from 40 mph?",
     "choices": [
-      "About 75 feet",
-      "About 124 feet",
-      "About 225 feet",
-      "About 335 feet"
+      "About 75 ft",
+      "About 225 ft",
+      "Roughly 335 feet",
+      "About 124 feet"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "At 40 mph total stopping distance is about 124 feet; at 55 mph it grows to about 225 feet. Higher speed means much longer stopping distance.",
     "citation": "AR Driver License Study Guide, p. 58 — Visibility and Reaction"
   },
@@ -368,12 +368,12 @@
     "topic": "speed-following",
     "question": "What is the safest speed to drive in traffic?",
     "choices": [
-      "As fast as the law allows",
       "The same speed as the other vehicles traveling in your direction",
-      "Five mph below everyone else",
-      "Whatever speed keeps you alone on the road"
+      "As fast as the posted speed limit will legally allow you to drive",
+      "About five mph slower than everyone else on the road around you",
+      "Whatever speed keeps you driving alone with no cars near you"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Vehicles moving in the same direction at the same speed are least likely to collide. Going faster means constant passing (each pass risks a crash); going much slower backs up traffic.",
     "citation": "AR Driver License Study Guide, p. 56 — Adjusting to the Flow of Traffic (Keeping Pace)"
   },
@@ -382,10 +382,10 @@
     "topic": "speed-following",
     "question": "According to the study guide, driving faster than the flow of traffic to save time:",
     "choices": [
-      "Saves a great deal of time on most trips",
+      "Saves you a great deal of travel time over nearly every trip",
       "Saves no more than a few minutes an hour — while greatly increasing your crash risk",
-      "Is the mark of an efficient driver",
-      "Is fine as long as you stay under the limit"
+      "Is the clear mark of a skilled and efficient highway driver",
+      "Is perfectly fine to do as long as you stay under the limit"
     ],
     "answerIndex": 1,
     "explanation": "Speeding does not save more than a few minutes an hour, yet each pass you make adds a chance of a collision. Slow down and keep pace with traffic.",
@@ -396,12 +396,12 @@
     "topic": "speed-following",
     "question": "You are about to take an exit from a high-speed roadway. You should:",
     "choices": [
-      "Slow down well before the exit, in the travel lane",
+      "Slow down well before the exit, in the main travel lane",
+      "Stop at the very start of the ramp and check for traffic",
       "Not slow down until you have moved onto the exit ramp",
-      "Stop at the start of the ramp and check traffic",
-      "Speed up through the exit"
+      "Speed up steadily as you move along and off of the exit ramp"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Stay at the speed of traffic and don't slow down until you are on the exit ramp — braking early in the travel lane surprises drivers behind you. Use your turn signal to show your intentions.",
     "citation": "AR Driver License Study Guide, p. 56 — Exiting Traffic"
   },
@@ -410,12 +410,12 @@
     "topic": "speed-following",
     "question": "Farm tractors, animal-drawn vehicles, and roadway maintenance vehicles usually travel:",
     "choices": [
-      "At the posted speed limit",
       "25 mph or less — and should display a slow-moving-vehicle emblem on the rear",
-      "Faster than traffic",
-      "Only on the shoulder"
+      "At the full posted speed limit, keeping pace with the rest of the traffic around them",
+      "Faster than the surrounding traffic so that they can clear the road quickly enough",
+      "Only along the road's shoulder and never within any of the regular travel lanes"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "These vehicles travel 25 mph or less and display the orange-red slow-moving-vehicle triangle. Be ready to slow well in advance, since slowing suddenly can cause a crash.",
     "citation": "AR Driver License Study Guide, p. 57 — Slow-Moving Traffic"
   },
@@ -424,12 +424,12 @@
     "topic": "speed-following",
     "question": "When merging into traffic, you should enter:",
     "choices": [
-      "The smallest gap available to get in quickly",
-      "A gap big enough to give you a cushion of space — never try to squeeze into a small gap",
-      "Any gap, since traffic must let you in",
-      "Only after coming to a stop at the end of the ramp"
+      "The smallest gap that is available, so you can slip into the moving traffic as fast as you can",
+      "Any gap at all, because the traffic already on the road is required by law to let you in",
+      "The travel lane only after you have first come to a complete stop at the end of the ramp",
+      "A gap big enough to give you a cushion of space — never try to squeeze into a small gap"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "You need about a 4-second gap to merge. Don't try to merge into a small gap — it can quickly become even smaller. Never drive to the end of the ramp and stop.",
     "citation": "AR Driver License Study Guide, p. 56, 61 — Merging With Traffic"
   },
@@ -438,12 +438,12 @@
     "topic": "speed-following",
     "question": "You are judging whether you have time to pass on a two-lane road. An oncoming vehicle far in the distance:",
     "choices": [
-      "Is always safe to pass before",
+      "Is always safe to pull out in front of and pass before, no matter how far off in the distance it is",
+      "Is always moving along far more slowly than it actually appears to be moving as it draws nearer toward you over time",
       "Can appear to be standing still — if you can see it getting closer, it may be moving too fast for you to pass",
-      "Is moving slower than it looks",
-      "Can be ignored if it has not flashed its lights"
+      "Can be safely ignored as you pass for as long as it has not yet flashed its headlights to warn you off"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "It's hard to judge the speed of oncoming vehicles at a distance — one far away can look stationary. If you can tell it's getting closer, it may be too fast to pass safely. When unsure, wait.",
     "citation": "AR Driver License Study Guide, p. 62 — Oncoming Vehicles"
   },
@@ -452,10 +452,10 @@
     "topic": "speed-following",
     "question": "Before you begin to pass another vehicle, you must be sure that:",
     "choices": [
-      "The other driver will make room for you",
+      "The driver of the other car will make enough room for you",
       "You have enough space to return to the driving lane",
-      "You can pass at least two cars at once",
-      "The shoulder is clear in case you need it"
+      "You can pass at least two of the cars in one move",
+      "The shoulder beside you is clear in case you need it"
     ],
     "answerIndex": 1,
     "explanation": "Never pass unless you have enough room to return to your lane. Don't count on other drivers making room — and watch for things (bikes, a narrow bridge, ice or potholes) that could cost you your passing space.",
@@ -466,12 +466,12 @@
     "topic": "speed-following",
     "question": "You are following a large truck, van, or a vehicle towing a trailer that may not be able to see you. You should:",
     "choices": [
-      "Stay close so the driver knows you are there",
       "Reduce your speed and fall back so you can see ahead and the driver can see you",
-      "Pass on the right immediately",
-      "Flash your high beams continuously"
+      "Stay up close behind it so the driver knows for certain you are there",
+      "Move over and pass it on the right-hand side just as soon as you possibly can",
+      "Keep your high-beam headlights flashing at it steadily without a pause"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Drivers of trucks, buses, vans, or vehicles pulling trailers may not see you behind them and could stop suddenly. Reduce speed and fall back — that gives you more room to see ahead, too.",
     "citation": "AR Driver License Study Guide, p. 59 — Following Drivers Who Cannot See Your Vehicle"
   },
@@ -480,12 +480,12 @@
     "topic": "speed-following",
     "question": "Posted speed limits are set based on:",
     "choices": [
-      "How fast most drivers want to go",
-      "The road's design, the type of vehicles using it, and the location — and they assume ideal conditions",
-      "The width of the shoulder only",
-      "A statewide flat number"
+      "How fast the great majority of the drivers using that particular road would really like to be able to go",
+      "The width of the road's paved shoulder and nothing else at all about the actual design of the road itself",
+      "A single flat statewide number that the state of Arkansas applies to each and every road in the same way",
+      "The road's design, the type of vehicles using it, and the location — and they assume ideal conditions"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Speed limits reflect the road's design, the vehicles that use it, and the location, and are posted for ideal conditions. In bad weather or heavy traffic you must slow below the limit.",
     "citation": "AR Driver License Study Guide, p. 58 — Speed Limits"
   },
@@ -495,11 +495,11 @@
     "question": "You merge into the MIDDLE of a four-second gap in traffic. The following distance between you and the car behind you is now about:",
     "choices": [
       "Four seconds",
-      "Two seconds",
       "One second",
-      "Six seconds"
+      "Two seconds",
+      "6 seconds"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "If you move into the middle of a four-second gap, you and the vehicle behind you each end up with about a two-second following distance. Aim to keep a four-second gap when merging or changing lanes.",
     "citation": "AR Driver License Study Guide, p. 61 — Merging"
   }

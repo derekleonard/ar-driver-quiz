@@ -4,12 +4,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign mean?",
     "choices": [
-      "Slow down and proceed if clear",
-      "Come to a complete stop, then go when safe",
-      "Stop only if other vehicles are present",
-      "Yield to traffic on the right"
+      "Slow down and roll through if it looks clear",
+      "Stop only when other vehicles are present",
+      "Yield to any traffic approaching on your right",
+      "Come to a complete stop, then go when safe"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "An octagon always means STOP. You must come to a complete stop at the stop line or crosswalk, then proceed only when the way is clear.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
     "image": "signs/stop.svg"
@@ -19,12 +19,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign tell you to do?",
     "choices": [
-      "Stop completely before continuing",
+      "Come to a full and complete stop here before you continue ahead",
+      "Speed up as needed so you can merge in with the faster traffic",
       "Slow down and give the right-of-way to crossing or merging traffic",
-      "Speed up to merge with traffic",
-      "Make no turns at this intersection"
+      "Make no turns of any kind while crossing through the intersection"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "A downward-pointing triangle is a YIELD sign: slow down, be ready to stop, and let traffic, pedestrians, or bicycles pass before you proceed.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
     "image": "signs/yield.svg"
@@ -34,10 +34,10 @@
     "topic": "signs-signals-markings",
     "question": "Which shape is used ONLY for stop signs?",
     "choices": [
-      "Diamond",
+      "Circle (round)",
       "Octagon (8 sides)",
       "Pentagon (5 sides)",
-      "Circle"
+      "Triangle (3 sides)"
     ],
     "answerIndex": 1,
     "explanation": "The 8-sided octagon is reserved exclusively for stop signs so drivers can recognize it by shape alone, even if the face is covered with snow.",
@@ -48,12 +48,12 @@
     "topic": "signs-signals-markings",
     "question": "A diamond-shaped yellow sign means:",
     "choices": [
-      "A regulation you must obey",
       "A warning about a hazard or change in the road ahead",
-      "Directions to a service area",
-      "A school zone"
+      "A rule or regulation that you are required to obey",
+      "Directions guiding you to a nearby roadside service",
+      "A school zone where children cross near the roadway"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Yellow diamond signs warn of hazards ahead: curves, intersections, merges, narrow bridges, and similar conditions. Slow down and be ready to react.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Warning)"
   },
@@ -62,12 +62,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign warn you about?",
     "choices": [
-      "The road ahead curves right, then left",
-      "The road ahead curves left, then right",
-      "A winding road for the next several miles",
-      "A sharp U-turn ahead"
+      "The road ahead bends left, then right",
+      "The road ahead winds for the next several miles",
+      "The road ahead bends into a sharp U-turn",
+      "The road ahead curves right, then left"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "The arrow shows the path of the road: it bends right first, then back to the left. Slow down before entering the curves.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Warning)",
     "image": "signs/warning-curve.svg"
@@ -77,12 +77,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this round yellow sign with an X and 'RR' mean?",
     "choices": [
+      "You are now right at the railroad tracks — stop immediately",
+      "The road ahead is fully closed, so you must turn around now",
       "Railroad crossing ahead — slow down and be ready to stop",
-      "You are at the railroad tracks — stop immediately",
-      "Road closed ahead",
-      "Intersection with a one-way street ahead"
+      "An intersection with a one-way street is just ahead of you"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "The round advance warning sign is posted BEFORE a railroad crossing. Slow down, look and listen for trains, and be prepared to stop before the tracks.",
     "citation": "AR Driver License Study Guide, p. 28 — Railroad Crossing Signs",
     "image": "signs/rr-advance.svg"
@@ -92,12 +92,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign mean?",
     "choices": [
+      "A marked pedestrian crosswalk serving a busy shopping area",
       "You are entering a school zone or near a school crossing",
-      "Pedestrian crosswalk at a shopping area",
-      "Playground ahead",
-      "Hiking trail crossing"
+      "A public playground lies just ahead beside the road up here",
+      "A hiking trail crosses over the roadway at this point ahead"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "The 5-sided (pentagon) sign marks a school zone or school crossing. Slow down, obey the posted school speed limit, and watch for children.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (School Zone)",
     "image": "signs/school-zone.svg"
@@ -107,12 +107,12 @@
     "topic": "signs-signals-markings",
     "question": "This sideways triangle (pennant) sign on the LEFT side of the road means:",
     "choices": [
-      "No parking zone",
       "Do not pass — you are entering a no-passing zone",
-      "Slow-moving vehicles ahead",
-      "Two-way traffic ahead"
+      "A no-parking zone starts here along the road",
+      "Slow-moving vehicles may be on the road ahead",
+      "Two-way traffic now shares the road just ahead here"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The pennant-shaped NO PASSING ZONE sign is the only sign posted on the left side of the road. It marks where passing is prohibited.",
     "citation": "AR Driver License Study Guide, p. 28, 62 — No Passing Zone",
     "image": "signs/no-passing-pennant.svg"
@@ -122,12 +122,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign mean?",
     "choices": [
-      "One-way street — do not drive in",
-      "Do not enter — the roadway ahead is closed to you",
-      "Stop ahead",
-      "No parking"
+      "This is a one-way street, so do not drive in",
+      "A stop sign is just ahead, so be ready to stop",
+      "No parking is allowed along this whole part of the road",
+      "Do not enter — the roadway ahead is closed to you"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "The red circle with the white bar means DO NOT ENTER. It is posted at exit ramps and one-way streets to keep you from driving into oncoming traffic.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
     "image": "signs/do-not-enter.svg"
@@ -137,12 +137,12 @@
     "topic": "signs-signals-markings",
     "question": "If you see this sign facing you, what has happened?",
     "choices": [
+      "You have driven past and missed the exit you wanted to take",
       "You are driving against traffic on a one-way road or ramp",
-      "You missed your exit",
-      "The road is closed for construction",
-      "You are in a truck-only lane"
+      "The road just ahead of you is closed for road construction",
+      "You have entered a lane that is set aside for trucks only now"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "WRONG WAY means you have entered a roadway against the flow of traffic. Pull over and turn around as soon as it is safe.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
     "image": "signs/wrong-way.svg"
@@ -152,12 +152,12 @@
     "topic": "signs-signals-markings",
     "question": "Orange signs and barrels mean:",
     "choices": [
-      "School zone",
+      "A school zone where children cross",
+      "A recreational area or park drivers can reach",
       "Construction or maintenance work area ahead",
-      "Recreational area",
-      "Hospital zone"
+      "A hospital zone where you must keep quiet and slow"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Orange is the color of work zones. Slow down, obey the posted work-zone speed limit, and watch for workers and equipment. Fines often double in work zones.",
     "citation": "AR Driver License Study Guide, p. 16-21 — Work Zone Safety",
     "image": "signs/construction.svg"
@@ -167,12 +167,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this warning sign mean?",
     "choices": [
-      "Lane ends — traffic from the right is merging into your road",
-      "Divided highway begins",
-      "Sharp right turn ahead",
-      "Exit ramp on the right"
+      "A divided highway begins ahead, splitting apart the two directions",
+      "There is a sharp right turn coming up just ahead of you now",
+      "An exit ramp leaves the roadway on the right just ahead",
+      "Lane ends — traffic from the right is merging into your road"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "The merge sign warns that another roadway joins yours ahead. Adjust your speed and position to let merging traffic blend in safely.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Warning)",
     "image": "signs/merge.svg"
@@ -182,12 +182,12 @@
     "topic": "signs-signals-markings",
     "question": "An orange triangle on the back of a vehicle means it is:",
     "choices": [
-      "An oversized load",
       "A slow-moving vehicle traveling 25 mph or less",
-      "A student driver",
-      "Carrying hazardous materials"
+      "Hauling a load that is oversized and extra wide",
+      "Being driven by a student driver still learning",
+      "Carrying hazardous materials that may be dangerous"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The orange-and-red triangle marks slow-moving vehicles such as farm equipment. Slow down early and pass only when it is safe and legal.",
     "citation": "AR Driver License Study Guide, p. 26 — Slow Moving Vehicle Sign",
     "image": "signs/slow-moving-vehicle.svg"
@@ -197,12 +197,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign mean?",
     "choices": [
+      "Left turns are allowed at the intersection just ahead",
       "Traffic flows only in the direction of the arrow",
-      "Left turns allowed ahead",
-      "Detour to the left",
-      "Merging traffic from the left"
+      "Follow the marked detour leading off to the far left",
+      "Watch for traffic merging onto the road from the left"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "ONE WAY means all traffic on that street moves in the direction the arrow points. Never turn against the arrow.",
     "citation": "AR Driver License Study Guide, p. 25-27 — Traffic Control Signs",
     "image": "signs/one-way.svg"
@@ -212,12 +212,12 @@
     "topic": "signs-signals-markings",
     "question": "A solid yellow line on YOUR side of the center line means:",
     "choices": [
-      "Passing is allowed if you are careful",
+      "Passing is allowed here if you are careful",
+      "This lane is for left turns only",
       "Do not pass — stay in your lane",
-      "The lane is for left turns only",
-      "Traffic moves in your direction on both sides"
+      "Traffic moves your way both sides"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Yellow lines separate traffic moving in opposite directions. A solid yellow line on your side means passing is prohibited for you. A broken line means you may pass when safe.",
     "citation": "AR Driver License Study Guide, p. 31 — Pavement Markings"
   },
@@ -227,11 +227,11 @@
     "question": "White lane lines separate:",
     "choices": [
       "Traffic moving in opposite directions",
-      "Traffic moving in the same direction",
-      "Car lanes from truck lanes",
-      "Parking from driving lanes only"
+      "Lanes for cars from lanes for large trucks",
+      "Parking spaces from driving lanes only",
+      "Traffic moving in the same direction"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "White lines divide lanes of traffic moving in the SAME direction; yellow lines divide traffic moving in OPPOSITE directions.",
     "citation": "AR Driver License Study Guide, p. 31 — Pavement Markings"
   },
@@ -240,12 +240,12 @@
     "topic": "signs-signals-markings",
     "question": "A flashing red traffic light means:",
     "choices": [
-      "Slow down and proceed with caution",
       "Treat it like a stop sign: stop completely, then go when safe",
-      "The signal is broken — proceed normally",
-      "Stop and wait until the light stops flashing"
+      "Slow down and proceed through carefully without stopping",
+      "The signal has malfunctioned, so you may proceed now",
+      "Stop and wait there at the line until the light stops flashing"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Flashing red = stop sign. Stop completely, yield, then proceed when safe. Flashing yellow means slow down and proceed with caution.",
     "citation": "AR Driver License Study Guide, p. 23-24 — Lighted Traffic Signals"
   },
@@ -254,10 +254,10 @@
     "topic": "signs-signals-markings",
     "question": "A steady green light means:",
     "choices": [
-      "Go immediately — you always have the right-of-way",
+      "Go right away, because on a green light you always have the right-of-way",
       "Go, but first yield to vehicles and pedestrians still in the intersection",
-      "Speed up before the light changes",
-      "Only right turns are allowed"
+      "Speed up so you can get all the way through before the light changes",
+      "Only right turns may be made while the light is showing green"
     ],
     "answerIndex": 1,
     "explanation": "Green means you may go, but only after yielding to pedestrians and any vehicles still clearing the intersection.",
@@ -268,12 +268,12 @@
     "topic": "signs-signals-markings",
     "question": "A large X with the letters 'RR' is painted on the pavement of your lane. This means:",
     "choices": [
-      "Road repairs ahead",
+      "Road repairs are currently underway on the pavement just ahead of you on this road",
+      "An exit leading off of the road toward a roadside rest area is coming up just ahead",
       "The same thing as the round advance warning sign — a railroad crossing is ahead",
-      "A rest area exit",
-      "Reduced-speed residential zone"
+      "A reduced-speed residential zone with homes begins here along this roadway"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Railroad pavement markings mean the same as the advance warning sign: slow down, look and listen, and be prepared to stop. On two-lane roads they come with a no-passing marking, and there may be a white stop line before the tracks.",
     "citation": "AR Driver License Study Guide, p. 28 — Railroad Pavement Markings"
   },
@@ -282,12 +282,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign set?",
     "choices": [
-      "The minimum speed you must travel",
+      "The minimum speed you are required to drive",
+      "The speed recommended for driving at night",
       "The maximum legal speed under ideal conditions",
-      "The recommended speed at night",
-      "The speed for trucks only"
+      "The speed limit that applies to trucks only"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "A speed limit sign sets the MAXIMUM legal speed in ideal conditions. In rain, fog, or heavy traffic, the safe speed may be much lower.",
     "citation": "AR Driver License Study Guide, p. 25 — Speed Limit Sign",
     "image": "signs/speed-limit-50.svg"
@@ -297,10 +297,10 @@
     "topic": "signs-signals-markings",
     "question": "A steady RED arrow on a traffic light means:",
     "choices": [
-      "Turn quickly before cross traffic starts",
+      "Turn quickly before the cross traffic moves",
       "Stop — you may not turn in the direction of the arrow",
-      "Yield, then turn if clear",
-      "The signal is broken"
+      "Yield to all traffic first, then turn when it is clear",
+      "The signal has malfunctioned, so use caution and proceed"
     ],
     "answerIndex": 1,
     "explanation": "A steady red arrow means stop: turning in the arrow's direction is not allowed until the arrow changes.",
@@ -311,12 +311,12 @@
     "topic": "signs-signals-markings",
     "question": "A FLASHING yellow arrow means:",
     "choices": [
-      "Left turns are protected — oncoming traffic must stop",
       "Left turns are permitted, but you must yield to oncoming traffic and pedestrians first",
-      "No left turns allowed",
-      "The signal is about to turn green"
+      "Left turns here are fully protected, so all oncoming traffic must stop for you",
+      "Left turns are not allowed at all while this flashing yellow arrow is showing",
+      "The signal is about to finish its cycle and change to a steady green arrow soon"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Flashing yellow arrow = turns permitted but NOT protected: yield to oncoming traffic and pedestrians, then proceed with caution. A steady GREEN arrow is the protected turn.",
     "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows"
   },
@@ -325,12 +325,12 @@
     "topic": "signs-signals-markings",
     "question": "A GREEN arrow on a traffic light means:",
     "choices": [
-      "You may turn in the direction of the arrow — the turn is protected and opposing traffic must stop",
-      "Yield to oncoming traffic before turning",
-      "Pedestrians have the signal",
-      "Go straight only"
+      "You may turn in the direction of the arrow only after yielding to all oncoming traffic",
+      "Pedestrians at the corner now have the walk signal, so wait for them to finish crossing",
+      "You are permitted to continue straight ahead but may not turn in either direction",
+      "You may turn in the direction of the arrow — the turn is protected and opposing traffic must stop"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "A green arrow is a protected turn: opposing traffic is stopped. Still check that the intersection is clear before turning.",
     "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows"
   },
@@ -339,12 +339,12 @@
     "topic": "signs-signals-markings",
     "question": "A steady YELLOW traffic light means:",
     "choices": [
-      "Speed up before it turns red",
+      "Speed up so that you can get all the way through before it turns red",
+      "Proceed straight through the intersection without slowing",
       "The signal is changing from green to red — stop if it is safe to do so",
-      "Proceed with caution without slowing",
-      "Pedestrians may cross"
+      "Pedestrians at the corner may now begin crossing in front of you"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Steady yellow = the light is about to turn red. Stop if you can do so safely. If you are already stopped at the line, you may not proceed.",
     "citation": "AR Driver License Study Guide, p. 23 — Lighted Traffic Signals"
   },
@@ -353,10 +353,10 @@
     "topic": "signs-signals-markings",
     "question": "Before turning right at a red light, you must:",
     "choices": [
-      "Slow down and merge",
+      "Slow down and carefully merge in with the flow of the cross traffic before turning right",
       "Come to a complete stop, check for traffic and pedestrians, and make sure no sign prohibits the turn",
-      "Honk and proceed",
-      "Wait for green — right on red is illegal in Arkansas"
+      "Sound your horn once to warn any nearby traffic and pedestrians and then proceed with your right turn",
+      "Wait for the light to turn green before turning, since making a right turn on red is illegal in Arkansas"
     ],
     "answerIndex": 1,
     "explanation": "Right on red is legal in Arkansas after a complete stop and a check for opposing traffic and pedestrians — unless a sign says NO RIGHT TURN ON RED. Never stop or block a crosswalk.",
@@ -367,12 +367,12 @@
     "topic": "signs-signals-markings",
     "question": "The white X-shaped CROSSBUCK sign at railroad tracks requires you to:",
     "choices": [
-      "Stop completely, always",
       "Yield the right-of-way to the train",
-      "Honk before crossing",
-      "Slow to exactly 15 mph"
+      "Always come to a full and complete stop",
+      "Sound your horn before you cross over",
+      "Slow to exactly 15 mph before crossing"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The crossbuck marks the crossing itself and works like a yield sign: yield the right-of-way to any train. Failing to yield at a yield sign can mean a fine up to $1,000 and a 180-day license suspension.",
     "citation": "AR Driver License Study Guide, p. 28 — Cross Buck Sign",
     "image": "signs/crossbuck.svg"
@@ -382,12 +382,12 @@
     "topic": "signs-signals-markings",
     "question": "An EXEMPT sign below a railroad crossbuck means:",
     "choices": [
-      "Trucks are exempt from stopping",
-      "The crossing has been abandoned or its use discontinued",
-      "Trains do not blow horns here",
-      "School buses may cross without stopping"
+      "The tracks are safe to stop or park on because no trains use them",
+      "Only high-speed express trains use this crossing",
+      "This crossing carries the heaviest train traffic in the entire county",
+      "The crossing has been abandoned or its use discontinued"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "EXEMPT marks a crossing that has been abandoned or taken out of service. Follow your local procedure about stopping.",
     "citation": "AR Driver License Study Guide, p. 29 — Railroad (Exempt) Signs",
     "image": "signs/exempt.svg"
@@ -397,12 +397,12 @@
     "topic": "signs-signals-markings",
     "question": "A small sign under a railroad crossbuck reads '2 TRACKS'. This warns you:",
     "choices": [
-      "Two trains per day use this crossing",
+      "Two separate trains pass through this particular railroad crossing on an average day",
+      "The railroad crossing itself stretches all the way across two miles of the road",
       "There is more than one track — after one train passes, another may be coming from either direction",
-      "The crossing is two miles long",
-      "Trucks must use the second track crossing"
+      "Trucks and other large commercial vehicles are required to use the second track's crossing point"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "The number sign tells how many tracks are present. Cross multiple tracks only when any train is well down the tracks — a second train can be hidden behind the first.",
     "citation": "AR Driver License Study Guide, p. 30 — Multiple Tracks",
     "image": "signs/two-tracks.svg"
@@ -412,10 +412,10 @@
     "topic": "signs-signals-markings",
     "question": "A curb painted RED means:",
     "choices": [
-      "Loading zone",
+      "Loading zone only",
       "Fire zone — no parking",
-      "15-minute parking",
-      "Handicapped parking"
+      "15-minute limit",
+      "Handicapped parking only"
     ],
     "answerIndex": 1,
     "explanation": "Red curb = fire zone. Yellow curb = loading zone or other restriction. Always check for signs that limit parking.",
@@ -426,12 +426,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign mean?",
     "choices": [
-      "Left turns are recommended",
-      "Left turns are prohibited at this intersection",
-      "One-way traffic to the left",
-      "Detour to the left ahead"
+      "Left turns are the best route here",
+      "Traffic on this street flows to the left",
+      "A marked detour leads off to the left",
+      "Left turns are prohibited at this intersection"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "A red circle-and-slash over a symbol prohibits that maneuver. This one bans left turns; the same pattern is used for no right turn and no U-turn.",
     "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs",
     "image": "signs/no-left-turn.svg"
@@ -442,9 +442,9 @@
     "question": "The solid white line along the right edge of the roadway (the 'fog line') shows:",
     "choices": [
       "Where the outer edge of the road is located",
-      "A lane reserved for bicycles",
-      "Where parking is allowed",
-      "The center of the road"
+      "A lane that is set aside and reserved for bikes",
+      "The places along here where parking is allowed",
+      "The center line dividing the sides of the road"
     ],
     "answerIndex": 0,
     "explanation": "The fog line marks the outer edge of the roadway — especially useful at night and in rain or fog. Never drive on the shoulder beyond it unless directed by police.",
@@ -455,12 +455,12 @@
     "topic": "signs-signals-markings",
     "question": "The center of a two-way road has a solid yellow line next to a broken yellow line. Passing is permitted:",
     "choices": [
+      "For traffic on the side that has the solid line, when no oncoming car is near",
       "For traffic on the side with the broken line, when there is no opposing traffic",
-      "For traffic on the side with the solid line",
-      "For both directions",
-      "For neither direction"
+      "For traffic in both directions at once, if the road ahead looks clear",
+      "For traffic in neither direction at all, because both of these lines forbid any passing"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "Passing is permitted on the side with the BROKEN line and prohibited on the side with the solid line. A double solid yellow line means no passing either direction.",
     "citation": "AR Driver License Study Guide, p. 31 — Yellow Lane Markings"
   },
@@ -469,12 +469,12 @@
     "topic": "signs-signals-markings",
     "question": "In a work zone, a flagger holds a STOP/SLOW paddle. The flagger's instructions:",
     "choices": [
-      "Are suggestions — the posted signs control",
+      "Are only suggestions; posted signs control",
+      "Apply only to trucks and large vehicles",
       "Overrule any other traffic signals or devices",
-      "Apply only to trucks",
-      "Apply only when workers are present"
+      "Apply only when road workers are actually present"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Flaggers are legally authorized to direct traffic in work zones — their signals overrule other traffic signals and devices. Stop at the designated spot or at least a car length away.",
     "citation": "AR Driver License Study Guide, p. 22 — Work Zone Flaggers"
   },
@@ -484,11 +484,11 @@
     "question": "What does this sign warn you about?",
     "choices": [
       "A four-way stop ahead",
-      "A railroad crossing ahead",
-      "An intersection or cross road ahead",
-      "A hospital ahead"
+      "A railroad crossing where trains pass",
+      "A hospital just ahead by the road",
+      "An intersection or cross road ahead"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "The yellow diamond with a cross symbol warns of an intersection ahead — traffic may merge or cross. Slow down and look left and right.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Intersection)",
     "image": "signs/intersection.svg"
@@ -498,12 +498,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign mean?",
     "choices": [
-      "The road curves left",
       "Your traffic lane ends ahead — merge into the remaining lane",
-      "Divided highway begins",
-      "Two-way traffic ahead"
+      "The road ahead curves around toward the left side soon",
+      "A divided highway begins ahead, splitting both directions",
+      "Two-way traffic now shares the single roadway just ahead"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The lane-ends warning sign tells you a lane is ending. Merge early and smoothly — don't race to the end of the closing lane.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Traffic Lane Ends)",
     "image": "signs/lane-ends.svg"
@@ -513,10 +513,10 @@
     "topic": "signs-signals-markings",
     "question": "What should you do when you see this sign?",
     "choices": [
-      "Stop immediately",
+      "Come to an immediate and complete stop right now",
       "Slow down and be prepared to stop — a traffic signal is ahead",
-      "Speed up to make the light",
-      "Turn around; the road is closed"
+      "Speed up so you can make it through the light in time",
+      "Turn around and go back the way you came, because the road is closed"
     ],
     "answerIndex": 1,
     "explanation": "The signal-ahead warning sign is posted where a traffic light may not be visible in time — often before hills or curves. Be prepared to stop.",
@@ -528,12 +528,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign mean?",
     "choices": [
-      "Crossing guard ahead",
+      "A school crossing guard is stationed ahead at the road to help children cross",
+      "A road race is currently in progress on the route ahead, so expect delays",
       "A flagger may be stationed ahead to control traffic — obey their directions",
-      "Road race in progress",
-      "Survey crew — no slowdown needed"
+      "A survey crew is measuring along the road ahead, so no slowdown is needed"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "The flagger-symbol sign marks locations where a flagger may be controlling traffic. A flagger's instructions overrule all other signals and devices.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
     "image": "signs/flagger.svg"
@@ -543,12 +543,12 @@
     "topic": "signs-signals-markings",
     "question": "An orange DETOUR sign warns you of:",
     "choices": [
-      "A toll booth ahead",
-      "An approaching alternate route of travel through a construction zone",
-      "The end of the work zone",
-      "A rest area"
+      "A toll booth ahead, where you must stop and pay before you keep going",
+      "The end of the work zone ahead, where normal driving will soon resume",
+      "A roadside rest area just ahead where you can pull over and stop",
+      "An approaching alternate route of travel through a construction zone"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "DETOUR signs warn drivers of an approaching alternate route through a construction zone. ROAD WORK signs with distances mean work is underway on your route — be prepared for obstructions.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
     "image": "signs/detour.svg"
@@ -558,12 +558,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign warn you about?",
     "choices": [
-      "A divided highway begins",
       "Two-way traffic along a single roadway",
-      "A passing zone",
-      "Lanes shifting left"
+      "A divided highway begins just ahead here",
+      "A passing zone where you may pass safely",
+      "The lanes ahead are shifting to the left"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The two-way traffic sign warns that opposing traffic shares the roadway — in work zones, often because one side of a divided highway is closed. Stay alert and keep right.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs",
     "image": "signs/two-way-traffic.svg"
@@ -573,12 +573,12 @@
     "topic": "signs-signals-markings",
     "question": "You see FLASHING GREEN lights on a vehicle along the roadway. In Arkansas this indicates:",
     "choices": [
-      "A funeral procession",
       "An active work zone — a construction or maintenance vehicle is working; use caution and slow down",
-      "A volunteer firefighter",
-      "A wide load"
+      "A funeral procession is currently passing along the roadway here, so you should pull off to the side",
+      "The vehicle ahead is a slow-moving farm tractor, and the green lights are warning you to pass it with care",
+      "An oversized wide load is being hauled along the road ahead, so leave plenty of room when passing it"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Arkansas recently authorized flashing green lights (along with yellow or white) on construction and maintenance vehicles. They mark an active standard or mobile work zone.",
     "citation": "AR Driver License Study Guide, p. 18 — Green Lights in Work Zones"
   },
@@ -587,12 +587,12 @@
     "topic": "signs-signals-markings",
     "question": "An ARDOT truck ahead displays a sign on its back: 'WORK ZONE — FINES DOUBLE'. This means you are approaching:",
     "choices": [
-      "A weigh station",
-      "A mobile work zone — a crew working at slow speed with periodic stops, where fines double like any work zone",
-      "A school zone",
-      "An accident scene"
+      "A highway weigh station, where trucks and large commercial vehicles must pull off to be weighed",
+      "A school zone, where the posted speed limit drops sharply and children may be crossing the road near a school",
+      "An accident scene a short distance ahead, where police and emergency crews are responding and lanes are blocked",
+      "A mobile work zone — a crew working at slow speed with periodic stops, where fines double like any work zone"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Mobile work zones (striping crews, pothole patching, debris removal) are marked by signs on the back of ARDOT vehicles. Fines double there just like in standard work zones.",
     "citation": "AR Driver License Study Guide, p. 17-19 — Mobile Work Zones"
   },
@@ -601,12 +601,12 @@
     "topic": "signs-signals-markings",
     "question": "Work zone signs may be diamond or rectangular shaped, with a background that is:",
     "choices": [
+      "Green, blue, or maroon",
+      "Red, pink, or magenta",
       "Orange, white, or black",
-      "Green or blue",
-      "Red only",
-      "Yellow-green only"
+      "Silver, gray, or pale bronze"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "Work zone signs use orange, white, or black backgrounds with white or black letters or symbols — covering reduced speeds, detours, slow equipment, and changing surfaces.",
     "citation": "AR Driver License Study Guide, p. 18 — Work Zone Signs"
   },
@@ -615,10 +615,10 @@
     "topic": "signs-signals-markings",
     "question": "The blue ENS sign posted at every railroad crossing gives you:",
     "choices": [
-      "The train schedule",
+      "The full daily schedule listing every single time that a train is expected to pass through this particular crossing point",
       "An emergency phone number and the crossing's ID number, so you can report a problem (like a stalled car) to the railroad",
-      "The railroad's mailing address",
-      "The speed limit for trains"
+      "The street name and full mailing address of the main headquarters of the railroad company that owns and runs the crossing",
+      "The posted maximum speed limit that all of the trains are required to obey while approaching and passing through the crossing"
     ],
     "answerIndex": 1,
     "explanation": "The Emergency Notification System sign lets the public reach the railroad responsible for the crossing and identify the exact crossing in an emergency — critical if a vehicle is stuck on the tracks.",
@@ -629,12 +629,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign warn you about?",
     "choices": [
-      "Race track ahead",
       "The road is slippery when wet — slow down in rain",
-      "Earthquake zone",
-      "Loose gravel only"
+      "An auto race track lies just ahead by the road",
+      "This area gets quakes that may crack the road",
+      "Loose gravel covers the road surface just ahead"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The slippery-when-wet warning marks pavement that loses traction in rain. Slow down at the first sign of rain — especially the first few minutes, when surface oil hasn't washed away.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (Slippery When Wet)",
     "image": "signs/slippery-when-wet.svg"
@@ -644,12 +644,12 @@
     "topic": "signs-signals-markings",
     "question": "A five-sided school sign showing children with crosswalk lines beneath them marks:",
     "choices": [
-      "A school zone speed limit",
-      "A school CROSSING — a place where children cross the road",
-      "A playground",
-      "A bus stop"
+      "The point where a posted school zone limit begins",
+      "A public playground located just beside the roadway here",
+      "A school bus stop where children board and exit the bus",
+      "A school CROSSING — a place where children cross the road"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "The pentagon with crosswalk lines marks the school crossing itself; without the lines it marks the school zone. Either way: slow down and watch for children.",
     "citation": "AR Driver License Study Guide, p. 27 — Roadway Signs (School Crossing)"
   },
@@ -658,10 +658,10 @@
     "topic": "signs-signals-markings",
     "question": "There is a white stop line painted across your lane at a stop sign. Where must you stop?",
     "choices": [
-      "Anywhere within the intersection",
-      "With your front bumper past the line",
+      "Anywhere inside the intersection",
+      "With your front bumper stopped past the line",
       "Before the vehicle reaches the stop line",
-      "Only if pedestrians are present"
+      "Only when pedestrians are waiting to cross"
     ],
     "answerIndex": 2,
     "explanation": "Make a complete stop BEFORE reaching the stop line. If a sign or obstacle blocks your view, stop first, then pull forward carefully until you can see.",
@@ -672,10 +672,10 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign warn you about?",
     "choices": [
-      "A school zone",
+      "A school zone ahead where children may be crossing near the road",
       "A pedestrian crossing ahead — be ready to slow or stop for people crossing",
-      "A hiking trailhead",
-      "A hospital exit"
+      "A hiking trailhead ahead where people park and set out on their longer hikes",
+      "A hospital exit ahead where vehicles pull out onto the road in front of you"
     ],
     "answerIndex": 1,
     "explanation": "The pedestrian-crossing warning diamond marks places where people frequently cross. Yield to pedestrians in or about to enter the crosswalk — and remember not all crosswalks are marked.",
@@ -687,12 +687,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign mean?",
     "choices": [
-      "U-turns permitted ahead",
       "No U-turns allowed here",
-      "Roundabout ahead",
-      "Left exit ahead"
+      "U-turns are permitted ahead",
+      "A roundabout is just ahead",
+      "Left exit is just ahead now"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The red circle-and-slash over the U-shaped arrow prohibits U-turns. Even where no sign prohibits them, only make a U-turn where you can see clearly in both directions.",
     "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs (No U-Turn)",
     "image": "signs/no-u-turn.svg"
@@ -702,12 +702,12 @@
     "topic": "signs-signals-markings",
     "question": "A steady YELLOW arrow at a traffic signal means:",
     "choices": [
-      "Left turns are protected — go ahead",
-      "The signal is about to turn red; a driver turning should stop if it is safe to do so",
-      "Turns are permitted but you must yield to oncoming traffic",
-      "Stop and do not turn at all"
+      "Left turns are fully protected right now, so just go ahead and make your own turn safely",
+      "Turns here are permitted, but a driver must first yield to all of the oncoming traffic",
+      "Come to a complete stop and do not make the turn at all while this is showing",
+      "The signal is about to turn red; a driver turning should stop if it is safe to do so"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "A steady yellow arrow means the signal is getting ready to turn red. A driver turning should stop if it is safe to do so — it works like a steady yellow light, but for the turn movement.",
     "citation": "AR Driver License Study Guide, p. 24 — Lighted Arrows"
   },
@@ -716,12 +716,12 @@
     "topic": "signs-signals-markings",
     "question": "What does this sign mean?",
     "choices": [
+      "Right turns are allowed here",
       "No right turn allowed here",
-      "Right turn only",
-      "Sharp right curve ahead",
-      "Merge right"
+      "Sharp right curve just up ahead",
+      "Merge to the right just ahead"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "The red circle-and-slash over the right-turn arrow prohibits right turns at this location. Regulation signs use a red circle with a slash to show that a maneuver is not allowed.",
     "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs",
     "image": "signs/no-right-turn.svg"
@@ -731,12 +731,12 @@
     "topic": "signs-signals-markings",
     "question": "On a two-lane road you see a solid yellow line right next to a broken yellow line. Passing is permitted:",
     "choices": [
-      "From either side",
-      "Only from the side where the line is BROKEN",
+      "From either side when the way is clear",
       "Only from the side where the line is SOLID",
-      "Never, in either direction"
+      "Only from the side where the line is BROKEN",
+      "Never from either direction along the road"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "You may pass only from the side where the line is broken. If the solid yellow line is on your side, passing is not permitted.",
     "citation": "AR Driver License Study Guide, p. 31 — Yellow Lane Markings"
   },
@@ -745,12 +745,12 @@
     "topic": "signs-signals-markings",
     "question": "You want to turn left into a driveway, but a solid double yellow line runs down the center of the road. You may:",
     "choices": [
-      "Never cross a double yellow line for any reason",
-      "Cross the double yellow line to turn into the driveway if no opposing traffic is approaching",
-      "Cross it only at an intersection",
-      "Cross it only after signaling for at least 5 seconds"
+      "Never cross over a solid double yellow line for any reason at all, no matter what the situation is",
+      "Cross over the double yellow line only when you are stopped at a marked intersection",
+      "Cross over the double yellow line only after signaling your own turn for at least 5 full seconds",
+      "Cross the double yellow line to turn into the driveway if no opposing traffic is approaching"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Double solid yellow lines prohibit passing in both directions, but a driver MAY cross them to turn into a driveway or alley when no opposing traffic is approaching.",
     "citation": "AR Driver License Study Guide, p. 31 — Yellow Lane Markings"
   },
@@ -759,12 +759,12 @@
     "topic": "signs-signals-markings",
     "question": "You have started across railroad tracks and the crossing gates begin to come down. You should:",
     "choices": [
-      "Stop on the tracks and wait",
-      "Back up off the crossing quickly",
       "Keep going and clear the tracks, even if it means breaking the gate",
-      "Stop and put the car in reverse"
+      "Stop your vehicle right on the tracks and wait there for help",
+      "Quickly back your vehicle up and off the crossing the way you came",
+      "Come to a full stop and then shift the car into reverse gear to wait"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "Never drive around lowered gates. But if the gates begin to lower while you are already crossing, keep going and clear the tracks — even if it means breaking the gate. Never stop on the tracks.",
     "citation": "AR Driver License Study Guide, p. 29 — Gates and Lights"
   },
@@ -773,10 +773,10 @@
     "topic": "signs-signals-markings",
     "question": "At a railroad crossing the red lights are flashing but you do not see a train. You should:",
     "choices": [
-      "Proceed across since no train is visible",
+      "Go ahead and drive on across the tracks, since there is no train coming and none anywhere in sight at all right now",
       "Stop — a train is present or approaching; do not cross even if the lights keep flashing and no train appears",
-      "Speed across before the gates lower",
-      "Treat the flashing lights like a yield sign"
+      "Speed up and get across the tracks quickly before the crossing gates have a chance to come down on you",
+      "Treat the flashing red lights the same as you would a yield sign and roll through when the way looks clear"
     ],
     "answerIndex": 1,
     "explanation": "Flashing red lights mean a train is present or approaching. Stop and do not cross. Even if the lights continue to flash and no train appears, do not cross.",
@@ -787,12 +787,12 @@
     "topic": "signs-signals-markings",
     "question": "A white square or rectangular sign showing a symbol inside a red circle with a red slash through it tells a driver that:",
     "choices": [
-      "The maneuver shown is required",
+      "The maneuver shown on the sign is required",
+      "There is a hazard on the road just ahead now",
       "The maneuver shown is prohibited (not allowed)",
-      "There is a hazard ahead",
-      "Services are located nearby"
+      "Travel services such as food are nearby"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Regulation signs are white squares or rectangles with black and/or red letters or symbols. A red circle with a slash over a symbol means that maneuver — such as a turn — is prohibited.",
     "citation": "AR Driver License Study Guide, p. 27 — Regulation Signs"
   },
@@ -801,12 +801,12 @@
     "topic": "signs-signals-markings",
     "question": "A sign below the crossbuck at a railroad crossing reads '2 TRACKS.' After the first train passes, you should:",
     "choices": [
-      "Cross immediately behind the train",
-      "Watch for additional trains from either direction and cross only when the train is well down the tracks",
-      "Assume no other train is coming",
-      "Honk and proceed"
+      "Cross right away, immediately behind the very first train as soon as it has finished going right past you",
+      "Assume that no other train is going to be coming through and simply go ahead and drive on across the tracks now",
+      "Sound your horn a few times to warn anyone nearby and then go ahead and proceed across the tracks",
+      "Watch for additional trains from either direction and cross only when the train is well down the tracks"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "A number beneath the crossbuck tells how many tracks are present. Watch for additional trains coming from either direction, and cross only when the train is well down the tracks.",
     "citation": "AR Driver License Study Guide, p. 30 — Multiple Tracks"
   },
@@ -815,12 +815,12 @@
     "topic": "signs-signals-markings",
     "question": "A FLASHING yellow traffic light means:",
     "choices": [
-      "Stop, then go when safe — like a stop sign",
       "Slow down and proceed with caution",
+      "Stop, then go when it is safe",
       "The light is broken; treat it as green",
-      "Make a complete stop and wait"
+      "Make a complete stop and wait there"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "A flashing yellow light means slow down and proceed with caution. (A flashing RED light means stop, then go when it's safe, just like a stop sign.)",
     "citation": "AR Driver License Study Guide, p. 24 — Flashing Lights"
   },
@@ -829,10 +829,10 @@
     "topic": "signs-signals-markings",
     "question": "What is the difference between WHITE and YELLOW lines painted on the road?",
     "choices": [
-      "There is no difference",
+      "There is really no difference at all between the yellow and the white painted lines that are on the road",
       "White lines separate traffic going the SAME direction; yellow lines separate traffic going OPPOSITE directions",
-      "Yellow lines mark same-direction lanes; white lines mark opposite directions",
-      "White lines are only for parking"
+      "Yellow lines separate traffic going the same direction, while white lines separate traffic going opposite directions",
+      "White painted lines are the only lines that are ever used to mark off the edges of the parking spaces along a road"
     ],
     "answerIndex": 1,
     "explanation": "White lane lines separate lanes of traffic moving in the same direction. Yellow lines separate traffic moving in opposite directions (and mark the left edge of one-way roads).",
@@ -843,12 +843,12 @@
     "topic": "signs-signals-markings",
     "question": "You see ORANGE signs and cones along the road. These tell you that:",
     "choices": [
-      "There is a permanent hazard",
+      "There is a permanent hazard up ahead on this road that never changes at all from one day to the next, so use care",
+      "A school zone is coming up just ahead on the road, so slow down and watch closely for children crossing",
       "You are in or approaching a construction or maintenance work zone — slow down and be prepared for changes",
-      "A school zone is ahead",
-      "Parking is available"
+      "Open parking is available just ahead along the side of the road, so you may pull over and stop if you wish"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Orange is the color for temporary traffic control in work zones. Orange signs, cones, and barrels mark construction and maintenance areas — reduce speed and watch for workers and changing conditions.",
     "citation": "AR Driver License Study Guide, p. 16, 18 — Work Zone Safety / Signs"
   }

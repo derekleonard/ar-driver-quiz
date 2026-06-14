@@ -62,7 +62,7 @@ export default function Diagnostic() {
         />
       </div>
       <QuestionCard
-        question={questions[quiz.index]}
+        question={quiz.questions[quiz.index]}
         selected={quiz.selected}
         revealed={false}
         onSelect={quiz.choose}

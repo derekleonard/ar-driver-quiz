@@ -4,12 +4,12 @@
     "topic": "right-of-way",
     "question": "Two cars reach an intersection with no signs or signals at the same time. Who must yield?",
     "choices": [
+      "The driver on the right yields to the driver on the left first",
       "The driver on the left yields to the driver on the right",
-      "The driver on the right yields to the driver on the left",
-      "The faster vehicle goes first",
-      "Both must stop and wave each other through"
+      "Whichever vehicle is traveling faster gets to proceed first",
+      "Both drivers stop and then take turns waving each other on"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "At an intersection with no stop sign or signal, drivers must yield to vehicles approaching from the right.",
     "citation": "AR Driver License Study Guide, p. 39 — Right of Way at Stop Signs"
   },
@@ -18,12 +18,12 @@
     "topic": "right-of-way",
     "question": "You are turning left at an intersection with a green light. Oncoming traffic is approaching. You must:",
     "choices": [
-      "Turn quickly before the oncoming cars arrive",
       "Yield to the oncoming cars traveling straight ahead and turn only when the gap is safe",
-      "Stop in the intersection and wait for the light to turn red",
-      "Honk to claim the right-of-way"
+      "Turn quickly across their path before any of the oncoming cars reach the intersection",
+      "Stop in the middle of the intersection and wait there until the light turns red",
+      "Honk your horn firmly to claim the right-of-way and complete the left turn anyway"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Drivers turning left must yield to oncoming cars traveling straight ahead. When two vehicles face each other and one is turning left, the one going straight goes first.",
     "citation": "AR Driver License Study Guide, p. 35, 39 — Right of Way (Left Turns)"
   },
@@ -32,12 +32,12 @@
     "topic": "right-of-way",
     "question": "At a 4-WAY or ALL-WAY stop, who goes first?",
     "choices": [
-      "The driver who reached the intersection first, after making a complete stop",
-      "The car on the busiest road",
-      "The largest vehicle",
-      "The car turning left"
+      "Whichever driver is on the busier or the wider of the two roads",
+      "The largest and heaviest vehicle waiting at the intersection",
+      "The driver who is turning left always gets to go ahead of everyone else at the stop",
+      "The driver who reached the intersection first, after making a complete stop"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "First to stop = first to go. If two arrive at the same time, the vehicle on the right goes first. And when in doubt, let the other traffic go ahead — your safety comes first.",
     "citation": "AR Driver License Study Guide, p. 39-40 — Right of Way at Stop Signs"
   },
@@ -46,12 +46,12 @@
     "topic": "right-of-way",
     "question": "An ambulance approaches with lights and siren on while you are in an intersection. You should:",
     "choices": [
-      "Stop immediately where you are",
+      "Stop immediately right where you are and stay there until the ambulance has fully passed you",
+      "Speed up and keep on driving to get away from the ambulance as fast as you possibly can",
       "Drive through the intersection first, then pull to the right edge of the road and stop",
-      "Speed up to get away from it",
-      "Move to the left lane"
+      "Move over into the left lane and continue driving along beside the rest of the moving traffic"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Pull to the right edge of the road and stop for emergency vehicles using lights/siren — but if you're in an intersection, go ahead and drive through it before pulling over.",
     "citation": "AR Driver License Study Guide, p. 11 — Move Over Law / Emergency Vehicles"
   },
@@ -60,10 +60,10 @@
     "topic": "right-of-way",
     "question": "You are entering a road from a driveway, alley, or parking lot. Who has the right-of-way?",
     "choices": [
-      "You, because you are entering traffic",
+      "You do, because a driver who is entering traffic always has the right-of-way",
       "Pedestrians on the sidewalk AND all vehicles already on the main road",
-      "Whoever is moving faster",
-      "Vehicles on the road, but not pedestrians"
+      "Whichever driver or pedestrian happens to be moving faster at the time",
+      "Vehicles already on the road have it, but pedestrians on the sidewalk do not"
     ],
     "answerIndex": 1,
     "explanation": "Drivers crossing a sidewalk from a driveway, alley, or parking lot must yield to pedestrians, and drivers entering a road must yield to vehicles already on it.",
@@ -74,12 +74,12 @@
     "topic": "right-of-way",
     "question": "A pedestrian is crossing in a crosswalk. You must:",
     "choices": [
-      "Slow down and steer around them",
-      "Honk so they hurry across",
       "Yield — a driver must yield to pedestrians in or about to enter a crosswalk",
-      "Proceed if they are still on the other half of the street"
+      "Slow down a little and then carefully steer around them while they cross",
+      "Honk your horn at them so that they hurry up and finish crossing the street faster",
+      "Proceed through if the pedestrian is still over on the other half of the street"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "Drivers must yield to pedestrians in or about to enter a crosswalk — and not all crosswalks are marked. Watch for pedestrians at every intersection.",
     "citation": "AR Driver License Study Guide, p. 34-35 — Crosswalks / Pedestrians"
   },
@@ -88,12 +88,12 @@
     "topic": "right-of-way",
     "question": "When entering a roundabout, you must:",
     "choices": [
-      "Yield to traffic in ALL lanes of the roundabout, not just the lane closest to you",
-      "Stop completely before entering, always",
-      "Enter quickly — circulating traffic yields to you",
-      "Yield only to traffic entering from your right"
+      "Come to a complete stop before entering the roundabout every single time",
+      "Enter quickly because circulating traffic must yield to you",
+      "Yield only to traffic that is entering the roundabout from your right side",
+      "Yield to traffic in ALL lanes of the roundabout, not just the lane closest to you"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "Slow down, and yield to traffic already circulating — in all lanes of the roundabout. Traffic travels counterclockwise around the center island. Arkansas has over 170 roundabouts.",
     "citation": "AR Driver License Study Guide, p. 36-38 — Roundabouts"
   },
@@ -102,12 +102,12 @@
     "topic": "right-of-way",
     "question": "Even with a green light, you should not start across an intersection unless:",
     "choices": [
+      "The driver who is waiting behind you honks the horn for you to move ahead",
+      "You only intend to make a right turn at the intersection just ahead of you",
       "You can get through it without having to stop and block traffic",
-      "The driver behind you honks",
-      "You are turning right",
-      "Traffic is heavy"
+      "Traffic ahead of you is heavy and moving slowly through the area"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "Drivers may not enter an intersection unless they can get through without stopping. Getting caught when the light changes blocks cross traffic — and you can be ticketed for blocking an intersection.",
     "citation": "AR Driver License Study Guide, p. 40, 61 — General Right of Way / Intersecting Traffic"
   },
@@ -116,10 +116,10 @@
     "topic": "right-of-way",
     "question": "A pedestrian carrying a white cane or using a guide dog is crossing ahead. They have:",
     "choices": [
-      "The same right-of-way as any pedestrian",
+      "Exactly the same right-of-way as any other pedestrian",
       "Absolute right-of-way — and do not use your horn, which could confuse or frighten them",
-      "Right-of-way only in marked crosswalks",
-      "No special right-of-way"
+      "Right-of-way only when they are crossing within a marked crosswalk",
+      "No special right-of-way at all, beyond the ordinary rules that already apply to every driver"
     ],
     "answerIndex": 1,
     "explanation": "Blind pedestrians using a guide dog or white cane have ABSOLUTE right-of-way. Never honk at them — it can confuse or frighten a blind pedestrian.",
@@ -130,12 +130,12 @@
     "topic": "right-of-way",
     "question": "You are passing another vehicle when it slows down ahead of you. Who must yield?",
     "choices": [
-      "You — the passing driver must yield to the vehicle being passed",
-      "The vehicle being passed must speed up",
-      "Neither vehicle",
-      "The vehicle being passed must pull onto the shoulder"
+      "The vehicle being passed must speed up to let you complete the pass",
+      "Neither vehicle, since passing drivers have the right-of-way",
+      "The vehicle being passed must pull over onto the shoulder of the road",
+      "You — the passing driver must yield to the vehicle being passed"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "Drivers passing a vehicle going the same direction must yield to the vehicle being passed — even if it slows or stops, since it may be turning left or avoiding a hazard you can't see.",
     "citation": "AR Driver License Study Guide, p. 40 — General Right of Way Rules (Passing)"
   },
@@ -144,12 +144,12 @@
     "topic": "right-of-way",
     "question": "Driving on a sidewalk is:",
     "choices": [
-      "Allowed when traffic is heavy",
       "Illegal, except to cross it — and you must yield to pedestrians when crossing",
-      "Allowed for parking",
-      "Allowed for motorcycles only"
+      "Allowed any time the traffic on the road becomes heavy",
+      "Allowed as a place to park whenever no other spots are open",
+      "Allowed only for motorcycles, because they take up far less space than larger cars do"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "It is illegal to drive on a sidewalk except to cross it (at a driveway or alley), and pedestrians on the sidewalk always have the right-of-way.",
     "citation": "AR Driver License Study Guide, p. 40 — General Right of Way Rules"
   },
@@ -158,12 +158,12 @@
     "topic": "right-of-way",
     "question": "In a two-lane roundabout, to turn LEFT you should generally:",
     "choices": [
+      "Use the right lane and signal before turning to the left",
       "Use the left lane, unless signs or markings say otherwise",
-      "Use the right lane",
-      "Use either lane",
-      "Avoid roundabouts when turning left"
+      "Use either lane you prefer when making a left-hand turn",
+      "Avoid roundabouts entirely whenever you turn left"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "Like other intersections: left lane to go left, right lane to go right, either lane to go straight unless marked otherwise. Yield to traffic in ALL lanes before entering, and give trucks extra room inside.",
     "citation": "AR Driver License Study Guide, p. 38 — How to Navigate Roundabouts"
   },
@@ -172,12 +172,12 @@
     "topic": "right-of-way",
     "question": "An oncoming car has its turn signal on. You should turn in front of it only when:",
     "choices": [
-      "You see its signal",
+      "You can clearly see that the oncoming car's turn signal is switched on and blinking toward you, which means the turn is coming",
+      "The oncoming car appears to still be more than one hundred feet away from where you happen to be sitting and waiting to turn",
       "The driver actually starts the turn — signals can be left on by mistake, and motorcycle signals don't cancel automatically",
-      "It is more than 100 feet away",
-      "You are at a 4-way stop"
+      "You are stopped together at a four-way stop and the other driver is clearly signaling a firm intention to make a turn very soon"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Don't trust a blinker alone — the driver may mean a turn beyond you or forgot to cancel the signal. Wait until they actually begin turning.",
     "citation": "AR Driver License Study Guide, p. 61 — Intersecting Traffic"
   },
@@ -186,12 +186,12 @@
     "topic": "right-of-way",
     "question": "Right-of-way rules give a driver:",
     "choices": [
-      "Absolute right-of-way when followed",
-      "No absolute right-of-way — you must still do everything possible to avoid striking a pedestrian or vehicle",
-      "Priority over pedestrians",
-      "The right to proceed without looking"
+      "An absolute right-of-way to proceed without yielding",
+      "Clear and complete priority over any pedestrian nearby",
+      "The full legal right to proceed straight through an intersection without needing to look for other traffic first",
+      "No absolute right-of-way — you must still do everything possible to avoid striking a pedestrian or vehicle"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Traffic law determines who must YIELD — it never grants absolute right-of-way. When in doubt, let the other traffic go ahead; your safety comes first.",
     "citation": "AR Driver License Study Guide, p. 35, 39 — Right of Way"
   },
@@ -200,12 +200,12 @@
     "topic": "right-of-way",
     "question": "Before entering an intersection, you should look left and right, and then:",
     "choices": [
-      "Proceed immediately",
       "Look a second time in the direction of oncoming traffic before crossing",
-      "Honk your horn",
-      "Close the windows"
+      "Proceed immediately as soon as it appears to be clear",
+      "Honk your horn briefly to warn any of the cross traffic",
+      "Roll your windows up and turn down the radio before you start to cross over"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Look left, look right — then take a second look in the direction of oncoming traffic before you cross. Intersections include driveways, side streets, and parking-lot entrances.",
     "citation": "AR Driver License Study Guide, p. 48 — Stay Alert (Intersections)"
   },
@@ -214,10 +214,10 @@
     "topic": "right-of-way",
     "question": "You are stopped at an intersection and parked cars block your view of cross traffic. You should:",
     "choices": [
-      "Accelerate quickly across",
+      "Accelerate quickly to get across the intersection before any of the cross traffic arrives",
       "Ease forward slowly until you can see, which also lets approaching drivers see you",
-      "Honk and proceed",
-      "Reverse and find another route"
+      "Honk your horn to warn cross traffic and then proceed through the intersection",
+      "Reverse out of the intersection and go find another route around the parked cars and the obstruction"
     ],
     "answerIndex": 1,
     "explanation": "When your view of a cross street is blocked, ease forward until you can clearly see crossing traffic — moving forward slowly also makes you visible to approaching drivers.",
@@ -228,12 +228,12 @@
     "topic": "right-of-way",
     "question": "Before turning right at an intersection, you must check for:",
     "choices": [
-      "Traffic from the left only",
+      "Only the traffic that is approaching the intersection from your left-hand side as you slow to turn",
+      "Only the traffic that happens to be following along directly behind your own vehicle as you slow down to make the turn",
       "Traffic approaching from the left, oncoming vehicles turning left into your path, AND pedestrians crossing where you are turning",
-      "Traffic behind you only",
-      "Nothing — right turns always have right-of-way"
+      "Nothing at all, because a vehicle making a right turn always has the right-of-way over everyone else at the intersection"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "A right turn has three checks: traffic from your left, oncoming cars turning left into the same street, and pedestrians in the crosswalk you're turning across.",
     "citation": "AR Driver License Study Guide, p. 48 — Stay Alert (Intersections)"
   },
@@ -242,12 +242,12 @@
     "topic": "right-of-way",
     "question": "When crossing a wide road, stopping halfway across in the median is safe only when:",
     "choices": [
-      "Traffic is light",
-      "The median divider is large enough for your entire vehicle",
-      "You turn on hazard lights",
-      "It is never acceptable to stop in a median"
+      "Traffic on the road is light and not very many cars are around",
+      "You first switch on your hazard lights to warn the other drivers",
+      "Never, since you cannot stop in a median",
+      "The median divider is large enough for your entire vehicle"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Never stop in a median too small for your vehicle — your car would stick out into the lanes of traffic. Cross only when you can clear the road or fully fit in the median.",
     "citation": "AR Driver License Study Guide, p. 61 — Intersecting Traffic"
   },
@@ -256,12 +256,12 @@
     "topic": "right-of-way",
     "question": "You have the right-of-way, but another driver doesn't yield and keeps coming. You should:",
     "choices": [
-      "Proceed — you have the right-of-way",
       "Let them go ahead. 'When in doubt, bail out' — your safety trumps all right-of-way rules",
-      "Stop in the middle of the intersection",
-      "Honk continuously and proceed"
+      "Proceed on through the intersection, because the right-of-way clearly belongs to you here",
+      "Stop your car right in the middle of the intersection and wait there for the other driver",
+      "Lean on the horn and proceed straight through, since the law is on your side"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "If you feel uncomfortable or your safety is threatened, let the other traffic go ahead — even when the rules say you go first. Your safety always comes first.",
     "citation": "AR Driver License Study Guide, p. 39 — Right-of-Way Rules"
   },
@@ -270,12 +270,12 @@
     "topic": "right-of-way",
     "question": "You are preparing to turn right where a bicyclist is riding along the right side of the road. You should:",
     "choices": [
-      "Speed up and turn sharply in front of the cyclist",
       "Merge with the bicycle traffic before the turn rather than turning directly across the cyclist's path",
-      "Honk until the cyclist stops",
-      "Turn from the left lane instead"
+      "Speed up and turn sharply across the road in front of the cyclist well before they reach the intersection",
+      "Honk your horn repeatedly until the cyclist comes to a complete stop and waves you on to make your turn first",
+      "Move all the way over and make your right turn from the left lane so that you stay clear of the cyclist"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Don't overtake a cyclist and then cut across their path — that's a common crash. Merge toward the right with the bike traffic, look right and left again, and know the cyclist's speed before turning.",
     "citation": "AR Driver License Study Guide, p. 67 — Sharing the Road (Right Turns)"
   },
@@ -284,12 +284,12 @@
     "topic": "right-of-way",
     "question": "When driving through a roundabout, you should check the crosswalks:",
     "choices": [
-      "Only before entering",
-      "Both when entering AND when exiting the roundabout — be ready to let pedestrians finish crossing",
-      "Only if a pedestrian signal is present",
-      "Crosswalks aren't used at roundabouts"
+      "Only before you enter the roundabout, since pedestrians are allowed to cross at the entrance and nowhere else",
+      "Only on the occasions when a pedestrian crossing signal is actually present and lit at the roundabout",
+      "Never at all, because painted crosswalks are simply not used at roundabout intersections in Arkansas",
+      "Both when entering AND when exiting the roundabout — be ready to let pedestrians finish crossing"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Keep looking around in a roundabout: check for pedestrians waiting or crossing on the way in, and look one more time for the crosswalk as you exit.",
     "citation": "AR Driver License Study Guide, p. 38 — How to Navigate Roundabouts"
   },
@@ -298,12 +298,12 @@
     "topic": "right-of-way",
     "question": "Which statement about pedestrians is true?",
     "choices": [
-      "Pedestrians must always yield to cars",
+      "Pedestrians must always yield the right-of-way to cars in every single situation, whether or not a crosswalk is painted there",
+      "Drivers are only ever required to yield to pedestrians at those intersections that happen to have a traffic signal controlling them",
       "Drivers must yield, where necessary, to avoid striking pedestrians who are legally crossing — even if no crosswalk is marked",
-      "Drivers only yield at signals",
-      "Pedestrians may not cross at unmarked intersections"
+      "Pedestrians are simply not permitted to cross the road at an intersection unless it has a clearly marked and painted crosswalk"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Not all crosswalks are marked. Drivers must yield where necessary to avoid striking pedestrians legally crossing the road, and watch for them at every intersection.",
     "citation": "AR Driver License Study Guide, p. 34-35 — Crosswalks / Pedestrians"
   },
@@ -312,10 +312,10 @@
     "topic": "right-of-way",
     "question": "As you approach a roundabout, the FIRST thing you should do is:",
     "choices": [
-      "Speed up to merge with circulating traffic",
+      "Speed up so you can merge smoothly with the circulating traffic",
       "Slow down — going slower gives you more time to yield and makes any crash less severe",
-      "Come to a full stop and wait for the roundabout to empty",
-      "Move to the left lane regardless of your exit"
+      "Come to a complete stop and wait for the roundabout to empty",
+      "Move into the left lane no matter which exit you plan to take"
     ],
     "answerIndex": 1,
     "explanation": "Navigate a roundabout as easy as 1-2-3: (1) slow down, (2) look around and pick your lane, (3) be ready to yield to traffic already circulating. The curve of a roundabout naturally encourages slower, safer speeds.",
@@ -326,12 +326,12 @@
     "topic": "right-of-way",
     "question": "At a four-way stop, you and a car directly across from you stop at the same time. You are turning left; they are going straight. Who goes first?",
     "choices": [
-      "You do, because you are turning",
       "The car going straight goes first",
+      "You do, since you turn left",
       "Whoever honks first",
-      "The larger vehicle"
+      "The larger and the heavier of the two cars"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "When two vehicles are directly across from each other and one is turning left, the vehicle going straight goes first. (First to stop goes first; if tied, the vehicle on the right goes.)",
     "citation": "AR Driver License Study Guide, p. 39 — Right of Way at Stop Signs"
   },
@@ -340,12 +340,12 @@
     "topic": "right-of-way",
     "question": "A large truck or bus is circulating in the lane next to you inside a roundabout. You should:",
     "choices": [
-      "Drive right beside it to stay even",
-      "Give it room and avoid driving next to it — large vehicles may need extra space inside the roundabout",
-      "Pass it quickly on the inside",
-      "Stop in the roundabout to let it go"
+      "Drive right alongside it so that you stay even with it the whole way through the curve of the roundabout",
+      "Speed up and pass it quickly on the inside lane before it reaches its own exit",
+      "Come to a complete stop inside the roundabout and patiently wait for the large vehicle to go first and exit",
+      "Give it room and avoid driving next to it — large vehicles may need extra space inside the roundabout"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Give large vehicles like trucks and buses extra space in a roundabout and don't drive next to them — they may need more than one lane to get through. Follow the pavement markings to your exit.",
     "citation": "AR Driver License Study Guide, p. 38 — How to Navigate Roundabouts"
   }

@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { shuffle } from "../src/lib/shuffle";
+import { shuffle, shuffleChoices } from "../src/lib/shuffle";
+import type { Question } from "../src/types";
 
 /** Deterministic PRNG (mulberry32) so shuffle tests are reproducible. */
 function mulberry32(seed: number): () => number {
@@ -53,5 +54,56 @@ describe("shuffle", () => {
       firsts.add(shuffle(items, mulberry32(seed))[0]);
     }
     expect([...firsts].sort()).toEqual(["a", "b", "c", "d"]);
+  });
+});
+
+const Q: Question = {
+  id: "q1",
+  topic: "right-of-way",
+  question: "Who yields?",
+  choices: ["correct", "wrong-a", "wrong-b", "wrong-c"],
+  answerIndex: 0,
+  explanation: "because",
+  citation: "p.1",
+};
+
+describe("shuffleChoices", () => {
+  it("keeps answerIndex pointing at the same correct choice text", () => {
+    // The whole point: render-time shuffle must never desync the answer from
+    // its text, or the app would grade the wrong option.
+    for (let seed = 0; seed < 200; seed++) {
+      const out = shuffleChoices(Q, mulberry32(seed));
+      expect(out.choices[out.answerIndex]).toBe("correct");
+    }
+  });
+
+  it("preserves the full set of choices", () => {
+    const out = shuffleChoices(Q, mulberry32(7));
+    expect([...out.choices].sort()).toEqual([...Q.choices].sort());
+  });
+
+  it("does not mutate the input question", () => {
+    const before = JSON.stringify(Q);
+    shuffleChoices(Q, mulberry32(7));
+    expect(JSON.stringify(Q)).toBe(before);
+  });
+
+  it("preserves all non-choice fields", () => {
+    const out = shuffleChoices(Q, mulberry32(7));
+    expect({ ...out, choices: null, answerIndex: null }).toEqual({
+      ...Q,
+      choices: null,
+      answerIndex: null,
+    });
+  });
+
+  it("spreads the correct answer across every position over many seeds", () => {
+    // Defeats the historical 'answer is almost always index 1' tell: the
+    // correct choice must be able to land in any slot.
+    const landed = new Set<number>();
+    for (let seed = 0; seed < 200; seed++) {
+      landed.add(shuffleChoices(Q, mulberry32(seed)).answerIndex);
+    }
+    expect([...landed].sort()).toEqual([0, 1, 2, 3]);
   });
 });

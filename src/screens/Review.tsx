@@ -48,7 +48,7 @@ export default function Review() {
         </span>
       </header>
       <QuestionCard
-        question={questions[quiz.index]}
+        question={quiz.questions[quiz.index]}
         selected={quiz.selected}
         revealed={quiz.revealed}
         onSelect={quiz.choose}
