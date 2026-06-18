@@ -12,7 +12,8 @@
     "test:rules": "firebase emulators:exec --only firestore --project demo-ar-driver-quiz 'vitest run tests/rules'",
     "validate-bank": "node scripts/validate-bank.mjs",
     "normalize-bank": "node scripts/normalize-bank.mjs",
-    "audit-tells": "vite-node scripts/audit-tells.ts"
+    "audit-tells": "vite-node scripts/audit-tells.ts",
+    "export-parity": "vite-node scripts/export-parity-vectors.ts"
   },
   "dependencies": {
     "firebase": "^12.14.0",

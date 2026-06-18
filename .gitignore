@@ -6,3 +6,6 @@ dist/
 .env.*
 firebase-debug.log
 .firebase/
+
+# generated parity vectors (regenerate with: npm run export-parity)
+parity-vectors/
