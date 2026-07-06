@@ -63,7 +63,13 @@ service cloud.firestore {
         && d.startedAt is number
         && d.durationSec is number
         && d.perTopic is map
+        // Bound the nested collection sizes: rules can't measure bytes, so cap
+        // the element counts. The bank is ~200 ids across a handful of topics,
+        // so these are far above any legitimate attempt while blocking a
+        // compromised/misbehaving account from inflating a single doc.
+        && d.perTopic.size() <= 100
         && d.missedIds is list
+        && d.missedIds.size() <= 500
         && (!("topic" in d) || d.topic is string)
         && (!("passed" in d) || d.passed is bool);
     }
@@ -81,7 +87,11 @@ service cloud.firestore {
       // The doc lists the family's emails, so only family members may read
       // it. A read of a missing doc is allowed (resource == null) so the
       // client can still diagnose "allowlist not created" during setup.
+      // Gate on email_verified for consistency with isAllowed()/isParent():
+      // a listed-but-unverified account fails every other read/write, so it
+      // must not be able to read the full family email roster either.
       allow read: if request.auth != null
+        && request.auth.token.email_verified
         && (resource == null
             || request.auth.token.email in resource.data.emails);
       allow write: if false; // edited in the Firebase console only
@@ -92,6 +102,10 @@ service cloud.firestore {
       allow write: if isAllowed()
         && request.auth.uid == uid
         && validUserDoc(request.resource.data);
+      // A user may erase their own account doc (self-serve "delete my data").
+      // Deletion must be expressible in the rules so a child's identified
+      // record isn't retained forever with no erasure path (COPPA/CCPA/GDPR).
+      allow delete: if isAllowed() && request.auth.uid == uid;
 
       // NOT {document=**}: in rules_version 2 a recursive wildcard matches
       // ZERO or more segments, so it would also match /users/{uid} itself
@@ -106,6 +120,8 @@ service cloud.firestore {
           && request.auth.uid == uid
           && ((collection == "attempts" && validAttempt(request.resource.data))
               || (collection == "state" && validState(request.resource.data)));
+        // A user may delete their own attempts/state (erasure + pruning).
+        allow delete: if isAllowed() && request.auth.uid == uid;
       }
     }
   }
