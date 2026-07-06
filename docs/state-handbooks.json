@@ -1,0 +1,477 @@
+{
+  "_meta": {
+    "compiled": "2026-06-14",
+    "scope": "Official CAR / non-commercial driver handbooks \u2014 50 states + DC (51 total). Motorcycle and CDL manuals intentionally excluded.",
+    "source": "Official state .gov sources, verified via a 5-agent sweep on 2026-06-14.",
+    "count": 51,
+    "caveats": [
+      "EDITION CHURN: most are revised every 1-2 years; because the app cites specific PAGE numbers, every re-pagination can invalidate citations. Re-validate editions on a schedule.",
+      "'edition' is the surfaced revision/date or form number; 'unknown' = not captured, check the live page.",
+      "DOMAIN MIGRATIONS in progress: South Carolina (scdmvonline.com -> dmv.sc.gov) and Pennsylvania (dmv.pa.gov -> pa.gov). Re-validate those URLs.",
+      "BROWSER-CHECK NEEDED: South Dakota and Wyoming exact current-edition filenames (bot-blocked / older PDF surfaced); New Mexico manual is dated 2019-11-19.",
+      "Texas is online-only since 2017 (Form DL-7); exact deep-link not captured \u2014 locate current handbook on dps.texas.gov.",
+      "url prefers the direct PDF where captured, else the official landing page."
+    ]
+  },
+  "handbooks": [
+    {
+      "state": "Alabama",
+      "code": "AL",
+      "title": "Driver License Manual (Class D)",
+      "agency": "Alabama Law Enforcement Agency (ALEA) \u2014 Dept. of Public Safety",
+      "url": "https://www.alea.gov/dps/driver-license/driver-license-manuals",
+      "edition": "unknown",
+      "notes": "Landing page; PDF 'ALEA DL Manual.pdf'."
+    },
+    {
+      "state": "Alaska",
+      "code": "AK",
+      "title": "Driver Manual",
+      "agency": "Alaska DMV (Div. of Motor Vehicles)",
+      "url": "https://dmv.alaska.gov/media/t5ef5vi2/dlman.pdf",
+      "edition": "unknown",
+      "notes": ""
+    },
+    {
+      "state": "Arizona",
+      "code": "AZ",
+      "title": "Arizona Driver License Manual and Customer Service Guide",
+      "agency": "ADOT Motor Vehicle Division (MVD)",
+      "url": "https://apps.azdot.gov/files/mvd/mvd-forms-lib/99-0117.pdf",
+      "edition": "unknown",
+      "notes": "Form 99-0117. COMBINED doc \u2014 study manual bundled with a Customer Service Guide."
+    },
+    {
+      "state": "Arkansas",
+      "code": "AR",
+      "title": "Arkansas Driver License Study Guide",
+      "agency": "AR Dept. of Public Safety \u2014 Office of Driver Services",
+      "url": "https://dps.arkansas.gov/wp-content/uploads/Arkansas-DL-Manual-English.pdf",
+      "edition": "Volume 1, Edition 10 \u2014 Jan 2026",
+      "notes": "Titled a 'Study Guide'; versioned by Edition. This is the app's current home state."
+    },
+    {
+      "state": "California",
+      "code": "CA",
+      "title": "California Driver's Handbook",
+      "agency": "California DMV",
+      "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+      "edition": "DL 600",
+      "notes": "Cites by section (not page). Large handbook ecosystem (RV, ambulance, parent-teen also exist)."
+    },
+    {
+      "state": "Colorado",
+      "code": "CO",
+      "title": "Colorado Driver Handbook",
+      "agency": "CO Dept. of Revenue \u2014 Div. of Motor Vehicles",
+      "url": "https://dmv.colorado.gov/drivereducation",
+      "edition": "DR 2337",
+      "notes": "Form-numbered; includes CO-specific mountain-driving content."
+    },
+    {
+      "state": "Connecticut",
+      "code": "CT",
+      "title": "Driver's Manual (Class D)",
+      "agency": "CT DMV",
+      "url": "https://portal.ct.gov/dmv/-/media/dmv/dmv-pdfs/drivers-manual-english.pdf",
+      "edition": "rev. 3/2023",
+      "notes": ""
+    },
+    {
+      "state": "Delaware",
+      "code": "DE",
+      "title": "Driver Manual",
+      "agency": "DE Div. of Motor Vehicles",
+      "url": "https://dmv.de.gov/forms/driver_serv_forms/pdfs/dr_frm_manual.pdf",
+      "edition": "unknown",
+      "notes": ""
+    },
+    {
+      "state": "Florida",
+      "code": "FL",
+      "title": "Official Florida Driver License Handbook",
+      "agency": "FL Dept. of Highway Safety and Motor Vehicles (FLHSMV)",
+      "url": "https://flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf",
+      "edition": "unknown",
+      "notes": ""
+    },
+    {
+      "state": "Georgia",
+      "code": "GA",
+      "title": "Driver's Manual",
+      "agency": "GA Dept. of Driver Services (DDS)",
+      "url": "https://dds.georgia.gov/dds-drivers-manual-2023-2024",
+      "edition": "2023-2024",
+      "notes": "Teens also need the ADAP Student Manual (alcohol/drug awareness)."
+    },
+    {
+      "state": "Hawaii",
+      "code": "HI",
+      "title": "Hawaii Driver's Manual",
+      "agency": "Hawaii DOT \u2014 Motor Vehicle Safety Office",
+      "url": "https://hidot.hawaii.gov/highways/library/motor-vehicle-safety-office/",
+      "edition": "2023 (web update 2024-07)",
+      "notes": "13+ languages; licensing administered by the 4 counties."
+    },
+    {
+      "state": "Idaho",
+      "code": "ID",
+      "title": "Idaho Driver's Handbook",
+      "agency": "Idaho Transportation Dept. (ITD) \u2014 DMV",
+      "url": "https://itd.idaho.gov/wp-content/uploads/2025/10/driver_manual.pdf",
+      "edition": "July 2025",
+      "notes": ""
+    },
+    {
+      "state": "Illinois",
+      "code": "IL",
+      "title": "Rules of the Road",
+      "agency": "Illinois Secretary of State (SOS)",
+      "url": "https://ilsos.gov/content/dam/publications/pdf_publications/dsd_a112.pdf",
+      "edition": "DSD A 112",
+      "notes": "Also a separate 'Rules of the Road Review Workbook' (DSD DS9) study aid."
+    },
+    {
+      "state": "Indiana",
+      "code": "IN",
+      "title": "Indiana Driver's Manual",
+      "agency": "Bureau of Motor Vehicles (BMV)",
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/files/drivers-manual.pdf",
+      "edition": "unknown",
+      "notes": "Published as chapter-split PDFs."
+    },
+    {
+      "state": "Iowa",
+      "code": "IA",
+      "title": "Iowa Driver's Manual",
+      "agency": "Iowa DOT \u2014 Motor Vehicle Division",
+      "url": "https://iowadot.gov/mvd/driverslicense/driverslicense/dlmanual",
+      "edition": "unknown",
+      "notes": "~25 languages; separate Moped Manual also exists."
+    },
+    {
+      "state": "Kansas",
+      "code": "KS",
+      "title": "Kansas Driving Handbook (Non-Commercial Driver's Manual)",
+      "agency": "Kansas Dept. of Revenue \u2014 Division of Vehicles",
+      "url": "https://www.ksrevenue.gov/pdf/dlhb.pdf",
+      "edition": "AAMVA 2009 model",
+      "notes": ""
+    },
+    {
+      "state": "Kentucky",
+      "code": "KY",
+      "title": "Kentucky Driver Manual",
+      "agency": "Kentucky State Police (administers testing)",
+      "url": "https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2023/11/Kentucky-Driver-Manual-10-11-2023.pdf",
+      "edition": "2023-10-11",
+      "notes": "QUIRK: hosted on the State Police domain, not the Transportation Cabinet."
+    },
+    {
+      "state": "Louisiana",
+      "code": "LA",
+      "title": "Class D & E Driver's Guide",
+      "agency": "Louisiana Office of Motor Vehicles (OMV) \u2014 DPS",
+      "url": "https://expresslane.la.gov/omv/resources/driver-manuals/",
+      "edition": "DPSMV2052 (~143 pp)",
+      "notes": "Doc on a PowerDMS portal: public.powerdms.com/LADPSC/documents/347039."
+    },
+    {
+      "state": "Maine",
+      "code": "ME",
+      "title": "Maine Driver's License Manual (Maine Motorist Handbook and Study Guide)",
+      "agency": "Bureau of Motor Vehicles (within Sec. of State)",
+      "url": "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/motoristhandbook.pdf",
+      "edition": "unknown",
+      "notes": "Two interchangeable names for the same doc."
+    },
+    {
+      "state": "Maryland",
+      "code": "MD",
+      "title": "Maryland Driver's Manual",
+      "agency": "MDOT Motor Vehicle Administration (MVA)",
+      "url": "https://mva.maryland.gov/Documents/DL-002.pdf",
+      "edition": "DL-002",
+      "notes": "Separate 'Rookie Driver' new-driver practice guide (RD-006) also exists."
+    },
+    {
+      "state": "Massachusetts",
+      "code": "MA",
+      "title": "Driver's Manual (Class D / Passenger Vehicles)",
+      "agency": "Registry of Motor Vehicles (RMV) \u2014 MassDOT",
+      "url": "https://www.mass.gov/doc/english-drivers-manual/download",
+      "edition": "unknown",
+      "notes": "~16 languages. Direct PDF may 403 to bots; landing: mass.gov/lists/drivers-manuals."
+    },
+    {
+      "state": "Michigan",
+      "code": "MI",
+      "title": "What Every Driver Must Know",
+      "agency": "Michigan Secretary of State (SOS)",
+      "url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/WEDMK/WEDMK.pdf",
+      "edition": "SOS-133 \u2014 Oct 2025",
+      "notes": "Distinctively named, not 'driver's manual'."
+    },
+    {
+      "state": "Minnesota",
+      "code": "MN",
+      "title": "Minnesota Driver's Manual (Class D)",
+      "agency": "Dept. of Public Safety \u2014 Driver & Vehicle Services",
+      "url": "https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf",
+      "edition": "May 2025",
+      "notes": ""
+    },
+    {
+      "state": "Mississippi",
+      "code": "MS",
+      "title": "Mississippi Driver's Manual",
+      "agency": "MS Dept. of Public Safety \u2014 Driver Service Bureau",
+      "url": "https://www.driverservicebureau.dps.ms.gov/sites/default/files/2025-02/1.15.2025%20Revised%20MDPS%20Driver's%20Manual.pdf",
+      "edition": "rev. 2025-01-15",
+      "notes": ""
+    },
+    {
+      "state": "Missouri",
+      "code": "MO",
+      "title": "Missouri Driver Guide",
+      "agency": "MO Dept. of Revenue",
+      "url": "https://dor.mo.gov/forms/Driver%20Guide.pdf",
+      "edition": "unknown",
+      "notes": "Called a 'Driver Guide'; testing by State Highway Patrol."
+    },
+    {
+      "state": "Montana",
+      "code": "MT",
+      "title": "Montana Driver Manual",
+      "agency": "MT Dept. of Justice \u2014 Motor Vehicle Division",
+      "url": "https://mvdmt.gov/wp-content/uploads/2023/09/25-0100M-Montana-Driver-Manual-English.pdf",
+      "edition": "Form 25-0100",
+      "notes": "Issued by DOJ (mvdmt.gov / dojmt.gov)."
+    },
+    {
+      "state": "Nebraska",
+      "code": "NE",
+      "title": "Nebraska Driver's Manual (Class O)",
+      "agency": "NE Dept. of Motor Vehicles",
+      "url": "https://dmv.nebraska.gov/file/class-o-drivers-manual-english-1-2025pdf-0",
+      "edition": "Jan 2025",
+      "notes": "Car license is 'Class O' in NE."
+    },
+    {
+      "state": "Nevada",
+      "code": "NV",
+      "title": "Nevada Driver's Handbook",
+      "agency": "NV Dept. of Motor Vehicles",
+      "url": "https://dmv.nv.gov/pdfforms/dlbook.pdf",
+      "edition": "DMV-700 \u2014 March 2024",
+      "notes": "~79 pages."
+    },
+    {
+      "state": "New Hampshire",
+      "code": "NH",
+      "title": "New Hampshire Driver's Manual (Operator)",
+      "agency": "Division of Motor Vehicles (Dept. of Safety)",
+      "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/nhdm.pdf",
+      "edition": "unknown",
+      "notes": ""
+    },
+    {
+      "state": "New Jersey",
+      "code": "NJ",
+      "title": "New Jersey Driver Manual",
+      "agency": "NJ Motor Vehicle Commission (MVC)",
+      "url": "https://www.nj.gov/mvc/pdf/license/drivermanual.pdf",
+      "edition": "unknown",
+      "notes": "Motorcycle content folded in (Ch. 9)."
+    },
+    {
+      "state": "New Mexico",
+      "code": "NM",
+      "title": "New Mexico Driver Manual",
+      "agency": "Motor Vehicle Division \u2014 NM Taxation & Revenue",
+      "url": "https://www.mvd.newmexico.gov/mvd-drivers-license-manuals/",
+      "edition": "2019-11-19 (DATED \u2014 verify)",
+      "notes": "PDF on realfile.tax.newmexico.gov; notably old."
+    },
+    {
+      "state": "New York",
+      "code": "NY",
+      "title": "New York State Driver's Manual",
+      "agency": "NY Dept. of Motor Vehicles",
+      "url": "https://dmv.ny.gov/brochure/mv21.pdf",
+      "edition": "Form MV-21",
+      "notes": "Also published chapter-by-chapter online with practice tests."
+    },
+    {
+      "state": "North Carolina",
+      "code": "NC",
+      "title": "North Carolina Driver Handbook",
+      "agency": "NCDMV (under NCDOT)",
+      "url": "https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/driver-handbook.pdf",
+      "edition": "unknown",
+      "notes": ""
+    },
+    {
+      "state": "North Dakota",
+      "code": "ND",
+      "title": "North Dakota Noncommercial Driver License Manual",
+      "agency": "ND Dept. of Transportation",
+      "url": "https://www.dot.nd.gov/sites/www/files/documents/Drivers%20-%20documents/noncommercial-manual.pdf",
+      "edition": "unknown",
+      "notes": "Text + Spanish + audio versions offered."
+    },
+    {
+      "state": "Ohio",
+      "code": "OH",
+      "title": "Ohio Driver Manual (Digest of Motor Vehicle Laws)",
+      "agency": "Ohio Bureau of Motor Vehicles (BMV)",
+      "url": "https://www.bmv.ohio.gov/forms-general.aspx",
+      "edition": "unknown",
+      "notes": "Dual-named; distributed via a forms hub, not one fixed PDF."
+    },
+    {
+      "state": "Oklahoma",
+      "code": "OK",
+      "title": "Oklahoma Driver Manual",
+      "agency": "Service Oklahoma (formerly DPS)",
+      "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/OklahomaDriverManual.pdf",
+      "edition": "unknown",
+      "notes": "Issuing agency changed to Service Oklahoma."
+    },
+    {
+      "state": "Oregon",
+      "code": "OR",
+      "title": "Oregon Driver Manual",
+      "agency": "Oregon DMV (ODOT)",
+      "url": "https://www.oregon.gov/odot/dmv/pages/form/manuals.aspx",
+      "edition": "unknown",
+      "notes": "Also full online HTML + audio. PDF: /odot/Forms/DMV/37.pdf."
+    },
+    {
+      "state": "Pennsylvania",
+      "code": "PA",
+      "title": "Pennsylvania Driver's Manual",
+      "agency": "PennDOT \u2014 Bureau of Driver Licensing",
+      "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual",
+      "edition": "PUB 95",
+      "notes": "Site migrated dmv.pa.gov -> pa.gov; re-validate URL."
+    },
+    {
+      "state": "Rhode Island",
+      "code": "RI",
+      "title": "Rhode Island Driver's Manual",
+      "agency": "RI Division of Motor Vehicles",
+      "url": "https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/manuals/Driver_Manual_FINAL.pdf",
+      "edition": "unknown",
+      "notes": "Motorcycle is a section (VI) inside this manual."
+    },
+    {
+      "state": "South Carolina",
+      "code": "SC",
+      "title": "South Carolina Driver's Manual",
+      "agency": "SC Dept. of Motor Vehicles (SCDMV)",
+      "url": "https://dmv.sc.gov/sites/scdmv/files/2026-01/Drivers%20Manual.pdf",
+      "edition": "2026-01",
+      "notes": "Domain migrating scdmvonline.com -> dmv.sc.gov; re-validate. Separate large/rec-vehicle manual also exists."
+    },
+    {
+      "state": "South Dakota",
+      "code": "SD",
+      "title": "South Dakota Driver License Manual",
+      "agency": "SD Dept. of Public Safety \u2014 Office of Driver Licensing",
+      "url": "https://dps.sd.gov/driver-licensing/driver-licenses/driving-manuals",
+      "edition": "rev. 12-2023 (verify current)",
+      "notes": "DPS site behind a ServiceNow proxy; confirm latest PDF in a browser."
+    },
+    {
+      "state": "Tennessee",
+      "code": "TN",
+      "title": "Tennessee Comprehensive Driver License Manual",
+      "agency": "TN Dept. of Safety & Homeland Security",
+      "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "edition": "REV 2025",
+      "notes": "'Comprehensive' is part of the official title; large PDF (>10 MB)."
+    },
+    {
+      "state": "Texas",
+      "code": "TX",
+      "title": "Texas Driver Handbook",
+      "agency": "TX Dept. of Public Safety (DPS)",
+      "url": "https://www.dps.texas.gov/internetforms/forms/dl-7.pdf",
+      "edition": "Form DL-7 \u2014 online-only since 2017",
+      "notes": "Form DL-7; direct PDF at /internetforms/forms/dl-7.pdf."
+    },
+    {
+      "state": "Utah",
+      "code": "UT",
+      "title": "Utah Driver Handbook",
+      "agency": "UT Driver License Division (DPS)",
+      "url": "https://dld.utah.gov/wp-content/uploads/Driver-Handbook-REV-3.2026.pdf",
+      "edition": "2025-2026 (REV 3.2026)",
+      "notes": ""
+    },
+    {
+      "state": "Vermont",
+      "code": "VT",
+      "title": "Vermont Driver's Manual",
+      "agency": "VT Dept. of Motor Vehicles",
+      "url": "https://dmv.vermont.gov/sites/dmv/files/documents/VN-007-Drivers_Manual.pdf",
+      "edition": "Form VN-007",
+      "notes": "Audio version also published."
+    },
+    {
+      "state": "Virginia",
+      "code": "VA",
+      "title": "Virginia Driver's Manual",
+      "agency": "VA Dept. of Motor Vehicles",
+      "url": "https://www.dmv.virginia.gov/webdoc/pdf/dmv39.pdf",
+      "edition": "Form DMV 39",
+      "notes": "Form DMV 39; complete-manual PDF at /webdoc/pdf/. (The /forms/ path is a stub.)"
+    },
+    {
+      "state": "Washington",
+      "code": "WA",
+      "title": "Washington State Driver Guide",
+      "agency": "WA Dept. of Licensing (DOL)",
+      "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides",
+      "edition": "unknown",
+      "notes": "Called a 'Driver Guide'; ~7 languages; separate text-only version."
+    },
+    {
+      "state": "West Virginia",
+      "code": "WV",
+      "title": "Driver's Licensing Handbook",
+      "agency": "WV Division of Motor Vehicles",
+      "url": "https://transportation.wv.gov/DMV/DMVFormSearch/Drivers_Licensing_Handbook_web.pdf",
+      "edition": "REV 2024",
+      "notes": ""
+    },
+    {
+      "state": "Wisconsin",
+      "code": "WI",
+      "title": "Wisconsin Motorists' Handbook",
+      "agency": "WisDOT \u2014 DMV",
+      "url": "https://wisconsindot.gov/documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "edition": "BDS126 \u2014 2025",
+      "notes": "Recently rewritten in plain language."
+    },
+    {
+      "state": "Wyoming",
+      "code": "WY",
+      "title": "State of Wyoming Driver License Manual (Rules of the Road)",
+      "agency": "WYDOT \u2014 Driver Services",
+      "url": "https://www.dot.state.wy.us",
+      "edition": "2017 surfaced (verify current)",
+      "notes": "WYDOT Driver Services -> Help Documents and Manuals; confirm latest edition filename in a browser."
+    },
+    {
+      "state": "District of Columbia",
+      "code": "DC",
+      "title": "DC DMV Automobile Driver Manual",
+      "agency": "DC Dept. of Motor Vehicles",
+      "url": "https://dmv.dc.gov/publication/dc-dmv-automobile-driver-manual",
+      "edition": "unknown",
+      "notes": "District, not a state. Flipbook + downloadable PDF (issuu.com/dcdmv)."
+    }
+  ]
+}
