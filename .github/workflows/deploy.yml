@@ -1,7 +1,12 @@
-name: Deploy to GitHub Pages
+name: CI & Deploy
 
 on:
   push:
+    branches: [main]
+  # Gate merges: lint / validate-bank / tests / the emulator rules job all run
+  # on pull requests too, so a bad change (especially firestore.rules — CI is
+  # the only rules oracle) is caught BEFORE it lands on main, not after.
+  pull_request:
     branches: [main]
   workflow_dispatch:
 
@@ -11,7 +16,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  # Per-ref so a PR check run never cancels a main deploy (and vice-versa).
+  group: ci-${{ github.ref }}
   cancel-in-progress: true
 
 env:
@@ -56,6 +62,9 @@ jobs:
 
   deploy:
     needs: [build, rules]
+    # Pages deploy only on a real push to main / manual dispatch — never on a PR
+    # (a PR still runs build+rules above as merge gates).
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -63,3 +72,31 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Publish the tested firestore.rules to production so the deployed rules can't
+  # silently drift from the repo (the client auto-deploys; rules used to be a
+  # manual console step). Inert until the owner adds a FIREBASE_TOKEN secret —
+  # without it this job just prints the manual command and succeeds, so nothing
+  # is ever deployed without an explicit opt-in.
+  deploy-rules:
+    needs: [rules]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Publish Firestore security rules
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          if [ -z "$FIREBASE_TOKEN" ]; then
+            echo "FIREBASE_TOKEN secret not set — skipping automated rules deploy."
+            echo "Publish manually from a checkout of main:"
+            echo "  npx firebase deploy --only firestore:rules --project ar-driver-quiz"
+            exit 0
+          fi
+          npx firebase deploy --only firestore:rules --project ar-driver-quiz --token "$FIREBASE_TOKEN"
