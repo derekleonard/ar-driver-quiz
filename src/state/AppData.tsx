@@ -12,6 +12,7 @@ import { isFirebaseConfigured } from "../firebase/config";
 import { auth, signOutUser } from "../firebase/firebase";
 import * as local from "../lib/storage";
 import { bootstrapCloudUser } from "./bootstrap";
+import { createLatestGuard } from "./latestGuard";
 import { syncFinishedQuiz } from "./finishSync";
 import type { Attempt, SrsState } from "../types";
 
@@ -55,10 +56,19 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
   // Mirror of `attempts` so finishQuiz can append without doing side effects
   // inside a state updater (StrictMode double-invokes updaters).
   const attemptsRef = useRef(attempts);
+  // Guards against a stale bootstrap clobbering a newer session: every auth
+  // event (bootstrap start OR sign-out) supersedes the previous one, and a
+  // late-resolving bootstrap whose token is no longer current is dropped.
+  const bootstrapGuard = useRef(createLatestGuard());
 
   const runBootstrap = useCallback(async (u: User) => {
+    const token = bootstrapGuard.current.begin();
     setPhase("loading");
     const result = await bootstrapCloudUser(u);
+    // A newer sign-in/sign-out started while this was in flight — its result,
+    // not ours, owns the context now. Applying ours would show the wrong
+    // user's data and seed a cross-account SRS merge.
+    if (!bootstrapGuard.current.isCurrent(token)) return;
     if (result.kind === "denied") {
       setDeniedReason(result.reason);
       setPhase("denied");
@@ -79,6 +89,15 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
     return onAuthStateChanged(auth, (u) => {
       setUser(u);
       if (!u) {
+        // Supersede any in-flight bootstrap and clear the previous user's data
+        // so a slow resolve can't flip us back to "ready" with their srs/
+        // attempts while signed out.
+        bootstrapGuard.current.cancel();
+        setRole("student");
+        setSrs({});
+        attemptsRef.current = [];
+        setAttempts([]);
+        setSyncError(null);
         setPhase("signed-out");
         return;
       }

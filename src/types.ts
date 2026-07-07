@@ -54,4 +54,9 @@ export interface Attempt {
   durationSec: number;
   perTopic: Partial<Record<Topic, { correct: number; total: number }>>;
   missedIds: string[];
+  // A client-generated UUID minted once per session. It gives login-migration
+  // dedup a collision-free discriminator (two attempts can share a startedAt
+  // ms), and makes a retried upload idempotent. Optional so attempts written
+  // by older clients (which have no id) still load and migrate.
+  attemptId?: string;
 }

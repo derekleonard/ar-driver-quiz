@@ -56,7 +56,7 @@ service cloud.firestore {
     // bloated doc is bounded, since rules cannot measure document bytes.
     function validAttempt(d) {
       return d.keys().hasAll(["mode", "score", "total", "startedAt", "durationSec", "perTopic", "missedIds"])
-        && d.keys().hasOnly(["mode", "topic", "score", "total", "passed", "startedAt", "durationSec", "perTopic", "missedIds"])
+        && d.keys().hasOnly(["mode", "topic", "score", "total", "passed", "startedAt", "durationSec", "perTopic", "missedIds", "attemptId"])
         && d.mode is string
         && d.score is number
         && d.total is number
@@ -71,7 +71,9 @@ service cloud.firestore {
         && d.missedIds is list
         && d.missedIds.size() <= 500
         && (!("topic" in d) || d.topic is string)
-        && (!("passed" in d) || d.passed is bool);
+        && (!("passed" in d) || d.passed is bool)
+        // Client-minted session UUID (optional; older clients omit it).
+        && (!("attemptId" in d) || d.attemptId is string);
     }
 
     // The SRS state doc is exactly { entries: <map> } (src/firebase/store.ts).

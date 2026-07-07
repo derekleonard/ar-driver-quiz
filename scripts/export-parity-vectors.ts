@@ -25,6 +25,10 @@ import { buildDiagnostic } from "../src/lib/diagnosticBuilder";
 import { studyStreak, displayStreak } from "../src/lib/streak";
 import { summaryFor } from "../src/lib/summary";
 import { auditTells } from "../src/lib/tellAudit";
+import { mulberry32, mulberry32Raw } from "../tests/helpers/prng";
+// fnv1a + placement come from the ONE module the normalizer also uses, so the
+// certified vectors can never detach from the bank's real at-rest placement.
+import { fnv1a, placeCorrect } from "./lib/bank-normalize.mjs";
 
 // streak.ts dayKey() reads the LOCAL calendar, and the emitted vectors are
 // labeled `streakTz: "UTC"` — so the timezone MUST actually be UTC or the
@@ -40,35 +44,8 @@ if (new Date().getTimezoneOffset() !== 0) {
   );
 }
 
-function mulberry32Raw(seed: number): () => number {
-  let a = seed >>> 0;
-  return () => {
-    a = (a + 0x6d2b79f5) | 0;
-    let t = Math.imul(a ^ (a >>> 15), 1 | a);
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-    return (t ^ (t >>> 14)) >>> 0;
-  };
-}
-const mulberry32 = (seed: number): (() => number) => {
-  const raw = mulberry32Raw(seed);
-  return () => raw() / 4294967296;
-};
-function fnv1a(str: string): number {
-  let h = 0x811c9dc5;
-  for (let i = 0; i < str.length; i++) {
-    h ^= str.charCodeAt(i);
-    h = Math.imul(h, 0x01000193);
-  }
-  return h >>> 0;
-}
-// Mirror of scripts/normalize-bank.mjs placement (correct answer -> hash(id)%n).
-function normalizePlacement(q: Pick<Question, "id" | "choices" | "answerIndex">) {
-  const n = q.choices.length;
-  const correct = q.choices[q.answerIndex];
-  const others = q.choices.filter((_, i) => i !== q.answerIndex);
-  const target = fnv1a(q.id) % n;
-  return { choices: [...others.slice(0, target), correct, ...others.slice(target)], answerIndex: target };
-}
+const normalizePlacement = (q: Pick<Question, "id" | "choices" | "answerIndex">) =>
+  placeCorrect(q.id, q.choices, q.answerIndex);
 
 const SEEDS = [1, 42, 12345, 987654321];
 const E = (box: number, due: number, seen: number, correct: number): SrsEntry => ({ box, due, seen, correct });

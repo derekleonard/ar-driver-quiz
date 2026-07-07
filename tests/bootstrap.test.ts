@@ -180,6 +180,34 @@ describe("bootstrapCloudUser data load", () => {
     expect(local.loadAttempts()).toEqual([]);
   });
 
+  it("does NOT collapse two different attempts that share a startedAt ms", async () => {
+    // The old dedup keyed on startedAt alone, so a second attempt minted in the
+    // same epoch-ms (two devices, same session-start tick) was treated as
+    // already-uploaded and permanently deleted by clearAll(). The composite key
+    // distinguishes them by score/mode/total.
+    const dup = { ...attempt(1000), score: 5 }; // this one IS in the cloud
+    store.loadAttempts.mockResolvedValue([dup]);
+    local.saveAttempt(dup); // true duplicate -> must be skipped
+    local.saveAttempt({ ...attempt(1000), score: 9 }); // different attempt, same ms -> must upload
+
+    const r = await bootstrapCloudUser(user(KID), T);
+    expect(r.kind).toBe("ready");
+    expect(store.addAttemptDoc).toHaveBeenCalledTimes(1);
+    expect(store.addAttemptDoc.mock.calls[0][1].score).toBe(9);
+  });
+
+  it("dedups on attemptId when present, even across different startedAt", async () => {
+    // A retried upload keeps its attemptId but the local copy's startedAt is
+    // authoritative; matching on the id makes the re-upload idempotent.
+    const cloud = { ...attempt(1000), attemptId: "id-xyz" };
+    store.loadAttempts.mockResolvedValue([cloud]);
+    local.saveAttempt({ ...attempt(1000), attemptId: "id-xyz" });
+
+    const r = await bootstrapCloudUser(user(KID), T);
+    expect(r.kind).toBe("ready");
+    expect(store.addAttemptDoc).not.toHaveBeenCalled();
+  });
+
   it("serves the merged view but KEEPS localStorage when migration fails transiently", async () => {
     store.saveSrsDoc.mockRejectedValue({ code: "unavailable" });
     local.saveAttempt(attempt(20));

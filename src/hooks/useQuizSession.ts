@@ -29,6 +29,9 @@ export function useQuizSession(
   // user taps matches what gets graded here.
   const [items] = useState(() => questions.map((q) => shuffleChoices(q)));
   const [startedAt] = useState(() => Date.now());
+  // Minted once per session: a stable, collision-free id for migration dedup
+  // and idempotent re-uploads (see Attempt.attemptId).
+  const [attemptId] = useState(() => crypto.randomUUID());
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<(number | null)[]>(() =>
     Array(items.length).fill(null),
@@ -97,6 +100,7 @@ export function useQuizSession(
       durationSec: Math.round((now - startedAt) / 1000),
       perTopic,
       missedIds,
+      attemptId,
     });
     setFinished(true);
   }
