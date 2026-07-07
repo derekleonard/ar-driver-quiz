@@ -124,10 +124,17 @@ export async function updateSummary(
   uid: string,
   summary: UserSummary,
 ): Promise<void> {
+  // mergeFields (NOT merge:true): a plain merge deep-merges map values, so a
+  // topicMastery key present in the stored summary but absent from the freshly
+  // computed one (a topic that fell out of the ATTEMPTS_LOAD_LIMIT window)
+  // would persist forever and show a frozen historical mastery chip on the
+  // parent dashboard as if current. Listing "summary" as a merge field
+  // overwrites the whole summary map wholesale while still leaving the other
+  // user-doc fields (email/displayName/role) untouched.
   await setDoc(
     doc(requireDb(), "users", uid),
     { summary, lastActive: serverTimestamp() },
-    { merge: true },
+    { mergeFields: ["summary", "lastActive"] },
   );
 }
 

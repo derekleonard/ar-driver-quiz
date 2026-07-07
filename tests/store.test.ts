@@ -1,21 +1,24 @@
 import { describe, expect, it, vi } from "vitest";
 
-const { orderBy, limit, getDoc, getDocs, runTransaction, txGet, txSet } = vi.hoisted(() => {
-  const txGet = vi.fn();
-  const txSet = vi.fn();
-  return {
-    orderBy: vi.fn((field: string, dir: string) => ({ type: "orderBy", field, dir })),
-    limit: vi.fn((n: number) => ({ type: "limit", n })),
-    getDoc: vi.fn(),
-    getDocs: vi.fn(),
-    runTransaction: vi.fn(
-      async (_db: unknown, fn: (tx: { get: typeof txGet; set: typeof txSet }) => Promise<void>) =>
-        fn({ get: txGet, set: txSet }),
-    ),
-    txGet,
-    txSet,
-  };
-});
+const { orderBy, limit, getDoc, getDocs, runTransaction, setDoc, serverTimestamp, txGet, txSet } =
+  vi.hoisted(() => {
+    const txGet = vi.fn();
+    const txSet = vi.fn();
+    return {
+      orderBy: vi.fn((field: string, dir: string) => ({ type: "orderBy", field, dir })),
+      limit: vi.fn((n: number) => ({ type: "limit", n })),
+      getDoc: vi.fn(),
+      getDocs: vi.fn(),
+      runTransaction: vi.fn(
+        async (_db: unknown, fn: (tx: { get: typeof txGet; set: typeof txSet }) => Promise<void>) =>
+          fn({ get: txGet, set: txSet }),
+      ),
+      setDoc: vi.fn(),
+      serverTimestamp: vi.fn(() => ({ type: "serverTimestamp" })),
+      txGet,
+      txSet,
+    };
+  });
 
 vi.mock("firebase/firestore", () => ({
   addDoc: vi.fn(),
@@ -27,8 +30,8 @@ vi.mock("firebase/firestore", () => ({
   orderBy,
   query: vi.fn(),
   runTransaction,
-  serverTimestamp: vi.fn(),
-  setDoc: vi.fn(),
+  serverTimestamp,
+  setDoc,
 }));
 
 vi.mock("../src/firebase/firebase", () => ({ db: {} }));
@@ -39,7 +42,9 @@ import {
   loadAttempts,
   loadSrsDoc,
   saveSrsDoc,
+  updateSummary,
 } from "../src/firebase/store";
+import type { UserSummary } from "../src/lib/summary";
 
 const attempt = (startedAt: number) => ({
   mode: "drill",
@@ -128,6 +133,27 @@ describe("fetchAllowlist", () => {
   ])("throws allowlist-malformed when %s", async (_name, data) => {
     allowDoc(data);
     await expect(fetchAllowlist()).rejects.toThrow("allowlist-malformed");
+  });
+});
+
+describe("updateSummary", () => {
+  const summary: UserSummary = {
+    readiness: 72,
+    streak: 3,
+    topicMastery: { "right-of-way": 80 },
+    lastExam: { score: 21, total: 25, passed: true, at: 1234 },
+  };
+
+  it("overwrites the summary map wholesale (mergeFields), not a deep merge", async () => {
+    // A plain { merge: true } deep-merges maps, so a topicMastery key that
+    // drops out of the freshly computed summary would linger on the dashboard
+    // forever. mergeFields on "summary" replaces the whole map instead.
+    await updateSummary("uid", summary);
+    expect(setDoc).toHaveBeenCalledWith(
+      { type: "doc" },
+      { summary, lastActive: { type: "serverTimestamp" } },
+      { mergeFields: ["summary", "lastActive"] },
+    );
   });
 });
 
