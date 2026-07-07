@@ -59,6 +59,16 @@ function errCode(e: unknown): string {
 
 const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
+// Dedup key for the local->cloud migration. Prefer the client-minted
+// attemptId — it's stable across a retried upload and identical only for the
+// truly-same attempt. Fall back to a composite for legacy attempts written
+// before attemptId existed, so two DIFFERENT attempts that merely share a
+// startedAt ms (two devices, same session-start tick) are no longer collapsed
+// into one and silently deleted by local.clearAll().
+function attemptKey(a: Attempt): string {
+  return a.attemptId ?? `${a.startedAt}:${a.mode}:${a.score}:${a.total}`;
+}
+
 export async function bootstrapCloudUser(
   u: BootstrapUser,
   timeouts: BootstrapTimeouts = DEFAULT_TIMEOUTS,
@@ -132,8 +142,8 @@ export async function bootstrapCloudUser(
     let srs = cloudSrs;
     let attempts = cloudAttempts;
     if (Object.keys(localSrs).length > 0 || localAttempts.length > 0) {
-      const known = new Set(cloudAttempts.map((a) => a.startedAt));
-      const fresh = localAttempts.filter((a) => !known.has(a.startedAt));
+      const known = new Set(cloudAttempts.map(attemptKey));
+      const fresh = localAttempts.filter((a) => !known.has(attemptKey(a)));
       srs = mergeSrs(cloudSrs, localSrs);
       attempts = [...cloudAttempts, ...fresh].sort(
         (x, y) => x.startedAt - y.startedAt,

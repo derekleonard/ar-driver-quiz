@@ -171,6 +171,17 @@ describe.skipIf(!hasEmulator)("firestore.rules", () => {
     await assertFails(
       db.collection("users/kidA/attempts").add({ ...VALID_ATTEMPT, missedIds: "q1" }),
     );
+    // attemptId is optional but, when present, must be a string.
+    await assertFails(
+      db.collection("users/kidA/attempts").add({ ...VALID_ATTEMPT, attemptId: 42 }),
+    );
+  });
+
+  it("accepts an attempt carrying the optional client attemptId", async () => {
+    const db = ctx("kidA", KID_A);
+    await assertSucceeds(
+      db.collection("users/kidA/attempts").add({ ...VALID_ATTEMPT, attemptId: "uuid-1" }),
+    );
   });
 
   it("an attempt with extra keys is rejected (quota/cost abuse)", async () => {
