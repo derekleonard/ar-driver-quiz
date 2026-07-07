@@ -21,6 +21,11 @@ export function LoginScreen() {
         Sign in with Google
       </button>
       {error && <p className="error-text">{error}</p>}
+      <p className="legal-links">
+        <a href={`${import.meta.env.BASE_URL}privacy.html`}>Privacy Policy</a>
+        {" · "}
+        <a href={`${import.meta.env.BASE_URL}terms.html`}>Terms of Use</a>
+      </p>
     </div>
   );
 }

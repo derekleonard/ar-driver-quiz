@@ -10,11 +10,9 @@ import {
 import { onAuthStateChanged, type User } from "firebase/auth";
 import { isFirebaseConfigured } from "../firebase/config";
 import { auth, signOutUser } from "../firebase/firebase";
-import { addAttemptDoc, saveSrsDoc, updateSummary } from "../firebase/store";
-import { BANK_IDS } from "../data/bank";
-import { summaryFor } from "../lib/summary";
 import * as local from "../lib/storage";
 import { bootstrapCloudUser } from "./bootstrap";
+import { syncFinishedQuiz } from "./finishSync";
 import type { Attempt, SrsState } from "../types";
 
 export type AppPhase = "loading" | "signed-out" | "denied" | "error" | "ready";
@@ -101,25 +99,12 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
       if (cloud && user) {
         const uid = user.uid;
         void (async () => {
-          try {
-            await addAttemptDoc(uid, attempt);
-            await saveSrsDoc(uid, newSrs);
-            await updateSummary(uid, summaryFor(newSrs, all, BANK_IDS));
-            setSyncError(null);
-          } catch {
-            try {
-              // Fallback queue: the login flow merges this back to the cloud.
-              local.saveSrs(newSrs);
-              local.saveAttempt(attempt);
-              setSyncError(
-                "Couldn't sync to the cloud — this session is saved on this device and will sync next sign-in.",
-              );
-            } catch {
-              setSyncError(
-                "Couldn't sync to the cloud or save on this device — this session may be lost.",
-              );
-            }
-          }
+          // syncFinishedQuiz bounds the cloud writes with a timeout (they never
+          // settle offline) and takes the localStorage fallback + banner on
+          // failure, so an offline finish can't silently drop this session's
+          // SRS/summary.
+          const res = await syncFinishedQuiz(uid, newSrs, attempt, all);
+          setSyncError(res.ok ? null : res.message);
         })();
       } else {
         try {

@@ -26,6 +26,20 @@ import { studyStreak, displayStreak } from "../src/lib/streak";
 import { summaryFor } from "../src/lib/summary";
 import { auditTells } from "../src/lib/tellAudit";
 
+// streak.ts dayKey() reads the LOCAL calendar, and the emitted vectors are
+// labeled `streakTz: "UTC"` — so the timezone MUST actually be UTC or the
+// golden vectors silently bake in local-date math. The npm script also sets
+// TZ=UTC; this runtime assertion fails loudly if either the pin was dropped or
+// the process was launched in another zone. (Node honors process.env.TZ set
+// before any Date use.)
+process.env.TZ = "UTC";
+if (new Date().getTimezoneOffset() !== 0) {
+  throw new Error(
+    "export-parity must run with TZ=UTC (streak/summary vectors are UTC-labeled). " +
+      "Re-run: TZ=UTC npm run export-parity",
+  );
+}
+
 function mulberry32Raw(seed: number): () => number {
   let a = seed >>> 0;
   return () => {

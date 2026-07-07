@@ -5,7 +5,12 @@ dist/
 .env
 .env.*
 firebase-debug.log
+firestore-debug.log
 .firebase/
 
 # generated parity vectors (regenerate with: npm run export-parity)
 parity-vectors/
+
+# raw handbook PDFs (large binaries) land here but aren't versioned;
+# docs/state-handbooks.json (the compiled metadata) IS committed.
+docs/handbooks/

@@ -278,6 +278,12 @@ h2 {
   font-size: 0.9rem;
 }
 
+.legal-links {
+  color: var(--muted, #888);
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+
 .sync-banner {
   background: #fff4e0;
   border-bottom: 1px solid var(--amber);

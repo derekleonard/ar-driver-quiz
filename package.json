@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "engines": {
+    "node": ">=20 <21"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
@@ -13,7 +16,7 @@
     "validate-bank": "node scripts/validate-bank.mjs",
     "normalize-bank": "node scripts/normalize-bank.mjs",
     "audit-tells": "vite-node scripts/audit-tells.ts",
-    "export-parity": "vite-node scripts/export-parity-vectors.ts"
+    "export-parity": "TZ=UTC vite-node scripts/export-parity-vectors.ts"
   },
   "dependencies": {
     "firebase": "^12.14.0",

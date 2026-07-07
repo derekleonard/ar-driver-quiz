@@ -207,4 +207,53 @@ describe.skipIf(!hasEmulator)("firestore.rules", () => {
     await assertFails(db.doc("users/kidA/state/srs").set({ entries: {} }));
     await assertFails(db.collection("users/kidA/attempts").add(VALID_ATTEMPT));
   });
+
+  it("an attempt with oversized missedIds / perTopic is rejected (quota abuse)", async () => {
+    const db = ctx("kidA", KID_A);
+    const bigList = Array.from({ length: 600 }, (_, i) => "q" + i);
+    await assertFails(
+      db.collection("users/kidA/attempts").add({ ...VALID_ATTEMPT, missedIds: bigList }),
+    );
+    const bigMap: Record<string, unknown> = {};
+    for (let i = 0; i < 150; i++) bigMap["t" + i] = { correct: 1, total: 1 };
+    await assertFails(
+      db.collection("users/kidA/attempts").add({ ...VALID_ATTEMPT, perTopic: bigMap }),
+    );
+  });
+
+  it("an allowlisted owner can delete their own data (erasure path)", async () => {
+    // Seed docs to erase.
+    await env.withSecurityRulesDisabled(async (c) => {
+      await c.firestore().doc("users/kidA/attempts/del1").set(VALID_ATTEMPT);
+      await c.firestore().doc("users/kidA/state/srs").set({ entries: {} });
+      await c.firestore().doc("users/kidA").set({ email: KID_A });
+    });
+    const db = ctx("kidA", KID_A);
+    await assertSucceeds(db.doc("users/kidA/attempts/del1").delete());
+    await assertSucceeds(db.doc("users/kidA/state/srs").delete());
+    await assertSucceeds(db.doc("users/kidA").delete());
+  });
+
+  it("a student cannot delete a sibling's data", async () => {
+    await env.withSecurityRulesDisabled(async (c) => {
+      await c.firestore().doc("users/kidA/attempts/del2").set(VALID_ATTEMPT);
+    });
+    const db = ctx("kidB", KID_B);
+    await assertFails(db.doc("users/kidA/attempts/del2").delete());
+    await assertFails(db.doc("users/kidA").delete());
+  });
+
+  it("a parent cannot delete a student's data (read-only dashboard)", async () => {
+    await env.withSecurityRulesDisabled(async (c) => {
+      await c.firestore().doc("users/kidA/attempts/del3").set(VALID_ATTEMPT);
+    });
+    const db = ctx("dad", PARENT);
+    await assertFails(db.doc("users/kidA/attempts/del3").delete());
+  });
+
+  it("an unverified allowlisted account cannot read the allowlist roster", async () => {
+    // The roster contains children's emails (PII); gate its read on
+    // email_verified like every other access.
+    await assertFails(ctx("kidA", KID_A, false).doc("config/allowlist").get());
+  });
 });

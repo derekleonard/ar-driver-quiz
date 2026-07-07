@@ -12,6 +12,7 @@ import {
 } from "../firebase/store";
 import { mergeSrs } from "../lib/leitner";
 import * as local from "../lib/storage";
+import { withTimeout } from "../lib/withTimeout";
 import type { Attempt, SrsState } from "../types";
 
 /** The slice of firebase.User the bootstrap needs (testable without auth). */
@@ -54,16 +55,6 @@ const error = (reason: string): BootstrapResult => ({ kind: "error", reason });
 
 function errCode(e: unknown): string {
   return (e as { code?: string }).code ?? (e as Error)?.message ?? String(e);
-}
-
-function withTimeout<T>(p: Promise<T>, ms: number, label: string): Promise<T> {
-  return new Promise<T>((resolve, reject) => {
-    const t = setTimeout(() => reject(new Error(`timeout-${label}`)), ms);
-    p.then(
-      (v) => (clearTimeout(t), resolve(v)),
-      (e) => (clearTimeout(t), reject(e)),
-    );
-  });
 }
 
 const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
