@@ -12,6 +12,12 @@ an accidental delete, a bad `firestore.rules` publish, or a console mishap is
 unrecoverable. Firestore's native **scheduled backups** give point-in-time
 recovery with zero app code.
 
+## Prerequisite: billing (discovered 2026-07-08)
+`gcloud firestore backups schedules create` fails on this project with
+`PERMISSION_DENIED` / `BILLING_DISABLED` — the project is on the free **Spark**
+plan. Enabling backup schedules requires linking a billing account (**Blaze**
+plan). **Status: pending Derek's billing decision.**
+
 ## Enable daily scheduled backups (gcloud)
 ```sh
 # Daily backups, retained 7 days (native backup schedule; default database).
