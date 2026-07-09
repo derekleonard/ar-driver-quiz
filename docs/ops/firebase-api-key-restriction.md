@@ -1,6 +1,14 @@
 # Runbook: restrict the Firebase Web API key
 
-**Status:** requires Google Cloud Console action (no code change).
+**Status:** EXECUTED + VERIFIED 2026-07-08.
+- Browser key: `projects/581493540665/locations/global/keys/1500de1f-cacb-4735-ba16-3ab2630f4761`.
+- **Referrer restrictions** were already in place (set 2026-06-12):
+  `derekleonard.github.io/*`, `localhost`, `ar-driver-quiz.firebaseapp.com/*`,
+  `ar-driver-quiz.web.app/*`.
+- **API targets** tightened 2026-07-08 via gcloud from ~25 auto-granted Firebase
+  services to exactly 4: `identitytoolkit.googleapis.com`,
+  `securetoken.googleapis.com`, `firestore.googleapis.com`,
+  `firebaseinstallations.googleapis.com`.
 **Why deferred from the code PR:** the browser API key in `src/firebase/config.ts`
 is public by design (Firestore access is gated by `firestore.rules`, which
 require an allowlisted, email-verified account). The residual risk is not data
@@ -34,9 +42,14 @@ gcloud services api-keys list --project=ar-driver-quiz            # find the KEY
 gcloud services api-keys update KEY_ID --project=ar-driver-quiz \
   --allowed-referrers="https://derekleonard.github.io/*" \
   --api-target=service=identitytoolkit.googleapis.com \
+  --api-target=service=securetoken.googleapis.com \
   --api-target=service=firestore.googleapis.com \
-  --api-target=service=sts.googleapis.com
+  --api-target=service=firebaseinstallations.googleapis.com
 ```
+> ⚠️ The console's **Token Service API** (Firebase Auth refresh tokens) is
+> `securetoken.googleapis.com`. Do **not** use `sts.googleapis.com` — that is
+> the unrelated Security Token Service, and restricting to it instead would
+> break session refresh.
 
 ## Verify
 - Sign in on https://derekleonard.github.io/ar-driver-quiz — auth + Firestore
