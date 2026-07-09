@@ -1,22 +1,24 @@
 # Runbook: Firestore scheduled backups
 
-**Status:** requires Google Cloud Console / gcloud action (no code change).
+**Status:** EXECUTED + VERIFIED 2026-07-08 — daily schedule
+`34b60dba-3cff-4d32-b1f7-160d1d2b7272` on `(default)`, retention 7d (604800s).
 **Why deferred from the code PR:** enabling managed backups mutates a cloud
 resource (blocked by the repo's cloud-mutation guardrail) and is a one-time
 project setup, not app code.
 
 ## What this protects
 The only durable copy of each child's identified quiz record (attempts, SRS
-state, summary) lives in Cloud Firestore. There is currently **no backup**, so
-an accidental delete, a bad `firestore.rules` publish, or a console mishap is
-unrecoverable. Firestore's native **scheduled backups** give point-in-time
-recovery with zero app code.
+state, summary) lives in Cloud Firestore. Before 2026-07-08 there was **no
+backup**, so an accidental delete, a bad `firestore.rules` publish, or a
+console mishap was unrecoverable. Firestore's native **scheduled backups**
+give point-in-time recovery with zero app code.
 
 ## Prerequisite: billing (discovered 2026-07-08)
 `gcloud firestore backups schedules create` fails on this project with
 `PERMISSION_DENIED` / `BILLING_DISABLED` — the project is on the free **Spark**
 plan. Enabling backup schedules requires linking a billing account (**Blaze**
-plan). **Status: pending Derek's billing decision.**
+plan). **Resolved 2026-07-08: billing account 014AD5-E59271-5E8415 linked
+(Blaze); the schedule was created and verified the same night.**
 
 ## Enable daily scheduled backups (gcloud)
 ```sh
